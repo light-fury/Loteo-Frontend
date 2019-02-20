@@ -1,0 +1,94 @@
+@import "styles/colors";
+
+.header {
+    .logo {
+        cursor: pointer;
+    }
+
+    .actions {
+        display: flex;
+        align-items: center;
+
+        .linkButton {
+            margin-left: 2vw;
+        }
+
+        .button {
+            margin-left: 4vw;
+        }
+
+        .downloadButtonSmall {
+            display: none;
+        }
+    }
+
+    .showMenuButton,
+    .closeButton {
+        margin-left: 24px;
+        cursor: pointer;
+    }
+
+    .modal {
+        .dialog {
+            width: 600px;
+        }
+    }
+
+    .downloadLink {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px 0;
+        border-bottom: 1px solid $greyBright;
+
+        .name {
+            font-size: 16px;
+        }
+
+        .documentLinks {
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+
+            .documentLink {
+                flex-shrink: 0;
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+
+                .languageIcon {
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .language {
+                    margin-left: 6px;
+                    margin-right: 4px;
+                    line-height: 16px;
+                    color: $grey1;
+                    font-size: 12px;
+                }
+
+                .downloadIcon {
+                    fill: red;
+                }
+
+                &:not(:first-of-type) {
+                    margin-left: 24px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .actions {
+            .downloadButtonFull {
+                display: none;
+            }
+
+            .downloadButtonSmall {
+                display: flex;
+            }
+        }
+    }
+}

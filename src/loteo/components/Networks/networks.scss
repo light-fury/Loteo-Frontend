@@ -1,0 +1,21 @@
+.networks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    a {
+        padding: 12px;
+    }
+
+    @media screen and (max-width: 800px) {
+        a {
+            padding: 20px;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/home/wladimiiir/Projects/webapplication-boilerplate/vagrant","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}},"virtualbox":{"/app":{"guestpath":"/app","hostpath":"/home/wladimiiir/Projects/webapplication-boilerplate","disabled":false,"__vagrantfile":true}}}

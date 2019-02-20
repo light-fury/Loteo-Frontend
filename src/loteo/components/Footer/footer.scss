@@ -1,0 +1,72 @@
+@import "styles/colors";
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .copyrightTerms {
+        display: flex;
+
+        > a {
+            margin-left: 3vw;
+        }
+
+        .text,
+        .link {
+            font-size: 12px;
+            opacity: 0.8;
+            color: $grey1;
+        }
+
+        .link {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        left: 32px;
+        right: 32px;
+
+        .copyrightTerms {
+            margin-top: 24px;
+            flex-basis: 100%;
+            order: 3;
+            justify-content: center;
+        }
+
+        .networks {
+            flex-basis: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .subscribeForm {
+            flex-basis: 50%;
+            justify-content: flex-end;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        justify-content: center;
+
+        .networks {
+            margin-top: 24px;
+            justify-content: center;
+            flex-basis: 100%;
+        }
+
+        .subscribeForm {
+            margin-top: 24px;
+            justify-content: center;
+            flex-basis: 100%;
+        }
+
+        .copyrightTerms {
+            margin-top: 60px;
+        }
+    }
+}

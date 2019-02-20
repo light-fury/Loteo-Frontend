@@ -1,0 +1,10 @@
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .homeCenter {
+        flex-grow: 1;
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es2017",
+    "noEmit": true,
+    "jsx": "react",
+    "rootDir": "./src",
+    "baseUrl": "./src"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

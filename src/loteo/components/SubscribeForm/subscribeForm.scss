@@ -1,0 +1,41 @@
+@import "styles/colors";
+
+.subscribeForm {
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+
+    input {
+        width: 250px;
+        color: $grey1;
+        padding: 0 28px 0 16px;
+        font-size: 14px;
+        border: 1px solid $greyBright;
+        background: white;
+        margin-right: -16px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+        transition: width 0.2s, padding 0.2s;
+
+        &::placeholder {
+            color: $grey2;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: $orange;
+        }
+
+        &:disabled {
+            width: 0;
+            padding: 0;
+            border: none;
+        }
+    }
+
+    .button {
+        &:disabled {
+            opacity: 0.8;
+        }
+    }
+}

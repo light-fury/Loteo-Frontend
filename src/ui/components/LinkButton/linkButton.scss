@@ -1,0 +1,31 @@
+.linkButton {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    color: white;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        height: 1px;
+        width: 0;
+        background: white;
+        transition: width 0.1s;
+        transform: translateX(-50%);
+    }
+
+    &:hover {
+        &::after {
+            width: 100%;
+        }
+    }
+
+    &.active {
+        &::after {
+            width: 100%;
+        }
+    }
+}

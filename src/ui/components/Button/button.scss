@@ -1,0 +1,68 @@
+@import "styles/colors";
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border-radius: 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    .icon {
+        margin-left: 8px;
+        height: 18px;
+        width: 20px;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &.default {
+        background: $red;
+        color: white;
+        box-shadow: 0 5px 16px 0 rgba(218, 40, 20, 0.41);
+    }
+
+    &.whiteOutline {
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+
+        &:hover {
+            background: white;
+            color: $red;
+        }
+    }
+
+    &.redOutline {
+        border: 2px solid $red;
+        color: $red;
+        background: transparent;
+
+        &:hover {
+            background: $red;
+            color: white;
+        }
+    }
+
+    &.grey {
+        border: 1px solid $grey1;
+        background: none;
+        color: $grey1;
+
+        &:hover {
+            background: $grey1;
+            color: white;
+        }
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: default;
+    }
+}

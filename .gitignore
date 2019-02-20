@@ -1,0 +1,9 @@
+*.iws
+*.ipr
+*.iml
+.idea
+.history
+node_modules
+dist
+.env.dev
+npm-debug.log
