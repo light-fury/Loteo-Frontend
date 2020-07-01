@@ -8,7 +8,6 @@ declare global {
         hot: any;
     }
 }
-
 import "./styles/global.scss";
 
 import "@babel/polyfill";
