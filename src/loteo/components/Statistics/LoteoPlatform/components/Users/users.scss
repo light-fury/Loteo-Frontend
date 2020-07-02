@@ -1,0 +1,85 @@
+@import "styles/_flags";
+@import "styles/mixins";
+
+.users {
+    margin-bottom: 80px;
+
+    .flags {
+        margin-right: 5px;
+
+        &::after {
+            content: "AA";
+            width: 20px;
+            height: 20px;
+            color: transparent;
+        }
+    }
+
+    .trend {
+        padding: 0;
+
+        .userCard {
+            margin: 38px 24px;
+
+            &__thumb {
+                margin: 0 80px;
+            }
+        }
+    }
+
+    &__trend {
+        margin-top: 40px;
+
+        &__section {
+            @include media($max: lg) {
+                flex-direction: column;
+            }
+
+            &__status {
+                background-color: white;
+                margin: 10px 10px;
+    
+                &__header {
+                    margin-top: 20px;
+                    font-size: 16px;
+                    color: $grey1;
+                    padding: 10px;
+                }
+    
+                &__table {
+                    color: $dark;
+                    padding: 10px;
+                    border-bottom: 1px solid $greyBright;
+                    font-size: 14px;
+                }
+
+                .pagination {
+                    margin-top: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            
+                    &__arrowButton {
+                        width: 36px;
+                        height: 36px;
+                        padding: 0;
+            
+                        img {
+                            width: 10px;
+                            height: 10px;
+                            margin: 0;
+                        }
+            
+                        &.left {
+                            transform: rotate(180deg);
+                        }
+                    }
+            
+                    span {
+                        padding: 0 20px;
+                    }
+                }
+            }
+        }
+    }
+}

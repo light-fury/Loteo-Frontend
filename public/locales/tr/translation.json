@@ -1,0 +1,2811 @@
+{
+    "global": {
+        "learnMore": "Daha fazla bilgi edin",
+        "contactUs": "Bizimle iletişime geçin",
+        "moreInfo": "Bana daha fazla bilgi göster",
+        "buy": "SATIN AL",
+        "comingSoon": "Çok yakında",
+        "locked": "Kitlendi",
+        "unlock": "Kilidini aç",
+        "showMore": "Daha fazla göster",
+        "showLess": "Daha az göster",
+        "loteu": "Loteu",
+        "btc": "Btc",
+        "eth": "Eth",
+        "errors": {
+            "notEnoughETH": {
+                "title": "Oyuna girmek için yeterli bakiye yok",
+                "text": {
+                    "part1": "Cüzdanında yeterince para yok. Piyangoya katılmak için <strong> bakiyenizde en az 0.017 ETH olması gerekir <\/strong> . Lütfen para yatırınız. <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Piyangoya katılmak, Ethereum ağında zincir halinde işlem yapılmasını gerektirir. Her zincir işleminde ücret talep edilir, bizim durumumuzda 0.017 ETH. Çünkü her katılımın doğrudan Ethereum ağında şeffaf ve görünür olmasını sağlamak istiyoruz. Bu ücreti mümkün olduğu kadar düşük yapmak için çok çalışıyoruz."
+                },
+                "okText": "Tamam",
+                "textApollo11": {
+                    "part1": "Cüzdanında yeterince para yok. Piyangoya katılmak için <strong> bakiyenizde en az 0.051 ETH olması gerekir <\/strong> . Lütfen para yatırınız. <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Piyangoya katılmak, Ethereum ağında zincir halinde işlem yapılmasını gerektirir. Her zincir işleminde ücret talep edilir, bizim durumumuzda 0.051 ETH. Çünkü her katılımın doğrudan Ethereum ağında şeffaf ve görünür olmasını sağlamak istiyoruz. Bu ücreti mümkün olduğu kadar düşük yapmak için çok çalışıyoruz."
+                }
+            }
+        },
+        "euro": "€"
+    },
+    "header": {
+        "navigation": {
+            "dashboard": "Gösterge Paneli",
+            "howItWorks": "Nasıl çalışır",
+            "games": "Oyunlar",
+            "charity": "Hayır Kurumu",
+            "myAffiliate": "Bağlantılarım",
+            "affiliate": "Bağlantı",
+            "info": "Bilgi",
+            "blog": "Blog",
+            "howToPlay": "Nasıl oynanır",
+            "loginRegister": "Giriş \/ Kayıt",
+            "inviteFriends": "Arkadaşlarını davet et",
+            "alts": [
+                {
+                    "alt": "logo"
+                },
+                {
+                    "alt": "Menü"
+                }
+            ],
+            "leaderboard": "Liderlik Sıralaması",
+            "whyInvest": "NEDEN YATIRIM YAPMALIYIM",
+            "promotion": "Promosyon",
+            "home": "Anasayfa"
+        }
+    },
+    "infoVideo": {
+        "loteo": "Loteo",
+        "watchVideo": "Video izle",
+        "alts": [
+            {
+                "alt": "Parla"
+            },
+            {
+                "alt": "metinler"
+            },
+            {
+                "alt": "oyna"
+            },
+            {
+                "alt": "kapat"
+            }
+        ]
+    },
+    "home": {
+        "alts": [
+            {
+                "alt": "loteopass"
+            },
+            {
+                "alt": "loteomaxx"
+            },
+            {
+                "alt": "loteooyunları"
+            },
+            {
+                "alt": "ay"
+            }
+        ],
+        "products": {
+            "0": {
+                "title": "Loteo Pass",
+                "text": "Şansınızı ikiye katlayın ve <span> PREMIUM PARTNER <\/span> olun",
+                "amountLeftText": [
+                    "1 yıllık biletleri:",
+                    "-kaldı"
+                ],
+                "cta": "ŞİMDİ SATIN AL"
+            },
+            "1": {
+                "title": "Loteo Maxx",
+                "text": "Özel bonuslarla 10, 20, 50 veya 100 bilet paketi kazan!",
+                "cta": "ŞİMDİ SATIN AL"
+            },
+            "2": {
+                "title": "Loteo oyunları",
+                "text": "Anlık kazançlar için birden fazla LOTEO oyunu oynayın!",
+                "cta": "OYUN OYNA"
+            },
+            "prefix": "Boş",
+            "loteopass": "Boş",
+            "loteomaxx": "Boş",
+            "loteogames": "Boş",
+            "cta": "Boş"
+        },
+        "welcomeToLOTEO": "LOTEO - Şeffaf Blokzinciri Piyangosuna Hoşgeldiniz",
+        "lotteryNeedsARevolution": "Piyango'nun bir devrime <br \/> ihtiyacı var",
+        "missionToTheMoon": "Görev: Ay",
+        "digitalEraLottery": "Dijital Çağ <br\/> Piyangosu",
+        "advantages": {
+            "title": "Avantajları",
+            "chancesToWin": {
+                "title": "Kazanma Şansı",
+                "text": "Kazanma şansımız mekanizmamızdan dolayı geleneksel piyangolardan çok daha yüksek."
+            },
+            "trustworthy": {
+                "title": "Güvenilirlik",
+                "text": "Hükümetler veya özel şahıslar yerine akıllı sözleşmelerle yönetildiğinde, piyango \nsüreci otomatik ve güvenilir hale gelir."
+            },
+            "transparency": {
+                "title": "Şeffaflık",
+                "text": "Piyango girişlerinde Blokzinciri teknolojisi sayesinde %100 transparanlık sağlanırken, tüm ödüllerin işlemleri herkes için her zaman görülebilir olacak. Geleneksel piyango çekilişlerinin aksine, yani katılımcı ve ödül sayısının belli olmadığı, adil mi, manipüle edilmiş mi bilmeden veya merkezi bir otoriteye gerek kalmadan LOTEO çok daha farklı bir kullanıcı deneyimi sağlamak istiyor."
+            },
+            "winnerEveryDrawing": {
+                "title": "Her çekilişte bir kazanan",
+                "text": "Klasik piyangodan farklı olarak, sayıların doğru birleşimini vermeniz gereken yer ve kazanan yılda bir kezdir."
+            },
+            "biggestSliceForTheWinner": {
+                "title": "Kazanan için en büyük dilim",
+                "text": "LOTEO, en iyi kullanıcı deneyimini sağlamak için, özellikle de kriptoya aşina olmayan müşterimizin alıştığı, bu nedenle kredi kartı ödemelerinin yanı sıra mobil mesaj ödemelerinin entegrasyonu olacak olan güçlü bir ihtiyaç duyduğunu hissediyor."
+            },
+            "speed": {
+                "title": "Hız",
+                "text": "Blokzinciriteknolojisi ve kripto para birimi kullanımı sayesinde Loteo, geleneksel piyangolardan çok daha hızlıdır."
+            }
+        },
+        "everyGameHasAWinner": "Her oyunun bir kazananı vardır ",
+        "prizeSplit": "Ödül dağılımı",
+        "platformFee": {
+            "title": "Platform ücreti",
+            "description": "Tüm fonlar oyuncular ve token sahipleri arasında dağıtıldı"
+        }
+    },
+    "privateSale": {
+        "privateSaleEndsIn": "Özel satış sona eriyor"
+    },
+    "weeklyLottery": {
+        "mockedBonus": {
+            "title": "LoteoPass",
+            "desc": "- Premium ortağı olun ve özel haziran bonusu alın"
+        },
+        "eur": "EURO",
+        "btc": "BTC",
+        "eth": "ETH",
+        "playNowBtn": "ŞİMDİ OYNA",
+        "alts": [
+            {
+                "alt": "arka plan"
+            },
+            {
+                "alt": "şans"
+            }
+        ],
+        "title": "Loteo haftalık piyango",
+        "learnMore": "Bu oyun hakkında daha fazla bilgi edinin",
+        "gameStartsIn": "Oyun şu süre içinde başlıyor",
+        "chanceToWin": "Kazanmak için gerçek şansın",
+        "lastWinner": "Son kazanan",
+        "nextDraw": "Bir sonraki çekiliş: Pazar",
+        "playNow": {
+            "0": {
+                "title": "Biletiniz yok. ",
+                "text": "İlk olarak piyango bileti satın almalısınız daha sonra Loteo Haftalık Piyangosuna katılabilirsiniz.",
+                "okText": "Bilet satın al",
+                "cancelText": "İptal et"
+            },
+            "1": {
+                "title": "Oyuna girmek için yeterli bakiye yok",
+                "text": {
+                    "part1": "Cüzdanında yeterince para yok. Piyangoya katılmak için <strong> bakiyenizde en az 0.017 ETH olması gerekir <\/strong> . Lütfen para yatırınız. <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Piyangoya katılmak, Ethereum ağında zincir halinde işlem yapılmasını gerektirir. Her zincir işleminde ücret talep edilir, bizim durumumuzda 0.017 ETH. Çünkü her katılımın doğrudan Ethereum ağında şeffaf ve görünür olmasını sağlamak istiyoruz. Bu ücreti mümkün olduğu kadar düşük yapmak için çok çalışıyoruz."
+                },
+                "okText": "Tamam"
+            },
+            "2": {
+                "title": "Mevcut çekiliş kapandı",
+                "text": "Çekilişe başlamadan oyuna sadece en az 30 dakika önce girmeniz mümkündür. Bu tur zaten kapalı. Mevcut çekiliş bittikten sonraki haftaki oyuna girebilirsiniz",
+                "okText": "Tamam"
+            },
+            "title": "Boş",
+            "text": "Boş",
+            "okText": "Boş",
+            "cancelText": "Boş"
+        }
+    },
+    "lotteryInfo": {
+        "loteopass": {
+            "title": "LoteoPass",
+            "text": "Şansını ikiye katla!",
+            "countInfo": "1 yıllık biletleri:"
+        },
+        "loteomaxx": {
+            "title": "LoteoMaxx",
+            "text": "Özel bonuslarla 10, 20, 50 veya 100 bilet paketi kazan!"
+        },
+        "dailyLottery": {
+            "title": "Günlük Piyango",
+            "text": "Her gün piyango girin! <br \/> Sadece 2 €"
+        },
+        "rektRooms": {
+            "title": "Rekt odaları",
+            "text": "Odanızı seçin ve kazanın! <br \/> Şansınız sabittir"
+        },
+        "MOF": {
+            "texts": [
+                "ay",
+                "nun",
+                "talih",
+                "Çok yakında",
+                "OYNA",
+                "OYNA"
+            ],
+            "alts": [
+                "MOF"
+            ]
+        },
+        "headers": [
+            "Piyango oyunları",
+            "Loteo oyunları"
+        ],
+        "monthlyLottery": {
+            "title": "Aylık Piyango"
+        },
+        "gameComingSoon": "Çok yakında",
+        "weeklyLottery": {
+            "title": "LOTEO HAFTALIK PIYANGO"
+        },
+        "apollo11": {
+            "title": "APOLLO 11 PIYANGO"
+        },
+        "fomo": {
+            "title": "FOMO"
+        },
+        "loteoTournament": {
+            "title": "LOTEO TURNUVASI"
+        },
+        "mockedBonus": {
+            "title": "LOTEOPASS TEMMUZ BONUSU",
+            "desc": "- Apollo11 Piyangosuna Ücretsiz Giriş"
+        }
+    },
+    "roadmap": {
+        "years": [
+            {
+                "year": "2019"
+            },
+            {
+                "year": "2020"
+            },
+            {
+                "year": "2021"
+            },
+            {
+                "year": "2022"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "ay"
+            },
+            {
+                "alt": "arka plan öğeleri"
+            }
+        ],
+        "title": "Yol Haritası",
+        "subTitle": "LOTEO PLATFORMU",
+        "item": [
+            {
+                "date": "1. Çeyrek",
+                "p1": "Yasal ve Proje finansmanı",
+                "p2": "Haftalık piyango test aşaması"
+            },
+            {
+                "date": "1 Nisan",
+                "p1": "Haftalık piyango lansmanı ile MVP",
+                "p2": "Resmi Loteo Web lansmanı"
+            },
+            {
+                "date": "2. Çeyrek",
+                "p1": "MVP Testi"
+            },
+            {
+                "date": "1 Mayıs",
+                "p1": "Yumuşak lansman"
+            },
+            {
+                "date": "1 Haziran",
+                "p1": "Sert lansman",
+                "p2": "Tanıtım kampanyası lansmanı",
+                "p3": "BTC ile ödeme mümkün olacak"
+            },
+            {
+                "date": "3. Çeyrek",
+                "p1": "Günlük piyango lansmanı",
+                "p2": "Kartlı ödeme olanaklarının uygulanması",
+                "p3": "Yerel Mobil mesaj ödemelerini etkinleştirme"
+            },
+            {
+                "date": "4. Çeyrek",
+                "p1": "3. Loteo oyun lansmanı",
+                "p2": "Mobil mesaj ödemelerinin yayılması",
+                "p3": "Tanıtım kampanyası lansmanı"
+            },
+            {
+                "date": "1. Çeyrek",
+                "p1": "Loteo iOS ve Android Uygulaması",
+                "p2": "Özel Duyuru"
+            },
+            {
+                "date": "3. Çeyrek",
+                "p1": "Harici API Entegrasyonu, LOTES Kilidini aç",
+                "p2": "2. finansman turu & LOTEO Oyunları geliştirme"
+            },
+            {
+                "date": "4. Çeyrek",
+                "p1": "LOTES Borsa listelemesi"
+            },
+            {
+                "p1": "LOTEO Bahisleri - P2P Bahis sistemi"
+            },
+            {
+                "p1": "LOTEO Biletleri, 3. şahıslar için de geçerlidir"
+            },
+            {
+                "p1": "LOTEO B2B Platformu Lansmanı"
+            }
+        ]
+    },
+    "affiliate": {
+        "title": "Bağlantı ortağı olmak",
+        "subTitle": "Alan programımız sayesinde platform gelirinden en az %40 oranında ödül alın, <br\/>"
+    },
+    "acceptedCurrencies": {
+        "acceptedCurrencies": "Kabul edilen para birimleri",
+        "ethereum": "Ethereum",
+        "alts": [
+            {
+                "alt": "ethereum"
+            }
+        ]
+    },
+    "footer": {
+        "address": "Abraham de Veerstraat 9 <br\/> PO Box 3421, Curaçao",
+        "email": {
+            "questions": "Sormak istediğiniz bir şey var mı?",
+            "text": "Bize bir e-posta gönder"
+        },
+        "subscribe": {
+            "title": "Abone ol",
+            "text": "Posta listemize katılın ve en son haberleri ve güncellemeleri doğrudan e-posta kutunuza alın. Spam yok!"
+        },
+        "affiliate": {
+            "text": "Loteo ortaklık programı",
+            "btn": "Bağlantı ortağı olmak"
+        },
+        "copyrightTerms": {
+            "text": "Telif Hakkı © 2019 Loteo",
+            "link": {
+                "terms": "Şartlar Ve Koşullar",
+                "cookie": "Çerez politikası",
+                "disclaimer": "Yasal Uyarı"
+            }
+        },
+        "alts": [
+            {
+                "alt": "ay"
+            },
+            {
+                "alt": "sertifika"
+            }
+        ],
+        "feedback": {
+            "title": "Bize görüşlerinizi gönderin",
+            "text": "Fikriniz bizim için önemli! Bize LOTEO'yu nasıl geliştirebileceğimize dair fikirlerinizi gönderin.",
+            "btn": "Geribildirim yolla"
+        }
+    },
+    "cookieNotification": {
+        "cookie": "Bu web sitesi en iyi deneyime sahip olmanız için çerezleri kullanır. Bu siteyi kullanmaya devam ederek",
+        "href": "Çerez politikası",
+        "btn": "Tamam, Çerezleri kabul ediyorum "
+    },
+    "subscribeForm": {
+        "status": {
+            "subscribing": "Abone oluyorsunuz ...",
+            "success": "Başarıyla abone oldunuz",
+            "error": "Abone olamıyor",
+            "default": "Abone ol"
+        },
+        "title": "Email adresinizi giriniz",
+        "placeholder": "E-postanızı yazın"
+    },
+    "howItWorks": {
+        "helmet": "Nasıl çalışır | LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Nasıl çalışır",
+        "tabs": [
+            {
+                "name": "Loteo'nun çözümü"
+            },
+            {
+                "name": "Nasıl çalışır"
+            },
+            {
+                "name": "Kullanıcılar için avantajlar"
+            },
+            {
+                "name": "Yatırımcılar için avantajlar"
+            }
+        ],
+        "loteoSolutionSection": {
+            "t1": "Loteo'nun çözümü",
+            "p1": "LOTEO, tamamen şeffaf ve güvenilir bir piyango oluşturmak için blokzinciri ve akıllı kontratlar kullanan tam otomatik bir piyango platformudur; LOTEO ile ele aldığımız “klasik” tarz piyangolarla ilgili birkaç sorun var.",
+            "t2": "Güven",
+            "p2": "Hükümetler veya özel şahıslar yerine akıllı sözleşmelerle yönetildiğinde, piyango \nsüreci otomatik ve güvenilir hale gelir.",
+            "t3": "Şeffaflık",
+            "p3": "Tüm işlemler ve ödüller her zaman blokzinciri üzerinde görülebilir.",
+            "t4": "Kazanma şansı",
+            "p4": "Bilinmeyen sayıda çizilmiş numaraya karşı bahis yaptığınız geleneksel piyangolardan farklı olarak, LOTEO'da yalnızca diğer satın alınan biletlere karşı bahis oynarsınız, standart piyangolardaki potansiyel kazanan kombinasyonların sayısından birkaç bin kat daha küçük bir miktar.",
+            "p5": "Blokzinciri sayesinde sistem şeffaftır ve tüm işlemleri takip edebilirsiniz. Piyango her gerçekleştiğinde kazanma şansınız var, çünkü sadece belirli sayıda katılımcıya karşı bahis yapıyorsunuz.",
+            "p6": "Şu anki blokzincir tabanlı dijital kumar platformlarında birçok sorun var. Genellikle çok karmaşıktırlar, yalnızca kripto meraklıları için uygundurlar, ne çekici ne de kullanıcı dostu olmayan karmaşık bir tasarım sunarlar."
+        },
+        "infoSection": {
+            "t1": "Piyango nasıl çalışır?",
+            "p1": "Kullanıcılar, LOTEO haftalık piyango için Ethereum para birimini kullanarak tek bir bilet satın alarak veya üçüncü taraf bir satıcı aracılığıyla piyangoya girerler. Giriş satın alan her bir Ethereum cüzdan adresi daha sonra LOTEO haftalık piyangoya katılımcı olarak kaydedilir. Daha sonraki bir tarihte, LOTEO aynı kurallara göre yönetilen günlük bir çekiliş ekleyecektir.",
+            "p2": "LOTEO piyango, rasgele sayı üretecini (RNG) kullanacak akıllı bir sözleşme ile gerçekleştirilecektir. Çekiliş havuzu, rastgele sayılar almak yerine sadece çekiliş biletlerinden (girişlerin Ethereum adreslerine dayanarak) oluşur, bu nedenle her çekilişin galibi olmalıdır.",
+            "p3": "Piyango kazanan seçildikten sonra, akıllı bir sözleşme ödülü otomatik olarak uygun Ethereum adresine \/ adreslerine gönderir. Ödül şu şekilde bölünecek:",
+            "p4": "Maksimum kullanıcı sayısını elde etmek için LOTEO, diğer kripto para birimleri veya ABD Doları veya Euro gibi fiili para birimleri kabul eden üçüncü taraf tüccarlar gibi Ethereum’un yanı sıra ek ödeme seçenekleri de sunmayı planlamaktadır. Bununla birlikte, şu anda katılan tüm kullanıcıların Ethereum adreslerini içeren bir havuzdan çekiliş çekileceği için bir Ethereum cüzdanı isteyeceklerdir.",
+            "p5": "İlave LOTEU tokenleri kazanmak kullanıcının kazanma şansını arttırır, ancak piyango potunu arttırmazlar. LOTEU tokenleri satın alınamaz, bunun yerine kullanıcılar bunları airdrop, ödül kampanyaları, yarışmalar ve diğer LOTEO tanıtım çalışmaları ile kazanabilirler."
+        },
+        "userAdvantagesSection": {
+            "t1": "Kullanıcılar için avantajlar",
+            "t2": "Kazanma Şansı",
+            "p1": "Kazanma şansımız mekanizmamızdan dolayı geleneksel piyangolardan çok daha yüksek.",
+            "t3": "Her çekilişte bir kazanan",
+            "p2": "Sayıların doğru kombinasyonunu ortaya çıkarmanız gereken ve kazananın yılda bir kez ortaya çıktığı geleneksel piyangoların aksine, LOTEO'da her çekilişte bir kazananımız olur.",
+            "t4": "Kazanan için en büyük dilim",
+            "p3": "%75. hiçbir rakibin sahip olmadığı bir oran",
+            "t5": "Güven",
+            "p4": "Hükümetler veya özel şahıslar yerine akıllı sözleşmelerle yönetildiğinde, piyango \nsüreci otomatik ve güvenilir hale gelir.",
+            "t6": "Şeffaflık",
+            "p5": "Piyango girişlerinde Blokzinciri teknolojisi sayesinde %100 transparanlık sağlanırken, tüm ödüllerin işlemleri herkes için her zaman görülebilir olacak. Geleneksel piyango çekilişlerinin aksine, yani katılımcı ve ödül sayısının belli olmadığı, adil mi, manipüle edilmiş mi bilmeden veya merkezi bir otoriteye gerek kalmadan LOTEO çok daha farklı bir kullanıcı deneyimi sağlamak istiyor.",
+            "t7": "Geniş ödeme yöntemleri",
+            "p6": "LOTEO en iyi kullanıcı deneyimini sağlama konusunda güçlü bir ihtiyaç duyuyor; müşterimiz, özellikle de kripto tanımayan müşterimiz için {\"bu\"} bir neden oluyor, \"neden\" kredi kartı ödemeleri ve mobil mesaj ödemeleri entegrasyonu olacak.",
+            "t8": "Hız",
+            "p7": "Blokzinciriteknolojisi ve kripto para birimi kullanımı sayesinde Loteo, geleneksel piyangolardan çok daha hızlıdır.",
+            "t9": "Kazanma şansı daha yüksek",
+            "p8": "Kazanma şansı geleneksel piyangolardan çok daha yüksek.",
+            "chanceExample": {
+                "one": "1",
+                "formula": "piyangodaki bilet sayısı",
+                "details": "* Eğer ödülü 100 bin olursa, o zaman 1:10 000"
+            },
+            "comparisons": {
+                "title": "Geleneksel piyangolar",
+                "table": {
+                    "million": "Milyon",
+                    "r1": "Süper Ena Lotosu (İtalya)",
+                    "r2": "Power Ball (Amerika)",
+                    "r3": "Mega Milyonlar (İngiltere)",
+                    "r4": "Milyon Euro (ABD)",
+                    "r5": "Euro Jackpot",
+                    "r6": "İngiltere Lotosu",
+                    "r7": "İspanyol Lotosu\n",
+                    "r8": "İsveç Lotosu",
+                    "r9": "Loto Max (OLABİLECEK)"
+                }
+            }
+        },
+        "investorAdvantagesSection": {
+            "t1": "Yatırımcılar için avantajlar",
+            "p1": "LOTEO'nun yaptığı gibi token yapısını uygulayacak piyango veya başka bir çevrimiçi kumar platformu yoktur. Menkul kıymet tokeni, yatırımcılar için değer sağlar ve bölünmüş olan her ödülün %20'sine değer verir. LOTEO genel çevreye ve çevresine önem verdiğinden, LOTEO platformunda yer alan her bir ödülün yüzdesini getiren bir yardım programı vardır.",
+            "l1": "LOTES menkul kıymet tokenlerini satın almak ve LOTEO'nun bir parçası olmak için eşsiz bir şans sağlar, her çekilişte ETH kazanılır.",
+            "l2": "Toplam ödül havuzunun% 20'si LOTES sahiplerine, her kullanıcının kaç LOTES'i olduğuna göre yeniden dağıtılır.",
+            "l3": "Karar alma hakları (hayır kurumlarının seçimi, iş modelinde önemli değişiklikler)",
+            "l4": "Piyango sürdürülebilir ve başarılı olduğunda, toplam değeri büyür ve LOTES'in değeri de artar."
+        }
+    },
+    "gameDetails": {
+        "helmet": "LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Loteo haftalık piyango",
+        "text": "Haftalık LOTEO piyango, gerçek rasgele sayı üretecini (RNG) kullanacak olan Ethereum ile ilgili akıllı bir sözleşme ile gerçekleştirilecektir. Çekiliş havuzu, rastgele sayılar almak yerine sadece çekiliş biletlerinden (girişlerin Ethereum adreslerine dayanarak) oluşur, bu nedenle her çekilişin galibi olmalıdır. Piyango kazanan seçildikten sonra, akıllı bir sözleşme ödülü otomatik olarak uygun Ethereum adresine \/ adreslerine gönderir.",
+        "time": {
+            "day": "Her pazar",
+            "time": "12:00 Avrupa Saati",
+            "info": "Biletin piyango çekilişi gerçekleşmeden en az 30 dakika önce kullanılması önerilir. Aksi taktirde o haftalık piyangoya katılımınızı garanti etmiş olmayız."
+        },
+        "tabs": [
+            {
+                "name": "Kurallar"
+            },
+            {
+                "name": "Kazanma şansı"
+            },
+            {
+                "name": "Ödül havuzu"
+            },
+            {
+                "name": "Biletler"
+            }
+        ],
+        "rules": {
+            "t1": "Kurallar",
+            "p1": "Kullanıcılar, LOTEO haftalık piyango için Ethereum para birimini kullanarak tek bir bilet satın alarak veya üçüncü taraf bir satıcı aracılığıyla piyangoya girer. Giriş satın alan her bir Ethereum cüzdan adresi daha sonra LOTEO haftalık piyangoya katılımcı olarak kaydedilir.",
+            "p2": "LOTEO piyango, rasgele sayı üretecini (RNG) kullanacak akıllı bir sözleşme ile gerçekleştirilecektir.",
+            "p3": "Çekiliş havuzu, rastgele sayılar almak yerine sadece çekiliş biletlerinden (girişler Ethereum adreslerine dayanarak) oluşur, bu nedenle her çekilişin galibi olmalıdır."
+        },
+        "chance": {
+            "t1": "Şans",
+            "p1": "Kazanma şansımız mekanizmamızdan dolayı geleneksel piyangolardan çok daha yüksek."
+        },
+        "prize": {
+            "t1": "Ödül"
+        },
+        "tickets": {
+            "title1": "Tek girişli bilet",
+            "title2": "LoteoPass",
+            "title3": "LoteoMaxx",
+            "price1": "10",
+            "price2": "520",
+            "price3": "100",
+            "eth": "ETH",
+            "loteoMaxxCards": [
+                {
+                    "text": "LoteoMaxx 10 + 250 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 20 + 1000 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 50 + 3750 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 100 + 10 000 LOTEU"
+                }
+            ],
+            "entries": "piyango girişleri",
+            "t1": "Biletler",
+            "ticket": {
+                "showDetails": "Detayları göster",
+                "buyTicketsAndPlay": "Bilet satın al ve oyna!",
+                "from": "itibaren",
+                "buyNow": "ŞİMDİ SATIN AL",
+                "card": [
+                    {
+                        "title": "Tek girişli bilet",
+                        "p1": "Kullanıcılar, LOTEO haftalık piyango için Ethereum para birimini kullanarak tek bir bilet satın alarak veya üçüncü taraf bir satıcı aracılığıyla piyangoya girerler. Giriş satın alan her bir Ethereum cüzdan adresi daha sonra LOTEO haftalık piyangoya katılımcı olarak kaydedilir. Daha sonraki bir tarihte, LOTEO aynı kurallara göre yönetilen günlük bir çekiliş ekleyecektir.",
+                        "p2": "Çekiliş havuzu, rastgele sayılar almak yerine sadece çekiliş biletlerinden (girişler Ethereum adreslerine dayanarak) oluşur, bu nedenle her çekilişin galibi olmalıdır."
+                    },
+                    {
+                        "title": "LoteoPass",
+                        "p1": "Tekrarlanan girişlere olan gereksinimden önce, çekilişe yıl boyunca bir giriş satın alma seçeneğiniz vardır. İlk 1000 LOTEOPASS alıcısı için, bir bonus olacak. Bu, LOTEOPASS'ın ilk partisinin süresi dolduğunda 1 yıl sonra gerçekleşecek olan sınırlı bir teklif olacak.",
+                        "p2": "Bonus, çekilişin her çekilişinde şansınızı ikiye katlamaktır. Bu LOTEU kullanılarak elde edilir. LOTEOPASS'ı satın alarak alıcı, 52 haftalık piyango girişini kapsayan hesabına yatırılan bir miktar LOTEU alır."
+                    },
+                    {
+                        "title": "LoteoMaxx",
+                        "p1": "Daha yüksek miktarlarda piyango girişi satın alabilirsiniz - 10, 20, 50.100 hizmet tokenleri şeklinde bonus piyango girişleri. Bu girişleri istediğiniz zaman istediğiniz miktarda kullanabilirsiniz.",
+                        "renderLoteoMaxxCard": {
+                            "entries": "piyango girişleri"
+                        }
+                    }
+                ],
+                "alts": [
+                    {
+                        "alt": "simge"
+                    },
+                    {
+                        "alt": "kapat"
+                    }
+                ]
+            }
+        },
+        "currencyTag": {
+            "accepted": "Kabul edilen para birimleri",
+            "maxBet": "Max BAHİS",
+            "minBET": "Min BAHİS",
+            "specialPower": "Özel güç",
+            "edge": "Avantaj"
+        }
+    },
+    "charity": {
+        "helmet": "Yardımseverlik | LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Devrim <br\/> vermektir",
+        "text": "Bir kullanıcı kazandığında, toplam ödülün %1'i bir hayır kurumuna verilir",
+        "donateHelp": "Bağış ve Yardım",
+        "t1": "Loteu bağış kurumu",
+        "p1": "LOTEO, kullanıcılarına cömert bir çekiliş sunarken katkıda bulunanlar için karlı bir platform olmayı hedeflemektedir. LOTEO'yu yaratan insanlar, dünyayı daha iyi bir yer haline getirmeye adayan servetlerin bir kısmını hayır kurumlarına, kar amacı gütmeyen kuruluşlara ve diğer kuruluşlara geri vermenin görevinin karlı olduğunu düşünüyor.",
+        "p2": "Yenilik ve teknoloji çoğumuz için hayatı iyileştirebilir, ancak geride bırakılan ve bazı ilave yardıma ihtiyacı olanları unutmamak önemlidir.",
+        "t2": "Buradan bağışta bulunabilirsiniz",
+        "alts": [
+            {
+                "alt": "uç kapağı"
+            }
+        ]
+    },
+    "address": {
+        "copied": "Kopyalandı",
+        "copy": "Kopyala",
+        "pleaseNote": "Lütfen not alın",
+        "generatingQrCode": "QR Kodu oluşturuluyor ...",
+        "alts": [
+            {
+                "alt": "QR kodu"
+            }
+        ]
+    },
+    "share": {
+        "tabs": [
+            {
+                "name": "Bağlantı programları"
+            },
+            {
+                "name": "Oyuncu avantajları"
+            }
+        ],
+        "helmet": "Bağlantı| LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Platformu gelirden en az %40 <br \/>  ödül elde edin",
+        "text": "LOTEO bağlantı programına katılın ve Ortak veya Premium ortak olun. Hangisini istediğinizi seçebilirsiniz.",
+        "affiliateLink": {
+            "title": "Bu sizin için eşsiz bağlantı linkiniz",
+            "text": "Bu linki kopyala, arkadaşlarınla paylaş ve bedava oyna!"
+        },
+        "affiliatePrograms": {
+            "alts": [
+                {
+                    "alt": "Premium ortak"
+                },
+                {
+                    "alt": "Bağlantı Ortağı"
+                }
+            ],
+            "title1": "Yatırım yapmadan yatırımcı olmak ister misiniz? <span> Premium İş Ortağı Olun <span> <\/span>",
+            "title2": "<span> Loteo Pass <\/span> ve LOTEO Premium Partner olun",
+            "title3": "Arkadaşlarınızı davet edin, <span> Bağlantı ortağı olun <\/span> ve bedava oynayın!",
+            "title4": "<span> Bilet <\/span> veya <span> Loteo Maxx <\/span> satın alın ve LOTEO Bağlantı Ortağı olun",
+            "subtitle1": "<strong> Loteo Premium ortağı olmak için LoteoPass’a kaydolmanız ve satın almanız gerekir. <\/strong>",
+            "subtitle2": "Bu nedenle, LOTEO Takımı sadece bu amaç için ekip üyelerinin% 6'sı menkul kıymet tokenleri'nin% 6'sını atadı ve aşağıda belirtilen kurallara göre en iyi ortaklar arasında dağıtılacak% 1,% 2 ve% 3 havuzları oluşturdu. <br \/> <br \/> <strong> Biletleri satan tüm ortaklar, havuz komisyonu yüzdesiyle ödüllendirilir: <\/strong>",
+            "subtitle3": "<strong> Loteo Bağlantı ortağı olmak için, Bir kerelik bilet veya LoteoMaxx'e kaydolmanız ve satın almanız gerekir. <\/strong>",
+            "bonuses": [
+                {
+                    "label": "BONUS 1",
+                    "text": "Premium Satırı",
+                    "description": "Üyelik ortağı altındaki birinci satırdaki kullanıcılar için bonus talep edilir"
+                },
+                {
+                    "label": "BONUS 2",
+                    "text": "Ortaklık Uzay Programı - Loteo platformundan kar elde edin"
+                },
+                {
+                    "label": "BONUS 3",
+                    "text": "VIP Durum programı"
+                },
+                {
+                    "label": "BONUS 1",
+                    "text": "Bağlantı satırı",
+                    "description": "Üyelik ortağı altındaki birinci satırdaki kullanıcılar için bonus talep edilir"
+                }
+            ],
+            "premiumBonusCards": [
+                {
+                    "title": "Loteo Bileti",
+                    "price": "10 €",
+                    "text": "Bağlantı ortağı olarak, ETH + 50 LOTEU aktivasyon bonusunda <strong> satın alınan her bilet değerinin <strong> % 4'ünü alacaksınız. <\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "price": "100 - 1000 €",
+                    "text": "Bağlantı ortağı olarak, satın alınan her bir biletin <strong> % 4'ünü ETH + 100-1000 LOTEU aktivasyon bonusu alacaksınız. <\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "price": "520 €",
+                    "text": "Bağlantı ortağı olarak, satın alınan her bir biletin <strong> % 4'ünü ETH + 1000 LOTEU olarak alacaksınız. <\/strong>"
+                }
+            ],
+            "affiliateBonusCards": [
+                {
+                    "title": "Loteo Bileti",
+                    "text": "Bağlantı ortağı olarak, ETH + 50 LOTEU aktivasyon bonusunda <strong> satın alınan her bilet değerinin <strong> % 4'ünü alacaksınız. <\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "text": "Bağlantı ortağı olarak, satın alınan her bir biletin <strong> % 4'ünü ETH + 100-1000 LOTEU aktivasyon bonusu alacaksınız. <\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "text": "Bağlantı ortağı olarak, ETH + 500 LOTEU’da satın alınan her bilet değerinin <strong> % 4’ünü alacaksınız. <\/strong>"
+                }
+            ],
+            "bonusCardsDisclaimer": "* Loteomaxx bonusu, kullanıcı başına her yıl paket başına sadece bir defa talep edilebilir -  <br\/> Loteopass bonusu her zaman uygulanır.",
+            "spaceProgram": [
+                {
+                    "text": "Yapı ağacında kendilerine uygulanan <strong> 30 bilet ve daha fazlası <\/strong> olan tüm ortaklar, %1 havuzundaki menkul kıymet tokenleri sayesinde çekiliş karlarıyla ödüllendirilecektir."
+                },
+                {
+                    "text": "Yapı ağacında kendilerine uygulanan <strong> 100 bilet ve daha fazlası <\/strong> olan tüm ortaklar, %2 havuzundaki menkul kıymet tokenleri sayesinde çekiliş karlarıyla ödüllendirilecektir."
+                },
+                {
+                    "text": "Yapı ağacında altlarına uygulanmış <strong> 200 bilet ve daha fazlası <\/strong> olan tüm ortaklar, %3 havuzundaki menkul kıymet tokenleri sayesinde çekiliş kârlarıyla ödüllendirilecek"
+                }
+            ],
+            "VIPInfo": {
+                "tiers": {
+                    "bronze": {
+                        "title": "Bronz",
+                        "text": "1. satırda kullanılan 50 bilet için 500 LOTEU alın"
+                    },
+                    "silver": {
+                        "title": "Gümüş",
+                        "text": "1. satırda kullanılan 100 bilet için 1000 LOTEU alın"
+                    },
+                    "gold": {
+                        "title": "Altın",
+                        "text": "1. satırda kullanılan 200 bilet için 2000 LOTEU  alın"
+                    },
+                    "platinum": {
+                        "title": "Platin",
+                        "text": "1. satırda kullanılan 500 bilet için 5000 LOTEU alın"
+                    },
+                    "diamond": {
+                        "title": "Elmas",
+                        "text": "1. satırda kullanılan 1000 bilet için 10 000 LOTEU alın"
+                    },
+                    "moonStone": {
+                        "title": "Ay Taşı",
+                        "text": "1. satırda kullanılan 5000 Bilet için 50 000 LOTEU + 200 000 LOTES alın"
+                    }
+                }
+            },
+            "CTA": "ŞİMDİ SATIN AL",
+            "divider": "VEYA",
+            "profitCalculator": {
+                "friends": "Arkadaşlar",
+                "tickets": "Biletler",
+                "friend": "Arkadaş",
+                "ticket": "Bilet",
+                "title": "Çabalarım neticesinde ne kadar kazanacağım",
+                "text1": "Davet edeceğin arkadaşların sayısı",
+                "text2": "Her kullanıcının çekiliş için satın aldığı tahmini ortalama bilet sayısı",
+                "label1": "Potansiyel kazancınız",
+                "label2": "her bilet satın aldığınızda",
+                "eur": "EURO",
+                "alts": [
+                    {
+                        "alt": "çak bir beşlik!"
+                    },
+                    {
+                        "alt": "eksi"
+                    },
+                    {
+                        "alt": "artı"
+                    },
+                    {
+                        "alt": "biletler"
+                    }
+                ]
+            }
+        },
+        "playerBenefits": {
+            "title": "Her LOTEO ürünü için birden fazla <span> bonusu alın. <\/span> Hangisini istediğinizi seçin.",
+            "imageTitlePrefix": "Loteo",
+            "bonuses": [
+                {
+                    "image": {
+                        "title": "Loteo <strong> Bilet <\/strong>",
+                        "price": "10 €"
+                    },
+                    "title": "Loteo Bileti <span> BONUS'a Hoşgeldiniz <\/span>",
+                    "bonuses": [
+                        {
+                            "label": "+ 100 LOTEU",
+                            "text": "1. bilet için"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong> Maxx <\/strong>",
+                        "price": "100 - 1000 €"
+                    },
+                    "title": "Loteo Maxx <span> BONUSLARI <\/span>",
+                    "bonuses": [
+                        {
+                            "label": "+ 250 LOTEU",
+                            "text": "10 bilet paketi için"
+                        },
+                        {
+                            "label": "+ 1000 LOTEU",
+                            "text": "20 bilet paketi için"
+                        },
+                        {
+                            "label": "+ 3750 LOTEU",
+                            "text": "50 bilet paketi için"
+                        },
+                        {
+                            "label": "+ 10 000 LOTEU",
+                            "text": "100 bilet paketi için"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong> Pass <\/strong>",
+                        "price": "520 €"
+                    },
+                    "title": "Loteo Pass <span> BONUSLAR <\/span>",
+                    "bonuses": [
+                        {
+                            "label": "2 İÇİN 1",
+                            "text": "Tek fiyat karşılığında her çekilişte 2 bilet alın"
+                        },
+                        {
+                            "label": "+ 520 LOTEU",
+                            "text": "Her LoteoPass için anında 520 LOTEU kazanın"
+                        },
+                        {
+                            "label": "UZAY PROGRAMI",
+                            "text": "Yatırım yapmadan erişim sağlayın ve yatırımcı olun"
+                        },
+                        {
+                            "label": "VIP DURUMU",
+                            "text": "Bağlantı istatistiklerine dayanan LOTEO bonuslarınıza ulaşın."
+                        }
+                    ]
+                }
+            ],
+            "coinback": {
+                "title": "Para iadesi programı",
+                "text": "LOTEO Para iadesi programı ile Haftalık piyangodaki her bilet kullanımı ödüllendirilecek. Piyangoda kullanılan her bilet için, oyuncu 10 LOTEU ile ödüllendirilecektir. Para iadesi, 10 kullanılmış biletten sonra yatırılmaktadır.",
+                "example": "ÖRNEK: 10 Bilet Kullan - 100 LOTEU Al"
+            }
+        }
+    },
+    "info": {
+        "helmet": "Bilgi | LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Tek bilmeniz gereken",
+        "tabs": [
+            {
+                "name": "Loteo Tokenleri"
+            },
+            {
+                "name": "Takım"
+            },
+            {
+                "name": "SSS"
+            },
+            {
+                "name": "İndirmeler"
+            }
+        ],
+        "loteoTokens": {
+            "t1": "Loteo Tokenleri",
+            "p1": "Yatırımcılara ve tüm topluluk üyelerine birçok avantaj getiren eşsiz token yapısına karar verdik. Her iki Loteo tokenini de tanımak için aşağıda tüm detayları görebilirsiniz.",
+            "t2": "Menkul Kıymet Tokeni (LOTES)",
+            "p2": "LOTES, sadece özel finansman turunda (STO) satılan bir menkul kıymet tokenidir. Herhangi bir halka açık satış olmayacak, tüm yatırım gereksinimleri için lütfen web sitesindeki formu doldurunuz. Platform karının %100'ü, cüzdanlarında kaç tane token bulunduğuna bağlı olarak LOTES sahiplerine dağıtılacak. Tokenler playloteo cüzdanında olmalı. 2.000.000 LOTES ve üzeri sahiplerin yönetim haklarına sahip olma hakları vardır.",
+            "p3": "LOTES, 15 ay boyunca kilitlidir ve bu süre zarfında bunları başka bir yerde satın almak veya satmak mümkün değildir. İlk 15 ay geçtikten sonra, LOTEO'nun tüm tokenlerinin en az %30'unu yasal ve düzenleyici şartlara uygun olarak satacağı bir başka finansman turu daha olacak. Bu etkinlikten önce tüm detaylar açıklanacak. Bu tokenleri sattıktan sonra, token trade'i için düzenlenen borsalarda tokenimiz listelenecektir.",
+            "p4": "15 ay sonra, tüm menkul kıymet tokenleri maksimum %20'si çekilişe ait olacak ve en az %80'i merkezsizleştirilecek ve çekilişin manipüle edilmesi önlenecek. Token ayrıca bir yönetim işlevine sahiptir, yani herhangi bir önemli değişikliğin fikir birliği ile gerçekleştirilmesi gerekir ve herhangi bir token sahibi bir öneri veya oylama yapabilir.",
+            "t3": "Hizmet tokeni (LOTEU)",
+            "p5": "LOTEU pazarlama amaçlı kullanılacak bir yardımcı program tokenidir. 100 LOTEU ile çekilişe yeni bir giriş yaptığınızda, çekilişi kazanma şansınızı ikiye katlarsınız. Ödülü arttırmıyor, ancak havuzdaki bilet numaranızı artırıyor. Kullanılan ve alınan tokenlerin %20'sinin yakılacağı halka açık olan üç aylık bir yakma olayı gerçekleşecek.",
+            "p6": "LOTEU’nun toplam arzı, LOTES - 100.000 000’in toplam arzı ile aynı olana veya LOTEU’nun bir piyango bileti almak için bir ödeme yöntemi olarak kabul edilmeye başlamasına kadar yanma etkinliği gerçekleşecektir. Bu topluluğun doğrudan topluma ve LOTEO'nun pazarlama ortakları için birçok airdrop olacak ve LOTEU ile ödüllendirilecek birçok farklı yarışma olacak.",
+            "p7": "LOTEU tokenleri ayrıca LOTEO'nun pazarlama planına ve iletişim kanalları aracılığıyla yapılan resmi duyurulara uygun ödül kampanyaları ile dağıtılacaktır. Projenin ikinci finansman turunun gerçekleşmesinden önce belirlenecek olan, B2B platformu için LOTEU ile gelecekteki uzun vadeli bir planlama planı vardır. 1 LOTEU fiyatı, satış olayı olmadığından kesin olarak belirtilmemiştir, piyasa fiyatı belirleyecektir, ancak bugünkü değer 0,1 € \/ 1 LOTEU olarak belirlenmiştir.",
+            "alts": [
+                {
+                    "alt": "lotes"
+                }
+            ]
+        },
+        "team": {
+            "alts": [
+                {
+                    "alt": "bu sizsiniz"
+                },
+                {
+                    "alt": "Telegram"
+                }
+            ],
+            "t0": "Takım",
+            "p0": "Her projenin en güçlü ve en değerli kısmı üyelerindedir. Ekibimiz sürekli büyüyor, çoğunlukla Bratislava, Slovakya'da, Sırbistan, Rusya, Şili, Hindistan'da üyeleriyle birlikte ... Ve belki seninle? Bize ulaşmak için tereddüt etmeyin, işe alımlarımız devam ediyor.",
+            "t1": "Arkasındaki hikaye",
+            "p1": "Bir zamanlar bir oyuna bakalım, her çalışanın her ay maaşlarından 100 EUR yatırdığı ve bir kazanan aldığı bir arı diyelim. Kazanan hepsini aldı - 1000 EURO'luk bir ödül. Bir sonraki ayda, en son kazanan yine katılımcılar gibi her zamanki miktarı koymuş ancak çekilişe katılamamış ve bu yüzden de kazanamamıştır. Bu ilk kazanan için ödül toplamı bedelsiz bir krediyi temsil ederken, gelecek kazananlar için aylık yatırımları sadece gelecek için tasarruf sağlıyordu. Sıradan çalışanlar gibi ortak şartlar altında bu kadar para kazanmayı ya da biriktirmeyi pek istemezdik.",
+            "p2": "Birkaç yıl önce arı tarafından sokulduğumuzdan beri, güçlü bir itici gücümüz vardı: insanların güvenebileceği, zevk alabileceği ve faydalanabileceği bir proje geliştirdik. Zaman içinde, kullanıcı dostu bir ortamla birlikte her çekilişe giren bir kazanan fikri, ana felsefemiz haline geldi.",
+            "p3": "Loteo'ya Hoşgeldiniz!",
+            "members": [
+                {
+                    "name": "Rastislav Bakala",
+                    "pos": "CEO, Kurucu Ortak",
+                    "desc": "Rastislav, tamamen sıfırdan kurduğu 3 başarılı şirketin sahibidir. Kariyerine bölgesel yönetici olarak başladığı finans sektöründe başladı ve ardından bir bankada perakende müdürü olarak çalışmaya başladı. Başarılı bir başlangıçtan sonra, kurumsal sektörde çalışmaya başladı ve burada ilk büyük resmi düşünmeye başladı. Rastislav daha sonra blokzinciri teknolojisi için kendi şirketini kurdu ve değerli metalleri satmak ve yönetmek için uluslararası işini kurdu. Fakat bu sadece bir başlangıçtı. Sadece 28 yaşındayken, dünyaya blokzinciri gibi teknolojilerle yardım etme tutkusu var. Şeffaf ve adil bir dünyaya inanıyor. Loteo, blokzincirinin teknolojik şeffaflığını insan kazanma arzusuyla birleştirerek her iki dünyanın da en iyisini sunuyor. Onun sloganı, eğer diğer insanların zenginleşmesine yardım edersen, kendine yardım edeceksin!"
+                },
+                {
+                    "name": "Juraj Illes",
+                    "pos": "CMO, Kurucu Ortak",
+                    "desc": "Juraj, işletme ve pazarlama alanında uzun yıllara dayanan deneyime sahiptir. Bratislava'daki Comenius Üniversitesi'nde işletme fakültesinde yaptığı çalışmalarda, üst düzey elektronikle çalışan bir aile işletmesinde pazarlama şefliği yaptı. Daha sonra Google'ın SMB ortağı olan uluslararası bir şirkette çevrimiçi pazarlama uzmanı olarak çalıştı. Bir işadamı olarak dağıtım şirketini kozmetik ve eczacılık alanına yönlendirdi. Firmasının satışından sonra edindiği tecrübesini, pazarlama stratejilerine odaklanan bir freelancer olarak kullanmaya başladı. Bu süre zarfında FMCG bölgesinde pazarlama direktörü olarak hizmet etme teklifini kabul etti. Son kısa durağı, önde gelen Slovak sağlık sigortası şirketlerinden birindeki çevrimiçi departmanın yönetimiydi, ancak o zamana kadar kripto para birimleri dünyasına ilgi duymaya başlamıştı ve bu nedenle bu alanda iş fırsatlarını başarıyla yönetmeye başladı ki  bunlardan biri de aynı zamanda Loteo projesi."
+                },
+                {
+                    "name": "Rene Darmos",
+                    "pos": "CBDO, Kurucu Ortak",
+                    "desc": "Uluslararası İlişkiler ve İktisat Diplomasisi alanında üniversite diploması aldı. Daha sonra Uluslararası İşletme Ekonomisi ve İşletmeciliği bölümlerinde ekledi. O bir girişimci, kripto yatırımcısı, büyükelçi, danışman ve bazen de blokzinciri etkinliklerinin sunucusu. Bir girişimci olarak, başarıyla satılan iki şirket kurdu ve şu anda bir başkasının yönetiminde. Ayrıca toplulukorganizasyonuna katılır ve çeşitli projelere katılır. Kripto para birimleri dünyasında nispeten kısa bir süre (neredeyse üç yıl) yer aldı, ancak yine de bu alanda önemli sonuçlar elde etti ve Mainframe'in elçisi oldu. Rene, blokzinciri sektöründe çok sayıda etkili ve önemli kişiyle tanıştı ve Red Bull ve Unilever için marka yöneticisi olarak edindiği tecrübesi sayesinde, işletme becerileri ve müşteri odaklı düşüncesiyle birleştiğinde, Loteo ekibinin önemli bir üyesiydi."
+                },
+                {
+                    "name": "Jan Lalka",
+                    "pos": "CFO, Kurucu Ortak",
+                    "desc": "Umut, başarıya ve yaşam deneyimine inanç. Bunlar, Jan'in bu iş projesine kanalize ettiği şeyler. Konsept hiçbir zaman bugün olduğu kadar açık olmamıştı. Kariyerine 1997'de 23 yaşında girişimci olarak başladı ve iş becerilerini yavaş yavaş geliştirdi. 2003 yılında küresel finansal işletmeye döndü ve 16 yılda dört markanın geliştirilmesine yardım ettiği bir sektöre girdi ve kademeli olarak bir satış pozisyonundan işletme yönetimi aşamasına ve tüm birimin başına geçti. Büyük markalar için çalışmak Jan'a mükemmel bir deneyim vermesine rağmen, kendi markasının kurulmasından ve geliştirilmesinden daha değerli bir şey yoktur. Bu, projeye olan bağlılığının ardındaki sebep. Enerji, doğru yöne yönlendirildiğinde, uzun vadeli bir vizyonla hareket etti ve başarıya olan inancıyla bir arada tutuldu, hepsi iş dünyasında başarılı bir sonuç almayı garanti ediyor."
+                },
+                {
+                    "name": "Nina Bakalova",
+                    "pos": "Halkla ilişkiler müdürü",
+                    "desc": "Nina, üniversite derecesini Bratislava Ekonomi Üniversitesi'nde aldı. Aynı zamanda, modelleme kariyeri üzerinde çalışıyor, çeşitli medya içerisine makaleler yazıyor ve halkla ilişkiler içeriği ve stratejileri yaratmada değerli deneyimler kazanıyor. En son işi, Savunma Bakanı baş danışmanının Slovak Cumhuriyeti ulusal konseyindeki göreviydi."
+                },
+                {
+                    "name": "Max Zakomoldin",
+                    "pos": "Satış danışmanı",
+                    "desc": "Kripto yatırımcısı, kripto trader, analist, bağış toplayan, finans piyasası temsilcisi, Merkez bankasına rapor veren, konuşmacı. Kriptoekonomi, token modelleri ve iş geliştirmeye dayalı tokenlerin doğal fiyat artışında uzmanlaşmıştır. Max, birçok insanı internet üzerinden iyi bir gelir elde etme fırsatını keşfetmeye yönlendiren düzinelerce çevrimiçi ve çevrimdışı eğitim kursu verdi."
+                },
+                {
+                    "name": "Julius Buchel",
+                    "pos": "Topluluk yöneticisi",
+                    "desc": "İçerik üreticisi ve kripto para birimi eğitimine odaklanan blokzinciri meraklısı bir sosyal medya danışmanlık firmasının sahibi, ağ konusunda deneyimli, çeşitli üretim alanlarında CFO olarak kurumsal finans alanında on yıldan fazla bir deneyime sahip, üniversitede ekonomi ve hukuk okudu."
+                },
+                {
+                    "name": "Robert Auxt",
+                    "pos": "Hukuk ve Borsa danışmanı",
+                    "desc": "Robert, ETERBASE'in kurucu ortağıdır. Avrupa Yatırım Bankası, Avrupa İstikrar Mekanizması ve milyarlarca bilançosu olan diğer bazı kuruluşlarda yönetim kurulu düzeyinde görev yaptı. Londra Ekonomi Okulu, University College London ve Cambridge Üniversitesi Hakim Eğitim Okulu'nda okudu."
+                },
+                {
+                    "name": "Peter Kris",
+                    "pos": "CTO",
+                    "desc": "Peter bir blokzinciri dev stüdyosu ve danışmanlığı olan Block Unison'un kurucusudur ve mühendisleri güçlü uygulamalara yönlendirmektedir. Peter, BT'yi yönetimden, mobil üzerinden, arka uç geliştirmeye dayanan on yıllık bir deneyime sahiptir. Blokzinciri endüstrisinde 2013 Bitcoin döneminden beri keskin bir içeriden, bazen çeşitli konularda konuşarak ve Progressbar'daki yerel Ethereum topluluğuna yardımcı oluyor."
+                },
+                {
+                    "name": "David Kokavec",
+                    "pos": "Danışman",
+                    "desc": "Hukuktan mezun olduktan sonra, kryptotrejder proje kurucusu hobisini ve kripto para birimine olan ilgisini bu alanda insanları eğitmeyi amaçlayan başarılı bir işe dönüştürdü. Hem bireyler hem de şirketler için kapsamlı bir finansal danışmanlık hizmeti vermektedir. İnsanlara yardım etmekten ve sonuçları görmekten hoşlanıyor ama işi hakkında en çok sevdiği şey kişisel gelişim ve yaşam boyu öğrenme. Bunun dışında en büyük Slovak rap portalını ve bir yaşam tarzı dergisini yönetmekle ilgileniyor. Yeni iş fikirleri ve stratejileri ortaya çıkmadığında, zamanını aile, seyahat ve spora ayırır. Loteo'da danışman olarak görev yapmaktadır."
+                },
+                {
+                    "name": "Nenad Ristic",
+                    "pos": "Topluluk danışmanı",
+                    "desc": "Nenad, 2014 yılında kripto sularına çekildi, pompanın içinden nasıl yüzüleceğini bilen bir Sırp. Blokzinciri ve kullanıcılarına sunduğu tüm avantajlara gerçek bir inanan. Nenad'ın topluluk yönetimi, marka bilinirliği yaratma ve topluluklarının sesini duymalarına yardımcı olacak projelere 4 yıllık bir deneyime sahiptir. Ayrıca, bu çığır açan sektördeki birçok projenin Danışma kurulundadır. Öğretme fırsatı ortaya çıktığında topluma asla geri dönmeyecek iyimser ve hevesli bir adam, Blokzinciri'ni kitlelere yaklaştırmaya yardımcı oluyor."
+                },
+                {
+                    "name": "Sapta Munggaran",
+                    "pos": "Topluluk danışmanı",
+                    "desc": "2013'ün başlarında Bitcoin'e giren Sapta, Endonezya'dan gelen nihai Topluluk Adamı. Marka bilinci yaratma, kullanıcı edinme ve topluluk kanallarını yönetme konusunda çeşitli blokzinciri kuruluşlarına yardımcı oldu ve danışmanlık yaptı. Ayrıca 2014'ten beri en büyük Bitcoin forumunun gönüllü bir moderatörüdür. İnsanları kripto para birimi konusunda eğitmeyi sever."
+                },
+                {
+                    "name": "Anthony Sanchez",
+                    "pos": "Topluluk danışmanı",
+                    "desc": "Bitcoin ATM şirketi, Venezüellalı, biraz şans, beyin ve rüya gibi teknik destek veren kripto yolculuğuna başladı. 7 yılı aşkın bir süredir destek endüstrisinde çalışmak, yoluna koyduğunuz her türlü zorluğa kadar Uzmanlığı kriz yönetimi ve sorunların azaltılması konusundaki uzmanlığı projeye özel gruplar veya büyük ölçüde olabilir. Bitcoin onun tutkusu, mesleği açısından kripto hakkında bir şey bilmeniz gerekiyorsa, ona sorabilirsiniz. Birkaç farklı projede topluluk yönetimi yapma konusunda iki yıldan fazla deneyime sahiptir."
+                },
+                {
+                    "name": "Husain Zabir",
+                    "pos": "Listeleme danışmanı",
+                    "desc": "Kripto para birimi Trader'ı ve Yatırımcı, Elliott 4 yıllık tecrübesiyle, wawe analisti ve araştırmacısı."
+                }
+            ],
+            "youMember": {
+                "title": "Ortaklığımız gücümüzdür",
+                "text": "Telegram grubuna katıl"
+            }
+        },
+        "downloads": {
+            "t1": "İndirilecek belgeler",
+            "p1": "Kolay yönlendirme için proje, sertifikalar veya bir yerdeki diğer önemli konular hakkında tüm önemli belgeler. Hala bir şey eksik mi? Bize bir e-posta yazın ve ihtiyaçlarınızı karşılamaya çalışacağız.",
+            "documents": [
+                {
+                    "name": "Beyazbelge"
+                },
+                {
+                    "name": "Kutudaki Loteo"
+                },
+                {
+                    "name": "Bağlantı kağıdı"
+                },
+                {
+                    "name": "RNG Sertifikası"
+                }
+            ],
+            "alts": [
+                {
+                    "alt": "dil"
+                },
+                {
+                    "alt": "indir"
+                }
+            ],
+            "english": "İngilizce",
+            "russian": "Rusça",
+            "slovak": "Slovakça",
+            "spanish": "İspanyolca",
+            "englishPdf": "İngilizce PDF"
+        },
+        "faq": {
+            "t1": "Sıkça sorulan sorular",
+            "p1": "Tek bir yerde tüm sık sorulan sorular. Hala cevaplanmayan bir şey varsa, cevabın hemen geldiği yerdeki telegram kanalımıza katıldığınızdan emin olun.",
+            "t2": "OYUN",
+            "t3": "YASAL",
+            "t4": "KRİPTO",
+            "questions": {
+                "game": [
+                    {
+                        "q": "LOTEO biletlerinin fiyatı nedir?",
+                        "a": "Haftalık piyango bileti fiyatı 10 EUR'dur. Tek bir bilet fiyatının 2 EUR olacağı bir günlük çekiliş hazırlık aşamasındadır."
+                    },
+                    {
+                        "q": "Kazanma ihtimali nedir?",
+                        "a": "Biletlerimin sayısı ile havuzdaki toplam bilet sayısı arasındaki oran olarak hesaplanabilir."
+                    },
+                    {
+                        "q": "Nasıl online bilet alabilirim?",
+                        "a": "Bilet satın alma seçeneğini görebileceğiniz panomuza ulaşmak için web sitemizde ücretsiz bir kullanıcı hesabı açmanız gerekir."
+                    },
+                    {
+                        "q": "Piyango çekilişi ne zaman yapılır?",
+                        "a": "Her hafta 12: 00'de Orta Avrupa Saati'nde çekiliş - haftalık oyun - haftada bir kez oynanır. Tamamlayıcı çekilişlerin çekiliş zamanı, piyasaya sürülmeden önce bildirilecektir."
+                    },
+                    {
+                        "q": "Kazanıp kazanmadığımı nasıl kontrol edebilirim?",
+                        "a": "Kazanıp kazanmadığınızı kontrol etmenin çeşitli yolları vardır. 1. ETH bakiyenizi gösterge panelinde kontrol edin; 2. gösterge panelinde ay ziyaretçisini kontrol edin; 3. LOTEO kanalını ziyaret edin"
+                    },
+                    {
+                        "q": "Ödül havuzu garantisi nedir?",
+                        "a": "Ödül havuzundaki paraların hacmi garanti edilemez, çünkü bu oyun yalnızca belirli bir oyuna dahil olan biletlerin sayısına bağlıdır."
+                    },
+                    {
+                        "q": "LOTEOMAXX nedir ve avantajları nelerdir?",
+                        "a": "LOTEOPASS, satın alım gününden başlayarak haftalık çekilişlerinizde bir yıl süreli bir giriş satın almak için bir araçtır. Bir LOTEOPASS sahibi, her çekilişe tarihleri ve saatleri izlemeye gerek kalmadan otomatik olarak dahil edilir. 52 biletlik pakette, kazanma şansınızı iki katına çıkarmak için otomatik olarak kullanılan 5 200 LOTEU tokeni bonusu bulunur."
+                    },
+                    {
+                        "q": "LOTEOMAXX nedir ve avantajları nelerdir?",
+                        "a": "LOTEOMAXX 10, 20, 50 veya 100 adet (bilet) - çeşitli miktarlarda bilet paketidir. LOTEOMAXX paketinin fiyatı, kazanma şansınızı artırmak için kullanılan LOTEU tokenlerini içerir. İşletme sahibi istediği zaman istediği miktarda tokenli bileti istediği zaman girerek kazanma şansını arttırır."
+                    },
+                    {
+                        "q": "Ortaklık programı avantajları",
+                        "a": "Ortak ortağı bağlantısıyla, platforma kaydolmuş yeni bir kullanıcının etkinlikleri için ortak ortalık verilir. Satış ortağı, yeni bir kullanıcının aktif bir hesabı için 50 LOTEU tokeninin bir ödülünü alacak. Ortaklar, LOTEOPASS veya LOTEOMAXX toptan satış paketinin her satışı ile ödüllendirilme hakkına sahip olurlar ve ayrıca satış ortağı ortağı altında ilk sırada kayıtlı olan yeni bir kullanıcı tarafından satın alınan her bilet değerinin% 4'ünü alırlar."
+                    },
+                    {
+                        "q": "“Aktif hesap” ne anlama geliyor?",
+                        "a": "Herhangi bir LOTEO ürününün satın alınması ve kullanılmasıyla yeni bir kullanıcının hesabı aktif hale getirilir."
+                    },
+                    {
+                        "q": "Uzay Programı Nedir?",
+                        "a": "Uzay Programı en iyi bağlantı ortaklarına yöneliktir. Bonus, ortakların etkinlik sonuçlarına göre kendilerine dağıtılacak. Bu program için LOTEO, tüm şirketin LOTES tokenlerinin %1, %2 ve %3 havuzlarını oluşturmuştur. Bilet satan bağlı ortaklar, uygun havuz komisyonu yüzdesi ile ödüllendirilecektir. LOTES tokenleri böylece üç komisyon havuzundaki tüm katılımcılar için pasif gelir sağlar. Program, uzaması olası zamanla sınırlıdır. Daha fazla bilgi için Ortaklık bölümüne bakınız."
+                    },
+                    {
+                        "q": "Ödeme yöntemleri nelerdir?",
+                        "a": "LOTEO platformu lansman gününde, bilet ödemesi için mümkün olan tek yol ETH'dir. Yakın bir gelecekte BTC'den başlayarak, daha sonra kredi kartlarını, banka havalesini, mobil mesaj ödemesini (SMS) veya ADV nakit, PayPal vb. Gibi diğerlerini kullanarak EUR kullanarak çok çeşitli ödeme seçenekleri mevcut olacaktır."
+                    },
+                    {
+                        "q": "Neden Google Authenticator?",
+                        "a": "Google Authenticator, hesabınızı yetkisiz oturum açmaya karşı engellemek için bir güvenlik özelliğidir."
+                    },
+                    {
+                        "q": "Bilet geçmek mümkün mü?",
+                        "a": "Platformumuz satın alınan biletlerin kayıtlı katılımcılar arasında aktarılmasını sağlar."
+                    },
+                    {
+                        "q": "Çifte şans nedir ve nasıl alınır?",
+                        "a": "Bir biletin fiyatını yükseltmeden piyangoyu kazanma şansınızı ikiye katlayabilirsiniz. Piyangoya ek giriş yapmak için 100 LOTEU bileti kullandığınızda veya bir yıllık bilet LOTEOPASS satın alarak fırsattan faydalanabilirsiniz. Bilet numaranız havuzda iki katına çıkar ve dolayısıyla kazanma şansınız iki katına çıkar."
+                    }
+                ],
+                "legal": [
+                    {
+                        "q": "LOTEO merkezi nerededir?",
+                        "a": "LOTEO, Kıbrıs'ta bir bağlı ortaklığı bulunan global bir çevrimiçi kumar lisansı almak için Curacao'da bir ana şirket kurmuştur."
+                    },
+                    {
+                        "q": "Vergi ödemek zorunda mıyım?",
+                        "a": "Her ülkenin kendi vergi kuralları vardır. Kazanma durumunda, ülkenizdeki herhangi bir vergi sizin sorumluluğunuzdadır."
+                    },
+                    {
+                        "q": "Çekiliş %100 rasgele mi?",
+                        "a": "Kesinlikle öyle. Verimli TRNG - Gerçek Rastgele Sayı Üreticisi sayesinde - üretilen sayı% 100 rastgeledir. TRNG sertifikasını indirme bölümünde görebilirsiniz."
+                    },
+                    {
+                        "q": "LOTEU hayır kurumları ile bağlantılı mı?",
+                        "a": "Toplam ödülün %1'i bir hayır kurumuna bağışlanacaktır."
+                    },
+                    {
+                        "q": "Platformumuzda oynaması yasak ülke ve sakinleri",
+                        "a": "Aşağıdaki ülkelerin sakinleri: i) Amerika Birleşik Devletleri ve bölgeleri; ii) Hollanda (Curacao ve Hollanda Krallığının bir bölümünü oluşturan diğer ülkeler ve bölgeler dahil); iii) Demokratik Halk Cumhuriyeti Kore Cumhuriyeti; ve sakinlerine veya böyle bir ülkedeki herhangi bir kişiye çevrimiçi kumar teklifini yasaklayan başka bir ülke. İnternet kumarları, esas olarak bulunduğunuz fakat yalnızca Avustralya, Aruba, Bonaire, Curacao, Kıbrıs, Fransa, Hollanda, Saba, Statia, St Martin, ABD veya Curacao Merkez Hükümeti'nin herhangi bir başka yargı bölgesinde bulunmadığınız bölgelerde yasadışı olabilir. (eski Hollanda Antilleri) çevrimiçi kumar yasadışı sayılır."
+                    }
+                ],
+                "crypto": [
+                    {
+                        "q": "LOTEO hangi tokenleri sunar?",
+                        "a": "LOTEO iki tür token yayar - LOTES ve LOTEU. Hisse senedi LOTES, sahiplerine platform gelirlerinden kar etme fırsatı verir. LOTEU, ödül havuzundaki bilet numaranızı iki katına çıkarabilen ve piyango kazanma şansımızı iki katına çıkarabilen bir yardımcı programdır, ancak LOTEO platformundaki anlık oyunlar için de kullanılabilir."
+                    },
+                    {
+                        "q": "LOTES tokenleri neden kilitli?",
+                        "a": "LOTES tokenleri satın alındıktan sonra 15 ay boyunca kilitlenir, bu süre zarfında onlarla manipülasyon yapmak mümkün değildir. Bu arada, LOTEO platformunun piyasaya sürülmesi ve test edilmesi gerçekleştirilir. 15 ay geçtikten sonra tokenlerin kilidi açılacak ve kullanmaya veya satmaya hazır olacak."
+                    },
+                    {
+                        "q": "Piyangodan nasıl kar elde edilir?",
+                        "a": "LOTES tokenlerini satın almak ve bulundurmak, LOTEO platformundan kazanç sağlamak demektir. Toplam platform gelirinin% 20'si LOTES token sahiplerine dağıtılıyor. Bu miktar akıllı sözleşmelerle anında LOTES token sahiplerine miktarlarına göre dağıtılmaktadır."
+                    },
+                    {
+                        "q": "LOTES ve LOTEU tokenlerini nasıl alabilirim?",
+                        "a": "LOTES tokenleri sadece özel finansman turlarında satılacak. İlk turda 1 Mart 2019 - 30 Nisan 2019 tarihleri arasında gerçekleşecek olan 50 milyon token, bilet başına 0,05 EUR karşılığında satışa sunulacak. İkinci turda, 1 Ağustos 2020'den başlayarak ve 9 Eylül 2020'de sona eren veya stok devam ederken, 30 milyon LOTES tokeni, token başına 0,10 EUR karşılığında satılacaktır. LOTEU tokenleri airdroplarla, ortaklık programında, topluluk yarışmalarında ve borsalardan edinilebilir."
+                    },
+                    {
+                        "q": "Metamask üzerinden oynayabilir miyim?",
+                        "a": "Her ETH veya metamask cüzdan sahibi, platformumuza kaydolmaya gerek kalmadan oyuna girebilir."
+                    },
+                    {
+                        "q": "Akıllı sözleşmeleri nerede görebilirim?",
+                        "a": "Akıllı sözleşmeler GitHub ve Etherscan'da izlenebilir."
+                    }
+                ]
+            }
+        }
+    },
+    "airdrop": {
+        "title": "Loteu Airdrop 3. Raund",
+        "helmet": "LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "href": "Loteu Airdrop 3. Raund"
+    },
+    "airdropThankYou": {
+        "helmet": "LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Teşekkür ederiz",
+        "content": {
+            "title": "Merhaba ay ziyaretçisi!",
+            "p": "Eğitim Planımıza başarıyla katıldığınız ve büyümemize yardımcı olduğunuz için tebrikler! <br \/> LOTEU'nuzu, tüm airdropların bitiminden sonra doğrudan platformdan alacaksınız. <br \/> Sosyal Medyamızı takip ettiğinizden ve Telegram Grubuna katıldığınızdan emin olun, böylece ilk haberleri asla kaçırmayın <br \/> İlk anlık oyunumuz Talih Ayı oynayarak LOTEU'nuzu çoğaltabilirsiniz. Ve orada da haftalık piyangoya bir bilet kazanabilirsiniz. <br \/> <br \/> Harika bir gün geçirin ve Loteo misyonunu aya katıldığınız için teşekkür ederiz."
+        }
+    },
+    "balanceCard": {
+        "balance": "Bakiyeniz",
+        "comingSoon": "Çok yakında",
+        "loading": "Yükleniyor...",
+        "alts": [
+            {
+                "alt": "kart simgesi"
+            },
+            {
+                "alt": "aç"
+            }
+        ]
+    },
+    "contactUs": {
+        "messageSent": "Mesajı gönderildi",
+        "thankYou": "Mesajın için teşekkürler! En kısa sürede sizinle iletişime geçeceğiz.",
+        "okText": "TAMAM",
+        "sending": "GÖNDERİLİYOR...",
+        "send": "GÖNDER",
+        "yourName": "Adınız",
+        "email": "E-posta",
+        "message": "Mesaj",
+        "investing": "Yatırım yapmayı düşünüyorum",
+        "andMore": "ve dahası",
+        "investments": [
+            {
+                "value": "1000 - 5000"
+            },
+            {
+                "value": "5000 - 10 000"
+            },
+            {
+                "value": "10 000 - 100 000"
+            },
+            {
+                "value": "100 000"
+            }
+        ]
+    },
+    "inviteFriendsSection": {
+        "t1": "Bağlantı ortağı olmak",
+        "t2": "Arkadaşlarını davet et ve bedava oyna!",
+        "p": [
+            "Ödül alın ",
+            "platform gelirinden en az %40",
+            "uzay programımız sayesinde"
+        ],
+        "learnMore": "Daha fazla bilgi edin"
+    },
+    "drawDialog": {
+        "eth": "ETH",
+        "title": "<br\/> gelecek ay ziyaretçisi olmaya çok yakınsın",
+        "loading": "Piyango çekilişi devam ediyor",
+        "backToDashboard": "Pano'ya dönün",
+        "btnText": "Sonuçları göster"
+    },
+    "drawVideo": {
+        "eth": "ETH",
+        "video": "Tarayıcınız video etiketini desteklemiyor.",
+        "backToDashboard": "Pano'ya dönün",
+        "unmute": "sesi aç",
+        "mute": "sessize al",
+        "skip": "Geç",
+        "alts": [
+            {
+                "alt": "oyna"
+            },
+            {
+                "alt": "sesi aç"
+            },
+            {
+                "alt": "sessize al"
+            },
+            {
+                "alt": "geç"
+            }
+        ]
+    },
+    "etherscanLink": {
+        "check": "Etherscan üzerinden kontrol edin",
+        "alts": [
+            {
+                "alt": "etherscan"
+            }
+        ]
+    },
+    "moonVisitors": {
+        "title": "Ay ziyaretçiler",
+        "alts": [
+            {
+                "alt": "ay"
+            },
+            {
+                "alt": "arka plan öğeleri"
+            }
+        ],
+        "gameTitle": "PİYANGO OYUNLARI"
+    },
+    "paymentDialog": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "alts": [
+            {
+                "alt": "kredi"
+            },
+            {
+                "alt": "geri dön"
+            },
+            {
+                "alt": "ethereum"
+            },
+            {
+                "alt": "aç"
+            },
+            {
+                "alt": "Bitcoin"
+            }
+        ],
+        "back": "Ayarlara geri dön",
+        "messagePanel": {
+            "title": "Ödeme başarılı",
+            "text": "Ödemeniz başarılı oldu! Artık biletlerinizi piyangoya girmek için kullanabilirsiniz.",
+            "okText": "Pano'ya git",
+            "cancelText": "Biletimi daha sonra kullanacağım",
+            "closeText": "Kapat",
+            "loteuText": "Artık Apollo 11, Şans Ayı ve sadece LOTEU için özel olarak geliştirilmiş diğerleri gibi özel oyunlar oynayabilirsiniz. Diğerleri LOTEU kullanarak özel özelliklere sahiptir.",
+            "playText": "Oyna"
+        },
+        "dialog": [
+            {
+                "title": "Ödeme seçenekleri",
+                "subTitle": "Tercih edilen ödeme yöntemini seçin",
+                "info": "<strong> {{payment}} <\/strong> {{payment}} aşağıdaki adrese yatırın"
+            },
+            {
+                "title": "Ödeme seçenekleri",
+                "subTitle": "Tercih edilen ödeme yöntemini seçin",
+                "paymentOptions": {
+                    "summary": {
+                        "title": "Özet",
+                        "label": "Toplam",
+                        "price": [
+                            {
+                                "row": "Haftalık Piyango"
+                            },
+                            {
+                                "row": "Loteo Pass"
+                            },
+                            {
+                                "row": "Loteo Maxx 10"
+                            },
+                            {
+                                "row": "Loteo Maxx 20"
+                            },
+                            {
+                                "row": "Loteo Maxx 50"
+                            },
+                            {
+                                "row": "Loteo Maxx 100"
+                            },
+                            {
+                                "row": "Loteu"
+                            }
+                        ]
+                    },
+                    "payMethods": {
+                        "t1": "Bakiyenizden düşün",
+                        "name1": "Ethereum Cüzdanım",
+                        "card1": "Bitcoin Cüzdanım",
+                        "t2": "Yeni ödeme oluştur",
+                        "card2": "Kripto para birimleri",
+                        "card3": "Kredi kartı",
+                        "card4": "Banka havalesi",
+                        "card5": "SMS",
+                        "card6": "Dünya Çapında Ödeme"
+                    },
+                    "otherPayment": {
+                        "title": "Kripto para birimi seçin",
+                        "name1": "Ethereum",
+                        "info1": "Ödeme ayrıntılarını oluştur",
+                        "name2": "Bitcoin",
+                        "info2": "ÇOK YAKINDA"
+                    },
+                    "confirmation": {
+                        "text1": [
+                            {
+                                "span": "Sen"
+                            },
+                            {
+                                "span": "yeterli bakiyeniz yok"
+                            },
+                            {
+                                "span": "ETH Cüzdanınızdan işlem için ödenecek miktar"
+                            }
+                        ],
+                        "info": "Farklı bir ödeme yöntemi seçin veya cüzdanınıza para yatırın.",
+                        "text2": [
+                            {
+                                "span": "Sen"
+                            },
+                            {
+                                "span": "tahsil edilecektir"
+                            },
+                            {
+                                "span": "Loteo Ethereum cüzdanından"
+                            }
+                        ],
+                        "btn1": "Ödeme işleniyor...",
+                        "btn2": "Ödemeyi Onayla"
+                    }
+                }
+            }
+        ],
+        "title": "Özet ve ödeme",
+        "tabs": [
+            {
+                "alt": "Özet"
+            },
+            {
+                "alt": "Ödeme yöntemi"
+            }
+        ],
+        "goToPaymentMethod": "Ödeme yöntemine git",
+        "copied": "Kopyalandı",
+        "copy": "Kopyala",
+        "qrCodeValid": "QR kodu şunun için geçerlidir",
+        "total": "Toplam",
+        "payWithEth": "Ethereum ile öde",
+        "errorDialog": [
+            {
+                "text": "100 Loteu'dan daha düşük satın alamazsınız"
+            },
+            {
+                "text": "10 EUR'dan daha az satın alamazsınız"
+            }
+        ]
+    },
+    "prizes": {
+        "percentage": [
+            {
+                "value": "75"
+            },
+            {
+                "value": "20"
+            },
+            {
+                "value": "4"
+            },
+            {
+                "value": "1"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "ödül dağılımı"
+            }
+        ],
+        "target": [
+            {
+                "name": "Piyango kazananı"
+            },
+            {
+                "name": "Lotes sahibi",
+                "detail": "Her bir çekilişin% 20'si LOTES sahiplerine, her kullanıcının sahip olduğu LOTES ile orantılı olarak yeniden dağıtılacaktır."
+            },
+            {
+                "name": "Kullanıcıyı davet eden bağlantı tarafından ödüllendirildi"
+            },
+            {
+                "name": "LOTEO topluluğu tarafından seçilen yardım kuruluşu"
+            }
+        ]
+    },
+    "ticketCard": {
+        "label": "Bilet sayısı",
+        "alts": [
+            {
+                "alt": "simge"
+            },
+            {
+                "alt": "çıkar"
+            },
+            {
+                "alt": "ekle"
+            }
+        ]
+    },
+    "ticketSelector": {
+        "eur": "EURO",
+        "btc": "BTC",
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "kapat"
+            },
+            {
+                "alt": "biletler"
+            },
+            {
+                "alt": "eksi"
+            },
+            {
+                "alt": "artı"
+            },
+            {
+                "alt": "şans"
+            },
+            {
+                "alt": "başarı"
+            },
+            {
+                "alt": "başparmak yukarı"
+            },
+            {
+                "alt": "Aşağı kaydır"
+            }
+        ],
+        "header": {
+            "title": "Loteo haftalık piyango",
+            "text": "Oyundan çık",
+            "learnMore": "Bu oyun hakkında daha fazla bilgi edinin"
+        },
+        "prizesCounter": {
+            "label": "Oyun şu süre içinde başlıyor"
+        },
+        "playArea": {
+            "title": "Oynamak için bilet sayısını seçin:",
+            "text": "Kazanmak için gerçek şansın",
+            "label": "Biletler"
+        },
+        "loteuSection": {
+            "title": "LOTEU ile biletlerinizi ikiye katlayın ve kazanma şansınızı arttırın.",
+            "text": "100 LOTEU ile çekilişe yeni bir giriş yaptığınızda, kazanma şansınızı ikiye katlarsınız.",
+            "label": "Loteu kullanın",
+            "availableLoteu": "Mevcut LOTEU",
+            "availableTicket": "Mevcut biletler",
+            "ticketLabel": "biletler",
+            "buyMoreLoteu": "DAHA LOTEU SATIN AL",
+            "buyMoreTicket": "DAHA FAZLA BİLET ALIN",
+            "loteuToDoubleChance": "100 LOTEU = Kazanmak için çifte şans",
+            "chooseTicket": "Oynamak için bilet sayısını seçin:",
+            "yourChanceIs": "Göreceli kazanma şansınız",
+            "comingPlatform": "Yakında LOTEU'yu Loteo platformundan satın alabileceksiniz.",
+            "needBuyTickets": "Piyangoya girmek için bilet almanız gerekiyor",
+            "scrollInfo": "Bilet almak için aşağı kaydırın",
+            "loteuRate": "100 LOTEU = {{rate}} EURO",
+            "loteuReminder": "Kazanma şansınızı arttırmak için LOTEU <br\/> kullanmayı unutmayın!"
+        },
+        "processInfo": {
+            "message": "Biletler başarıyla gönderildi",
+            "chanceInfo": "Oyuna girerken kazanma şansınız oldu",
+            "text1": "Harika! <strong> LOTEU <\/strong> sayesinde, kazanma şansınızı ikiye katladınız!",
+            "text2": "Bir dahaki sefere kazanma şansınızı ikiye katlamak için <strong> LOTEU <\/strong> kullanın!"
+        },
+        "bottomPanel": {
+            "title": "Bilet özeti",
+            "info": "Biletler + Loteu",
+            "tickets": {
+                "single": "Bilet",
+                "more": "biletler"
+            },
+            "btn0": "KURALLARI GÖSTER",
+            "btn1": "PANOYA GIT",
+            "btn2": {
+                "process": "İŞLENİYOR...",
+                "play": "TEKRAR OYNA",
+                "enter": "PİYANGOYA GİRİN"
+            },
+            "btn3": "Kapat"
+        },
+        "ticketShop": {
+            "title": "Biletler veya özel paketler satın al"
+        },
+        "errorDialog": {
+            "title": "Mevcut çekiliş kapandı",
+            "text": "Çekiliş başlamadan en az 30 dakika önce oyuna girmek mümkündür. Bu raund çoktan kapandı. Geçerli çekiliş bittikten sonra ertesi gün oyuna girebilirsiniz",
+            "okText": "Tamam"
+        },
+        "successDialog": {
+            "close": "Kapat",
+            "increaseChance": "Kazanma şansımı arttır",
+            "title": "Başarılı!",
+            "text": "Oyundasın."
+        }
+    },
+    "ticketShop": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "buyNowBtn": "Şimdi satın al",
+        "alts": [
+            {
+                "alt": "alışveriş çantası"
+            }
+        ],
+        "label": "Haftalık piyango çekiliş zamanı",
+        "bonus": {
+            "title": "HOŞGELDİNİZ BONUSU",
+            "text": "1. BİLET ALIN, 100 LOTEU ELDE EDİN"
+        },
+        "tickets": [
+            {
+                "title": "Bilet",
+                "text": "Haftalık piyangoya bir giriş"
+            },
+            {
+                "title": "Loteo Pass",
+                "text": "Bir yıl <strong> boyunca geçerli piyango girişi alın <\/strong> tekrarlanan girişlere gerek kalmadan  <span> PREMIUM PARTNER <\/span> olun"
+            },
+            {
+                "title": "Loteo Maxx 10",
+                "text": "<strong> 10 piyango girişi + 250 LOTEU kazanın <\/strong> <br \/> Bu girişleri istediğiniz zaman istediğiniz miktarda kullanabilirsiniz."
+            },
+            {
+                "title": "Loteo Maxx 20",
+                "text": "<strong> 100 piyango girişi + 10.000 LOTEU <\/strong> edinin. <br \/> Bu girişleri istediğiniz zaman istediğiniz miktarda kullanabilirsiniz."
+            },
+            {
+                "title": "Loteo Maxx 100",
+                "text": "<strong> 50 piyango girişi + 3750 LOTEU <\/strong> edinin. <br \/> Bu girişleri istediğiniz zaman istediğiniz miktarda kullanabilirsiniz."
+            },
+            {
+                "title": "Loteo Maxx 100",
+                "text": "<strong> 100 piyango girişi + 10.000 LOTEU <\/strong> edinin. <br \/> Bu girişleri istediğiniz zaman istediğiniz miktarda kullanabilirsiniz."
+            }
+        ],
+        "summaryPanel": {
+            "label": "Özet",
+            "total": "Toplam"
+        }
+    },
+    "userInfoComponent": {
+        "loading": "Yükleniyor...",
+        "logout": "Çıkış Yap",
+        "profile": "Benim profilim",
+        "soon": "Çok yakında",
+        "alts": [
+            {
+                "alt": "Kullanıcı profili"
+            }
+        ],
+        "affiliateStatus": {
+            "PREMIUM": "Premium ortak",
+            "AFFILIATE": "Bağlantı Ortağı"
+        }
+    },
+    "loteoPassPopup": {
+        "title1": "LOTEOPASS",
+        "validity": "Tarihine kadar geçerli",
+        "valueText": "bilet kaldı",
+        "title2": "LoteoPass'larım",
+        "alts": [
+            {
+                "alt": "kapat"
+            }
+        ]
+    },
+    "coinbackPopup": {
+        "title": "Para iadesi ödülü elde edildi!",
+        "text": "yatırıldı.",
+        "alts": [
+            {
+                "alt": "kapat"
+            },
+            {
+                "alt": "Cüzdan"
+            }
+        ]
+    },
+    "walletPanel": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "loteu": "Loteu",
+        "lotes": "Lotes",
+        "alts": [
+            {
+                "alt": "kapat"
+            },
+            {
+                "alt": "Ay"
+            },
+            {
+                "alt": "biletler"
+            },
+            {
+                "alt": "bilgi"
+            }
+        ],
+        "setTransactionSuccessMessage": "Ethereum cüzdanınızdan başarıyla transfer edildi. <br\/> İşlem ilerlemesini şuradan takip edebilirsiniz",
+        "pendingTransactions": {
+            "text": "Cüzdanınızdaki işlem devam ediyor ...",
+            "link": "İşlem ilerlemesini şuradan takip edebilirsiniz"
+        },
+        "walletDetails": {
+            "title1": "Biletlerim",
+            "title2": "Kripto paralarım",
+            "btn": "Cüzdanı aç",
+            "label": "Haftalık Piyango",
+            "apollo11Label": "Apollo 11 piyangosu",
+            "myTicket": "BİLETLERİM"
+        },
+        "walletHeader": {
+            "title": "Cüzdanım"
+        },
+        "nextMoonVisitorInfo": {
+            "title": "Gelecek ay ziyaretçisi olmak ister misin?",
+            "subTitle": "Bir sonraki yarışma için bilet satın al",
+            "btn1": "Hayır, Teşekkürler",
+            "btn2": "Bilet satın al"
+        },
+        "currenciesInfo": {
+            "currenciesSection1": {
+                "title1": "Biletlerim",
+                "loading": "Yükleniyor...",
+                "title2": "Haftalık Piyango",
+                "label1": "Mevcut biletler",
+                "text": "LoteoPass Biletleri",
+                "label2": "Oyundaki biletler",
+                "label3": "Para iadesinde kullanılan",
+                "text3": "Biletler",
+                "label4": "Para iadesi Ödülü",
+                "title3": "Apollo 11 piyangosu"
+            },
+            "currenciesSection2": {
+                "title": "Kripto paralarım"
+            }
+        },
+        "dialog": [
+            {
+                "title1": "ETH Yatırma",
+                "title2": "Bakiyeniz",
+                "title3": "ETH para yatırma adresi",
+                "name": "Ethereum Cüzdanım",
+                "note": "Para yatırma işleminden sonra, süreci şurdan izleyebilirsiniz",
+                "title": "ETH Yatırma"
+            },
+            {
+                "title1": "ETH Çekme",
+                "title2": "Bakiyeniz",
+                "title3": "ETH Para Çekme Adresi",
+                "name": "Ethereum Cüzdanım",
+                "error": "Geçerli bir format girin",
+                "placeholder1": "ETH aktarmak için para çekme adresini girin",
+                "placeholder2": "ETH Miktarı",
+                "note": "<strong> Lütfen unutmayın <\/strong> <br\/> Para çekme işleminden sonra, <br\/> ilerleyişini izleyebilirsiniz.",
+                "btn1": "İşleniyor...",
+                "btn2": "Gönder",
+                "title": "ETH Çekme"
+            },
+            {
+                "title": "İşlem başarılı",
+                "okText": "Pano'ya git"
+            },
+            {
+                "title1": "Loteu Yatırma",
+                "title2": "Bakiyeniz",
+                "title3": "Loteu Yatırma Adresi",
+                "name": "Loteu Cüzdanım",
+                "note": "Para yatırma işleminden sonra, süreci şurdan izleyebilirsiniz",
+                "title": "Loteu Yatırma"
+            },
+            {
+                "title1": "Loteu Çekme",
+                "title2": "Bakiyeniz",
+                "title3": "Loteu Para Çekme Adresi",
+                "name": "Loteu Cüzdanım",
+                "error": "Geçerli bir format girin",
+                "placeholder1": "Loteu'yu transfer etmek için para çekme adresini girin",
+                "placeholder2": "Loteu Miktarı",
+                "note": "<strong> Lütfen unutmayın <\/strong> <br\/> Para çekme işleminden sonra, <br\/> ilerleyişini izleyebilirsiniz.",
+                "btn1": "İşleniyor...",
+                "btn2": "Gönder",
+                "title": "Loteu Çekme"
+            },
+            {
+                "title": "Para çekmek için yeterli bakiye yok",
+                "text": {
+                    "part1": "Cüzdanında yeterince para yok. Para çekmek için <strong> bakiyenizdeki işlem ücreti için en az 0.0132 ETH'ye sahip olmanız gerekir <\/strong> . <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Para çekme işlemi, Ethereum ağında bir işlem gazı ücreti gerektirir."
+                },
+                "okText": "Tamam"
+            },
+            {
+                "title": "LOTEU’yu çekmek için yeterli para yok",
+                "text": {
+                    "part1": "Cüzdanında yeterince para yok. Para çekmek için <strong> bakiyenizdeki işlem ücreti için en az 0.0132 ETH'ye sahip olmanız gerekir <\/strong> . <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Para çekme işlemi, Ethereum ağında bir işlem gazı ücreti gerektirir."
+                },
+                "okText": "Tamam"
+            },
+            {
+                "title": "BTC Yatırma",
+                "name": "Bitcoin Cüzdanım",
+                "note": "Para yatırma işlemini yaptıktan sonra ilerlemesini izleyebilirsiniz "
+            },
+            {
+                "title": "BTC Çekme",
+                "name": "Bitcoin Cüzdanım",
+                "error": "Geçerli bir format girin",
+                "placeholder1": "BTC'yi çekmek için adresinizi girin",
+                "placeholder2": "BTC Miktarı",
+                "note": "<strong> Lütfen unutmayın <\/strong> <br\/> Para çekme işleminden sonra, <br\/> ilerleyişini izleyebilirsiniz."
+            },
+            {
+                "title": "BTC'yi çekmek için yeterli bakiye yok",
+                "text": {
+                    "part1": "Cüzdanında yeterince bakiye yok. Para çekmek için <strong> bakiyenizdeki işlem ücreti için en az 0.000137 BTC’ye ihtiyacınız var <\/strong> . <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Para çekme işlemi Bitcoin ağında bir işlem ücreti gerektirir."
+                },
+                "okText": "Tamam"
+            }
+        ],
+        "max": "MAKSIMUM",
+        "withdraw": {
+            "balanceTitle": "Bakiyeniz",
+            "addressTitle": "Para çekme Adresi",
+            "max": "MAKSIMUM",
+            "processingButton": "İşleniyor...",
+            "submitButton": "Gönder"
+        },
+        "deposit": {
+            "balanceTitle": "Bakiyeniz",
+            "addressTitle": "Para yatırma Adresi"
+        },
+        "ticketReminder": {
+            "title": "Biletinizi kullanmayı unutmayın!",
+            "text": "Yaklaşan Haftalık piyango çekilişine girmek istiyorsanız, biletinizi kullanmanız gerekir.",
+            "close": "Kapat",
+            "useTicket": "Bilet kullan"
+        }
+    },
+    "authOverlay": {
+        "alts": [
+            {
+                "alt": "logo"
+            }
+        ],
+        "text": "Kimlik doğrulama kontrol ediliyor"
+    },
+    "userForm": {
+        "loading": "Yükleniyor...",
+        "alts": [
+            {
+                "alt": "Avatar"
+            },
+            {
+                "alt": "Mfa"
+            }
+        ],
+        "form": [
+            {
+                "label": "Avatar",
+                "btn": "Yeni avatar yükle"
+            },
+            {
+                "label": "Kullanıcı adı"
+            },
+            {
+                "label": "E-posta"
+            },
+            {
+                "label": "Ülke"
+            },
+            {
+                "label": "Telegram",
+                "input": "Telegram kullanıcı adınızı buraya girin"
+            },
+            {
+                "label": "2 faktörlü kimlik doğrulamayı etkinleştir"
+            },
+            {
+                "label": "ETH Adresi",
+                "loading": "Yükleniyor..."
+            },
+            {
+                "saving": "Kaydediliyor...",
+                "saved": "Değişiklikler kaydedildi",
+                "save": "Değişiklikleri Kaydet"
+            }
+        ]
+    },
+    "messagePanel": {
+        "alts": [
+            {
+                "alt": "bilgi"
+            }
+        ],
+        "okText": "TAMAM",
+        "cancelText": "İptal et"
+    },
+    "userProfile": {
+        "alts": [
+            {
+                "alt": "Kullanıcı profili"
+            }
+        ],
+        "logout": "Çıkış Yap",
+        "tabs": [
+            {
+                "name": "Hesap"
+            }
+        ]
+    },
+    "background": {
+        "alts": [
+            {
+                "alt": "Ay"
+            },
+            {
+                "alt": "Parla"
+            },
+            {
+                "alt": "uç kapağı"
+            }
+        ]
+    },
+    "backgroundTexture": {
+        "alts": [
+            {
+                "alt": "arka plan öğeleri"
+            }
+        ]
+    },
+    "question": {
+        "alts": [
+            {
+                "alt": "Çöküşü genişlet"
+            }
+        ]
+    },
+    "homeTopBackground": {
+        "alts": [
+            {
+                "alt": "Ay"
+            },
+            {
+                "alt": "uç kapağı"
+            }
+        ]
+    },
+    "lastWinners": {
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "ganimet"
+            }
+        ],
+        "loteu": "LOTEU",
+        "DAILY": "Günlük Piyango",
+        "WEEKLY": "Haftalık Piyango",
+        "APOLLO_11": "Apollo 11",
+        "SPECIAL_APOLLO_11": "Özel Apollo 11",
+        "watchDraw": "Çekilişi izle",
+        "DAILYMOBILE": "Günlük",
+        "WEEKLYMOBILE": "Haftalık",
+        "APOLLO_11MOBILE": "Apollo 11 Günlük",
+        "SPECIAL_APOLLO_11MOBILE": "Özel Apollo 11"
+    },
+    "networks": {
+        "alts": [
+            {
+                "alt": "Telegram"
+            },
+            {
+                "alt": "Twitter"
+            },
+            {
+                "alt": "Instagram"
+            },
+            {
+                "alt": "Linkedın"
+            },
+            {
+                "alt": "Facebook"
+            },
+            {
+                "alt": "Reddit"
+            },
+            {
+                "alt": "Github"
+            },
+            {
+                "alt": "Youtube"
+            },
+            {
+                "alt": "bitcointalk"
+            }
+        ]
+    },
+    "newsBanner": {
+        "alts": [
+            {
+                "alt": "kredi"
+            }
+        ],
+        "mockedNews": [
+            {
+                "text": "LOTEO’NUN EŞSİZ ÜÇLÜ BAĞLANTI PROGRAMI - OYNA & KAZAN"
+            },
+            {
+                "text": "Loteopass - Premium ortak olun ve özel haziran bonusu alın"
+            },
+            {
+                "text": "LOTEO LANSMANINI DUYURUYOR"
+            },
+            {
+                "text": "LOTEO YOUTUBE PLANLARI - LOTEO AKADEMİSİ VE TV"
+            }
+        ],
+        "loteoNews": "loteo haberleri",
+        "loading": "Yükleniyor..."
+    },
+    "partner": {
+        "alts": [
+            {
+                "alt": "logo"
+            }
+        ]
+    },
+    "scrollInfo": {
+        "alts": [
+            {
+                "alt": "Aşağı kaydır"
+            }
+        ]
+    },
+    "ticketSummaryCard": {
+        "alts": [
+            {
+                "alt": "Kart özeti"
+            },
+            {
+                "alt": "bilgi"
+            }
+        ]
+    },
+    "button": {
+        "alts": [
+            {
+                "alt": "Düğme simgesi"
+            }
+        ]
+    },
+    "dialog": {
+        "alts": [
+            {
+                "alt": "kapat"
+            }
+        ]
+    },
+    "bonusDialog": {
+        "title1": "LOTEU kazanın!",
+        "title2": "Airdrop eğitimimizi tamamlayın",
+        "title3": "ve sonunda gizli kodu bulun",
+        "btn1": "Başla"
+    },
+    "messageContextProvider": {
+        "close": "Kapat"
+    },
+    "copyField": {
+        "copied": "Kopyalandı",
+        "copy": "Kopyala"
+    },
+    "countInfo": {
+        "valueLeft": "ayrıldı"
+    },
+    "dashboard": {
+        "scrollInfo": "Ay'a bilet almak için aşağı kaydırın",
+        "buyTickets": "Bilet satın al",
+        "unknown": "Bay bilinmeyen",
+        "errors": [
+            {
+                "title": "Biletiniz yok. ",
+                "text": "İlk olarak piyango bileti satın almalısınız daha sonra Loteo Haftalık Piyangosuna katılabilirsiniz.",
+                "okText": "Bilet satın al",
+                "cancelText": "İptal et"
+            },
+            {
+                "title": "Oyuna girmek için yeterli bakiye yok",
+                "text": {
+                    "part1": "Cüzdanında yeterince para yok. Piyangoya katılmak için <strong> bakiyenizde en az 0.017 ETH olması gerekir <\/strong> . Lütfen para yatırınız. <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Piyangoya katılmak, Ethereum ağında zincir halinde işlem yapılmasını gerektirir. Her zincir işleminde ücret talep edilir, bizim durumumuzda 0.017 ETH. Çünkü her katılımın doğrudan Ethereum ağında şeffaf ve görünür olmasını sağlamak istiyoruz. Bu ücreti mümkün olduğu kadar düşük yapmak için çok çalışıyoruz."
+                },
+                "okText": "Tamam"
+            }
+        ],
+        "leaderboard": {
+            "leaderboard": "Liderlik Sıralaması",
+            "gameTitle": "LOTEO OYUNLARI",
+            "game": "OYUN",
+            "users": "KULLANICILAR \/ HAFTA",
+            "tickets": "BİLETLER \/ HAFTA",
+            "totalAmount": "TOPLAM MİKTAR \/ HAFTA",
+            "weeklyLottery": {
+                "title": "HAFTALIK PIYANGO",
+                "currency": "ETH",
+                "winText": "Kazanın",
+                "users": "BİLETLER \/ HAFTA"
+            },
+            "apollo11Lottery": {
+                "title": "APOLLO 11 PIYANGOSU",
+                "currency": "LOTEU",
+                "winText": "Kazanın",
+                "users": "BİLETLER \/ HAFTA"
+            },
+            "moonOfFortune": {
+                "title": "ŞANS AYI",
+                "currency": "LOTEU",
+                "winText": "HACİM",
+                "users": "KULLANICILAR \/ HAFTA"
+            },
+            "winnerOfTheWeek": "Haftanın galibi",
+            "loteu": "LOTEU"
+        },
+        "boarding": {
+            "title": "Loteo'ya Hoşgeldiniz!",
+            "text": "Loteo, Ethereum blokzinciri temelli ilk gerçek zincirleme piyango platformudur. Oyunlarımızdan herhangi birine katılmak istiyorsanız, cüzdanınızda Ethereum olması gerekir. Oyun ücretleri 0,017 ile 0,051 arasında değişmektedir. İLK PARA YATIRMA BONUSU'yu sever misiniz? 1 Eth gönder ve 3000 LOTEU al.",
+            "closeText": "bunu bir daha gösterme"
+        }
+    },
+    "gamesInfo": {
+        "title": "Oyun detayları | LOTEO - Şeffaf Blokzinciri Piyangosu"
+    },
+    "headerTabs": [
+        {
+            "name": "Haftalık Piyango"
+        },
+        {
+            "name": "Günlük Piyango"
+        },
+        {
+            "name": "Şans Ayı"
+        },
+        {
+            "name": "Rekt odaları"
+        },
+        {
+            "name": "Özel etkinlikler"
+        },
+        {
+            "name": "Loteo Turnuvası"
+        },
+        {
+            "name": "Apollo 11 piyangosu"
+        },
+        {
+            "name": "Fomo"
+        },
+        {
+            "name": "Jacks or Better"
+        },
+        {
+            "name": "Zar"
+        }
+    ],
+    "unavailable": {
+        "roadmap": "*Yol haritasına göre",
+        "comingSoon": "Çok yakında"
+    },
+    "gameWallet": {
+        "title": "LOTEU",
+        "sections": [
+            {
+                "title": "İşlem başarılı!",
+                "text": "Şimdi BAHİS miktarını ayarlayın ve Şans ayını oynayın",
+                "buttonText": "Hadi oynayalım"
+            },
+            {
+                "text": "Para çekme"
+            },
+            {
+                "text": "Para yatırma"
+            },
+            {
+                "title": "LOTEU yatır ve oyna!",
+                "text": "Oynamak için Loteo cüzdanınızdan LOTEU yatırmanız gerekir.",
+                "buttonText": "Tamam, anladım "
+            },
+            {
+                "title": "LOTEU çekin",
+                "balanceCardCurrency": "Oyun",
+                "inputLabel": "Çekilecek miktar",
+                "buttonText": "Hepsini çek"
+            },
+            {
+                "title": "Loteu Yatırma",
+                "balanceCardCurrency": "LOTEU",
+                "inputLabel": "Yatırılacak miktar",
+                "buttonText": "Para yatırma"
+            }
+        ],
+        "pendingTransactions": {
+            "text": "Cüzdanınızdaki işlem devam ediyor ...",
+            "link": "İşlem ilerlemesini şuradan takip edebilirsiniz"
+        },
+        "errors": [
+            {
+                "title": "Oyuna girmek için yeterli bakiye yok",
+                "text": "Cüzdanında yeterince para yok. Şans ayına katılabilmek için <strong> bakiyenizde en az 0.017 ETH olması gerekir <\/strong> . Lütfen para yatırınız. <br \/> <br \/>",
+                "confirm": "Tamam"
+            }
+        ],
+        "myBalance": "Bakiyeniz"
+    },
+    "moonOfFortuneControls": {
+        "segOpt": [
+            {
+                "v": "10"
+            },
+            {
+                "v": "20"
+            },
+            {
+                "v": "30"
+            },
+            {
+                "v": "40\n"
+            },
+            {
+                "v": "50"
+            }
+        ],
+        "btnHalf": "½",
+        "btnTwo": "2x",
+        "title": "Şans <br \/> Ayı",
+        "betAmount": "Bahis Miktarı",
+        "loteu": "LOTEU",
+        "max": "MAKSIMUM",
+        "risk": {
+            "title": "Risk",
+            "options": [
+                {
+                    "value": "Yüksek"
+                },
+                {
+                    "value": "Orta"
+                },
+                {
+                    "value": "Düşük"
+                }
+            ]
+        },
+        "segments": "Segmentler",
+        "bet": "BAHİS",
+        "showRules": "Kuralları Göster",
+        "rules": [
+            "Risk ve çarpan aracılığıyla yapılandırılmış modlar farklı potansiyel ödemeleri belirler",
+            "Tekerlek ile müdahale yok",
+            "%1 eşik",
+            "Tek bir bahis ile en fazla 1.000.000 LOTEU kazanılabilir"
+        ]
+    },
+    "myAffiliate": {
+        "alts": [
+            {
+                "text": "Premium ortak"
+            }
+        ],
+        "helmet": "LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Hangisini seçeceğiniz size kalmış",
+        "titleSpan": "Organizasyonlarım",
+        "subtitle1": "Bağlantı ortaklarımın istatistikleri",
+        "subtitle2": "Bağlantı ortaklarım",
+        "subtitle3": "Uzay programı istatistikleri",
+        "subtitle4": "VIP Durumu",
+        "loading": "YÜKLENİYOR",
+        "tabs": [
+            {
+                "name": "İstatistikler"
+            },
+            {
+                "name": "Bağlantı ortaklarım"
+            }
+        ],
+        "progressInfo": {
+            "alts": [
+                {
+                    "alt": "Premium ortak"
+                },
+                {
+                    "alt": "Bağlantı ortağı"
+                },
+                {
+                    "alt": "Kitlendi"
+                },
+                {
+                    "alt": "Kilit açıldı"
+                }
+            ],
+            "unlockedHeader": "Siz",
+            "premiumPartner": {
+                "title": "PREMİUM ORTAK",
+                "subtitle": "Premium iş ortağı olun ve birden fazla bonusa erişin."
+            },
+            "affiliatePartner": {
+                "title": "BAĞLANTI PARTNERİ",
+                "subtitle": "Bağlantı ortaklığı ortağı olun, satış ortağı hattını ve özel bonusu açın."
+            },
+            "buyPass": "BONUSLARı açmak Için Loteopass satın al",
+            "buyTicket": "BONUS KİLİDİNİ açmak için Piyango Bileti satın al ",
+            "unlocked": "Kilit açıldı",
+            "unlockables": {
+                "premiumPartner": {
+                    "premiumLine": {
+                        "title": "Premium Satırı",
+                        "lockedText": "Premium satırı için tüm bonuslar kilitlerini açın",
+                        "unlockedText": "Premium satırı için tüm bonuslar kilitleri açıldı"
+                    },
+                    "doubleChance": {
+                        "title": "2x Şans",
+                        "lockedText": "Her piyango çekilişi için çifte şansın kilidini açın",
+                        "unlockedText": "Her piyango çekilişi için çifte şans kilidi açıldı"
+                    },
+                    "spaceProgram": {
+                        "title": "Uzay programı"
+                    },
+                    "VIPStatus": {
+                        "title": "VIP Durumu"
+                    }
+                },
+                "affiliatePartner": {
+                    "affiliateLine": {
+                        "title": "Bağlantı satırı",
+                        "lockedText": "Bağlantı bonuslarının kilitlerini açın",
+                        "unlockedText": "Bağlantı bonuslarının kilitleri açıldı"
+                    }
+                },
+                "learnMore": "Daha fazla bilgi edin"
+            }
+        },
+        "partnersTable": {
+            "headers": [
+                "takma ad",
+                "ülke",
+                "ortaklar",
+                "Uzayprogramı",
+                "Bu hafta kullanılmış",
+                "toplamBiletler",
+                "toplamEth",
+                "durum"
+            ],
+            "empty": "Henüz hiçbir bağlantı ortağınız yok.",
+            "copyText": "Özel üyelik linkini kopyala, arkadaşlarınla paylaş ve bedava oyna!",
+            "copied": "Kopyalandı",
+            "copy": "Kopyala",
+            "status": {
+                "NONE": "YOK",
+                "AFFILIATE": "BAĞLANTI",
+                "PREMIUM": "PREMİUM"
+            }
+        },
+        "statisticsTable": {
+            "headers": [
+                {
+                    "name": "Durumum"
+                },
+                {
+                    "name": "Toplam kullanıcı"
+                },
+                {
+                    "name": "Aktif kullanıcılar"
+                },
+                {
+                    "name": "Bu hafta oyun (kullanıcılar)"
+                },
+                {
+                    "name": "Bu hafta kullanlmış (biletler)"
+                },
+                {
+                    "name": "Toplam bilet"
+                }
+            ],
+            "bodyNoData": "Kullanılabilir veri yok",
+            "soldTickets": "Satılan biletler",
+            "notPremium": {
+                "title": "KİLİTLİ",
+                "text": "Uzay programının kilidini açmak ve girmek için <strong> PREMIUM ÜYE PARTNERİ <\/strong> olmanız gerekir"
+            },
+            "foot": {
+                "title": "Kâr",
+                "eth": "ETH",
+                "loteu": "LOTEU",
+                "nextPayout": "Sonraki ödeme ETH"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "1. Satır"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Uzay programı",
+                        "span1": "SATILDI",
+                        "span2": "Uzay programı seviyesi"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Alt temsilcilerin",
+                        "span": "KULLANICILAR"
+                    }
+                }
+            ]
+        },
+        "spaceProgramStatisticsTable": {
+            "header": "Uzay programı seviyesi",
+            "foot": {
+                "lastMonth": "Geçen ay ödendi",
+                "totally": "Uzay ortağımıza tamamı ödenir",
+                "eth": "ETH"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "Kullanıcılar"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "ETH"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Kullanıcı başına ETH"
+                    }
+                }
+            ]
+        },
+        "VIPInfo": {
+            "toGet": "almak için "
+        },
+        "passDialog": {
+            "title": "LoteoPass satın alın ve <strong> Premium İş Ortağı olun <\/strong>",
+            "text": "PREMIUM ortağı olarak, uzay programı, VIP programı, çifte şans ve premium ortaklık hattı gibi çok sayıda özel bonusa erişebileceksiniz.",
+            "ok": "ŞİMDİ SATIN AL",
+            "cancel": "İlgilenmiyorum"
+        }
+    },
+    "currencyCardFull": {
+        "loading": "Yükleniyor...",
+        "withdraw": "Para çekme",
+        "deposit": "Para yatırma",
+        "nextPayout": "Sonraki Ödeme",
+        "totalPayout": "Toplam Ödeme"
+    },
+    "joyride": {
+        "locale": {
+            "back": "Geri dön",
+            "close": "Kapat",
+            "last": "Bitir",
+            "next": "Sıradaki",
+            "skip": "Geç"
+        },
+        "video": {
+            "video": "Tarayıcınız video etiketini desteklemiyor.",
+            "backToDashboard": "Pano'ya dönün",
+            "claimLOTEU": "LOTEU elde edin",
+            "yourCode": "Kodunuz:",
+            "unmute": "sesi aç",
+            "mute": "sessize al",
+            "alts": [
+                {
+                    "alt": "oyna"
+                },
+                {
+                    "alt": "sesi aç"
+                },
+                {
+                    "alt": "sessize al"
+                }
+            ]
+        },
+        "dashboard": {
+            "text1": "Bazı harika avatarlar oluşturmak veya profilinizi kişiselleştirmek için Profil butonuna tıklayın",
+            "text2": "Bu cüzdan paneli. Bakiyeleriniz burada ve ayrıca satın aldığınız biletlerin tutarında gösterilir.",
+            "text3": "Burası size sıfırı gösteriyorsa, çekilişe katılmak istemeniz durumunda cüzdanınıza fon yüklemelisiniz.",
+            "text4": [
+                "Çekiliş kazanma şansınızı iki katına çıkartan bir yardımcı program olan gerçek LOTEU bakiyenizi görün. Daha fazla bilgi bulunabilir",
+                "bu linkte",
+                ". LOTEU bir ödül olarak elde edilebilir veya yakında borsalardan satın alınabilir. Nasıl kolayca LOTEU almak için tıkla-",
+                "bu linkte"
+            ],
+            "text5": [
+                "LOTEO'ya yatırım yaptıktan sonra, yakında ilgili miktarı burada görmelisiniz. Her bir çekilişli ödülün% 20'sini almanın yanı sıra yatırımcı olmanın avantajları nelerdir? Tıklayın",
+                "buradan",
+                "ve daha fazlasını öğrenin."
+            ],
+            "text6": "E-alışveriş gibi, en iyi ve aşağıda özeti gördüğünüz size uygun ürünler seçin. Satın al butonuna basarak ödeme seçeneğini seçmeniz istenecektir.",
+            "text7": "Bu butona tıklayarak çekilişe girin. Piyangoya girebilmek için yeterli paranız olduğundan emin olun ... Kararınızı her zaman onaylamanız istenir.",
+            "text8": "Buraya tıklayarak cüzdanınıza girebilir ve istediğiniz işlemleri gerçekleştirebilirsiniz.",
+            "text9": "Bu açılan cüzdan arayüzüdür. Biletler altında çekilişin yapıldığı piyangoya girdi, biletleri satın aldıktan sonra piyangoya başarıyla girip girmediğinizi kontrol edebilirsiniz. Kontrol etmek her zaman iyidir!",
+            "text10": "Butona tıkladığınızda, adresinizi, QR kodunuzu ve gerekli tüm bilgileri bulacaksınız.",
+            "text11": [
+                "Geçerli haftalık piyango hakkında tüm bilgiler tek bir yerde. Platform Ethereum üzerinde çalışıyor olsa da, ödül tutarı EUR 'dır, Döviz Kuru her 5 dakikada bir güncellenir. Ödül BTC ve ETH de gösterilir. Sözleşmeyi kontrol etmek için tıklayın",
+                "Etherscan üzerinden kontrol edin",
+                "Mevcut kazanma şansınızı belirlemek için, son kazananı kontrol edin ve bir sonraki beraberlik tarihini ve saatini görün."
+            ],
+            "text12": [
+                "Tıpkı bir atlama ya da başka bir kart gibi, tüm yıl boyunca çifte kazanma şansı bonusu sunuyoruz! Bu konuda daha fazla bilgi bulabilirsiniz.",
+                "makale",
+                ". PREMIUM PARTNER olmak istiyorsanız, bu bir zorunluluktur."
+            ],
+            "text13": [
+                "Daha büyük miktarlarda oynamayı tercih ederseniz, bu sizin için olan şey. Daha fazla bilet alırsanız kesinlikle bonus veriyoruz ... İstediğiniz zaman kullanabilirsiniz. Buna bir göz atın.",
+                "buradan"
+            ],
+            "text14": [
+                "Bu, herhangi bir bilet satın almadan jackpot'u kazanma şansınız. LOTEU'nuzu airdroplardan kullanabileceğiniz bu harika oyun yakında başlıyor. Tokenlerinizi çoğaltabilir veya haftalık piyango için bilet kazanabilirsiniz. Para harcamanıza gerek kalmadan piyango kazanma şansı ne kadar da havalı değil mi? Şans Ayı hakkında daha fazla bilgi yakında blog'umuzda yayınlanacaktır. Lütfen kontrol edin",
+                "son makalelerimizden biri",
+                "Daha fazla bilgi edinmek için."
+            ],
+            "text15": [
+                "Eğer bir ağınız varsa veya Loteo platformuyla ilgilenebilecek arkadaşlarınız varsa, bu sizin için bir kazanma fırsatıdır. Büyümemize yardımcı olun,bu sayede ödüllendirilin. Evrendeki en cömert ortaklık programı ile ilgili tüm bilgileri burada bulabilirsiniz.",
+                "bu makale"
+            ],
+            "text16": "Son piyango sonuçlarına buradan ulaşılabilir ... Bunları normal piyangolara kıyasla birçok avantajdan biri olan etherscan'da da kontrol edebilirsiniz.",
+            "text17": "Platformumuzda çok eğleneceğinize inanıyoruz. Büyümemize yardım edenleri ödüllendirmek için cömert davranıyoruz. Ref linklerinizi paylaşın ve LOTEU kazanın. Eğitimlerimize katıldığınız için teşekkür ederiz, bize geri bildiriminizi bildirin ve sorularınız olursa, telegramdaki yöneticilerimize sorun. Videonun tadını çıkarın ve kazananı hatırlayın!"
+        }
+    },
+    "loading": "yükleniyor",
+    "counter": {
+        "d": "D",
+        "h": "H",
+        "m": "M",
+        "s": "S"
+    },
+    "quitButton": {
+        "alt": "kapat"
+    },
+    "gameWalletDialog": {
+        "title": "Mevcut bakiye",
+        "balance": {
+            "my": "Benim",
+            "wallet": "Cüzdan",
+            "loteu": "LOTEU"
+        }
+    },
+    "MESSAGE_WALLET_HAS_PENDING_TRANSACTION": {
+        "title": "Bekleyen işlem",
+        "text": "Cüzdanınızda devam eden bir işlem var. İşlem bitene kadar beklemeniz gerekir."
+    },
+    "newsInitialState": {
+        "news": "Haberler yükleniyor ..."
+    },
+    "shareMoF": {
+        "title": "Gitmeden önce...",
+        "text1": "Şans Ayı'nı arkadaşlarınla paylaş ve",
+        "text2": "+100 LOTEU kazan!",
+        "facebook": "Facebook'ta Paylaş",
+        "twitter": "Twitter'da paylaş",
+        "cancel": "İptal et",
+        "quit": "Oyundan çık",
+        "quote": "Şans Ayı oyununu oynayın ve Loteu tokenleri kazanın. Gerçekten eğlenceli!",
+        "hashtags": {
+            "facebook": "#loteooyna",
+            "twitter": "loteo, loteu, piyango, kripto para, blokzinciripiyango, kumar, loteooyna"
+        }
+    },
+    "board": {
+        "leaderboard": "Liderlik Sıralaması",
+        "myBets": "Bahislerim",
+        "position": "POZİSYON",
+        "player": "OYUNCU",
+        "usedLoteu": "KULLANILAN LOTEU",
+        "loteu": "Loteu",
+        "bet": "BAHİS",
+        "time": "ZAMAN",
+        "payout": "ÖDEME",
+        "profit": "KAR",
+        "weekly": "Haftalık",
+        "monthly": "Aylık",
+        "allTime": "Tüm zamanlar",
+        "gameTitle": "LOTEO OYUNLARI"
+    },
+    "apollo11Dialog": {
+        "title": "PARA YATIRIN <br \/> 50 000 LOTEU",
+        "subtitle": "... <strong> uçuştan önce (16 Temmuz) <\/strong> ve <strong> Apollo 11 Ay'a indiğinde <strong> <br \/> 20 Temmuz <\/strong> 'a kadar stake yapın",
+        "cta": "Para yatırma",
+        "text": "Apollo 11'in 50. yıldönümünü kutlayın <br \/> Ay'a Gidiyoruz!"
+    },
+    "apollo11Lottery": {
+        "title": "Özel Apollo 11 Piyangosu",
+        "learnMore": "Daha fazla bilgi edin",
+        "gameStartsIn": "Bir sonraki çekiliş:",
+        "loteu": "LOTEU",
+        "drawingSchedule": "Çekiliş programı",
+        "youreIn": "Oyundasın",
+        "playNow": "ŞİMDİ OYNA",
+        "nextDraw": "Bir sonraki çekiliş yarın",
+        "lastWinner": "Son kazanan",
+        "alts": [
+            {
+                "text": "kazanan"
+            }
+        ]
+    },
+    "leaderboard": {
+        "player": "OYUNCU",
+        "loteoRooms": "LOTEO ODALARI",
+        "mof": "ŞANS AYI",
+        "affiliate": "1.SIRA YAKINLIK",
+        "usedLoteu": "Kullanılmış Loteu",
+        "spentEth": "ETH Harca",
+        "loteuVolumne": "Loteu Hacmi",
+        "users": "Kullanıcılar",
+        "loteu": "Loteu",
+        "usedTickets": "Kullanılan Biletler",
+        "leaderboard": "Liderlik Sıralaması",
+        "gameTitle": "LOTEO OYUNLARI",
+        "game": "OYUN",
+        "totalAmount": "TOPLAM MİKTAR \/ HAFTA",
+        "weeklyLottery": {
+            "title": "HAFTALIK PIYANGO",
+            "winCurrency": "ETH",
+            "winText": "Kazanın"
+        },
+        "apollo11Lottery": {
+            "title": "APOLLO 11 PIYANGOSU",
+            "winCurrency": "LOTEU",
+            "winText": "Kazanın"
+        },
+        "moonOfFortune": {
+            "title": "Talih Ayı",
+            "winCurrency": "LOTEU",
+            "winText": "HACİM"
+        },
+        "winnerOfTheWeek": "Haftanın galibi"
+    },
+    "apolloDailyLottery": {
+        "title": "Apollo Günlük Piyango",
+        "learnMore": "Bu oyun hakkında daha fazla bilgi edinin",
+        "quit": "Oyundan çık",
+        "nextDrawIn": "Bir sonraki çekiliş:",
+        "availableLoteu": "Mevcut LOTEU",
+        "buyMoreLoteu": "Daha fazla LOTEU satın alın",
+        "controlsTitle": "Kullanılacak LOTEU sayısını seçin. <br \/> 100 LOTEU = 1 piyango",
+        "yourChanceIs": "Göreceli kazanma şansınız",
+        "enter": "Piyangoya katıl",
+        "alts": [
+            {
+                "text": "çifte şans\n"
+            }
+        ],
+        "playNow": [
+            {
+                "title": "Biletiniz yok. ",
+                "text": "İlk olarak piyango bileti satın almalısınız daha sonra Loteo Haftalık Piyangosuna katılabilirsiniz.",
+                "okText": "Bilet satın al",
+                "cancelText": "İptal et"
+            },
+            {
+                "title": "Oyuna girmek için yeterli bakiye yok",
+                "text": {
+                    "part1": "Cüzdanında yeterince para yok. Piyangoya katılmak için <strong> bakiyenizde en az 0.017 ETH olması gerekir <\/strong> . Lütfen para yatırınız. <br \/> <br \/>",
+                    "part2": "<strong> Açıklayıcı: <\/strong> Piyangoya katılmak, Ethereum ağında zincir halinde işlem yapılmasını gerektirir. Her zincir işleminde ücret talep edilir, bizim durumumuzda 0.017 ETH. Çünkü her katılımın doğrudan Ethereum ağında şeffaf ve görünür olmasını sağlamak istiyoruz. Bu ücreti mümkün olduğu kadar düşük yapmak için çok çalışıyoruz."
+                },
+                "okText": "Tamam"
+            },
+            {
+                "title": "Mevcut çekiliş kapandı",
+                "text": "Çekiliş başlamadan en az 30 dakika önce oyuna girmek mümkündür. Bu raund çoktan kapandı. Geçerli çekiliş bittikten sonra ertesi gün oyuna girebilirsiniz",
+                "okText": "Tamam"
+            },
+            {
+                "close": "Kapat",
+                "increaseChance": "Kazanma şansımı arttır",
+                "title": "Başarılı!",
+                "text": "Oyundasın."
+            }
+        ],
+        "process": "İŞLENİYOR..."
+    },
+    "transactionInProgress": {
+        "title": "İşlem devam ediyor",
+        "text": "İşlem tamamlanana kadar lütfen bekleyin. <strong> 1 dakika kadar sürebilir. <\/strong>",
+        "alts": [
+            {
+                "text": "Yükleniyor..."
+            }
+        ]
+    },
+    "backgroundBanners": {
+        "alts": [
+            {
+                "alt": "Apollo"
+            }
+        ],
+        "apollo": {
+            "title": "apollo 11 <br\/> kahraman",
+            "promotionDetail": "Apollo 11 Piyango Kahramanı Olun, <br\/> & Ücretsiz LoteoPass Alın",
+            "gamesSection": {
+                "title": "APOLLO 11 <br\/> Günlük piyango",
+                "text": "100 LOTEU kullanarak çekilişe girin <br\/> Piyango, akıllı sözleşmeyle katılımcılardan birini seçer ve RNG <br\/> Kanıtlanabilir, adil, şeffaf, cömert <br\/> LoteoPass sahipleri için ücretsiz giriş"
+            }
+        },
+        "deposit": {
+            "title": "apollo 11 <br\/> kahraman"
+        },
+        "depositBonus": {
+            "title": "İLK PARA YATIRMA <br\/> BONUSU",
+            "promotionDetail": "İlk 1ETH depozito yatırdığınızda BONUS 3000 LOTEU token kazanacaksınız! <br\/> İlk 300 LOTEU ilk depozitodan 23 saat sonra ve daha sonra her biri için 300 token daha hesaba yatırılır <br\/> 10 günde 24 saat toplam 3000 LOTEU kazanırsınız. LOTEU'nuzu kullanarak <br\/> Haftalık Piyango şansınızı iki katına çıkarın ya da inanılmaz oyunlarımızdan birini oynayın Talih <br\/> Ayı veya Apollo 11 Piyangosu!"
+        },
+        "ticketBonus": {
+            "title": "İLK BİLET <br\/> BONUS",
+            "promotionDetail": "Haftalık piyangoya ilk girişinizi satın aldığınızda, 100 LOTEU BONUS'u alacaksınız <br\/> piyango kazanma şansınızı iki katına çıkaracaksınız. Ödülü arttırmıyor, ancak <br\/> havuzdaki bilet numaranızı ikiye katlıyor. İyi şanslar!"
+        },
+        "loteoPass": {
+            "title": "LOTEOPASS",
+            "promotionDetail": "ÇİFT ŞANS BONUSU - LOTEOPASS “1000” <br\/> İlk 1000 LOTEOPASS alıcısı için bir bonus olacak. Bu, LOTEOPASS'ın ilk partisinin süresi dolduğunda 1 yıl sonra tekrar yapılacak sınırlı bir <br\/> teklifi olacak. <br\/> İlk 1000 bileti alan katılımcılar, diğerlerine ulaşmadan önce ikinci partide de onları satın alma seçeneğine sahip olacaklar. <br\/>"
+        },
+        "weekly": {
+            "title": "HAFTALIK<br\/>PİYANGO",
+            "promotionDetail": "Apollo 11 Piyango Kahramanı Olun, <br\/> & Ücretsiz LoteoPass Alın",
+            "gamesSection": {
+                "title": "HAFTALIK<br\/>PİYANGO",
+                "text": "10€<br\/>100 LOTEU kullanarak şansınızı çiftleştirerek çekilişe girin<br\/>Piyango akıllı sözleşme ile biletlerden birini seçer ve RNG<br\/>Kanıtlanabilir adil, şeffaf, cömert"
+            }
+        },
+        "mof": {
+            "title": "Şans<br\/> Ayı",
+            "promotionDetail": "Apollo 11 Piyango Kahramanı Olun, <br\/> & Ücretsiz LoteoPass Alın",
+            "gamesSection": {
+                "title": "Şans<br\/> Ayı",
+                "text": "İstediğiniz risk seviyesini seçin <br\/> Segment miktarını seçin <br\/> çarpanınızı her iki faktör de belirler <br\/> İddiaa butonuna basarak tekerleği çevirin <br\/> RNG çıktı yaratır, onaysız değişiklik mümkün değildir"
+            }
+        },
+        "rekt": {
+            "title": "REKT ODALARI",
+            "promotionDetail": "Boş",
+            "gamesSection": {
+                "title": "REKT ODALARI",
+                "text": "Boş"
+            }
+        },
+        "daily": {
+            "title": "GÜNLÜK PIYANGO",
+            "promotionDetail": "Boş",
+            "gamesSection": {
+                "title": "GÜNLÜK PIYANGO",
+                "text": "Boş"
+            }
+        },
+        "dice": {
+            "title": "Zar",
+            "promotionDetail": "Boş",
+            "gamesSection": {
+                "title": "Zar",
+                "text": "Boş"
+            }
+        },
+        "fomo": {
+            "title": "Fomo",
+            "promotionDetail": "Boş",
+            "gamesSection": {
+                "title": "Fomo",
+                "text": "Boş"
+            }
+        },
+        "jacks": {
+            "title": "JACKS OR BETTER",
+            "promotionDetail": "Boş",
+            "gamesSection": {
+                "title": "JACKS OR BETTER",
+                "text": "Boş"
+            }
+        },
+        "getLoteu": {
+            "title": "Nasıl Loteu <br\/> elde edilir",
+            "detail": "Şansını ikiye katla <br\/> LOTEU tokenleri al & oyna"
+        },
+        "affiliateProgram": {
+            "title": "BAĞLANTI <br\/> PROGRAMI",
+            "detail": "Ödüller en az %40 <br\/> Premium İş Ortağı Olun <br\/> Yatırım yapmadan yatırımcı olun"
+        }
+    },
+    "whyInvest": {
+        "helmet": "Neden Yatırım Yapmalı | LOTEO - Şeffaf Blokzinciri Piyangosu",
+        "title": "Neden yatırım yapılmalı",
+        "t1": "946 Milyar Dolar",
+        "p1": "2021 yılına kadar küresel kumar pazarının büyüklüğü",
+        "p2": "her <span>{{percent}}<\/span> Loteo ve yatırımcılar için <span>{{gelir}}<\/span> gelir getiriyor",
+        "p3": "Yatırım getirisi + ek olarak token değeri",
+        "p4": "NE KADAR YATIRIM",
+        "p5": "AYLIK PASİF GELİR",
+        "p6": "YILLIK PASİF GELİR",
+        "alts": [
+            {
+                "alt": "Doğru yatırımı yapın"
+            },
+            {
+                "alt": "Gelir Yüzdesi"
+            }
+        ],
+        "p21": "her"
+    },
+    "loteuTokens": {
+        "leftTokens": {
+            "doubleChance": {
+                "name": "Piyango oyunlarında çifte şans",
+                "description": "Satın alınan biletin yanı sıra 100 LOTEU kullanarak piyango şansımızı ikiye katlayabilirsiniz."
+            },
+            "mof": {
+                "name": "Şans Ayına Giriş",
+                "description": "Tokenlerinizi çoğaltabilir, eğlenebilir ve oyunumuz Şans Ayı oynayarak çekilişe katılma hakkı kazanabilirsiniz."
+            },
+            "specialGame": {
+                "name": "Sadece LOTEU için özel oyunlar",
+                "description": "Artık Apollo 11, Şans Ayı ve sadece LOTEU için özel olarak geliştirilmiş diğerleri gibi özel oyunlar oynayabilirsiniz. Diğerleri LOTEU kullanarak özel özelliklere sahiptir."
+            },
+            "quarter": {
+                "name": "Üç ayda bir token yakma",
+                "description": "Token yakma, toplam arz 100M olana kadar gerçekleşir. Platformda kullanılan tüm LOTEU'ların %20'si her 3 ayda bir yakılacak ve halka açıklanacak."
+            },
+            "payment": {
+                "name": "Tam ödeme seçenekleri",
+                "description": "LOTEU'nun <br\/> piyango oyunları için de tam ödeme seçeneği olarak entegrasyonu, token dağıtım, değişim <br\/> listeler ve fiyat dengelemesinden sonra başlayacaktır."
+            },
+            "staking": {
+                "name": "B2B için stake yapma",
+                "description": "Kendi piyango veya oyununuzu sorunsuzca oluşturmak için ya da platfom mimarisini kullanarak lisanslama, nasıl yapıldığını öğrenme için LOTEU stakelemeniz gerekmektedir."
+            }
+        },
+        "rightTokens": {
+            "quarter": {
+                "name": "Üç ayda bir token yakma",
+                "description": "Token yakma, toplam arz 100M olana kadar gerçekleşir. Platformda kullanılan tüm LOTEU'ların %20'si her 3 ayda bir yakılacak ve halka açıklanacak."
+            },
+            "payment": {
+                "name": "Tam ödeme seçenekleri",
+                "description": "LOTEU'nun <br\/> piyango oyunları için de tam ödeme seçeneği olarak entegrasyonu, token dağıtım, değişim <br\/> listeler ve fiyat dengelemesinden sonra başlayacaktır."
+            },
+            "staking": {
+                "name": "B2B için stake yapma",
+                "description": "Kendi piyango veya oyununuzu sorunsuzca oluşturmak için ya da platfom mimarisini kullanarak lisanslama, nasıl yapıldığını öğrenme için LOTEU stakelemeniz gerekmektedir.\n"
+            }
+        },
+        "mobileLeftTokens": {
+            "doubleChance": {
+                "name": "Piyango oyunlarında çifte şans",
+                "description": "Satın alınan biletin yanı sıra 100 LOTEU kullanarak piyango şansımızı ikiye katlayabilirsiniz."
+            },
+            "mof": {
+                "name": "Şans Ayına Giriş",
+                "description": "Tokenlerinizi çoğaltabilir, eğlenebilir ve oyunumuz Şans Ayı oynayarak çekilişe katılma hakkı kazanabilirsiniz."
+            },
+            "specialGame": {
+                "name": "Sadece LOTEU için özel oyunlar",
+                "description": "Artık Apollo 11, Şans Ayı ve sadece LOTEU için özel olarak geliştirilmiş diğerleri gibi özel oyunlar oynayabilirsiniz. Diğerleri LOTEU kullanarak özel özelliklere sahiptir."
+            },
+            "quarter": {
+                "name": "Üç ayda bir token yakma",
+                "description": "Token yakma, toplam arz 100M olana kadar gerçekleşir. Platformda kullanılan tüm LOTEU'ların %20'si her 3 ayda bir yakılacak ve halka açıklanacak."
+            },
+            "payment": {
+                "name": "Tam ödeme seçenekleri",
+                "description": "LOTEU'nun piyango oyunları için de tam bir ödeme seçeneği olarak entegrasyonu, token dağıtım, değişim listeleri ve fiyat dengelemesinden sonra başlayacaktır."
+            },
+            "staking": {
+                "name": "B2B için stake yapma",
+                "description": "Kendi piyango veya oyununuzu sorunsuzca oluşturmak için ya da platfom mimarisini kullanarak lisanslama, nasıl yapıldığını öğrenme için LOTEU stakelemeniz gerekmektedir.\n"
+            }
+        }
+    },
+    "page404": {
+        "title": "Uzayda kaybolmuş gibisin"
+    }
+}

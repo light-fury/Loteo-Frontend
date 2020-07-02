@@ -1,0 +1,94 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.loteoTokens {
+    h3 {
+        margin-bottom: 38px;
+
+        &:not(:first-of-type) {
+            margin-top: 56px;
+        }
+
+        a {
+            margin-top: 8px;
+            color: $grey2;
+            font-size: 16px;
+            font-weight: 700;
+            display: block;
+        }
+    }
+
+    &__section {
+        flex-wrap: wrap;
+
+        @include media(md) {
+            flex-wrap: nowrap;
+        }
+
+        &__toggleBtn {
+            padding: 0;
+            background: transparent;
+            border: none;
+            color: $grey1;
+            font-weight: 700;
+            line-height: 29px;
+            cursor: pointer;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        img {
+            margin-top: 32px;
+            display: block;
+
+            @include media(md) {
+                margin-top: 0;
+                margin-left: 150px;
+            }
+        }
+    }
+
+    .lotesCharts {
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        @include media(md) {
+            flex-direction: row;
+            align-items: flex-end;
+        }
+
+        .lotesChartNow {
+            width: 100%;
+            margin-bottom: 12px;
+
+            @include media(md) {
+                width: 408px;
+            }
+        }
+
+        .lotesChartFuture {
+            width: 100%;
+            margin: 48px 0 0;
+
+            @include media(md) {
+                width: 395px;
+                margin: 0 0 0 32px;
+            }
+        }
+    }
+
+    .loteuChart {
+        width: 100%;
+        margin: 80px 0 144px;
+
+        @include media(md) {
+            width: 802px;
+        }
+    }
+}

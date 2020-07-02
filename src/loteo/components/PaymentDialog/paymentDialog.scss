@@ -1,0 +1,578 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+@keyframes paymentDialogFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.paymentDialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    overflow: hidden;
+
+    &.paymentSuccess {
+        .dialogArea {
+            width: 400px;
+            height: 460px;
+
+            .dialogContent {
+                height: 100%;
+            }
+        }
+    }
+
+    .dialogOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.8;
+        background: darken($brown, 10);
+        animation: fadeIn 0.2s;
+    }
+
+    .dialogScrollContainer {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding: 16px;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        @include media(md) {
+            padding: 40px;
+        }
+    }
+
+    .dialogArea {
+        max-width: 100%;
+        width: 480px;
+        height: 640px;
+        position: relative;
+        flex-shrink: 0;
+        flex-direction: column;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        background: white;
+        z-index: 10001;
+        box-shadow: 0 8px 40px 0 transparentize(black, 0.8);
+        border-radius: 4px;
+        animation: showDialog 0.2s;
+
+        &.payWithEth {
+            height: 560px;
+            padding: 32px;
+
+            .headerContainer {
+                width: 100%;
+                margin-bottom: 20px;
+
+                @include media(md) {
+                    width: 416px;
+                    height: 60px;
+                    margin-bottom: 32px;
+                }
+
+                .titleSubTitle {
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: $red;
+                }
+
+                .text {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: $dark;
+                    margin-top: 12px;
+                }
+
+                .closeButton {
+                    cursor: pointer;
+                    position: absolute;
+                    width: 16px;
+                    height: 16px;
+                    top: 24px;
+                    right: 24px;
+                    filter: brightness(60%);
+                }
+            }
+
+            .ethAddressContainer,
+            .ethQRCodeContainer {
+                background: $greyBright;
+                border: 1px solid $greyBorder;
+                border-radius: 4px;
+            }
+
+            .ethAddressContainer {
+                flex-direction: column;
+                flex-basis: auto;
+                margin-bottom: 16px;
+                padding: 8px 16px;
+
+                @include media(md) {
+                    height: 48px;
+                    flex-direction: row;
+                    padding: 0 8px 0 16px;
+                }
+
+                .ethAddressText {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: $dark;
+                    flex-grow: 1;
+                    text-align: left;
+                }
+
+                .payButton {
+                    background: $red;
+                    border-radius: 16px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: center;
+                    color: white;
+                    justify-content: center;
+                    padding: 0 28px 1px 28px;
+                    height: 32px;
+                    margin-top: 8px;
+
+                    @include media(md) {
+                        margin-top: 0;
+                    }
+                }
+            }
+
+            .ethQRCodeContainer {
+                flex-grow: 1;
+                flex-basis: auto;
+
+                .validForText {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: $grey1;
+                    margin-top: 24px;
+                }
+
+                img {
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+
+        .dialogHeader {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            height: 160px;
+            padding: 0 16px;
+            
+            .titleSubTitle {
+                font-size: 26px;
+                padding: 0 8px;
+                font-weight: 900;
+                color: white;
+
+                @include media(md) {
+                    font-size: 32px;
+                    padding: 0 32px;
+                }
+            }
+
+            .closeButton {
+                cursor: pointer;
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                top: 16px;
+                right: 16px;
+                filter: brightness(60%);
+
+                @include media(md) {
+                    top: 24px;
+                    right: 24px;
+                }
+            }
+
+            .contextTabs {
+                @include noScrollbar;
+
+                overflow-x: auto;
+
+                &.headerTabs {
+                    position: relative;
+                    align-items: baseline;
+
+                    .contextTab {
+                        color: transparentize(white, 0.4);
+                        font-weight: 700;
+                        text-align: center;
+                        text-shadow: 0 0 6px $red;
+                        flex-shrink: 0;
+                        cursor: pointer;
+
+                        &:not(:first-of-type) {
+                            margin-left: 32px;
+                        }
+
+                        &.active {
+                            color: $yellow;
+                            font-size: 22px;
+                            font-weight: 900;
+                            text-shadow: 0 0 8px transparentize($yellow, 0.5);
+                            cursor: default;
+
+                            @include media(md) {
+                                font-size: 32px;
+                            }
+                        }
+                    }
+                }
+
+                &:not(.headerTabs) .contextTab {
+                    position: relative;
+                    color: white;
+                    opacity: 0.6;
+                    font-size: 16px;
+                    text-align: center;
+                    padding: 4px 10px 22px;
+                    cursor: pointer;
+                    transition: opacity 0.2s;
+                    flex-shrink: 0;
+
+                    @include media(sm) {
+                        padding: 4px 24px 22px;
+                    }
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        height: 6px;
+                        border-radius: 4px 4px 0 0;
+                        transition: background-color 0.2s;
+                        background-color: transparent;
+                    }
+
+                    &.active {
+                        opacity: 1;
+
+                        &::after {
+                            background-color: white;
+                        }
+                    }
+
+                    &:not(:first-of-type) {
+                        margin-left: 12px;
+                    }
+                }
+            }
+
+        }
+
+        .dialogContent {
+            flex-grow: 1;
+            padding: 16px 0;
+            flex-direction: column;
+
+            .summaryDetails {
+                border: 8px solid $greyBright;
+                border-radius: 2px;
+                margin: 0 16px;
+                overflow: auto;
+                flex: 1;
+
+                .topBottomGrid {
+                    height: 25px;
+                    min-width: 50px;
+
+                    .warningText {
+                        font-size: 16px;
+                        line-height: 25px;
+                        text-align: center;
+                        color: $red;
+                    }
+                }
+
+                .priceRow {
+                    height: 80px;
+                    left: 0;
+                    right: 0;
+                    flex-basis: auto;
+                    
+                    &.loteuRow {
+                        height: 30px;
+                        margin-top: 25px;
+                    }
+
+                    &.showErrorMessage {
+                        margin-bottom: 25px;
+                    }
+
+                    div {
+                        flex: 1;
+                        padding-left: 16px;
+                        padding-right: 16px;
+                        justify-content: center;
+                        flex-direction: column;
+                    }
+
+                    .leftText
+                    .rightText {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: $dark;
+                    }
+
+                    .rightText {
+                        text-align: right;
+                    }
+
+                    .countControls {
+                        padding: 0 4px;
+                        flex-direction: row;
+                        align-items: center;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            background: linear-gradient(0deg, $red, $red);
+                            mix-blend-mode: normal;
+                            opacity: 0.9;
+                            border-radius: 10px;
+                        }
+
+                        .count {
+                            margin-left: 8px;
+                            margin-right: 8px;
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 900;
+                            text-align: center;
+                        }
+
+                        .loteoTextInputContainer {
+                            padding: 0;
+                            margin: 0;
+                            text-align: center;
+                        }
+
+                        .loteoTextInput {
+                            background: transparent;
+                            min-width: 50px;
+                            text-align: center;
+                            color: $dark;
+                            font-weight: 900;
+                            font-size: 16px;
+                            line-height: 24px;
+                            border: none;
+                            margin: 0 !important;
+                            padding: 0 !important;
+
+                            &::placeholder {
+                                color: $dark;
+                            }
+
+                            &:focus {
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .buttonContainer {
+                height: 120px;
+                padding-top: 16px;
+                width: 100%;
+                flex-basis: auto;
+
+                .goToPaymentButton {
+                    width: 252px;
+                    height: 56px;
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 19px;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+
+            .totalContainer {
+                padding: 0 40px;
+                height: 80px;
+                flex-basis: auto;
+
+                .summaryPanel {
+                    padding: 0;
+                    transition: opacity 0.5s;
+                    background: white;
+                    flex-direction: row;
+
+                    img {
+                        width: 26px;
+                        margin-right: 24px;
+                    }
+
+                    .totals {
+                        margin: 12px 0;
+                        flex-direction: column;
+                        align-items: center;
+
+                        @include media(md) {
+                            margin: 0;
+                            flex-direction: row;
+                            flex-grow: 1;
+                            align-items: baseline;
+                        }
+
+                        .label {
+                            font-weight: 900;
+                            font-size: 12px;
+                            line-height: 14px;
+                            text-transform: uppercase;
+                            flex-grow: 1;
+                        }
+
+                        .value {
+                            margin: 6px 0;
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 14px;
+                            text-align: right;
+                            color: $grey1;
+                            white-space: nowrap;
+
+                            &:not(:first-of-type) {
+                                @include media(md) {
+                                    margin-left: 16px;
+                                }
+                            }
+
+                            &.main {
+                                font-weight: 900;
+                                font-size: 24px;
+                                line-height: 29px;
+                                text-align: right;
+                                color: $dark;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .payMethods {
+                padding: 16px;
+                overflow: hidden;
+                animation: paymentDialogFadeIn 0.2s ease-in-out;
+                
+                .card {
+                    flex-grow: 1;
+                    background: $greyBright;
+                    padding: 24px;
+                    overflow: auto;
+
+                    .title {
+                        margin-top: 24px;
+                        margin-bottom: 16px;
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+
+                    .balanceCard {
+                        margin-top: 8px;
+                    }
+
+                    &:not(:first-of-type) {
+                        margin-top: 12px;
+                    }
+                }
+            }
+
+            hr {
+                width: 100%;
+                height: 1px;
+                margin: 0;
+                border-color: transparentize(white, 0.8);
+            }
+        }
+
+        .goBack {
+            cursor: pointer;
+
+            img {
+                height: 16px;
+                margin-top: 1px;
+            }
+
+            .text {
+                margin-left: 8px;
+                color: $grey1;
+                font-size: 14px;
+            }
+        }
+
+        .generatedPayment {
+            height: 100%;
+            animation: paymentDialogFadeIn 0.2s;
+
+            .info {
+                margin-top: 16px;
+                font-size: 24px;
+                line-height: 32px;
+            }
+
+            .addressComponent {
+                flex-grow: 1;
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+@keyframes showDialog {
+    0% {
+        opacity: 0;
+        transform: translate3d(-50%, -100vh, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
+

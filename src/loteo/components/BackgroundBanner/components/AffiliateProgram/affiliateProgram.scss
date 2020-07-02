@@ -1,0 +1,131 @@
+@import "styles/mixins";
+
+.affiliateProgram {
+    background-position: right;
+    width: 100%;
+    height: 776px;
+    padding-top: 250px;
+    position: relative;
+
+    @media only screen and (max-width: 813px) {
+        padding-top: 200px;
+    }
+
+    &::after {
+        content: "";
+        background: url("/images/dashboard/affilate-program.png") no-repeat;
+        background-size: cover;
+        background-position: right;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+
+        @include media($max: md) {
+            background: linear-gradient(transparentize(#000000, 0.35), transparentize(#000000, 0.35)), url("/images/dashboard/affilate-program.png") no-repeat;
+            background-size: cover;
+            background-position: right;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    
+
+    @include media($max: md) {
+        padding-top: 200px;
+    }
+
+    @include media($max: sm) {
+        padding-top: 150px;
+        height: 591px;
+    }
+    
+    &__content {
+        width: 70%;
+        margin: auto;
+
+        @include media($max: md) {
+            text-align: center;
+            width: 90%;
+        }
+
+        @include media($max: md) {
+            text-align: center;
+        }
+
+        .title {
+            h1 {
+                font-size: 72px;
+                -webkit-text-stroke-color: $yellow;
+                -webkit-text-stroke-width: 2px;
+                text-shadow: 0 0 17px transparentize($yellow, .5);
+                text-transform: uppercase;
+                color: transparent;
+
+                @include media($max: md) {
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+
+                @include media($max: sm) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+
+        .detail {
+            margin-bottom: 20px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 25px;
+
+            @include media($max: md) {
+                white-space: pre-wrap;
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 25px;
+            }
+
+            @include media($max: sm) {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 20px;
+            }
+        }
+    }
+
+    &__bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        .action {
+            margin: auto;
+            width: 70%;
+
+            .mixButton {
+                margin-bottom: 80px;
+                width: 281px;
+                height: 72px;
+    
+                @include media($max: md) {
+                    margin: auto auto 130px auto;
+                    width: 200px;
+                    height: 51px;
+                }
+                @include media($max: sm) {
+                    margin: auto auto 50px auto;
+                    width: 200px;
+                    height: 51px;
+                }
+            }
+        }
+    }
+}

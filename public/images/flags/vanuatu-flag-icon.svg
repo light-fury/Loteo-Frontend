@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>vanuatu-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-139.000000, -40.000000)">
+            <g id="vanuatu-flag-icon" transform="translate(139.000000, 40.000000)">
+                <polygon id="Path" fill="#F8C90A" points="20 16 0 4 0 8 16 18 0 28 0 32 20 20 48 20 48 16"></polygon>
+                <polygon id="Path" fill="#000000" points="0 8 0 12 0 24 0 28 16 18"></polygon>
+                <path d="M2,0 C0.895,0 0,0.895 0,2 L0,4 L20,16 L48,16 L48,4 L48,2 C48,0.895 47.105,0 46,0 L2,0 Z" id="Path" fill="#F80000"></path>
+                <path d="M2,36 C0.895,36 0,35.105 0,34 L0,32 L20,20 L48,20 L48,32 L48,34 C48,35.105 47.105,36 46,36 L2,36 Z" id="Path" fill="#088537"></path>
+                <path d="M6,16 C4.896,16 4,16.896 4,18 C4,19.104 4.896,20 6,20 C7.104,20 8,19.104 8,18 C8,16.896 7.104,16 6,16 Z M6,19 C5.447,19 5,18.553 5,18 C5,17.447 5.447,17 6,17 C6.553,17 7,17.447 7,18 C7,18.553 6.553,19 6,19 Z" id="Shape" fill="#F8C90A" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

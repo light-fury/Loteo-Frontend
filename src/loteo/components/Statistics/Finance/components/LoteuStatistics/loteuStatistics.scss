@@ -1,0 +1,46 @@
+.loteuStatistics {
+    margin-top: 80px;
+
+    .apexcharts-canvas {
+        .apexcharts-svg {
+            .apexcharts-legend {
+                display: none;
+            }
+        }
+    }
+
+    &__section {
+        &__statistics {
+            &__total {
+                padding-bottom: 20px;
+                max-width: 324px;
+
+                &.loteuStatisticsCard {
+                    max-width: 324px;
+                    padding: 20px 10px;
+                }
+            }
+
+            &__items {
+                margin-top: 80px;
+
+                .item {
+                    margin: 0 10px 10px 0;
+                    padding: 20px 10px;
+
+                    &.loteuStatisticsCard {
+                        width: 162px;
+                    }
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

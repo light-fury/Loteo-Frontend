@@ -56,17 +56,20 @@ module.exports = merge(common, {
     },
     plugins: [
         new DotenvPlugin({
-            path: "./.env.production"
+            path: "./.env.production",
+            systemvars: true
         }),
         new MiniCssExtractPlugin({
             filename: "[name].[contenthash].css",
             chunkFilename: "[name].[contenthash].css"
         }),
-        new CleanWebpackPlugin("dist"),
-        new CopyWebpackPlugin([{
-            from: "public",
-            to: ".",
-            ignore: ".gitkeep"
-        }])
+        new CleanWebpackPlugin(),
+        new CopyWebpackPlugin([
+            {
+                from: "public",
+                to: ".",
+                ignore: ".gitkeep"
+            }
+        ])
     ]
 });

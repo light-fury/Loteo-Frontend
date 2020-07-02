@@ -1,0 +1,56 @@
+@import "styles/colors";
+
+.transactionInProgress {
+    &__inner {
+        height: 480px;
+
+        .closeButton {
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+            filter: brightness(60%);
+            position: absolute;
+            animation: unset;
+            top: 20px;
+            right: 20px;
+        }
+
+        &__title {
+            margin: 24px 0 8px;
+            color: $dark;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 44px;
+            text-align: center;
+        }
+
+        &__text {
+            max-width: 290px;
+            color: $grey1;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+
+    .dialogArea {
+        max-width: 100%;
+        width: 480px;
+        text-align: center;
+    }
+
+    img {
+        @keyframes progress-circle-spin {
+            from {
+                transform: scaleX(-1) rotate(0);
+            }
+
+            to {
+                transform: scaleX(-1) rotate(-360deg);
+            }
+        }
+
+        animation: progress-circle-spin 1s steps(12, end) infinite;
+    }
+}

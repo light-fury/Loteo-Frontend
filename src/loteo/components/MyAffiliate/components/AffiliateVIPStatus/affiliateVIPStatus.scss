@@ -1,0 +1,92 @@
+@import "styles/mixins";
+
+.affiliateVIPStatus {
+    max-width: calc(100% + 16px);
+    margin: 48px -8px 0;
+
+    & &__item {
+        margin-bottom: 16px;
+
+        @include media(md) {
+            &.loteoGrid {
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+        }
+
+        &__inner {
+            padding: 14px 20px;
+            background: white;
+            border-radius: 8px;
+            color: $grey2;
+            box-shadow: 0 4px 8px 0 transparentize(black, 0.9);
+
+            &.active {
+                color: white;
+
+                &.bronze {
+                    background: linear-gradient(135deg, #9f632e 0%, #492c13 58%, #563216 100%);
+                    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.5), 0 0 4px 0 #784a22;
+                }
+
+                &.silver {
+                    background: linear-gradient(135deg, #b6b6b6 0%, #e8e8e8 90%, #f7f7f7 100%);
+                    box-shadow: 0 0 5px 0 #dbd9d9;
+                }
+
+                &.gold {
+                    background: radial-gradient(ellipse at top, #fe9a0f, #fecf0f);
+                    box-shadow: 0 0 5px 0 #fecf0f;
+                }
+
+                &.platinum {
+                    background: linear-gradient(135deg, #835f5f 0%, #f3d1e5 100%);
+                    box-shadow: 0 0 5px 0 #d4b0bf;
+                }
+
+                &.diamond {
+                    background: linear-gradient(135deg, #6dd0e7 0%, #003393 100%);
+                    box-shadow: 0 0 5px 0 #9cd0ef;
+                }
+
+                &.moonStone {
+                    background-color: #da2814;
+                    box-shadow: 0 0 5px 0 #da2814;
+                }
+            }
+
+            &__icon {
+                min-width: 32px;
+                max-width: 32px;
+                margin-right: 20px;
+
+                &.active {
+                    filter: drop-shadow(0 0 7px white);
+
+                    path {
+                        fill: white;
+                    }
+                }
+
+                svg,
+                img {
+                    width: 100%;
+                }
+            }
+
+            &__text {
+                width: 100%;
+
+                strong {
+                    font-weight: 900;
+                    line-height: 20px;
+                }
+
+                span {
+                    font-size: 12px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

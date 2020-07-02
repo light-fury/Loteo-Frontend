@@ -1,0 +1,96 @@
+@import "styles/colors";
+
+.progressInfoHeader {
+    width: 100%;
+    height: 80px;
+    border-radius: 8px;
+
+    &__unlockedIcon {
+        margin-right: 10px;
+        padding: 17px 7px 17px 17px;
+        background: $brown;
+        border-radius: 6px 0 0 6px;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: " ";
+            width: 43px;
+            height: 50%;
+            background: $brown;
+            position: absolute;
+            right: -17px;
+        }
+
+        &::before {
+            top: 10px;
+            border-top-right-radius: 6px;
+            transform: rotate(60deg);
+        }
+
+        &::after {
+            bottom: 10px;
+            border-bottom-right-radius: 6px;
+            transform: rotate(-60deg);
+        }
+
+        img {
+            max-width: 38px;
+            max-height: 38px;
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    &__text {
+        margin-left: 20px;
+
+        span {
+            margin-right: 4px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        strong {
+            font-size: 20px;
+            font-weight: 900;
+            line-height: 24px;
+        }
+
+        small {
+            margin-top: 4px;
+            font-size: 12px;
+            line-height: 15px;
+            display: block;
+        }
+    }
+
+    &.locked {
+        padding: 20px;
+        background: transparentize($dark, 0.8);
+        color: $pink;
+    }
+
+    &.available {
+        color: white;
+    }
+
+    &#{&}.unlocked {
+        padding: 0;
+
+        &.yellow {
+            background: radial-gradient(ellipse at 50% 5px, $lightOrange 0%, $yellow 55%);
+            border: 4px solid $yellow;
+            box-shadow: 0 0 16px 0 $yellow;
+            color: $brown;
+        }
+
+        &.red {
+            background: $red;
+            border: 4px solid $red;
+            box-shadow: 0 0 16px 0 $red;
+            color: white;
+        }
+    }
+}

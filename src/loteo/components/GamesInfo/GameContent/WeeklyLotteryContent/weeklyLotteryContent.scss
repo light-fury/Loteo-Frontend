@@ -1,0 +1,172 @@
+@import "styles/mixins";
+
+.weeklyLottery-section {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+
+    &__content {
+        padding: 0 20px;
+        width: 80%;
+        margin: auto;
+
+        @include media($max: md) {
+            text-align: center;
+        }
+
+        .currencies {
+            @media only screen and (max-width: 1393px) {
+                margin: auto;
+            }
+
+            @media only screen and (max-width: 1043px) {
+                flex-direction: column;
+            }
+        }
+
+        &__currencies {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-right: 70px;
+
+            @media only screen and (max-width: 1043px) {
+                margin-right: 0;
+            }
+
+            .item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                &--currency {
+                    margin-right: 5px;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FF0000;
+                }
+
+                &--value {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+
+            .start {
+                margin-top: 11px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 280px;
+                background: transparentize($dark, 0.2);
+                border-radius: 8px;
+                padding: 16px;
+                box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.15);
+
+                .day,
+                .time {
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                }
+
+                .separator {
+                    height: 24px;
+                    width: 2px;
+                    opacity: 0.2;
+                    border-radius: 1.5px;
+                    background-color: white;
+                    margin: 0 24px;
+                }
+
+                .day {
+                    flex-grow: 1;
+                }
+            }
+
+            > .separator {
+                flex-shrink: 0;
+                margin-left: 40px;
+                margin-right: 40px;
+                height: 168px;
+                opacity: 0.2;
+                width: 1px;
+                align-self: center;
+                background: linear-gradient(
+                    0deg,
+                    rgba(255, 255, 255, 0) 0%,
+                    white 9.88%,
+                    white 82.29%,
+                    rgba(255, 255, 255, 0) 100%
+                );
+                display: none;
+
+                @include media(md) {
+                    display: block;
+                }
+            }
+        }
+
+        &__chart {
+            @media only screen and (max-width: 1043px) {
+                margin-top: 50px;
+            }
+
+            .smallInfo {
+                font-size: 12px;
+                line-height: 20px;
+                color: black;
+            }
+
+            img {
+                max-width: 343px;
+                max-height: 188px;
+
+                @include media ($max: ssm) {
+                    width: 280px;
+                }
+
+                @include media ($max: sm) {
+                    width: 200px;
+                }
+            }
+        }
+
+        &__button {
+            margin: 80px auto 0 auto;
+            display: none;
+            
+            @media only screen and (max-width: 1393px) {
+                width: 100%;
+                display: block;
+            }
+
+            .mixButton {
+                width: 279px;
+                height: 72px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__button {
+        width: 279px;
+        height: 72px;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 10%;
+
+        @media only screen and (max-width: 1393px) {
+            display: none;
+        }
+
+        .mixButton {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

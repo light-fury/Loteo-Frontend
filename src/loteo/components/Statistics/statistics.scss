@@ -1,0 +1,16 @@
+@import "styles/mixins";
+
+.statistics {
+    flex-direction: column;
+
+    @include media(md) {
+        flex-direction: row;
+    }
+
+    &__content {
+        padding: 54px 32px 54px 56px;
+        width: 100%;
+        height: 100%;
+        background-color: $wheatBg;
+    }
+}

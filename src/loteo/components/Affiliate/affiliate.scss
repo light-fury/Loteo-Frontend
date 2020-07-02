@@ -1,0 +1,49 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.affiliate {
+    padding: 24px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @include media(md) {
+        align-items: center;
+        padding: 0 0 80px;
+    }
+
+    h1 {
+        margin-bottom: 16px;
+        font-size: 40px;
+        text-align: left;
+        line-height: 48px;
+
+        @include media(md) {
+            font-size: 72px;
+            line-height: 96px;
+            text-align: center;
+        }
+    }
+
+    h6 {
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+
+        @include media(md) {
+            margin-bottom: 76px;
+            text-align: center;
+        }
+
+        br {
+            display: none;
+
+            @include media(md) {
+                display: block;
+            }
+        }
+    }
+}

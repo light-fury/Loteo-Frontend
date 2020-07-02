@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>barbados-na-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1200.000000, -778.000000)">
+            <g id="barbados-na-flag-icon" transform="translate(1200.000000, 778.000000)">
+                <rect id="Rectangle" fill="#FFC32A" x="14" y="0" width="20" height="36"></rect>
+                <path d="M48,34 C48,35.104 47.105,36 46,36 L34,36 L34,0 L46,0 C47.105,0 48,0.896 48,2 L48,34 Z" id="Path" fill="#08227F"></path>
+                <path d="M14,36 L2,36 C0.895,36 0,35.104 0,34 L0,2 C0,0.896 0.895,0 2,0 L14,0 L14,36 Z" id="Path" fill="#08227F"></path>
+                <polygon id="Path" fill="#000000" points="30 8 28 9.999 30 10 30 20 26 20 26 9.999 24 8 22 9.999 22 20 18 20 18 10 20 9.999 18 8 16 8 16 20 16 22 18 22 22 22 22 28 26 28 26 22 30 22 32 22 32 20 32 8"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

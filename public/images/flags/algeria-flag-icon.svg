@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>algeria-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1296.000000, -553.000000)">
+            <g id="algeria-flag-icon" transform="translate(1296.000000, 553.000000)">
+                <path d="M24,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L24,0 L24,36 Z" id="Path" fill="#0C7439"></path>
+                <rect id="Rectangle" fill="#E6E6E6" x="24" y="0" width="24" height="36"></rect>
+                <polygon id="Path" fill="#BD283B" points="31.199 16.665 29.971 14 28.741 16.665 25.941 16.665 27.988 18.782 27.205 21.959 29.971 20.388 32.737 21.959 31.954 18.782 34 16.665"></polygon>
+                <path d="M28,26 C23.582,26 20,22.418 20,18 C20,13.582 23.582,10 28,10 C28.864,10 29.682,10.172 30.461,10.426 C28.715,8.935 26.477,8 24,8 C18.478,8 14,12.478 14,18 C14,23.522 18.478,28 24,28 C26.477,28 28.715,27.065 30.462,25.574 C29.682,25.827 28.864,26 28,26 Z" id="Path" fill="#BD283B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

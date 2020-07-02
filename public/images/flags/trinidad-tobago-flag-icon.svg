@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="37px" viewBox="0 0 48 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>trinidad-tobago-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-43.000000, -197.000000)">
+            <g id="trinidad-tobago-flag-icon" transform="translate(43.000000, 197.000000)">
+                <path d="M48,34.834 C48,35.939 47.105,36.834 46,36.834 L2,36.834 C0.895,36.834 0,35.939 0,34.834 L0,2.834 C0,1.729 0.895,0.834 2,0.834 L46,0.834 C47.105,0.834 48,1.729 48,2.834 L48,34.834 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M46,1 L12,1 L48,25 L48,3 C48,1.896 47.105,1 46,1 Z" id="Path" fill="#D90E2B"></path>
+                <path d="M2,37 L36,37 L0,13 L0,35 C0,36.104 0.895,37 2,37 Z" id="Path" fill="#D90E2B"></path>
+                <path d="M43.211,37 L46,37 C47.105,37 48,36.104 48,35 L48,29.807 L4.789,1 L2,1 C0.895,1 0,1.896 0,3 L0,8.193 L43.211,37 Z" id="Path" fill="#1C1C1C"></path>
+            </g>
+        </g>
+    </g>
+</svg>

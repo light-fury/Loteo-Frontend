@@ -1,0 +1,25 @@
+@import "styles/colors";
+
+.authOverlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+
+    img {
+        margin-top: 60px;
+        width: 75px;
+    }
+
+    .loadingText {
+        margin-top: 40px;
+        width: 200px;
+        white-space: nowrap;
+        color: $dark;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,21 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.networksSidebar {
+    width: 40px;
+    background: transparentize($red, 0.4);
+    border-radius: 20px;
+    position: fixed;
+    right: 20px;
+    top: calc(50vh - 175px);
+    z-index: 500;
+    display: none;
+
+    @include media(md) {
+        display: flex;
+    }
+
+    a {
+        padding: 12px;
+    }
+}

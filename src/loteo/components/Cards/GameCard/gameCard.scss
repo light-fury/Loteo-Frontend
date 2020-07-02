@@ -1,0 +1,140 @@
+@import "styles/mixins";
+
+.gameCard {
+    margin: 10px;
+    max-width: 323px;
+    position: relative;
+
+    @include media($max: md) {
+        margin: 0;
+    }
+
+    &__card {
+        padding-top: 36px;
+        width: 281px;
+        height: 400px;
+        border: 6px solid #FECF0F;
+        box-sizing: border-box;
+        box-shadow: 0 0 16px;
+        border-radius: 8px;
+        text-align: center;
+        background-size: cover;
+        position: relative;
+
+        @include media($max: md) {
+            width: 323px;
+            margin: 0;
+            border-width: 0;
+        }
+
+        &__information {
+            color: white;
+            position: absolute;
+            bottom: 0;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            font-size: 12px;
+            cursor: pointer;
+    
+            i.fa {
+                display: inline-block;
+                border-radius: 50%;
+                border: 2px solid white;
+                padding: 0.3em 0.6em;
+            }
+        }
+
+        &--title {
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 34px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            text-shadow: 0 0 8px #FECF0F;
+            color: $yellow;
+            white-space: pre;
+    
+            &.lottery {
+                text-shadow: 0 0 8px #FECF0F;
+                color: $yellow;
+            }
+    
+            &.loteo {
+                font-size: 40px;
+                text-shadow: 0 0 12px #FFFFFF;
+                color: white;
+            }
+        }
+    
+        &--value {
+            margin-top: 16px;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: white;
+    
+            span {
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+    
+        &--time {
+            p {
+                margin-top: 18px;
+                margin-bottom: 12px;
+            }
+        }
+    
+        &--button {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            width: 70%;
+            height: 51px;
+            margin: 16px auto 10px auto;
+
+            .entry {
+                margin-top: 15px;
+                color: white;
+                font-weight: 900;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: left;
+                
+                .content {
+                    float: left;
+                    position: relative;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                }
+                
+                span {
+                    font-weight: normal;   
+                }
+            }
+        }
+    
+        &--additional {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            transform: translate(-50%, 0);
+            left: 50%;
+            color: white;
+            font-size: 12px;
+        }
+    }
+
+    &__winner {
+        margin: auto;
+        padding: 12px;
+        width: 80%;
+        height: 72px;
+        color: white;
+        background: transparentize(#FFFFFF, .9);
+        border-radius: 0 0 16px 16px;
+    }
+}

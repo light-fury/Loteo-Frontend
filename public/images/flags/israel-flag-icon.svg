@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>israel-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -778.000000)">
+            <g id="israel-flag-icon" transform="translate(814.000000, 778.000000)">
+                <path d="M0,34 C0,35.105 0.895,36 2,36 L46,36 C47.105,36 48,35.105 48,34 L48,32 L0,32 L0,34 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M46,0 L2,0 C0.895,0 0,0.895 0,2 L0,4 L48,4 L48,2 C48,0.895 47.105,0 46,0 Z" id="Path" fill="#E6E6E6"></path>
+                <rect id="Rectangle" fill="#0C72C4" x="0" y="4" width="48" height="8"></rect>
+                <rect id="Rectangle" fill="#0C72C4" x="0" y="24" width="48" height="8"></rect>
+                <rect id="Rectangle" fill="#E6E6E6" x="0" y="12" width="48" height="12"></rect>
+                <polygon id="Path" fill="#0C72C4" points="26.666 18 28 16 25.334 16 24 14 22.666 16 20 16 21.334 18 20 20 22.666 20 24 22 25.334 20 28 20"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

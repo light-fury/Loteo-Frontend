@@ -1,0 +1,49 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.page404Component {
+    background: url("/images/404/background.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .overlay {
+        background: url("/images/404/404-a.png") center / contain no-repeat;
+        height: 100vh;
+
+        .cardButton {
+            position: absolute;
+            left: 50%;
+            bottom: 5%;
+            transform: translate(-50%, 0);
+            width: 250px;
+            height: 72px;
+            margin: 16px auto 10px auto;
+            
+            @include media($max: md) {
+                width: 50%;
+                height: 51px;
+                bottom: 15%;
+            }
+
+            .mixButton--text {
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+
+        .topLabel {
+            position: absolute;
+            top: 10%;
+            width: 100%;
+            text-align: center;
+            padding: 0 10%;
+            font-size: 30px;
+            color: white;
+            
+            @include media(md) {
+                top: 80px;
+                font-size: 4vw;
+            }
+        }
+    }
+}

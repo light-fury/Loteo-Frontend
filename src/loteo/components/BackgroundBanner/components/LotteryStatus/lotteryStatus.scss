@@ -1,0 +1,68 @@
+@import "styles/mixins";
+
+.lotteryStatus {
+    &__category {
+        width: 100%;
+        color: white;
+        text-align: center;
+    
+        &--items {
+            width: 90%;
+            margin: 15px auto 5px;
+    
+            @include media(md) {
+                width: 70%;
+            }
+    
+            .item {
+                margin: 0 3px;
+                &--title {
+                    font-size: 12px;
+                    color: white;
+                    text-shadow: 0 4px 4px transparentize(white, 0.89);
+    
+                    @include media(md) {
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+    
+                &--status {
+                    font-size: 10px;
+                    color: transparentize(white, 0.4);
+    
+                    @include media(md) {
+                        font-size: 14px;
+                        line-height: 17px;
+                    }
+                }
+    
+                &--value {
+                    font-size: 14px;
+                    color: $yellow;
+    
+                    @include media(md) {
+                        font-size: 32px;
+                        line-height: 38px;
+
+                        &.small {
+                            font-size: 20px;
+                        }
+                    }
+
+                    @include media($max: sm) {
+                        font-size: 10px;
+                    }
+
+                    @media only screen and (max-width: 320px) {
+                        font-size: 8px;
+
+                        &.small {
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

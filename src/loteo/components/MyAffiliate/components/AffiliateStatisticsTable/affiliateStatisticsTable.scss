@@ -1,0 +1,184 @@
+@import "styles/colors";
+
+.affiliateStatisticsTable {
+    width: 100%;
+    margin-top: 50px;
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 30px 10px $greyBright;
+
+    &__levels {
+        padding: 12px 24px;
+        background: $greyBright;
+
+        div {
+            display: flex;
+            align-items: center;
+        }
+
+        &__items {
+            margin-top: 8px;
+            color: $dark;
+            font-size: 12px;
+
+            > :not(:last-child) {
+                margin-right: 24px;
+            }
+
+            small {
+                margin: 0 6px 0 2px;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    &__notPremium {
+        background: $greyBright;
+
+        &__text {
+            margin-left: 16px;
+            color: $grey2;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+
+            strong {
+                font-weight: 900;
+            }
+        }
+    }
+
+    &__profit {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        div {
+            margin-left: 12px;
+            padding: 10px 24px;
+            background: white;
+            border-radius: 4px;
+            color: $dark;
+            font-weight: 900;
+
+            &:not(:last-of-type) {
+                margin-right: 40px;
+            }
+        }
+    }
+
+    .star {
+        width: 16px;
+        height: 16px;
+        margin: 0 1px;
+
+        &.big {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+        }
+
+        &.active {
+            filter: drop-shadow(0 0 3px $yellow);
+        }
+
+        &.inactive {
+            filter: grayscale(1);
+        }
+    }
+
+    table {
+        min-width: 100%;
+        overflow: hidden;
+        border-radius: 8px;
+        line-height: 18px;
+        border-collapse: collapse;
+        border-spacing: 0;
+        table-layout: fixed;
+
+        thead {
+            background: $greyBright;
+
+            th {
+                padding: 20px 24px;
+                white-space: nowrap;
+
+                &:first-of-type {
+                    color: $dark;
+                    font-size: 16px;
+                    font-weight: 900;
+                    text-align: left;
+                }
+
+                &:not(:first-of-type) {
+                    color: $grey1;
+                    font-size: 12px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        tbody {
+            background: white;
+
+            tr {
+                &:not(:last-of-type) {
+                    border-bottom: 1px solid $greyBright;
+                }
+
+                td {
+                    padding: 20px 24px;
+
+                    &:first-of-type {
+                        color: $red;
+                        font-size: 16px;
+                        font-weight: 900;
+                    }
+
+                    &:not(:first-of-type) {
+                        border-left: 1px solid $greyBright;
+                        color: $dark;
+                        font-size: 24px;
+                        font-weight: 900;
+                        text-align: center;
+                    }
+
+                    span {
+                        margin: 1px 8px -1px 8px;
+                        color: $dark;
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+
+                        &.extraMarginRight {
+                            margin-right: 16px;
+                        }
+
+                        &.grey {
+                            color: $grey1;
+                        }
+                    }
+                }
+            }
+        }
+
+        tfoot {
+            background: $red;
+
+            td {
+                padding: 12px 14px;
+                color: white;
+                font-size: 14px;
+                font-weight: 400;
+
+                &:first-of-type {
+                    padding: 20px 24px;
+                    font-size: 16px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

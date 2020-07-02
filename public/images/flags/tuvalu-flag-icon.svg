@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>tuvalu-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -125.000000)">
+            <g id="tuvalu-flag-icon" transform="translate(718.000000, 125.000000)">
+                <path d="M46,0 L2,0 C0.8954305,0 1.3527075e-16,0.8954305 0,2 L0,34 C1.3527075e-16,35.1045695 0.8954305,36 2,36 L46,36 C47.1045695,36 48,35.1045695 48,34 L48,2 C48,0.8954305 47.1045695,0 46,0 Z" id="Path" fill="#4BA7E3"></path>
+                <path d="M2,0 L24,0 L24,18 L0,18 L0,2 C-1.3527075e-16,0.8954305 0.8954305,0 2,0 Z" id="Path" fill="#00017A"></path>
+                <polygon id="Path" fill="#FF0000" points="19 13 16 13 16 13.25 22.333 18 24 18 24 16.75"></polygon>
+                <path d="M0.12,1.34 L5,5 L8,5 L8,4.75 L1.706,0.03 C0.975230373,0.138590584 0.364672302,0.642897692 0.12,1.34 Z" id="Path" fill="#FF0000"></path>
+                <polygon id="Path" fill="#FF0000" points="24 0 22.334 0 16 4.75 16 5 19.001 5 24 1.25"></polygon>
+                <polygon id="Path" fill="#FF0000" points="0 16.75 0 18 1.667 18 8 13.25 8 13 5 13"></polygon>
+                <polygon id="Path" fill="#FF0000" points="24 7 14 7 14 0 10 0 10 7 0 7 0 11 10 11 10 18 14 18 14 11 24 11"></polygon>
+                <polygon id="Path" fill="#F6D031" points="34.018 15.344 32.332 15.344 31.624 13.807 30.916 15.344 29.231 15.344 30.462 16.614 30.007 18.464 31.624 17.546 33.241 18.464 32.786 16.614"></polygon>
+                <polygon id="Path" fill="#F6D031" points="40 11.537 38.314 11.537 37.606 10 36.9 11.537 35.213 11.537 36.444 12.807 35.989 14.657 37.606 13.739 39.223 14.657 38.768 12.807"></polygon>
+                <polygon id="Path" fill="#F6D031" points="45.018 6.03 43.332 6.03 42.624 4.493 41.916 6.03 40.231 6.03 41.462 7.3 41.007 9.15 42.624 8.232 44.241 9.15 43.786 7.3"></polygon>
+                <polygon id="Path" fill="#F6D031" points="33 28.851 31.314 28.851 30.606 27.314 29.9 28.851 28.213 28.851 29.444 30.121 28.989 31.971 30.606 31.053 32.223 31.971 31.768 30.121"></polygon>
+                <polygon id="Path" fill="#F6D031" points="38.982 25.044 37.3 25.044 36.592 23.507 35.884 25.044 34.2 25.044 35.431 26.314 34.976 28.164 36.593 27.246 38.21 28.164 37.755 26.314"></polygon>
+                <polygon id="Path" fill="#F6D031" points="44 19.537 42.314 19.537 41.606 18 40.9 19.537 39.213 19.537 40.444 20.807 39.989 22.657 41.606 21.739 43.223 22.657 42.768 20.807"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

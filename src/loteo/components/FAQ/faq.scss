@@ -1,0 +1,67 @@
+@import "styles/colors";
+
+.faq {
+    h3 {
+        margin-bottom: 24px;
+
+        &:not(:first-of-type) {
+            margin-top: 64px;
+        }
+    }
+
+    .questions {
+        margin-top: 40px;
+    }
+
+    .question {
+        position: relative;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
+        padding: 8px 16px;
+        cursor: pointer;
+
+        .expandCollapseButton {
+            position: absolute;
+            top: 14px;
+            right: 16px;
+            padding: 4px;
+        }
+
+        .text {
+            color: $grey1;
+            font-size: 16px;
+            padding-right: 24px;
+            line-height: 29px;
+        }
+
+        .answer {
+            overflow: hidden;
+            max-height: 0;
+            margin: 0;
+        }
+
+        &.expanded {
+            padding: 24px;
+
+            .expandCollapseButton {
+                transform: rotate(180deg);
+            }
+
+            .text {
+                color: $dark;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .answer {
+                margin-top: 12px;
+                max-height: none;
+            }
+        }
+
+        &:not(:first-of-type) {
+            margin-top: 16px;
+        }
+    }
+}

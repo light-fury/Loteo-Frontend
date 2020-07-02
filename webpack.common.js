@@ -1,13 +1,16 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WorkboxPlugin = require("workbox-webpack-plugin");
 const {TsConfigPathsPlugin} = require("awesome-typescript-loader");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".json"],
-        plugins: [
-            new TsConfigPathsPlugin()
-        ]
+        plugins: [new TsConfigPathsPlugin()],
+        alias: {
+            "react-spring$": "react-spring/web.cjs",
+            "react-spring/renderprops$": "react-spring/renderprops.cjs"
+        }
     },
     module: {
         rules: [
@@ -18,17 +21,9 @@ module.exports = {
             }
         ]
     },
+    cache: true,
     optimization: {
-        splitChunks: {
-            cacheGroups: {
-                commons: {
-                    test: /[\\/]node_modules[\\/]/,
-                    name: "vendors",
-                    chunks: "all"
-                }
-            }
-        },
-        minimizer: []
+        minimizer: [new TerserPlugin()]
     },
     plugins: [
         new HtmlWebpackPlugin({

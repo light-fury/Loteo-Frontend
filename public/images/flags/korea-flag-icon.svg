@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>korea-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1007.000000, -707.000000)">
+            <g id="korea-flag-icon" transform="translate(1007.000000, 707.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#E6E6E6"></path>
+                <rect id="Rectangle" fill="#000000" transform="translate(11.001200, 10.000700) rotate(-53.174791) translate(-11.001200, -10.000700) " x="6.00099873" y="9.00015938" width="10.000403" height="2.00108065"></rect>
+                <rect id="Rectangle" fill="#000000" transform="translate(37.000400, 9.999700) rotate(-36.869898) translate(-37.000400, -9.999700) " x="35.9999" y="4.9997" width="2.001" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" transform="translate(11.000400, 25.999700) rotate(-36.869898) translate(-11.000400, -25.999700) " x="9.9999" y="20.9997" width="2.001" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" transform="translate(37.002500, 26.000800) rotate(-53.174791) translate(-37.002500, -26.000800) " x="32.0022987" y="25.0002594" width="10.000403" height="2.00108065"></rect>
+                <path d="M34,18 C34,15.238 31.762,13 29,13 C26.238,13 24,15.238 24,18 C24,20.762 21.762,23 19,23 C16.584,23 14.568,21.287 14.102,19.008 C14.613,24.051 18.822,28 24,28 C29.178,28 33.387,24.051 33.898,19.008 C33.965,18.682 34,18.346 34,18 Z" id="Path" fill="#053676"></path>
+                <path d="M24,8 C18.822,8 14.613,11.949 14.102,16.992 C14.035,17.318 14,17.654 14,18 C14,20.762 16.238,23 19,23 C21.762,23 24,20.762 24,18 C24,15.238 26.238,13 29,13 C31.416,13 33.432,14.713 33.898,16.992 C33.387,11.949 29.178,8 24,8 Z" id="Path" fill="#BA0831"></path>
+            </g>
+        </g>
+    </g>
+</svg>

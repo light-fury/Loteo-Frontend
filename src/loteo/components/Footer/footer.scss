@@ -1,23 +1,194 @@
 @import "styles/colors";
+@import "styles/mixins";
 
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+#footer {
+    width: 100%;
+    padding: 72px 24px 24px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparentize(#1d0506, 0) 5%, transparentize(#1d0506, .3) 20%, transparentize(#1d0506, .3) 60%, transparentize(#1d0506, .5) 80%, transparentize(#1d0506, 0) 100%), url("/images/home/content-bg-mobile1.png");
+    background-position: left 0 top 1199px;
+    background-size: cover;
+    position: relative;
+
+    @include media(md) {
+        padding: 160px 40px 40px;
+    }
+
+    .contactSubscribe {
+        @include centerMax(1600px);
+
+        display: flex;
+        flex-direction: column;
+
+        @include media(md) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .footerSection {
+            .title {
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            &.contactUs {
+                margin: 56px 20px 0 20px;
+                order: 2;
+
+                @include media(md) {
+                    margin-top: 0;
+                    order: initial;
+                }
+            }
+
+            .addressEmail {
+                .address {
+                    color: white;
+                    opacity: 0.6;
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-bottom: 28px;
+                }
+
+                .emailContact {
+                    color: $pink;
+                    font-size: 14px;
+                    line-height: 24px;
+
+                    a {
+                        color: white;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            &.subscribe {
+                max-width: 400px;
+                margin: 0 20px;
+                .subscribeCta {
+                    color: white;
+                    opacity: 0.6;
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-bottom: 28px;
+                }
+
+                .subscribeForm {
+                    width: 100%;
+                    height: auto;
+
+                    @include media(md) {
+                        height: 48px;
+                    }
+
+                    input {
+                        padding: 15px;
+
+                        @include media(md) {
+                            padding: 0 130px 0 16px;
+                        }
+                    }
+                }
+            }
+
+            &.footer-affiliate {
+                display: none;
+
+                @include media(md) {
+                    display: block;
+                }
+
+                .title {
+                    margin-bottom: 26px;
+                }
+
+                .footer-affiliate-button {
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+            }
+
+            &.footer-feedback {
+                margin: 50px 20px 0 20px;
+                display: block;
+                order: 1;
+
+                @include media(md) {
+                    margin: 0 20px;
+                    display: block;
+                    order: 1;
+                }
+
+                .title {
+                    margin-bottom: 26px;
+                }
+
+                .sendFeedback {
+                    color: white;
+                    opacity: 0.6;
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-bottom: 28px;
+                }
+
+                .footer-feedback-button {
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+            }
+        }
+    }
+
+    .networks {
+        margin-top: 24px;
+        justify-content: flex-start;
+    }
 
     .copyrightTerms {
+        margin-top: 160px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-        > a {
-            margin-left: 3vw;
+        @include media(md) {
+            margin-top: 100px;
+            flex-direction: row;
+        }
+
+        .links {
+            margin-bottom: 16px;
+            margin-left: 0;
+            display: flex;
+            align-items: center;
+
+            @include media(md) {
+                margin-bottom: 0;
+                margin-left: 24px;
+            }
+
+            a {
+                &:not(:first-of-type) {
+                    margin-left: 16px;
+                }
+            }
+        }
+
+        .text {
+            order: 1;
+
+            @include media(md) {
+                order: initial;
+            }
         }
 
         .text,
         .link {
             font-size: 12px;
             opacity: 0.8;
-            color: $grey1;
+            color: white;
         }
 
         .link {
@@ -26,47 +197,49 @@
         }
     }
 
-    @media screen and (max-width: 1200px) {
-        left: 32px;
-        right: 32px;
+    .moon {
+        position: absolute;
+        width: 1000px;
+        height: 130px;
+        object-position: 100% 0;
+        bottom: 0;
+        left: 50%;
+        object-fit: cover;
+        transform: translateX(-50%);
 
-        .copyrightTerms {
-            margin-top: 24px;
-            flex-basis: 100%;
-            order: 3;
-            justify-content: center;
-        }
-
-        .networks {
-            flex-basis: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-        }
-
-        .subscribeForm {
-            flex-basis: 50%;
-            justify-content: flex-end;
+        @include media(md) {
+            width: 100%;
         }
     }
 
-    @media screen and (max-width: 800px) {
-        justify-content: center;
+    .certificates {
+        @include centerMax;
 
-        .networks {
-            margin-top: 24px;
-            justify-content: center;
-            flex-basis: 100%;
+        &::before {
+            content: " ";
+            width: 120px;
+            height: 1px;
+            margin: 28px 0;
+            background: linear-gradient(
+                to right,
+                transparentize(white, 0.8) 0%,
+                transparentize(white, 0.8) 60%,
+                transparent
+            );
+            display: block;
         }
 
-        .subscribeForm {
-            margin-top: 24px;
-            justify-content: center;
-            flex-basis: 100%;
+        &__inner {
+            display: flex;
+
+            > :not(:last-child) {
+                margin-right: 32px;
+            }
         }
 
-        .copyrightTerms {
-            margin-top: 60px;
+        img {
+            max-width: 65px;
+            max-height: 45px;
         }
     }
 }

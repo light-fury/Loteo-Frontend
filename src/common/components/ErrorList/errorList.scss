@@ -1,0 +1,17 @@
+@import "styles/colors";
+
+.errorList {
+    margin-top: 32px;
+    position: absolute;
+
+    .error {
+        color: $red;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 8px;
+
+        &:not(:first-of-type) {
+            margin-top: 8px;
+        }
+    }
+}

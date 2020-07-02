@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>moldova-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-621.000000, -553.000000)">
+            <g id="moldova-flag-icon" transform="translate(621.000000, 553.000000)">
+                <rect id="Rectangle" fill="#F5E303" x="16" y="0" width="16" height="36"></rect>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L32,36 L32,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#EE1E2E"></path>
+                <path d="M16,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L16,0 L16,36 Z" id="Path" fill="#2B3384"></path>
+                <path d="M30,14 L26,14 L26,12 C26,10.896 25.105,10 24,10 L22,10 C20.895,10 20,10.896 20,12 L22,12 L22,14 L18,14 L18,20.93 C18,21.599 18.334,22.223 18.891,22.594 L24,26 L29.109,22.594 C29.666,22.223 30,21.599 30,20.93 L30,14 Z" id="Path" fill="#685A11"></path>
+            </g>
+        </g>
+    </g>
+</svg>

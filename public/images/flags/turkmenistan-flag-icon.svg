@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>turkmenistan-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -125.000000)">
+            <g id="turkmenistan-flag-icon" transform="translate(814.000000, 125.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L18,36 L18,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#31AD68"></path>
+                <path d="M18,0 L2,0 C0.895,0 0,0.895 0,2 L0,34 C0,35.105 0.895,36 2,36 L18,36 L18,0 Z" id="Path" fill="#31AD68"></path>
+                <path d="M34,10 C34,7.391 32.326,5.193 30,4.367 C30.629,4.145 31.295,4 32,4 C35.314,4 38,6.686 38,10 C38,13.314 35.314,16 32,16 C31.295,16 30.629,15.855 30,15.633 C32.326,14.807 34,12.609 34,10 Z" id="Path" fill="#FFFFFF"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="24" y="6" width="2" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="28" y="6" width="2" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="28" y="10" width="2" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="24" y="10" width="2" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="26" y="8" width="2" height="2"></rect>
+                <path d="M10,0 L10,36 L18,36 L18,0 L10,0 Z M16,32 L12,32 L12,28 L16,28 L16,32 Z M16,26 L12,26 L12,22 L16,22 L16,26 Z M16,20 L12,20 L12,16 L16,16 L16,20 Z M16,14 L12,14 L12,10 L16,10 L16,14 Z M16,8 L12,8 L12,4 L16,4 L16,8 Z" id="Shape" fill="#A43945" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

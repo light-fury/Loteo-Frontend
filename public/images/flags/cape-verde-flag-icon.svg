@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>cape-verde-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1103.000000, -707.000000)">
+            <g id="cape-verde-flag-icon" transform="translate(1103.000000, 707.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,28 L48,28 L48,34 Z" id="Path" fill="#2E3094"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="26" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#D1142A" x="0" y="24" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="22" width="48" height="2"></rect>
+                <path d="M48,22 L0,22 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,22 Z" id="Path" fill="#2E3094"></path>
+                <polygon id="Path" fill="#E8D313" points="16.145 15.299 14.684 15.299 14.073 13.969 13.46 15.299 12 15.299 13.066 16.399 12.672 18 14.072 17.205 15.472 18 15.078 16.398"></polygon>
+                <polygon id="Path" fill="#E8D313" points="16.145 29.33 14.684 29.33 14.072 28 13.459 29.33 12 29.33 13.066 30.43 12.671 32.032 14.071 31.237 15.471 32.032 15.077 30.43"></polygon>
+                <polygon id="Path" fill="#E8D313" points="20.912 18.9 19.861 17.884 20.347 16.501 18.98 17.032 17.929 16.02 17.933 17.551 16.538 18.43 18.097 18.828 18.552 20.375 19.38 18.947"></polygon>
+                <polygon id="Path" fill="#E8D313" points="11.166 28.992 10.115 27.978 10.599 26.595 9.234 27.126 8.183 26.112 8.187 27.643 6.79 28.522 8.351 28.922 8.804 30.467 9.632 29.039"></polygon>
+                <polygon id="Path" fill="#E8D313" points="21.84 24.803 21.789 23.342 23.102 22.686 21.748 22.118 21.695 20.659 20.632 21.764 19.019 21.428 19.865 22.795 19.117 24.225 20.705 23.774"></polygon>
+                <polygon id="Path" fill="#E8D313" points="7.82 25.291 7.767 23.832 9.078 23.174 7.726 22.608 7.673 21.149 6.612 22.253 4.995 21.917 5.843 23.288 5.093 24.714 6.681 24.263"></polygon>
+                <polygon id="Path" fill="#E8D313" points="18.406 29.693 19.387 28.605 20.785 29.045 20.207 27.697 21.184 26.611 19.651 26.668 18.723 25.307 18.383 26.877 16.852 27.385 18.305 28.162"></polygon>
+                <polygon id="Path" fill="#E8D313" points="7.984 20.305 8.959 19.219 10.359 19.654 9.781 18.31 10.754 17.224 9.227 17.279 8.297 15.916 7.953 17.49 6.424 17.994 7.879 18.773"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

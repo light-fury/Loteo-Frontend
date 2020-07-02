@@ -1,0 +1,101 @@
+@import "styles/mixins";
+
+.moFVolume {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    overflow: hidden;
+
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.8;
+        background: darken($brown, 10);
+        animation: fadeIn 0.2s;
+        overflow: hidden;
+    }
+
+    &__section {
+        margin: 0 10px;
+        max-width: 676px;
+        min-height: 700px;
+        width: 100%;
+        background-color: white;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        z-index: 1;
+        position: relative;
+
+        &__close {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+
+            i {
+                color: $greyBorder;
+                font-size: 24px;
+            }
+        }
+
+        &__title {
+            margin-top: 60px;
+            padding: 0 30px;
+            font-size: 32px;
+            font-weight: bold;
+            color: $red;
+        }
+
+        &__header {
+            margin-top: 20px;
+            background-color: $greyBright;
+            font-size: 12px;
+            color: $grey1;
+            padding: 10px;
+        }
+
+        &__table {
+            color: $dark;
+            padding: 10px;
+            border-bottom: 1px solid $greyBright;
+            font-size: 14px;
+        }
+
+        .pagination {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            &__arrowButton {
+                width: 36px;
+                height: 36px;
+                padding: 0;
+                background-color: $greyBright;
+    
+                img {
+                    width: 10px;
+                    height: 10px;
+                    margin: 0;
+                }
+    
+                &.left {
+                    transform: rotate(180deg);
+                }
+            }
+    
+            span {
+                padding: 0 20px;
+            }
+        }
+    }
+}

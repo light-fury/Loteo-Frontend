@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>pakistan-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-139.000000, -478.000000)">
+            <g id="pakistan-flag-icon" transform="translate(139.000000, 478.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L16,36 L16,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#05401D"></path>
+                <polygon id="Path" fill="#FFFFFF" points="42 16.684 39.053 16.684 37.816 14 36.578 16.684 33.633 16.684 35.785 18.911 34.988 22.141 37.816 20.536 40.644 22.141 39.847 18.911"></polygon>
+                <path d="M34,24 C30.688,24 28,21.313 28,18 C28,14.688 30.688,12 34,12 C34.52,12 35.016,12.086 35.496,12.211 C34.063,10.85 32.135,10 30,10 C25.582,10 22,13.582 22,18 C22,22.418 25.582,26 30,26 C32.135,26 34.063,25.15 35.496,23.789 C35.016,23.914 34.52,24 34,24 Z" id="Path" fill="#FFFFFF"></path>
+                <path d="M16,0 L2,0 C0.895,0 0,0.895 0,2 L0,34 C0,35.105 0.895,36 2,36 L16,36 L16,0 Z" id="Path" fill="#E6E6E6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

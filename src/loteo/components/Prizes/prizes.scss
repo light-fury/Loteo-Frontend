@@ -1,0 +1,58 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.prizesComponent {
+    margin-bottom: 40px;
+
+    .bigScreen {
+        display: none;
+
+        @include media(md) {
+            display: block;
+        }
+    }
+
+    .smallScreen {
+        display: block;
+
+        @include media(md) {
+            display: none;
+        }
+    }
+
+    .prize {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 32px;
+
+        .percentage {
+            font-size: 32px;
+            color: $red;
+            font-weight: 900;
+
+            &::after {
+                content: "%";
+                margin-left: 3px;
+                font-size: 20px;
+            }
+        }
+
+        .prizeInfo {
+            margin-top: 2px;
+
+            .target {
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            .details {
+                margin-top: 8px;
+                color: $grey1;
+                font-size: 12px;
+                line-height: 18px;
+                max-width: 410px;
+            }
+        }
+    }
+}

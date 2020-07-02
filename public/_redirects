@@ -1,0 +1,4 @@
+/404             /404.html                                   404
+/prod-api/*      https://api.playloteo.com/api/:splat        200
+/api/*           https://unibro.playloteo.com/api/:splat     200
+/*               /index.html                                 200

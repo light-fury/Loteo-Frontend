@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>dominican-republic-na-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-139.000000, -1044.000000)">
+            <g id="dominican-republic-na-flag-icon" transform="translate(139.000000, 1044.000000)">
+                <path d="M20,14 L0,14 L0,2 C0,0.895 0.895,0 2,0 L20,0 L20,14 Z" id="Path" fill="#002F68"></path>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L28,36 L28,22 L48,22 L48,34 Z" id="Path" fill="#002F68"></path>
+                <path d="M0,34 C0,35.105 0.895,36 2,36 L20,36 L20,22 L0,22 L0,34 Z" id="Path" fill="#CE1127"></path>
+                <path d="M28,14 L48,14 L48,2 C48,0.895 47.105,0 46,0 L28,0 L28,14 Z" id="Path" fill="#CE1127"></path>
+                <polygon id="Path" fill="#E6E6E6" points="48 14 28 14 28 0 20 0 20 14 0 14 0 22 20 22 20 36 28 36 28 22 48 22"></polygon>
+                <path d="M24,14 C21.791,14 20,15.791 20,18 C20,20.209 21.791,22 24,22 C26.209,22 28,20.209 28,18 C28,15.791 26.209,14 24,14 Z M24,20 C22.895,20 22,19.105 22,18 C22,16.895 22.895,16 24,16 C25.105,16 26,16.895 26,18 C26,19.105 25.105,20 24,20 Z" id="Shape" fill="#688671" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

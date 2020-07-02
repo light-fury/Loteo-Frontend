@@ -1,0 +1,121 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.newsBanner {
+    @include centerMax(1680px);
+
+    position: relative;
+    z-index: 1;
+
+    @include media(md) {
+        padding: 16px 40px;
+    }
+
+    &.noPaddingMobile {
+        @include media($max: md) {
+            padding: 0;
+
+            .newsContainer {
+                padding: 0;
+            }
+        }
+    }
+
+    .newsContainer {
+        padding: 12px 0;
+        overflow: hidden;
+        border-radius: 8px;
+        position: relative;
+        display: flex;
+
+        &__title {
+            padding: 3px 0;
+            color: $yellow;
+            font-size: 14px;
+            font-weight: 900;
+            text-transform: uppercase;
+            white-space: nowrap;
+            display: none;
+
+            @include media(md) {
+                display: flex;
+            }
+
+            &::after {
+                content: " ";
+                width: 2px;
+                height: 24px;
+                margin-left: 20px;
+                background: transparentize(white, 0.8);
+                display: block;
+            }
+        }
+
+        &__inner {
+            min-width: 100%;
+            overflow: hidden;
+
+            &__loading {
+                padding-left: 16px;
+                font-size: 14px;
+                font-weight: 700;
+                color: white;
+
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        &.withBackground {
+            @include media(md) {
+                background: transparentize($dark, 0.8);
+                box-shadow: 0 7px 16px 0 transparentize(black, 0.88);
+            }
+
+            .newsContainer__title {
+                padding: 3px 0 3px 18px;
+            }
+        }
+
+        .news {
+            animation: moveLeft 5s linear infinite;
+
+            .newsItem {
+                display: flex !important;
+                align-items: center;
+                outline: none !important;
+                white-space: nowrap;
+                font-size: 14px;
+                padding-left: 16px;
+                font-weight: 700;
+                color: white;
+                -webkit-text-size-adjust: 100%;
+                text-transform: uppercase;
+
+                a:hover {
+                    text-decoration: underline;
+                }
+
+                img {
+                    background: radial-gradient(transparentize($yellow, 0.4), transparent);
+                }
+            }
+        }
+
+        .text {
+            margin-right: 16px;
+            color: white;
+        }
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}

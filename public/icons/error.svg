@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>08062A57-201C-44DD-8ECA-DA28E00F3D2D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0122137405 0.138422392 79.8615776 0.138422392 79.8615776 80 0.0122137405 80"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Play---negative-use-case-" transform="translate(-680.000000, -255.000000)">
+            <g id="Group-2" transform="translate(520.000000, 199.000000)">
+                <g id="alert-element" transform="translate(160.000000, 56.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <g id="Group-5" mask="url(#mask-2)">
+                            <g transform="translate(0.000000, 0.138422)">
+                                <path d="M39.9307888,7.10542736e-14 C17.913486,7.10542736e-14 -4.26325641e-14,17.913486 -4.26325641e-14,39.9307888 C-4.26325641e-14,61.9480916 17.913486,79.8615776 39.9307888,79.8615776 C61.9480916,79.8615776 79.8615776,61.9480916 79.8615776,39.9307888 C79.8615776,17.913486 61.9480916,7.10542736e-14 39.9307888,7.10542736e-14 Z M39.9307888,75.8715522 C20.1121628,75.8715522 3.99022901,59.7496183 3.99022901,39.9307888 C3.99022901,20.1121628 20.1121628,3.99022901 39.9307888,3.99022901 C59.7496183,3.99022901 75.8715522,20.1121628 75.8715522,39.9307888 C75.8715522,59.7496183 59.7496183,75.8715522 39.9307888,75.8715522 Z" id="Fill-1" fill="#DA2814"></path>
+                                <g id="Group-4" stroke-width="1" fill="none" transform="translate(37.000000, 24.861578)">
+                                    <rect id="Rectangle" fill="#DB2023" fill-rule="nonzero" x="0" y="0" width="4" height="22" rx="2"></rect>
+                                    <rect id="Rectangle-Copy" fill="#DB2023" fill-rule="nonzero" x="0" y="26" width="4" height="4" rx="2"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>seychelles-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-43.000000, -336.000000)">
+            <g id="seychelles-flag-icon" transform="translate(43.000000, 336.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L48,24 L48,34 Z" id="Path" fill="#3C9038"></path>
+                <polygon id="Path" fill="#E6E6E6" points="0 34 48 24 48 14"></polygon>
+                <polygon id="Path" fill="#F8D406" points="0 34 42 0 22 0"></polygon>
+                <path d="M0,34 L22,0 L2,0 C0.895,0 0,0.895 0,2 L0,34 Z" id="Path" fill="#1C437A"></path>
+                <path d="M0,34 L48,14" id="Path" fill="#F7931E"></path>
+                <path d="M48,2 C48,0.895 47.105,0 46,0 L42,0 L0,34 L48,14 L48,2 Z" id="Path" fill="#D12325"></path>
+            </g>
+        </g>
+    </g>
+</svg>

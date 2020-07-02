@@ -1,0 +1,132 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    overflow: hidden;
+
+    .dialogOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.8;
+        background: darken($brown, 10);
+        animation: fadeIn 0.2s;
+    }
+
+    .dialogScrollContainer {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding: 16px;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        @include media(md) {
+            padding: 40px;
+        }
+    }
+
+    .dialogArea {
+        max-width: 100%;
+        width: 800px;
+        position: relative;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        background: white;
+        z-index: 10001;
+        padding: 16px 0;
+        box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        animation: showDialog 0.2s;
+
+        @include media(md) {
+            padding: 40px 0;
+        }
+
+        .dialogHeader {
+            margin-bottom: 24px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+
+            @include media(md) {
+                margin-bottom: 40px;
+                padding: 0 40px;
+                align-items: flex-start;
+            }
+
+            .title {
+                font-size: 24px;
+                font-weight: 900;
+                color: $red;
+
+                @include media(md) {
+                    font-size: 32px;
+                }
+            }
+
+            .subTitle {
+                margin-top: 8px;
+                font-size: 14px;
+                color: $grey1;
+            }
+
+            .closeButton {
+                cursor: pointer;
+                width: 18px;
+                height: 18px;
+                filter: brightness(60%);
+            }
+        }
+
+        .dialogContent {
+            flex-grow: 1;
+            padding: 0 16px;
+
+            @include media(md) {
+                padding: 0 40px;
+            }
+        }
+    }
+}
+
+@keyframes showDialog {
+    0% {
+        opacity: 0;
+        transform: translate3d(-50%, -100vh, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}

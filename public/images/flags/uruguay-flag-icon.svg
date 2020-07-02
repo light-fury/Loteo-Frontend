@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>uruguay-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-236.000000, -125.000000)">
+            <g id="uruguay-flag-icon" transform="translate(236.000000, 125.000000)">
+                <path d="M48,2 C48,0.895 47.105,0 46,0 L18,0 L18,20 L0,20 L0,34 C0,35.105 0.895,36 2,36 L46,36 C47.105,36 48,35.105 48,34 L48,2 Z" id="Path" fill="#E6E6E6"></path>
+                <rect id="Rectangle" fill="#0437AC" x="18" y="4" width="30" height="4"></rect>
+                <rect id="Rectangle" fill="#0437AC" x="18" y="12" width="30" height="4"></rect>
+                <polygon id="Path" fill="#0437AC" points="0 20 0 24 48 24 48 20 20 20"></polygon>
+                <rect id="Rectangle" fill="#0437AC" x="0" y="28" width="48" height="4"></rect>
+                <path d="M18,20 L0,20 L0,2 C0,0.895 0.895,0 2,0 L18,0 L18,20 Z" id="Path" fill="#E6E6E6"></path>
+                <circle id="Oval" fill="#B09405" cx="10" cy="10" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

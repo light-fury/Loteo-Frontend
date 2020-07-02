@@ -1,0 +1,32 @@
+@import "styles/colors";
+
+.unlockButton {
+    width: 100px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color: $grey2;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    &:focus {
+        outline: none;
+    }
+
+    &.hovered {
+        background: red;
+        box-shadow: 0 0 8px 0 transparentize($red, 0.5);
+    }
+
+    &.clickable {
+        cursor: pointer;
+    }
+
+    img {
+        height: 14px;
+        margin: 0 8px 1px 0;
+    }
+}

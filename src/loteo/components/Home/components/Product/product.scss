@@ -1,0 +1,114 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.product {
+    width: 100%;
+    margin-bottom: 70px;
+    padding: 25px 25px 80px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 transparentize(black, 0.85);
+    position: relative;
+
+    @include media(lg) {
+        margin-bottom: 0;
+    }
+
+    &.yellow,
+    &.yellow span {
+        color: $yellow;
+
+        .product__button {
+            background: radial-gradient(ellipse at top center, $lightOrange 0%, $yellow 55%), $yellow;
+            background-repeat: no-repeat;
+            box-shadow: 0 4px 8px 0 transparentize($yellow, 0.5);
+        }
+    }
+
+    &.red,
+    &.red span {
+        color: $red;
+
+        .product__button {
+            background: $red;
+            box-shadow: 0 4px 8px 0 transparentize($red, 0.5);
+        }
+    }
+
+    &.orange,
+    &.orange span {
+        color: $orange;
+
+        .product__button {
+            background: $orange;
+            box-shadow: 0 4px 8px 0 transparentize($orange, 0.5);
+        }
+    }
+
+    &__logo {
+        max-width: 90px;
+        max-height: 100px;
+        transform: translateY(-50%);
+        position: absolute;
+        top: 0;
+        right: 25px;
+    }
+
+    &__title {
+        margin-bottom: 4px;
+        color: currentColor;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 24px;
+
+        img {
+            margin-left: 8px;
+            opacity: 0.5;
+            filter: grayscale(1);
+            cursor: pointer;
+        }
+    }
+
+    &__text {
+        color: $dark;
+        font-weight: 900;
+        line-height: 24px;
+    }
+
+    &__amountLeft {
+        margin-top: 8px;
+
+        &__text {
+            color: $dark;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+
+            strong {
+                font-weight: 900;
+            }
+        }
+
+        &__progress {
+            width: 100%;
+            margin-top: 8px;
+            border-radius: 4px;
+            background-color: $greyBright;
+
+            &__inner {
+                height: 4px;
+                margin-top: 8px;
+                background: currentColor;
+                border-radius: 4px;
+                box-shadow: 0 0 6px 0 currentColor;
+            }
+        }
+    }
+
+    &__button {
+        width: calc(100% - 50px);
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+    }
+}

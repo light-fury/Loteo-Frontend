@@ -1,0 +1,62 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.bonusLabel {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media(md) {
+        margin-top: 60px;
+        padding-top: 20px;
+    }
+
+    &.yellow {
+        span {
+            background: linear-gradient(to bottom, lighten($orange, 15%), $yellow);
+            color: $brown;
+            box-shadow: 0 2px 10px 0 transparentize($yellow, 0.6);
+        }
+
+        strong {
+            color: $dark;
+        }
+    }
+
+    &.red {
+        span {
+            background: $red;
+            color: white;
+        }
+
+        strong {
+            color: $red;
+        }
+    }
+
+    span {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    strong {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    div {
+        margin-top: 8px;
+        color: $grey1;
+        line-height: 29px;
+        text-align: center;
+    }
+}

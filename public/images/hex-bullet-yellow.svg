@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="27px" viewBox="0 0 28 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>61BAB22E-1586-4486-92D6-68A45790CADB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="171.059626%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.888889),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#FECF0F" offset="0%"></stop>
+            <stop stop-color="#FE9A0F" offset="100%"></stop>
+        </radialGradient>
+        <path d="M177.17147,20.8506718 L180.899711,19.0631092 C180.98286,19.0232419 181.079666,19.023539 181.162569,19.0639159 L184.830199,20.8501866 C184.934082,20.9007815 185,21.0062062 185,21.1217551 L185,25.8782449 C185,25.9937938 184.934082,26.0992185 184.830199,26.1498134 L181.162569,27.9360841 C181.079666,27.976461 180.98286,27.9767581 180.899711,27.9368908 L177.17147,26.1493282 C177.066675,26.0990826 177,25.993171 177,25.876953 L177,21.123047 C177,21.006829 177.066675,20.9009174 177.17147,20.8506718 Z" id="path-2"></path>
+        <filter x="-200.0%" y="-155.2%" width="500.0%" height="454.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.996078431   0 0 0 0 0.811764706   0 0 0 0 0.0588235294  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Soft-Launch-(1.5.2019)-UI-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Loteo-App---Dashboard-(SoftLaunch)" transform="translate(-415.000000, -200.000000)" fill-rule="nonzero">
+            <g id="banner" transform="translate(120.000000, 188.000000)">
+                <g id="Group-21">
+                    <g id="content" transform="translate(128.000000, 0.000000)">
+                        <g id="hex-bullet-icon">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

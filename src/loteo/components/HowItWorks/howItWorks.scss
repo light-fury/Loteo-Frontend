@@ -1,0 +1,194 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.howItWorks {
+    overflow: hidden;
+
+    .background {
+        padding-bottom: 0;
+        background-size: 100% 600px;
+    }
+
+    .content {
+        @include centerMax(1080px);
+
+        padding: 24px;
+        position: relative;
+
+        @include media(md) {
+            padding: 48px 40px;
+        }
+
+        &.hero {
+            h1 {
+                color: $yellow;
+                text-shadow: 0 0 8px transparentize($yellow, 0.5);
+            }
+        }
+
+        &.main {
+            padding-top: 64px;
+            padding-bottom: 96px;
+            position: relative;
+
+            @include media(md) {
+                padding-top: 150px;
+                padding-bottom: 250px;
+            }
+        }
+    }
+
+    .contextTabs {
+        @include centerMax;
+
+        position: relative;
+        margin-top: 16px;
+        padding: 0 40px;
+    }
+
+    .section {
+        h3 {
+            margin-bottom: 48px;
+        }
+
+        .subTitle {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 16px;
+
+            li {
+                color: $grey1;
+                font-size: 16px;
+                line-height: 30px;
+                max-width: 540px;
+
+                div {
+                    margin-left: 8px;
+                }
+
+                &:not(:first-of-type) {
+                    margin-top: 24px;
+                }
+            }
+        }
+
+        &:not(:first-of-type) {
+            margin-top: 80px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 100px;
+        }
+    }
+
+    .infoSection {
+        .bigScreen {
+            img {
+                margin-top: 80px;
+                margin-bottom: 80px;
+                width: 720px;
+            }
+        }
+
+        .smallScreen {
+            img {
+                width: calc(100% - 16px);
+                margin: 45px 8px;
+            }
+        }
+    }
+
+    .userAdvantagesSection {
+        .chanceExample {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 56px;
+
+            .formula {
+                padding: 16px;
+                color: white;
+                font-size: 20px;
+                border-radius: 4px;
+                background: linear-gradient(135deg, $red 0%, $orange 100%);
+
+                @include media(md) {
+                    padding: 12px 64px;
+                }
+
+                b {
+                    font-weight: 900;
+                }
+            }
+
+            .details {
+                margin-top: 12px;
+                font-size: 12px;
+                color: $grey1;
+            }
+        }
+
+        .comparisons {
+            margin-top: 64px;
+
+            .title {
+                color: $dark;
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 32px;
+            }
+
+            .table {
+                max-width: 740px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                @include media(md) {
+                    flex-direction: row;
+                }
+
+                .column {
+                    &:not(:first-of-type) {
+                        border-top: 1px solid $greyBright;
+
+                        @include media(md) {
+                            margin-left: 64px;
+                            border-top: none;
+                        }
+                    }
+
+                    .lotteryRow {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 14px 0;
+
+                        @include media(md) {
+                            width: 320px;
+                        }
+
+                        &:not(:first-of-type) {
+                            border-top: 1px solid $greyBright;
+                        }
+
+                        .name {
+                            color: $grey1;
+                            font-size: 14px;
+                        }
+
+                        .chance {
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

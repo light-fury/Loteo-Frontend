@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>libya-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-139.000000, -707.000000)">
+            <g id="libya-flag-icon" transform="translate(139.000000, 707.000000)">
+                <path d="M48,8 L0,8 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,8 Z" id="Path" fill="#E52635"></path>
+                <rect id="Rectangle" fill="#41423D" x="0" y="8" width="48" height="20"></rect>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,28 L48,28 L48,34 Z" id="Path" fill="#0EA651"></path>
+                <path d="M26,24 C22.687,24 20,21.313 20,18 C20,14.688 22.687,12 26,12 C26.52,12 27.016,12.086 27.497,12.211 C26.063,10.85 24.135,10 22,10 C17.582,10 14,13.582 14,18 C14,22.418 17.582,26 22,26 C24.135,26 26.063,25.15 27.497,23.789 C27.016,23.914 26.52,24 26,24 Z" id="Path" fill="#FFFFFF"></path>
+                <polygon id="Path" fill="#FFFFFF" points="34 16.543 31.052 16.543 29.816 13.859 28.579 16.543 25.632 16.543 27.785 18.77 26.988 22 29.815 20.395 32.643 22 31.847 18.77"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,135 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.myBonus {
+    &__action {
+        margin-right: 10px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 0 10px 0 30px;
+        height: 32px;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-weight: 900;
+        border-radius: 100px;
+        background: transparentize(white, 0.92);
+
+        @include media($max: sm) {
+            padding-left: 20px;
+        }
+
+        .number {
+            margin: 0 0 3px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            background: radial-gradient(22.00px at 50% 0%, #FECF0F 0%, #FE9A0F 100%);
+            border-radius: 50%;
+        }
+    }
+
+    &__action::before {
+        content: "";
+        position: absolute;
+        left: 3px;
+        top: 50%;
+        transform: translate(0, -40%);
+        background: url("/images/dashboard/bonus-icon.png") no-repeat;
+        width: 30px;
+        height: 30px;
+
+        @include media($max: sm) {
+            display: none;
+        }
+    
+    }
+
+    &__list {
+        width: 280px;
+        position: absolute;
+        left: 50px;
+        top: 60px;
+        background-color: white;
+        display: none;
+        z-index: 4;
+
+        .arrow-up {
+            position: absolute;
+            left: 45px;
+            top: -10px;
+            width: 0; 
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 10px solid white;
+        }
+
+        .category {
+            padding-bottom: 10px;
+            border-bottom: 1px solid $greyBright;
+
+            .title {
+                margin: 24px 0 0 16px;
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 19px;
+                color: $red;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .details {
+                margin: 4px 0 0 16px;
+                font-size: 12px;
+                line-height: 20px;
+                color: $dark;
+            }
+
+            .buttons {
+                margin: 12px 0 0 16px;
+
+                .more {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 8px;
+                    width: 88px;
+                    height: 24px;
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #807777;
+                    background-color: $greyBright;
+                    border-radius: 100px;
+                    cursor: pointer;
+                }
+
+                .claim {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 88px;
+                    height: 24px;
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: white;
+                    background-color: $red;
+                    border-radius: 100px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .category:last-child {
+            margin-top: -20px;
+            border: none;
+        }
+    }
+}

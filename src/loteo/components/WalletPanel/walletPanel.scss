@@ -1,0 +1,895 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.walletPanel {
+    transition: height 0.5s;
+
+    .topPanel {
+        position: relative;
+
+        .userInfo {
+            flex-shrink: 0;
+        }
+
+        .walletHeader {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .title {
+                margin-left: 16px;
+                font-size: 24px;
+                font-weight: bold;
+                color: white;
+            }
+
+            img {
+                padding: 6px;
+                height: 32px;
+                width: 32px;
+                cursor: pointer;
+            }
+        }
+
+        .ticketReminder {
+            position: absolute;
+            margin-top: 48px;
+            left: 50%;
+            transform: translate(-50%);
+            width: 350px;
+            height: 200px;
+            box-shadow: 0 8px 24px transparentize(black, 0.4);
+            border-radius: 4px;
+            background: transparent;
+            flex-direction: row;
+            overflow: hidden;
+
+            @include media(md) {
+                left: unset;
+                width: 445px;
+                height: 168px;
+                margin-left: -288px;
+                transform: scaleX(-1);
+            }
+
+            @include media(lg) {
+                margin-left: 10px;
+                width: 445px;
+                transform: scaleX(1);
+            }
+
+            .ticketReminderTextContainer {
+                flex: 1;
+                margin-top: 10px;
+                border-radius: 0 4px 4px 0;
+                background: white;
+                padding: 16px;
+                flex-direction: column;
+
+                @include media(md) {
+                    transform: scaleX(-1);
+                    border-radius: 4px 0 0 4px;
+                }
+                
+                @include media(lg) {
+                    transform: scaleX(1);
+                    border-radius: 0 4px 4px 0;
+                }
+
+                .title {
+                    font-weight: 900;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: $red;
+                }
+
+                .text {
+                    margin-top: 6px;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #4F4F4F;
+                }
+
+                .spacebetween {
+                    flex-grow: 1;
+                }
+
+                .buttonContainer {
+                    height: 32px;
+                    width: 100%;
+                    flex-basis: unset;
+                    flex-direction: row;
+                    justify-content: flex-end;
+
+                    .cancelButton {
+                        margin-right: 8px;
+                        justify-content: center;
+                        font-size: 14px;
+                        padding: 0 24px;
+                        border: 0;
+                    }
+
+                    .okButton {
+                        justify-content: center;
+                        font-size: 14px;
+                        padding: 0 24px;
+                        border: 0;
+                    }
+                }
+            }
+
+            .ticketReminderBg {
+                width: 127px;
+                height: 100%;
+                flex-basis: unset;
+                align-items: center;
+
+                .triangle {
+                    position: absolute;
+                    top: 0;
+                    margin-left: 0;
+                    width: 0; 
+                    height: 0; 
+                    border-left: 11px solid transparent;
+                    border-right: 11px solid transparent;
+                    border-bottom: 11px solid $red;
+                }
+
+                .imageContainer {
+                    background: $red;
+                    margin-top: 10px;
+                    padding-bottom: 10px;
+                    width: 100%;
+                    border-radius: 4px 0 0 4px;
+                
+                    @include media(md) {
+                        transform: scaleX(-1);
+                        border-radius: 0 4px 4px 0;
+                    }
+
+                    @include media(lg) {
+                        transform: scaleX(1);
+                        border-radius: 4px 0 0 4px;
+                    }
+
+                    .iconContainer {
+                        width: 64px;
+                        height: 64px;
+                        img,
+                        svg {
+                            min-width: 100%;
+                            min-height: 100%;
+                        }
+
+                        path {
+                            fill: white;
+                        }
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .walletDetails {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        .expandWalletButton {
+            padding: 8px 20px;
+            margin-left: 8px;
+            background: $yellow;
+            box-shadow: 0 0 10px rgba(254, 207, 15, 0.6);
+
+            .transparentWhite {
+                height: 32px;
+            }
+
+            img {
+                margin-bottom: 0;
+            }
+
+            @include media(lg) {
+                align-self: flex-end;
+                height: 32px;
+
+                .transparentWhite {
+                    height: 32px;
+                }
+            }
+
+            @include media($max: sm) {
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        .pendingTransactions {
+            .text {
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .link {
+                color: white;
+                font-size: 12px;
+                margin-top: 4px;
+                opacity: 0.8;
+
+                a {
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .nextMoonVisitorInfo {
+            @include topArrow(32px);
+
+            position: absolute;
+            padding: 24px 16px 16px 80px;
+            background: white;
+            left: -16px;
+            top: 76px;
+            border-radius: 4px;
+            max-width: 340px;
+            z-index: 1;
+
+            .title {
+                font-size: 20px;
+                font-weight: 900;
+                line-height: 24px;
+            }
+
+            .subTitle {
+                margin-top: 8px;
+                color: $red;
+                font-size: 14px;
+                font-weight: 900;
+            }
+
+            .buttonPanel {
+                margin-top: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .buyButton {
+                    width: 112px;
+                    height: 32px;
+                    padding: 0;
+                }
+            }
+
+            .moonImageContainer {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 48px;
+                overflow: hidden;
+
+                .moonImage {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .currenciesInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-grow: 1;
+
+        @include media(lg) {
+            flex-direction: row;
+        }
+
+        @include media($max: sm) {
+            position: absolute;
+            top: 110px;
+            left: 0;
+            right: 0;
+            margin: 0 30px;
+        }
+
+        &.smallCards {
+            display: none;
+
+            @include media(lg) {
+                display: flex;
+            }
+        }
+
+        .currenciesSection {
+            width: 100%;
+
+            @include media(lg) {
+                width: auto;
+            }
+
+            > .title {
+                font-size: 12px;
+                color: $pink;
+            }
+
+            .currencyCards {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .coinbackPopup {
+                @include topArrow(9px);
+
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                position: absolute;
+                padding: 8px;
+                margin-top: 20px;
+                background: white;
+                box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
+                border-radius: 5px;
+                z-index: 100;
+
+                .body {
+                    padding: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .textBox {
+                        padding-left: 16px;
+
+                        .title {
+                            color: $red;
+                            font-size: 16px;
+                            font-weight: bold;
+                            text-transform: none;
+                            margin-bottom: 4px;
+                        }
+
+                        .text {
+                            color: $dark;
+                            font-size: 12px;
+                            text-transform: none;
+
+                            span {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+
+                .close {
+                    filter: brightness(0.4) saturate(2);
+                    margin-top: 2px;
+                    opacity: 0.9;
+                    width: 14px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    > .currenciesInfo {
+        justify-content: flex-start;
+        margin-top: 32px;
+
+        .currenciesSection {
+            &:not(:first-of-type) {
+                @include media(lg) {
+                    margin-left: 50px;
+                }
+            }
+
+            .currencyCards {
+                margin-top: 24px;
+            }
+        }
+    }
+
+    .currencyCardSmall {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 12px;
+        min-width: 110px;
+        height: 33px;
+        border: 1px solid rgba($greyBright, 0.04);
+        border-radius: 100px;
+        background: rgba(white, 0.08);
+        width: 140px;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+
+        &__icon {
+            position: absolute;
+            left: 5px;
+            bottom: 8px;
+        }
+
+        .label {
+            font-size: 12px;
+            font-weight: 900;
+            color: $yellow;
+            text-transform: uppercase;
+            white-space: nowrap;
+            margin-left: 16px;
+        }
+
+        .value {
+            margin-left: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            white-space: nowrap;
+        }
+
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 4px solid white;
+        }
+
+        &.highlightValue {
+            &.myTicket {
+                .label {
+                    color: white;
+                }
+            }
+
+            &.orangeButton {
+                background: $yellow;
+                box-shadow: 0 0 10px rgba(254, 207, 15, 0.6);
+            }
+
+            .value {
+                margin-right: -12px;
+                padding: 8px 12px;
+                align-self: stretch;
+                border-radius: 0 4px 4px 0;
+                background: radial-gradient(circle, $yellow 0%, #fe9a0f 100%);
+            }
+        }
+
+        &.leftBorder {
+            position: relative;
+
+            .label {
+                margin-left: 2px;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                height: 24px;
+                width: 4px;
+                border-radius: 4px 0 0 4px;
+                background-color: $yellow;
+                box-shadow: 0 0 4px 0 $yellow;
+                transform: translateY(-50%) scaleX(-1);
+            }
+        }
+
+        &.light {
+            .label {
+                color: white;
+                opacity: 0.4;
+            }
+
+            .value {
+                opacity: 0.4;
+            }
+        }
+
+        margin-right: 8px;
+
+        @include media($max: sm) {
+            width: 100px;
+            margin-left: 3px;
+            &__icon {
+                display: none;
+            }
+
+            .label {
+                margin-left: 3px;
+            }
+        }
+    }
+
+    .currencyCardFull {
+        width: 100%;
+        height: 148px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+
+        @include media(md) {
+            width: 280px;
+        }
+
+        &:not(:last-of-type) {
+            margin: 0 0 16px 0;
+
+            @include media(md) {
+                margin: 0 16px 0 0;
+            }
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .nameValue {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+
+            .name {
+                font-size: 20px;
+                font-weight: 900;
+            }
+
+            .valueCurrency {
+                display: flex;
+                align-items: baseline;
+                font-size: 16px;
+
+                .value {
+                    font-weight: bold;
+                }
+
+                .currency {
+                    margin-left: 4px;
+                    font-weight: 300;
+                }
+
+                .otherValue {
+                    font-size: 12px;
+                    color: $grey2;
+                    text-align: right;
+                    margin-top: 8px;
+                    font-weight: 300;
+
+                    &::before {
+                        content: " ";
+                        width: 1px;
+                        height: 10px;
+                        margin: 0 4px;
+                        background: currentColor;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        .actions {
+            flex-grow: 1;
+            margin-top: 9px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+            .button {
+                &:not(:first-of-type) {
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        .info {
+            margin-top: 5px;
+
+            div {
+                margin: 4px 0;
+                font-size: 12px;
+                line-height: 15px;
+                color: $grey1;
+
+                .title {
+                    flex-basis: auto;
+
+                    .moreInfo__icon {
+                        margin-left: 4px;
+                    }
+                }
+            }
+        }
+    }
+
+    .weeklyLotteryCard {
+        width: 100%;
+        margin: 24px 0 56px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        height: 148px;
+        padding: 16px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+        margin-left: 16px;
+
+        @include media(md) {
+            margin-left: 16px;
+            width: 320px;
+        }
+
+        @include media(lg) {
+            margin: 24px 12px 0;
+        }
+
+        @include media($max: md) {
+            margin: 12px 0;
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .title {
+            color: $red;
+            font-size: 14px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .countCols {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .countRows {
+            position: relative;
+            flex-grow: 1;
+            &:not(:first-of-type) {
+                margin-left: 16px;
+            }
+
+            .countRow {
+                margin-top: 12px;
+
+                .label {
+                    color: $grey1;
+                    opacity: 0.6;
+                    font-size: 12px;
+                    margin-bottom: 4px;
+                    white-space: nowrap;
+                }
+
+                .value {
+                    font-size: 16px;
+                    font-weight: 900;
+                }
+
+                .valueLoteoPass {
+                    display: flex;
+                    align-items: center;
+
+                    .loteoPass {
+                        margin-left: 8px;
+                        padding: 4px 4px 4px 8px;
+                        border-radius: 16px;
+                        background: radial-gradient(circle, $yellow 0%, #fe9a0f 100%);
+                        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+                        white-space: nowrap;
+                        font-size: 12px;
+                        color: $brown;
+                        display: flex;
+                        align-items: center;
+                        flex-shrink: 0;
+
+                        &.margin0 {
+                            margin: 0;
+                        }
+
+                        img {
+                            margin-top: -2px;
+                            margin-left: 8px;
+                            width: 16px;
+                            height: 16px;
+                            filter: brightness(0.4) saturate(2);
+                            cursor: pointer;
+                        }
+                    }
+
+                    .loteoPassInGame {
+                        margin-left: 8px;
+                        white-space: nowrap;
+                        font-size: 12px;
+                        color: $orange;
+                        font-weight: 900;
+                        text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+                        &.margin0 {
+                            margin: 0;
+                        }
+                    }
+
+                    .loteoPassPopup {
+                        @include topArrow(9px);
+
+                        position: absolute;
+                        padding: 16px;
+                        margin-top: 10px;
+                        background: white;
+                        box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.4);
+                        z-index: 100;
+
+                        .titleHeader {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .title {
+                                color: $dark;
+                                font-size: 16px;
+                                font-weight: bold;
+                                text-transform: none;
+                            }
+
+                            img {
+                                margin-top: 2px;
+                                opacity: 0.9;
+                                width: 14px;
+                                cursor: pointer;
+                            }
+                        }
+
+                        .loteoPasses {
+                            .loteoPass {
+                                display: block;
+                                padding: 12px 16px 16px;
+                                margin-top: 12px;
+                                margin-left: 0;
+                                width: 335px;
+                                border-radius: 4px;
+                                background: linear-gradient(0deg, $yellow 0%, #fe9a0f 100%);
+                                box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+
+                                .titleValidity {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+
+                                    .title {
+                                        color: white;
+                                        font-size: 16px;
+                                    }
+
+                                    .validity {
+                                        color: white;
+                                        font-size: 12px;
+                                    }
+                                }
+
+                                .countInfo {
+                                    margin-top: 12px;
+
+                                    .remaining {
+                                        font-weight: normal;
+                                        font-size: 14px;
+
+                                        b {
+                                            font-weight: 900;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .valueCoinback {
+                    .text {
+                        font-weight: normal;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .button {
+            align-self: flex-end;
+        }
+
+        .panelGraphicsImage {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 66px;
+            width: 66px;
+            filter: brightness(0.95);
+        }
+    }
+
+    &.themeBlackWhite {
+        .topPanel {
+            .userInfo {
+                .nameActions {
+                    .name {
+                        color: $dark;
+                    }
+
+                    .actions {
+                        .action {
+                            opacity: 1;
+                            color: $grey2;
+                        }
+                    }
+                }
+            }
+
+            .pendingTransactions {
+                .text {
+                    color: $dark;
+                }
+
+                .link {
+                    color: $dark;
+
+                    a {
+                        color: $dark;
+                    }
+                }
+            }
+        }
+
+        .currencyCardSmall {
+            border: 1px solid $greyBright;
+            background: $greyBright;
+
+            .label {
+                color: $dark;
+            }
+
+            .value {
+                color: $dark;
+            }
+
+            &.light {
+                .value {
+                    opacity: 1;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+.transactionSuccessDialog {
+    .dialogArea {
+        width: 400px;
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>micronesia-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -553.000000)">
+            <g id="micronesia-flag-icon" transform="translate(718.000000, 553.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#73B1DF"></path>
+                <polygon id="Path" fill="#F6D031" points="28.184 8.545 25.237 8.545 24 5.859 22.762 8.545 19.817 8.545 21.969 10.766 21.172 14 24 12.395 26.828 14 26.031 10.766"></polygon>
+                <polygon id="Path" fill="#F6D031" points="28.184 24.545 25.237 24.545 24 21.859 22.762 24.545 19.817 24.545 21.969 26.766 21.172 30 24 28.395 26.828 30 26.031 26.766"></polygon>
+                <polygon id="Path" fill="#F6D031" points="18.367 16.686 15.42 16.686 14.184 14 12.946 16.686 10 16.686 12.152 18.907 11.355 22.141 14.183 20.536 17.011 22.141 16.214 18.907"></polygon>
+                <polygon id="Path" fill="#F6D031" points="38.367 16.686 35.42 16.686 34.184 14 32.946 16.686 30 16.686 32.152 18.907 31.355 22.141 34.183 20.536 37.011 22.141 36.214 18.907"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+.etherscanLink {
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+
+    img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .text {
+        margin-left: 8px;
+        color: white;
+        font-size: 12px;
+    }
+}

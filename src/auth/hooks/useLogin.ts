@@ -2,14 +2,28 @@ import {useState, useEffect} from "react";
 
 import {ACCESS_TOKEN_KEY} from "auth/constants";
 
-import {getItem} from "common/storage";
+import {getItem, removeItem} from "common/storage";
+import {checkSession} from "auth/api";
 
 const getAccessToken = () => getItem(ACCESS_TOKEN_KEY);
 
-export const useLogin = () => {
-    const [loggedIn, setLoggedIn] = useState(false);
+const useLogin = () => {
+    const [loggedIn, setLoggedIn] = useState(!!getAccessToken());
+    const [loading, setLoading] = useState(true);
+    const sessionCheck = async () => {
+        if (await checkSession()) {
+            setLoggedIn(true);
+        } else {
+            removeItem(ACCESS_TOKEN_KEY);
+            setLoggedIn(false);
+        }
+        setLoading(false);
+    };
 
-    useEffect(() => setLoggedIn(!!getAccessToken()));
+    useEffect(() => {
+        sessionCheck();
+    }, []);
 
-    return loggedIn;
+    return [loggedIn, loading];
 };
+export default useLogin;

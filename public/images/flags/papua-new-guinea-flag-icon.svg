@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>papua-new-guinea-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -400.000000)">
+            <g id="papua-new-guinea-flag-icon" transform="translate(814.000000, 400.000000)">
+                <path d="M48,2 C48,0.895 47.105,0 46,0 L2,0 L48,32 L48,2 Z" id="Path" fill="#FC0204"></path>
+                <path d="M2,0 C0.895,0 0,0.895 0,2 L0,34 C0,35.105 0.895,36 2,36 L46,36 C47.105,36 48,35.105 48,34 L48,32 L2,0 Z" id="Path" fill="#000000"></path>
+                <polygon id="Path" fill="#FFFFFF" points="18.387 22.813 18.957 20.5 16.936 21.648 14.914 20.5 15.482 22.813 13.943 24.399 16.048 24.399 16.935 26.321 17.82 24.399 19.925 24.399"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="10.916 18.016 11.287 16.5 9.963 17.252 8.635 16.5 9.008 18.016 8 19.059 9.383 19.059 9.963 20.319 10.545 19.059 11.926 19.059"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="16.916 16.016 17.287 14.5 15.963 15.252 14.635 14.5 15.008 16.016 14 17.059 15.383 17.059 15.963 18.319 16.545 17.059 17.926 17.059"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="6.916 22.197 7.287 20.681 5.963 21.433 4.635 20.681 5.008 22.197 4 23.24 5.383 23.24 5.963 24.5 6.545 23.24 7.926 23.24"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="14.443 30.078 12.338 30.078 11.453 32 10.566 30.078 8.463 30.078 10 28.492 9.432 26.18 11.453 27.326 13.475 26.18 12.904 28.492"></polygon>
+                <path d="M40,8 L36,8 L36,4 L32,4 C30.895,4 30,4.895 30,6 L30,8 L26,8 C24.895,8 24,8.895 24,10 L30,10 L30,12 C30,13.105 30.895,14 32,14 L36,14 L36,10 L40,10 L40,12 C41.105,12 42,11.105 42,10 C42,8.895 41.105,8 40,8 Z" id="Path" fill="#FFFF00"></path>
+            </g>
+        </g>
+    </g>
+</svg>

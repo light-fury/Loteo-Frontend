@@ -1,0 +1,2806 @@
+{
+    "global": {
+        "learnMore": "Pelajari lebih lanjut",
+        "contactUs": "Hubungi kami",
+        "moreInfo": "Tunjukkan Info lebih lanjut",
+        "buy": "BELI",
+        "comingSoon": "Segera datang",
+        "locked": "terkunci",
+        "unlock": "buka kunci",
+        "showMore": "Tampilkan lebih banyak",
+        "showLess": "Tampilkan sedikit",
+        "loteu": "Loteu",
+        "btc": "Btc",
+        "eth": "Eth",
+        "errors": {
+            "notEnoughETH": {
+                "title": "Dana tidak mencukupi untuk memasuki permainan",
+                "text": {
+                    "part1": "Saldo Anda tidak mencukupi. Untuk dapat berpartisipasi dalam lotere, <strong>Anda harus mempunyai minimal 0.017 ETH di dompet Anda<\/strong>. Silakan deposit terlebih dahulu.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Setiap partisipasi dalam lotere akan menghasilkan sebuah transaksi on-chain dalam jaringan Ethereum. Dan setiap transaksi on-chain memerlukan biaya, dalam platform kami biaya itu sebesar 0.017 ETH. Hal ini dikarenakan kami ingin memastikan setiap partisipasi menjadi transparan dan terlihat secara langsung dalam jaringan Ethereum. Kami akan selalu melakukan pengembangan untuk membuat biaya ini sekecil mungkin."
+                },
+                "okText": "Ok",
+                "textApollo11": {
+                    "part1": "Saldo Anda tidak mencukupi. Untuk dapat berpartisipasi dalam lotere, <strong>Anda harus mempunyai minimal 0.051 ETH di dompet Anda<\/strong>. Silakan deposit terlebih dahulu.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Setiap partisipasi dalam lotere akan menghasilkan sebuah transaksi on-chain dalam jaringan Ethereum. Dan setiap transaksi on-chain memerlukan biaya, dalam platform kami biaya itu sebesar 0.017 ETH. Hal ini dikarenakan kami ingin memastikan setiap partisipasi menjadi transparan dan terlihat secara langsung dalam jaringan Ethereum. Kami akan selalu melakukan pengembangan untuk membuat biaya ini sekecil mungkin."
+                }
+            }
+        },
+        "euro": "€"
+    },
+    "header": {
+        "navigation": {
+            "dashboard": "Dashboard",
+            "howItWorks": "Cara Kerjanya",
+            "games": "Permainan",
+            "charity": "Sumbangan Amal",
+            "myAffiliate": "Afiliasi Saya",
+            "affiliate": "Afiliasi",
+            "info": "Info",
+            "blog": "Blog",
+            "howToPlay": "Cara bermain",
+            "loginRegister": "Login \/ Daftar",
+            "inviteFriends": "Undang teman",
+            "alts": [
+                {
+                    "alt": "logo"
+                },
+                {
+                    "alt": "menu"
+                }
+            ],
+            "leaderboard": "Leaderboard",
+            "whyInvest": "INVESTASI",
+            "promotion": "Promosi",
+            "home": "Beranda"
+        }
+    },
+    "infoVideo": {
+        "loteo": "Loteo",
+        "watchVideo": "Lihat Video",
+        "alts": [
+            {
+                "alt": "shine"
+            },
+            {
+                "alt": "teks"
+            },
+            {
+                "alt": "play"
+            },
+            {
+                "alt": "tutup"
+            }
+        ]
+    },
+    "home": {
+        "alts": [
+            {
+                "alt": "loteopass"
+            },
+            {
+                "alt": "loteomaxx"
+            },
+            {
+                "alt": "loteogames"
+            },
+            {
+                "alt": "moon"
+            }
+        ],
+        "products": {
+            "0": {
+                "title": "Loteo Pass",
+                "text": "Gandakan kesempatan menang Anda dan jadilah <span>PARTNER PREMIUM<\/span>",
+                "amountLeftText": [
+                    "Tiket 1-tahun:",
+                    "sisa"
+                ],
+                "cta": "BELI SEKARANG"
+            },
+            "1": {
+                "title": "Loteo Maxx",
+                "text": "Dapatkan 10, 20, 50 atau 100 paket tiket dengan bonus spesial!",
+                "cta": "BELI SEKARANG"
+            },
+            "2": {
+                "title": "Loteo Games",
+                "text": "Mainkan berbagai permainan LOTEO untuk menang!",
+                "cta": "MAIN GAMES"
+            },
+            "prefix": "Empty",
+            "loteopass": "Empty",
+            "loteomaxx": "Empty",
+            "loteogames": "Empty",
+            "cta": "Empty"
+        },
+        "welcomeToLOTEO": "Selamat datang di Loteo - Lotere Berbasis Blockchain Yang Transparan",
+        "lotteryNeedsARevolution": "Lotere membutuhkan <br \/> revolusi",
+        "missionToTheMoon": "Misi ke bulan",
+        "digitalEraLottery": "Lotere<br\/> Era Digital",
+        "advantages": {
+            "title": "Keuntungan",
+            "chancesToWin": {
+                "title": "Peluang untuk menang",
+                "text": "Peluang untuk menang jauh lebih tinggi daripada lotere konvensional karena mekanisme yang kami jalankan."
+            },
+            "trustworthy": {
+                "title": "Terpercaya",
+                "text": "Dengan diatur oleh smart-contract dan bukan oleh lembaga atau individu lainnya, proses pengundian lotere menjadi otomatis dan dapat dipercaya."
+            },
+            "transparency": {
+                "title": "Transparansi",
+                "text": "Berkat teknologi blockchain dan penggunaan cryptocurrency untuk entri lotere, LOTEO dapat dikatakan 100% transparan dan semua transaksi serta pembagian hadiah dapat dilihat kapan saja. Sementara lotere tradisional, Anda tidak dapat mengetahui jumlah pasti peserta, besar hadiah, atau apakah sistemnya fair atau tidak, karena adanya otoritas sentral yang mengatur semua hal tersebut."
+            },
+            "winnerEveryDrawing": {
+                "title": "Pemenang setiap undian",
+                "text": "Tidak seperti lotere pada umumnya, dimana Anda membutuhkan kombinasi angka yang pas dan pengumuman pemenang yang dilakukan setahun sekali."
+            },
+            "biggestSliceForTheWinner": {
+                "title": "Bagian terbesar diberikan kepada pemenang",
+                "text": "LOTEO merasa ada kebutuhan yang kuat untuk memberikan pengalaman terbaik bagi para pengguna, terutama bagi mereka yang tidak terlalu familiar dengan cryptocurrency. Itu mengapa di masa yang akan datang, kami akan mengintegrasikan opsi pembayaran kartu kredit serta pembayaran dengan mobile."
+            },
+            "speed": {
+                "title": "Speed",
+                "text": "Berkat teknologi blockchain dan penggunaan mata uang kripto, Loteo jauh lebih cepat daripada lotere tradisional."
+            }
+        },
+        "everyGameHasAWinner": "Setiap permainan memiliki pemenang",
+        "prizeSplit": "Pembagian hadiah",
+        "platformFee": {
+            "title": "Biaya platform",
+            "description": "Semua dana didistribusikan kepada semua pemain dan pemegang token"
+        }
+    },
+    "privateSale": {
+        "privateSaleEndsIn": "Private Sale berakhir pada"
+    },
+    "weeklyLottery": {
+        "mockedBonus": {
+            "title": "Loteopass",
+            "desc": "- Menjadi partner premium dan dapatkan BONUS spesial bulan Juni"
+        },
+        "eur": "EURO",
+        "btc": "BTC",
+        "eth": "ETH",
+        "playNowBtn": "MAIN SEKARANG",
+        "alts": [
+            {
+                "alt": "Latar Belakang"
+            },
+            {
+                "alt": "kesempatan"
+            }
+        ],
+        "title": "Lotere mingguan Loteo",
+        "learnMore": "Pelajari lebih lanjut tentang game ini",
+        "gameStartsIn": "Permainan dimulai pada",
+        "chanceToWin": "Kesempatan menang Anda adalah",
+        "lastWinner": "Pemenang Terakhir",
+        "nextDraw": "Undian Lotere berikutnya Minggu ini",
+        "playNow": {
+            "0": {
+                "title": "Anda tidak memiliki tiket",
+                "text": "Anda harus membeli tiket lotere terlebih dahulu, kemudian Anda dapat bermain di Lotere Mingguan Loteo.",
+                "okText": "Beli Tiket",
+                "cancelText": "Batal"
+            },
+            "1": {
+                "title": "Dana tidak mencukupi untuk bermain",
+                "text": {
+                    "part1": "Saldo Anda tidak mencukupi. Untuk dapat berpartisipasidalam permainan lotere, <strong>Anda harus mempunyai minimal 0.017 ETH di dompet Anda<\/strong>. Silakan deposit terlebih dahulu.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Setiap partisipasi dalam lotere akan menghasilkan sebuah transaksi on-chain dalam jaringan Ethereum. Dan setiap transaksi on-chain memerlukan biaya, dalam platform kami biaya itu sebesar 0.017 ETH. Hal ini dikarenakan kami ingin memastikan setiap partisipasi menjadi transparan dan terlihat secara langsung dalam jaringan Ethereum. Kami akan selalu melakukan pengembangan untuk membuat biaya ini sekecil mungkin."
+                },
+                "okText": "Ok "
+            },
+            "2": {
+                "title": "Undian saat ini sudah ditutup",
+                "text": "Anda dapat memasukkan tiket setidak-tidaknya 30 menit sebelum undian lotere dimulai. Ronde saat ini sudah ditutup. Anda dapat masuk ke ronde minggu depan setelah undian yang sekarang selesai.",
+                "okText": "Ok "
+            },
+            "title": "Empty",
+            "text": "Empty",
+            "okText": "Empty",
+            "cancelText": "Empty"
+        }
+    },
+    "lotteryInfo": {
+        "loteopass": {
+            "title": "Loteopass",
+            "text": "Gandakan kesempatan menang Anda!",
+            "countInfo": "Tiket 1 tahun:"
+        },
+        "loteomaxx": {
+            "title": "Loteomaxx",
+            "text": "Dapatkan paket tiket 10, 20, 50 atau 100 dengan bonus spesial!"
+        },
+        "dailyLottery": {
+            "title": "Lotere Harian",
+            "text": "Main Lotere tiap hari!<br \/>Cuma 2 EURO!"
+        },
+        "rektRooms": {
+            "title": "Rekt Rooms",
+            "text": "Pilih room Anda dan raihlah kemenangan!<br \/>Kesempatan memang Anda tidak akan berubah"
+        },
+        "MOF": {
+            "texts": [
+                "moon",
+                "of",
+                "fortune",
+                "Segera Datang",
+                "MAIN",
+                "MAIN"
+            ],
+            "alts": [
+                "MOF"
+            ]
+        },
+        "headers": [
+            "Permainan Lotere",
+            "Permainan Loteo"
+        ],
+        "monthlyLottery": {
+            "title": "Lotere Bulanan"
+        },
+        "gameComingSoon": "Segera hadir",
+        "weeklyLottery": {
+            "title": "LOTERE MINGGUAN LOTEO"
+        },
+        "apollo11": {
+            "title": "LOTERE APOLLO 11"
+        },
+        "fomo": {
+            "title": "FOMO"
+        },
+        "loteoTournament": {
+            "title": "TURNAMEN LOTERE"
+        },
+        "mockedBonus": {
+            "title": "BONUS BULAN JULI UNTUK LOTEOPASS",
+            "desc": "- Entri gratis ke lotere Apollo11"
+        }
+    },
+    "roadmap": {
+        "years": [
+            {
+                "year": "2019"
+            },
+            {
+                "year": "2020"
+            },
+            {
+                "year": "2021"
+            },
+            {
+                "year": "2022"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "background cover"
+            }
+        ],
+        "title": "Roadmap",
+        "subTitle": "PLATFORM LOTEO",
+        "item": [
+            {
+                "date": "Q1",
+                "p1": "Pendanaan Proyek & Masalah Hukum",
+                "p2": "Fase Testing Lotere Mingguan"
+            },
+            {
+                "date": "1 April",
+                "p1": "MVP dengan launching Lotere Mingguan",
+                "p2": "Launching Resmi Web Loteo "
+            },
+            {
+                "date": "Q2",
+                "p1": "Testing MVP"
+            },
+            {
+                "date": "1 Mei",
+                "p1": "Soft Launch"
+            },
+            {
+                "date": "1 Juni",
+                "p1": "Hard Launch",
+                "p2": "Launching Promo Campaign",
+                "p3": "Pembayaran BTC akan tersedia"
+            },
+            {
+                "date": "Q3",
+                "p1": "Launching Lotere Harian",
+                "p2": "Penerapan Opsi Pembayaran Kartu Kredit",
+                "p3": "Penerapan Opsi Pembayaran Mobile"
+            },
+            {
+                "date": "Q4",
+                "p1": "Launching game Loteo ke-3",
+                "p2": "Penyebarluasaqn Opsi Pembayaran Mobile",
+                "p3": "Launching Promo Campaign"
+            },
+            {
+                "date": "Q1",
+                "p1": "Aplikasi iOS & Android Loteo",
+                "p2": "Pengumuman Spesial"
+            },
+            {
+                "date": "Q3",
+                "p1": "Integrasi API eksternal, LOTES Unlock",
+                "p2": "Ronde ke-2 Pendanaan dan Pengembangan Game LOTEO"
+            },
+            {
+                "date": "Q4",
+                "p1": "Listing Exchange untuk LOTES"
+            },
+            {
+                "p1": "LOTEO Bet - Sistem Bet P2P"
+            },
+            {
+                "p1": "Tiket LOTEO tersedia melalui pihak ketiga"
+            },
+            {
+                "p1": "Peluncuran Platform B2B LOTEO"
+            }
+        ]
+    },
+    "affiliate": {
+        "title": "Jadi Partner Afiliasi",
+        "subTitle": "Dapatkan hadiah minimal 40% dari pendapatan platform, <br\/> berkat Space Program kami"
+    },
+    "acceptedCurrencies": {
+        "acceptedCurrencies": "Mata Uang yang diterima",
+        "ethereum": "Ethereum",
+        "alts": [
+            {
+                "alt": "ethereum"
+            }
+        ]
+    },
+    "footer": {
+        "address": "Abraham de Veerstraat 9 <br\/> PO Box 3421, Curaçao",
+        "email": {
+            "questions": "Apakah Anda memiliki pertanyaan?",
+            "text": "Kirimkan email"
+        },
+        "subscribe": {
+            "title": "Subscribe",
+            "text": "Subscribe ke mailing list kami dan jangan lewatkan berita terbaru mengenai Loteo di inbox email Anda. No Spam!"
+        },
+        "affiliate": {
+            "text": "Program Afiliasi Loteo",
+            "btn": "Jadi Afiliasi"
+        },
+        "copyrightTerms": {
+            "text": "Copyright © 2019 Loteo",
+            "link": {
+                "terms": "Syarat & Ketentuan",
+                "cookie": "Kebijakan Cookie",
+                "disclaimer": "Disclaimer"
+            }
+        },
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "sertifikat"
+            }
+        ],
+        "feedback": {
+            "title": "Kirimkan feedback Anda",
+            "text": "Pendapat Anda penting bagi kami! Kirimkan ide Anda kepada kami tentang bagaimana kami dapat meningkatkan LOTEO.",
+            "btn": "Kirim Feedback"
+        }
+    },
+    "cookieNotification": {
+        "cookie": "Situs web ini menggunakan cookie untuk memberikan Anda pengalaman yang terbaik. Dengan tetap menggunakan website ini, Anda setuju dengan",
+        "href": "Kebijakan Cookie",
+        "btn": "Ok, Saya menerima Cookies"
+    },
+    "subscribeForm": {
+        "status": {
+            "subscribing": "Berlangganan...",
+            "success": "Berhasil berlangganan",
+            "error": "Tidak dapat berlangganan",
+            "default": "Berlangganan"
+        },
+        "title": "Masukkan Alamat Email Anda",
+        "placeholder": "Ketik email Anda"
+    },
+    "howItWorks": {
+        "helmet": "Cara Kerja | LOTEO - Lotere Blockchain Transparan",
+        "title": "Cara Kerjanya",
+        "tabs": [
+            {
+                "name": "Solusi Loteo"
+            },
+            {
+                "name": "Cara Kerjanya"
+            },
+            {
+                "name": "Keuntungan bagi Pengguna"
+            },
+            {
+                "name": "Keuntungan bagi Investor"
+            }
+        ],
+        "loteoSolutionSection": {
+            "t1": "Solusi Loteo",
+            "p1": "LOTEO adalah platform lotere yang sepenuhnya otomatis dan menggunakan blockchain serta smart-contract untuk membuat lotere yang sepenuhnya transparan dan terpercaya, dimana peluang Anda jauh lebih besar dibandingkan dengan lotere konvensional. Ada beberapa masalah dengan sistem lotere \"klasik\", yang semuanya sudah kami pecahkan dengan LOTEO.",
+            "t2": "Kepercayaan",
+            "p2": "Dengan diatur oleh smart-contract dan bukan oleh lembaga atau individu lainnya, proses pengundian lotere menjadi otomatis dan dapat dipercaya.",
+            "t3": "Transparansi",
+            "p3": "Semua transaksi berikut hadiahnya dapat dilihat didalam blockchain setiap saat.",
+            "t4": "Kesempatan Menang",
+            "p4": "Tidak seperti lotere konvensional di mana Anda bertaruh dengan jumlah undian yang tidak diketahui jumlahnya, di LOTEO Anda hanya bertaruh dengan tiket yang dibeli oleh pengguna lain, jumlah yang beberapa ribu kali lebih kecil dari jumlah potensi kombinasi pemenang dalam lotere standar.",
+            "p5": "Berkat teknologi blockchain, sistem ini sepenuhnya transparan dan Anda setiap saat dapat melacak semua transaksi yang terjadi. Anda mempunyai kesempatan menang setiap kali lotere di undi karena Anda hanya bertaruh melawan sejumlah peserta tertentu.",
+            "p6": "Ada banyak masalah dengan platform judi berbasis blockchain saat ini. Seringkali kita melihat platform yang terlalu rumit, hanya cocok untuk orang-orang crypto, atau menawarkan design yang membingungkan yang tidak menarik dan tidak user-friendly."
+        },
+        "infoSection": {
+            "t1": "Bagaimana cara kerja lotere?",
+            "p1": "Pengguna berpartisipasi dengan membeli tiket satuan untuk Lotere Mingguan LOTEO menggunakan Ethereum atau melalui merchant pihak ketiga. Setiap alamat Ethereum yang sudah membeli tiket masuk lalu terdaftar sebagai peserta dalam Lotere Mingguan LOTEO. Pada masa mendatang, LOTEO akan menambahkan Lotere Harian menggunakan peraturan yang sama.",
+            "p2": "Lotere LOTEO dieksekusi melalui smart-contract yang memanfaatkan Generator Nomor Acak (RNG). Pool undian hanya terdiri dari tiket-tiket lotere (berdasarkan pada alamat-alamat Ethereum para peserta), bukan mengundi nomor acak, maka dari itu di setiap undian lotere pasti akan terdapat pemenang.",
+            "p3": "Setelah pemenang lotere terpilih, smart-contract tersebut akan secara otomatis mengirimkan hadiah lotere ke alamat Ethereum peserta dan alamat lainnya. Hadiah lotere LOTEO akan dibagi seperti dibawah ini:",
+            "p4": "Untuk mendapatkan jumlah pengguna sebanyak-banyaknya, LOTEO berencana untuk menyediakan opsi pembayaran selain Ethereum seperti cryptocurrency lainnya atau merchant pihak ketiga yang menerima mata uang seperti Dolar AS atau Euro. Tapi sebagai catatan, setiap pengguna tetap akan diberikan alamat Ethereum karena seperti yang kita tahu, Loteo menggunakan smart-contract pada setiap undian lotere.",
+            "p5": "Menggunakan LOTEU token sebagai tambahan kepada tiket lotere akan menambah peluang untuk menang satu para pengguna tanpa menambah jumlah hadiah yang sudah terkumpul. LOTEU token tidak dapat dibeli didalam platform, akan tetapi para pengguna dapat mendapatkannya dari airdrop, bounty campaign, kontes, dan promosi lainnya dari Loteo."
+        },
+        "userAdvantagesSection": {
+            "t1": "Keuntungan bagi pengguna",
+            "t2": "Kesempatan untuk Menang",
+            "p1": "Kesempatan untuk menang jauh lebih tinggi dari pada lotere konvensional karena mekanisme kami.",
+            "t3": "Pemenang setiap undian lotere",
+            "p2": "Tidak seperti lotere pada umumnya, dimana Anda membutuhkan kombinasi angka yang pas dan pengumuman pemenang yang dilakukan setahun sekali, di LOTEO pasti akan ada pemenang di setiap undian lotere.",
+            "t4": "Bagian terbesar untuk pemenang",
+            "p3": "75% , tidak ada kompetitor lain yang mempunyai persentase yang sama",
+            "t5": "Kepercayaan",
+            "p4": "Dengan diatur oleh smart-contract dan bukan oleh lembaga atau individu lainnya, proses pengundian lotere menjadi otomatis dan dapat dipercaya.",
+            "t6": "Transparansi",
+            "p5": "Berkat teknologi blockchain dan penggunaan cryptocurrency untuk entri lotere, LOTEO dapat dikatakan 100% transparan dan semua transaksi serta pembagian hadiah dapat dilihat kapan saja. Sementara lotere tradisional, Anda tidak dapat mengetahui jumlah pasti peserta, besar hadiah, atau apakah sistemnya fair atau tidak, karena adanya otoritas sentral yang mengatur semua hal tersebut.",
+            "t7": "Bermacam opsi pembayaran",
+            "p6": "LOTEO merasa ada kebutuhan yang kuat untuk memberikan pengalaman terbaik bagi para pengguna, terutama bagi mereka yang tidak terlalu familiar dengan cryptocurrency. Itu mengapa di masa yang akan datang, kami akan mengintegrasikan opsi pembayaran kartu kredit serta pembayaran dengan mobile.",
+            "t8": "Kecepatan",
+            "p7": "Berkat teknologi blockchain dan penggunaan mata uang kripto, Loteo jauh lebih cepat daripada lotere tradisional.",
+            "t9": "Peluang menang yang lebih tinggi",
+            "p8": "Kesempatan untuk menang lebih tinggi dari lotere konvensional",
+            "chanceExample": {
+                "one": "1",
+                "formula": "jumlah tiket dalam lotere",
+                "details": "* Jika total hadiah 100 ribu, maka 1:10 000"
+            },
+            "comparisons": {
+                "title": "Lotere Konvensional",
+                "table": {
+                    "million": "Juta",
+                    "r1": "Super Ena Lotto (Italia)",
+                    "r2": "Power Ball (AS)",
+                    "r3": "Mega Millions (Inggris)",
+                    "r4": "Euro Millions (AS)",
+                    "r5": "Euro Jackpot",
+                    "r6": "UK Lotto",
+                    "r7": "Spanish Lotto",
+                    "r8": "Swedish Lotto",
+                    "r9": "Lotto Max (Kanada)"
+                }
+            }
+        },
+        "investorAdvantagesSection": {
+            "t1": "Keuntungan untuk investor",
+            "p1": "Tidak ada lotere, atau platform gambling lainnya yang akan mengimplementasi struktur token seperti apa yang LOTEO lakukan. Token Sekuritas atau Security Token memberikan nilai lebih bagi investor dan memberikan para pemegangnya dengan 20% dari setiap hadiah lotere. LOTEO sangat peduli terhadap lingkungan dan semua hal tentang lingkungan, maka dari itu LOTEO membuat sebuah program amal dengan mengalokasikan sekian persen dari setiap hadiah yang ada di platform LOTEO.",
+            "l1": "Kesempatan unik untuk membeli LOTES secuity dan menjadi bagian dari LOTEO, serta menerima ETH setiap kali lotere diundi.",
+            "l2": "20% dari total hadiah yang terkumpul secara otomatis dibagikan kepada pemegang LOTES, berdasarkan jumlah LOTES yang dipegang oleh setiap pengguna.",
+            "l3": "Memdapatkan hak untuk mengambil keputusan (misal memilih badan amal, atau perubahan besar dalam model bisnis LOTEO)",
+            "l4": "Ketika permainan lotere LOTEO mulai sukses dan berkelanjutan, total nilainya akan terus berkembang dan begitupun nilai LOTES."
+        }
+    },
+    "gameDetails": {
+        "helmet": "LOTEO - Lotere Blockchain Transparan",
+        "title": "Lotere Mingguan Loteo",
+        "text": "Lotere Mingguan LOTEO dieksekusi melalui smart-contract yang memanfaatkan Generator Nomor Acak (RNG). Pool undian hanya terdiri dari tiket-tiket lotere (berdasarkan pada alamat-alamat Ethereum para peserta), bukan mengundi nomor acak, maka dari itu di setiap undian lotere pasti akan terdapat pemenang. Dan pada saat pemenang ditentukan, smart-contract tersebut akan secara otomatis membagikan total nilai hadiahnya ke beberapa alamat ETH.",
+        "time": {
+            "day": "Setiap hari Minggu",
+            "time": "17:00 WIB",
+            "info": "Sangat dianjurkan untuk menggunakan tiket selambat-lambatnya 30 menit sebelum waktu undian, jika Anda terlambat, Anda tidak akan bisa mengikuti undian lotere minggu ini."
+        },
+        "tabs": [
+            {
+                "name": "Peraturan"
+            },
+            {
+                "name": "Kesempatan untuk menang"
+            },
+            {
+                "name": "Kumpulan Hadiah"
+            },
+            {
+                "name": "Tiket"
+            }
+        ],
+        "rules": {
+            "t1": "Peraturan",
+            "p1": "Pengguna berpartisipasi dengan membeli tiket satuan untuk Lotere Mingguan LOTEO menggunakan Ethereum atau melalui merchant pihak ketiga. Setiap alamat Ethereum yang sudah membeli tiket masuk lalu terdaftar sebagai peserta dalam Lotere Mingguan LOTEO.",
+            "p2": "Lotere LOTEO dieksekusi melalui smart-contract yang memanfaatkan Generator Nomor Acak (RNG).",
+            "p3": "Pool undian hanya terdiri dari tiket-tiket lotere (berdasarkan pada alamat-alamat Ethereum para peserta), bukan mengundi nomor acak, maka dari itu di setiap undian lotere pasti akan terdapat pemenang."
+        },
+        "chance": {
+            "t1": "Peluang",
+            "p1": "Peluang untuk menang jauh lebih tinggi daripada lotere konvensional karena mekanisme kami."
+        },
+        "prize": {
+            "t1": "Hadiah"
+        },
+        "tickets": {
+            "title1": "Tiket sekali masuk",
+            "title2": "LoteoPass",
+            "title3": "LoteoMaxx",
+            "price1": "10",
+            "price2": "520",
+            "price3": "100",
+            "eth": "ETH",
+            "loteoMaxxCards": [
+                {
+                    "text": "LoteoMaxx 10 + 250 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 20 + 1000 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 50 + 3750 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 100 + 10 000 LOTEU"
+                }
+            ],
+            "entries": "Tiket Masuk ke lotere",
+            "t1": "Tiket",
+            "ticket": {
+                "showDetails": "Tampilkan secara detil",
+                "buyTicketsAndPlay": "Beli tiketnya dan mainkan!",
+                "from": "Dari",
+                "buyNow": "BELI SEKARANG",
+                "card": [
+                    {
+                        "title": "Tiket sekali masuk",
+                        "p1": "Pengguna berpartisipasi dengan membeli tiket satuan untuk Lotere Mingguan LOTEO menggunakan Ethereum atau melalui merchant pihak ketiga. Setiap alamat Ethereum yang sudah membeli tiket masuk lalu terdaftar sebagai peserta dalam Lotere Mingguan LOTEO. Pada masa mendatang, LOTEO akan menambahkan Lotere Harian menggunakan peraturan yang sama.",
+                        "p2": "Pool undian hanya terdiri dari tiket-tiket lotere (berdasarkan pada alamat-alamat Ethereum para peserta), bukan mengundi nomor acak, maka dari itu di setiap undian lotere pasti akan terdapat pemenang."
+                    },
+                    {
+                        "title": "LoteoPass",
+                        "p1": "Anda mendapat opsi untuk membeli tiket terusan selama satu tahun, yang menghindarkan Anda dari membeli tiket berulang kali. Untuk setiap 1000 pembeli LOTEOPASS pertama, pasti akan kami sediakan bonus. Tawaran ini sangat terbatas dan hanya akan ada sekali dalam setahun, saat batch pertama LOTEOPASS berakhir atau kadaluarsa.",
+                        "p2": "Bonusnya termasuk mendapat peluang ganda pada setiap unian lotere. Peluang ganda ini dapat Anda nikmati dengan menggunakan token LOTEO. Dengan membeli LOTEOPASS, pembeli akan mendapatkan sejumlah token LOTEU yang cukup untuk menggandakan peluang menang di lotere selama 52 minggu."
+                    },
+                    {
+                        "title": "LoteoMaxx",
+                        "p1": "Anda dapat membeli tiket masuk lotere dengan jumlah lebih tinggi – 10, 20, 50, atau 100 dengan bonus tiket extra lotere dalam bentuk token utilitas. Anda dapat menggunakan tiket masuk ini berapapun dan kapanpun.",
+                        "renderLoteoMaxxCard": {
+                            "entries": "tikat masuk ke lotere"
+                        }
+                    }
+                ],
+                "alts": [
+                    {
+                        "alt": "ikon"
+                    },
+                    {
+                        "alt": "tutup"
+                    }
+                ]
+            }
+        },
+        "currencyTag": {
+            "accepted": "Mata Uang yang diterima",
+            "maxBet": "BET Maks",
+            "minBET": "BET Min",
+            "specialPower": "Power Spesial",
+            "edge": "Edge"
+        }
+    },
+    "charity": {
+        "helmet": "Amal | LOTEO - Lotere Blockchain Transparan",
+        "title": "Revolusi<br\/>dalam memberi ",
+        "text": "Setiap kali ada pemenang, 1% dari total hadiah akan diberikan ke suatu badan amal",
+        "donateHelp": "Donasi",
+        "t1": "Program Amal Loteo",
+        "p1": "Loteo bertujuan untuk menjadi platform yang menguntungkan bagi para kontributornya sekaligus menyediakan program lotere dengan hadiah yang besar bargi para penggunanya. Semua orang dibelakang LOTEO percaya bahwa adalah suatu kewajiban dari sebuah bisnis yang menguntungkan untuk memberikan sebagian keuntungannya untuk badan amal, non-profit, dan organisasi lainnya yang mengabdi demi menjadikan dunia lebih baik.",
+        "p2": "Inovasi dan teknologi mungkin sudah meningkatkan taraf hidup kita, tapi adalah suatu kewajiban bagi kita untuk tidak melupakan mereka yang tertinggal dan membutuhkan bantuan tambahan.",
+        "t2": "Anda dapat melakukan donasi disini",
+        "alts": [
+            {
+                "alt": "end cover"
+            }
+        ]
+    },
+    "address": {
+        "copied": "Tersalin",
+        "copy": "Salin ",
+        "pleaseNote": "Perlu diketahui",
+        "generatingQrCode": "Membuat kode QR",
+        "alts": [
+            {
+                "alt": "Kode QR"
+            }
+        ]
+    },
+    "share": {
+        "tabs": [
+            {
+                "name": "Program Afiliasi"
+            },
+            {
+                "name": "Keuntungan Pemain"
+            }
+        ],
+        "helmet": "Afiliasi | LOTEO - Lotere Blockchain Transparan",
+        "title": "Dapatkan hadiah setidaknya<br \/>40% dari total keuntungan platform",
+        "text": "Bergabunglah dengan Program Afiliasi LOTEO dan menjadi Afiliasi atau Partner Premium. Anda dapat memilih mana saja yang Anda inginkan sesuai kebutuhan Anda.",
+        "affiliateLink": {
+            "title": "Ini adalah tautan unik Afiliasi Anda",
+            "text": "Salin tautan ini, bagikan ke teman-teman Anda dan dapatkan kesempatan bermain secara gratis!"
+        },
+        "affiliatePrograms": {
+            "alts": [
+                {
+                    "alt": "Partner premium"
+                },
+                {
+                    "alt": "Partner Afiliasi"
+                }
+            ],
+            "title1": "Maukah Anda menjadi investor tanpa investasi apapun? Jadilah <span>Partner Premium<\/span>",
+            "title2": "Beli <span>LoteoPass<\/span> dan jadilah Partner Premium LOTEO.",
+            "title3": "Undang temang, jadi <span>Partner Afiliasi<\/span> dan dapatkan kesempatan bermain secara gratis!",
+            "title4": "Beli <span>Tiket<\/span> atau <span>Loteo Maxx<\/span> dan menjadi Partner Afiliasi LOTEO",
+            "subtitle1": "<strong>Untuk menjadi Partner Premium LOTEO, Anda harus mendaftar & membeli LoteoPass.<\/strong>",
+            "subtitle2": "Maka dari itu, tim LOTEO telah menetapkan 6% dari total alokasi LOTES untuk anggota tim LOTEO hanya untuk tujuan ini dan sudah membuat 1%, 2%, dan 3% yang akan didistribusikan kepada partner afiliasi terbaik dengan aturan yang disebutkan dibawah ini:<br \/><br \/><strong>Semua partner yang berhasil menjual tiket akan mendapatkan komisi dengan presentase sebagai berikut:<\/strong>",
+            "subtitle3": "<strong>Untuk menjadi Prtner Afiliasi Loteo anda harus mendaftar dan membeli satu tiket masuk atau LoteoMaxx.<\/strong>",
+            "bonuses": [
+                {
+                    "label": "BONUS 1",
+                    "text": "Line Premium",
+                    "description": "Bonus diklaim untuk pengguna di Line Pertama dibawah Partner Afiliasi"
+                },
+                {
+                    "label": "BONUS 2",
+                    "text": "Afiliasi Space Program - Dapatkan profit dari platform LOTEO"
+                },
+                {
+                    "label": "BONUS 3",
+                    "text": "Program Status VIP"
+                },
+                {
+                    "label": "BONUS 1",
+                    "text": "Line Afiliasi",
+                    "description": "Bonus diklaim untuk pengguna di Line Pertama dibawah Partner Afiliasi"
+                }
+            ],
+            "premiumBonusCards": [
+                {
+                    "title": "Tiket Loteo",
+                    "price": "€10",
+                    "text": "Sebagai Partner Afiliasi, Anda akan menerima <strong>4% dari setiap tiket yang dibeli dalam bentuk ETH + 50 LOTEU sebagai bonus aktivasi.<\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "price": "€100 - €1000",
+                    "text": "Sebagai Partner Afiliasi, Anda akan menerima <strong>4% dari setiap tiket yang dibeli dalam bentuk ETH + 100 sampai 1000 LOTEU sebagai bonus aktivasi.<\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "price": "€520",
+                    "text": "Sebagai Partner Afiliasi, Anda akan menerima <strong>4% dari setiap tiket yang dibeli dalam bentuk ETH + 1000 LOTEU sebagai bonus aktivasi.<\/strong>"
+                }
+            ],
+            "affiliateBonusCards": [
+                {
+                    "title": "Tiket Loteo",
+                    "text": "Sebagai Partner Afiliasi, Anda akan menerima <strong>4% dari setiap tiket yang dibeli dalam bentuk ETH + 50 LOTEU sebagai bonus aktivasi.<\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "text": "Sebagai Partner Afiliasi, Anda akan menerima <strong>4% dari setiap tiket yang dibeli dalam bentuk ETH + 100 sampai 1000 LOTEU sebagai bonus aktivasi.<\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "text": "Sebagai Partner Afiliasi, Anda akan menerima <strong>4% dari setiap tiket yang dibeli dalam bentuk ETH + 500 LOTEU sebagai bonus aktivasi.<\/strong>"
+                }
+            ],
+            "bonusCardsDisclaimer": "*Bonus Loteomaxx hanya bisa diklaim sekali per-tahun\/perngguna<br\/>untuk setiap paket. Sedangkan bonus Loteopass dapat ditambahkan setiap saat",
+            "spaceProgram": [
+                {
+                    "text": "Semua partner dengan <strong>30 tiket atau lebih<\/strong> dibawah mereka dalam struktur yang sudah dijelaskan akan diberikan hadiah dalam bentuk keuntungan lotere, hal ini berkat adanya 1% alokasi dari total Security Token."
+                },
+                {
+                    "text": "Semua partner dengan <strong>30 tiket atau lebih<\/strong> dibawah mereka dalam struktur yang sudah dijelaskan akan diberikan hadiah dalam bentuk keuntungan lotere, hal ini berkat adanya 2% alokasi dari total Security Token."
+                },
+                {
+                    "text": "Semua partner dengan <strong>30 tiket atau lebih<\/strong> dibawah mereka dalam struktur yang sudah dijelaskan akan diberikan hadiah dalam bentuk keuntungan lotere, hal ini berkat adanya 3% alokasi dari total Security Token."
+                }
+            ],
+            "VIPInfo": {
+                "tiers": {
+                    "bronze": {
+                        "title": "Bronze",
+                        "text": "Dapatkan 500 LOTEU untuk 50 tiket yang digunakan pada Line pertama"
+                    },
+                    "silver": {
+                        "title": "Silver",
+                        "text": "Dapatkan 1000 LOTEU untuk 100 tiket yang digunakan pada Line pertama"
+                    },
+                    "gold": {
+                        "title": "GOLD",
+                        "text": "Dapatkan 2000 LOTEU, untuk 200 tiket yang digunakan di Line pertama"
+                    },
+                    "platinum": {
+                        "title": "Platinum",
+                        "text": "Dapatkan 5000 LOTEU, untuk 500 tiket yang digunakan di Line pertama"
+                    },
+                    "diamond": {
+                        "title": "Diamond",
+                        "text": "Dapatkan 10 000 LOTEU, untuk 1000 tiket yang digunakan di Line pertama"
+                    },
+                    "moonStone": {
+                        "title": "Moon Stone",
+                        "text": "Dapatkan 50 000 LOTEU + 200 000 LOTES, untuk 5000 tiket yang digunakan di Line pertama"
+                    }
+                }
+            },
+            "CTA": "BELI SEKARANG",
+            "divider": "ATAU",
+            "profitCalculator": {
+                "friends": "Teman-teman",
+                "tickets": "Tiket",
+                "friend": "Teman",
+                "ticket": "Tiket",
+                "title": "Berapa banyak yang akan saya peroleh berdasarkan usaha saya",
+                "text1": "Jumlah teman yang akan Anda undang",
+                "text2": "Estimasi rata-rata jumlah tiket yang dibeli untuk lotere oleh setiap pengguna ",
+                "label1": "Potensi penghasilan Anda",
+                "label2": "setiap kali mereka membeli tiket",
+                "eur": "EUR",
+                "alts": [
+                    {
+                        "alt": "high five"
+                    },
+                    {
+                        "alt": "minus"
+                    },
+                    {
+                        "alt": "plus"
+                    },
+                    {
+                        "alt": "tiket"
+                    }
+                ]
+            }
+        },
+        "playerBenefits": {
+            "title": "Dapatkan berbagai <span>bonus untuk setiap produk LOTEO.<\/span> Pilih apapun yang Anda mau.",
+            "imageTitlePrefix": "Loteo",
+            "bonuses": [
+                {
+                    "image": {
+                        "title": "<strong>Tiket<\/strong> Loteo",
+                        "price": "€10 "
+                    },
+                    "title": "Tiket Loteo <span>Welcome BONUS<\/span>",
+                    "bonuses": [
+                        {
+                            "label": "+ 100 LOTEU",
+                            "text": "untuk tiket pertama`"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong>Maxx<\/strong>",
+                        "price": "€100 - €1000 "
+                    },
+                    "title": "Loteo Maxx <span>Bonus<\/span>",
+                    "bonuses": [
+                        {
+                            "label": "+ 250 LOTEU",
+                            "text": "untuk paket 10 tiket"
+                        },
+                        {
+                            "label": "+ 1000 LOTEU",
+                            "text": "untuk paket 20 tiket"
+                        },
+                        {
+                            "label": "+ 3750 LOTEU",
+                            "text": "untuk paket 50 tiket"
+                        },
+                        {
+                            "label": "+ 10 000 LOTEU",
+                            "text": "Untuk paket 100 tiket"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong>Pass<\/strong>",
+                        "price": "€520"
+                    },
+                    "title": "Loteo Pass <span>BONUS<\/span>",
+                    "bonuses": [
+                        {
+                            "label": "2 UNTUK 1",
+                            "text": "Dapatkan 2 tiket disetiap lotere dengan membayar satu"
+                        },
+                        {
+                            "label": "+ 5200 LOTEU",
+                            "text": "Untuk setiap pembelian LoteoPass, dapatkan 5200 LOTEU secara instant ke wallet Anda"
+                        },
+                        {
+                            "label": "SPACE PROGRAM",
+                            "text": "Dapatkan akses dan jadilah investor tanpa investasi!"
+                        },
+                        {
+                            "label": "STATUS VIP",
+                            "text": "Dapatkan akses dan bonus LOTEO berdasarkan statistik Afiliasi Anda"
+                        }
+                    ]
+                }
+            ],
+            "coinback": {
+                "title": "Program Coinback",
+                "text": "Setiap tiket yang digunakan di lotere Mingguan akan mendapatkan hadiah berkat program Coinback LOTEO. Untuk setiap tiket tersebut, pengguna akan mendapatkan 10 LOTEO. Hadiah Coinback tersebut akan masuk ke saldo pengguna setelah mencapai total 10 tiket.",
+                "example": "CONTOH: Gunakan 10 Tiket - Dapatkan 100 LOTEU"
+            }
+        }
+    },
+    "info": {
+        "helmet": "Info | LOTEO - Lotere Blockchain Transparan",
+        "title": "Semua yang Anda perlu ketahui",
+        "tabs": [
+            {
+                "name": "Token Loteo"
+            },
+            {
+                "name": "TIM"
+            },
+            {
+                "name": "FAQ"
+            },
+            {
+                "name": "Download"
+            }
+        ],
+        "loteoTokens": {
+            "t1": "Token Loteo",
+            "p1": "Kami telah memutuskan untuk membuat struktur token yang unik, yang pastinya membawa berbagai keuntungan baik kepada investor maupun kepada anggota komunitas. Dibawah ini Anda dapat melihat semua rincian tentang dua token dari Loteo.",
+            "t2": "Token Sekuritas atau Security Token (LOTES)",
+            "p2": "LOTES adalah token sekuritas yang hanya untuk dijual dalam fase pendanaan pribadi (STO - Security Token Offering) dimana penjualan secara publik tidak akan pernah dilakukan. Untuk segala keperluan investasi, mohon isi formulir di website ini. 100% dari keuntungan platform LOTEO akan didistribusikan kepada para pemegang LOTES, tergantung pada jumlah yang mereka pegang di wallet mereka, karena untuk mendapat keuntungan tersebut mereka harus menyimpan token tersebut di wallet playloteo. Investor yang memegang minimal 2 000 000 LOTES atau lebih akan diberikan hak untuk mengatur dan mengambil keputusan.",
+            "p3": "Semua alokasi LOTES akan terkunci selama 15 bulan dan dalam periode tersebut tidaklah mungkin bagi siapapun untuk membeli atau menjual LOTES dimanapun. Setelah 15 bulan pertama, akan ada ronde pendanaan kedua dimana LOTEO akan menjual setidaknya 30% dari total token sesuai dengan persyaratan hukum dan regulasi yang ada. Semua informasi lengkap tentang hal ini akan diumumkan secara publik sebelum ronde berlangsung. Setelah menjual token ini, LOTES akan didaftarkan di berbagai exchange yang sesuai dengan peraturan trading token.",
+            "p4": "Setelah 15 bulan, 20% maksimal dari total token sekuritas yang ada akan dimiliki oleh platform semantara 80% sisanya akan terdesentralisasi, untuk menghindari percobaan manipulasi lotere. LOTES juga mempunyai fungsi untuk mengambil keputusan yang berarti perubahan signifikan terhadap platform harus disetujui oleh sebuah konsensus dan setiap pemegang token dapat memberikan suaranya.",
+            "t3": "Token Utilitas atau Utility Token (LOTEU)",
+            "p5": "LOTEU adalah token utilitas yang digunakan untuk tujuan marketing. Ketika Anda membeli entri tambahan untuk lotere dengan 100 LOTEU, Anda mendapat peluang ganda untuk memenangkan lotere. Hal ini tidak menambah jumlah hadiah, tapi menambah jumlah tiket Anda didalam lotere. Selain itu, LOTEU juga akan di-burn atau dimusnahkan dari peredaran setiap tiga bulan yang akan diselenggarakan secara publik. Pemusnahan token ini juga berlaku pada setiap 20% token yang sudah dipakai dan diterima oleh platform.",
+            "p6": "Pemusnahan ini akan terus dilakukan sampai total jumlah LOTEU menyamai total jumlah LOTES - 100 000 000, atau ketika LOTEU mulai diterima sebagai alat pembayaran untuk membeli tiket lotere. Akan ada banyak acara airdrop yang ditujukan langsung pada komunitas dan melalui partner marketing LOTEU, dan akan ada bermacam kompetisi yang akan mempunyai hadiah dalam bentuk LOTEU.",
+            "p7": "Token LOTEU juga akan didistribusikan melalui Bounty Campaign sesuai dengan rencana marketing LOTEO dan pengumuman resmi melalui channel komunikasi LOTEO. Ada rencana jangka panjang dimasa depan tentang LOTEU untuk tujuan platform B2B yang akan ditentukan sebelum ronde pendanaan kedua. Harga dari 1 LOTEU tidak dapat dipastikan karena tidak adanya penjualan, maka dari itu pasar yang akan menentukan. Tapi nilai yang kami terima di platform LOTEO adalah €0.1 \/ 1 LOTEU.",
+            "alts": [
+                {
+                    "alt": "lotes"
+                }
+            ]
+        },
+        "team": {
+            "alts": [
+                {
+                    "alt": "Anda"
+                },
+                {
+                    "alt": "telegram"
+                }
+            ],
+            "t0": "Tim",
+            "p0": "Bagian terkuat dan paling berharga dari sebuah proyek ada didalam orang-orang yang ada dibelakangnya. Tim kami akan terus berkembang. Dengan sebagian besar berbasis di Bratislava, Slovakia, dengan banyak anggota tim yang tersebat di Serbia, Rusia, Chili, Indonesia... Dan, apakah Anda berminat menjadi salah satunya? Jangan sungkan untuk menghubungi kami karena kami akan selalu mengambil peluang untuk berkembang.",
+            "t1": "Cerita dibalik Loteo",
+            "p1": "Dulu sekali ada sebuah permainan, seperti Arisan, dimana 10 orang pekerja menyisihkan masing-masing 100 Euro dari gaji bulanan mereka dan melakukan undian tiap bulan. Dan pemenangnya berhak mengambil semua uangnya, 1000 Euro. Di bulan berikutnya, pemenang terakhir akan memberikan lagi jumlah yang sama seperti biasanya TAPI tidak dapat nomor undian, jadi tidak dapat menang untuk kedua kalinya. Di Indonesia, hal ini memang di sebut arisan. Tapi bagi kami, uang sejumlah 1000 Euro tersebut seperti pinjaman tanpa bunga, karena untuk menabung sampai sejumlah tersebut sangatlah sulit bagi kami, para pekerja biasa.",
+            "p2": "Semenjak saat itu, kami bersama mempunyai mimpi dan dorongan yang kuat untuk mengembangkan suatu proyek yang dapat dipercaya, dinikmati, dan memberikan keuntungan bagi orang-orang. Seiring waktu, ide cemerlang untuk menghadirkan pemenang setiap lotere diundi didalam sebuah lingkungan yang bersahabat telah menjadi filosofi utama kami.",
+            "p3": "Selamat datang di Loteo!",
+            "members": [
+                {
+                    "name": "Ratislav Bakala",
+                    "pos": "CEO, Co-Founder",
+                    "desc": "Ratislav telah mempunyai 3 perusahaan sukses yang semuanya ia bangun dari nol. Dia memulai karirnya di sektor finansial dimana dia menjadi seorang manajer regional dan mulai bekerja sebagai manajer ritel pada sebuah bank. Setelah awal yang sukses, dia mulai bekerja di sektor korporasi dan disinilah dia mulai berpikir sebuah gambaran besar tentang Loteo. Selanjutnya Ratislav membuat perusahaan sendiri untuk bergerak di bidang blockchain dan dia mulai membangun bisnis internasionalnya yang bergerak di bidang penjualan dan pengelolaan logam mulia. Tapi hal itu hanya permulaan. Di usia yang baru menginjak 28 tahun, dia mempunyai ambisi untuk membantu dunia melalui teknilogi seperti blockchain. Dia percaya pada dunia yang transparan. Maka dari itu, melalui Loteo, dia mengkombinasikan dua hal tersebut, teknologi transparan blockchain dan hasrat manusia untuk memenangkan hadiah. Moto dia adalah: apabila Anda membantu orang lain menjadi kaya raya, itu artinya Anda sedang membantu diri Anda sendiri!"
+                },
+                {
+                    "name": "Juraj Illes",
+                    "pos": "CMO, Co-founder",
+                    "desc": "Juraj mempunyai bertahun-tahun pengalaman di bidang bisnis dan marketing. Selama perkuliahannya di fakultas manajemen Universitas Comenius Bratislava, dia sudah menjadi kepala marketing dari bisnis rumahan yang menjual barang elektronik mewah. Dia kemudian bekerja sebagai spesialis marketing online di sebuah perusahaan yang merupakan partner SMB Google. Sebagai seorang pebisnis, dia sudah menjalankan perusahaan distribusi yang bergerak di bidang kosmetik dan farmasi. Setelah menjual perusahaannya, dia mulai mengembangkan pengalamannya untuk menjadi seorang freelancer yang fokus di bidang strategi marketing. Selama periode ini, dia menerima tawaran untuk menjadi direktur marketing di perusahaan yang bergerak di bidang FMCG. Pekerjaan terakhirnya adalah menjadi manajemen di departemen online di salah satu agensi asuransi kesehatan terbaik di Slovakia, yang pada saat itu, ia sudah tertarik pada dunia cryptocurrency dan memutuskan untuk memulai bisnis di bidangnya, salah satunya adalah Loteo."
+                },
+                {
+                    "name": "Rene Darmos",
+                    "pos": "CBDO, Co-founder",
+                    "desc": "Dia mendapatkan gelar di bidang Diplomasi Ekonomi dan Hubungan Internasional yang kemudian memutuskan untuk mendapatkan satu gelar tambahan di bidang Manajemen dan Ekonomi Bisnis Internasional. Dia adalah seorang wirausahawan, investor cryptocurrency, ambassador, advisor, dan kadang-kadang menjadi seorang presenter dalam sebuah acara blockchain. Sebagai seorang pengusaha, dia sudah membangun dua perusahaan yang sukses terjual dan sedang dalam proses membangun perusahaan lainnya. Dia juga terlibat di berbagai acara meetup dan berpartisipasi di beberapa startup. Rene sudah bertemu dengan berbagai tokoh penting di sektor blockchain berkat pengalamannya sebagai Brand Manager untuk Red Bull dan Unilever yang dikombinasikan dengan skill bisnis dan pemikirannya yang berorientasi pada memberikan layanan terbaik bagi pada customernya. Oleh karena itu, dia merupakan tokoh penting dalam Loteo dan mengatur semua hal tentang Business Development."
+                },
+                {
+                    "name": "Jan Lalka",
+                    "pos": "CFO, Co-Founder",
+                    "desc": "Harapan, keyakinan akan sukses, dan pengalaman hidup. Hal-hal tersebut disalurkan Jan pada proyek bisnis ini. Dengan memulai karir sebagai pengusaha pada usia 23 tahun pada tahun 1997, secara bertahap Jan terus mengembangkan keterampilan bisnisnya. Pada tahun 2003, ia kembali ke bidang bisnis finansial global dan memasuki sebuah industri dimana ia telah membantu mengembangkan 4 brand dalam 16 tahun dan secara bertahap beralih ke posisi sales melalui manajemen bisnis sampai mengepalai seluruh divisinya. Meskipun bekerja pada nama nama besar telah memberikan Jan pengalaman yang begitu berharga, menurutnya tidak ada yang lebih memuaskan daripada membuat dan mengembangkan brand sendiri. Ini adalah alasan komitmennya kepada Loteo. Sebuah kekuatan, yang apabila disalurkan kearah yang tepat dan diarahkan pada visi jangka panjang serta disatukan dengan keyakinan akan sukses, pasti akan menghasilkan hasil yang positif di dalam bisnis."
+                },
+                {
+                    "name": "Nina Bakalova",
+                    "pos": "PR manager",
+                    "desc": "Nina menerima gelar sarjana di Universitas Ekonomi Bratislava. Pada saat yang sama ia juga bekerja pada karir modeling-nya, menulis artikel ke berbagai media dan memperoleh pengalaman berharga dalam menciptakan konten dan strategi PR. Pekerjaan terakhirnya adalah sebagai penasihat kepala untuk Menteri Pertahanan di dewan nasional Republik Slovakia."
+                },
+                {
+                    "name": "Max Zakomoldin",
+                    "pos": "Sales Advisor",
+                    "desc": "Cryptoinvestor, cryptotrader, analis, penggalang dana, perwakilan pasar keuangan yang melapor langsung ke Bank Sentral, dan seorang public speaker. Sebagai spesialis di bidang ekonomi crypto yang membangun token model dan perkembangan harga token berdasarkan pada pengembangan bisnis. Max telah memberikan puluhan kursus baik online maupun offline, yang telah membuat banyak orang menemukan peluang mendapatkan penghasilan dari internet."
+                },
+                {
+                    "name": "Julius Buchel",
+                    "pos": "Community Manager",
+                    "desc": "Content Creator dan pemilih dari sebuah firma konsultasi media sosial, penggemar blockchain yang  juga fokus di bidang edukasi tentang cryptocurrency. Sangat berpengalaman dalam networking dengan 10 tahun lebih pengalaman dalam bidang corporate finance sebagai CFO di berbagai perusahaan. Mempelajari ekonomi dan hukum di universitas."
+                },
+                {
+                    "name": "Robert Auxt",
+                    "pos": "Advisor Exchange & Hukum",
+                    "desc": "Robert adalah salah satu pendiri ETERBASE. Pernah bertugas sebagai dewan di salah satu Bank Investasi Eropa, European Stability Mechanism, dan beberapa organisasi multimilyar lainnya. Mengantongi gelar dari London School of Economics, University College London, dan University of Cambridge Judge Business School."
+                },
+                {
+                    "name": "Peter Kris",
+                    "pos": "CTO",
+                    "desc": "Peter adalah pendiri studio blockchain dev dan kantor konsultan Block Unison, memimpin banyak insinyur untuk melakukan pekerjaannya. Berpengalaman di bidang IT lebih dari 10 tahun, dari mulai administrasi, aplikasi mobile, dan pengembangan backend. Seorang yang sangat giat di industri blockchain sejak era 2013 Bitcoin, ia sesekali berbicara tentang berbagai topik dan membantu komunitas Ethereum lokal di Progressbar."
+                },
+                {
+                    "name": "David Kokavec",
+                    "pos": "Advisor",
+                    "desc": "Setelah mendapatkan gelar dari bidang hukum, pencetus proyek kryptotrejder ini mengubah hobi dan ketertarikan pada cryptocurrency menjadi sebuah bisnis sukses yang bertujuan untuk mengedukasi masyarakat tentang bidang cryptocurrency. Dia telah memberikan konsultasi keuangan yang komprehensif untuk berbagai perusahaan dan individu. Dengan sangat menikmati kegiatan membantu masyarakat dan melihat hasilnya, hal yang sangat dia sukai dari pekerjaannya adalah perkermbangan personalnya dan pelajaran hidup yang tidak terbatas. Selain dari itu, dia juga fokus dengan mengatur portal Rap terbesar di Slovakia dan sebuah majalah gaya hidup. Di waktu luangnya, pria ini mencurahkan waktunya pada keluarga, travelling, dan olahraga. Posisinya di Loteo adalah seorang Advisor."
+                },
+                {
+                    "name": "Nenad Ristic",
+                    "pos": "Community Advisor",
+                    "desc": "Nenad sudah terjun ke dunia crypto sejak tahun 2014, seorang warga negara Serbia yang tau caranya berenang di kolam pump & dump sambil senyum dan sangat percaya pada teknologi blockchain dan segala keuntungan yang diberikan kepada para penggunanya. Dengan lebih dari 4 tahun pengalaman di bidang manajemen komunitas, membuat brand awarenedd, dan membantu berbagai startup untuk menyuarakan perkembangan kepada masing-masing komunitasnya. Sangat senang membantu siapapun dengan tujuan membawa teknologi Blockchain lebih dekat ke masyarakat."
+                },
+                {
+                    "name": "Sapta Munggaran",
+                    "pos": "Community Advisor",
+                    "desc": "Mengenal Bitcoin sejak awal tahun 2013, Sapta adalah seseorang yang sangat dikenal oleh komunitas crypto di Indonesia. Sudah membantu dan menduduki kursi advisor di berbagai startup blockchain. Dengan terpilih menjadi moderator di salah satu forum Bitcoin terbesar di dunia pada tahun 2014, Sapta sampai sekarang sangat suka memberikan edukasi pada masyarakat tentang cryptocurrency."
+                },
+                {
+                    "name": "Anthony Sanchez",
+                    "pos": "Community Advisor",
+                    "desc": "Memulai petualangan crypto-nya dengan menjadi teknisi di sebuah perusahaan ATM Bitcoin, Anthony adalah seorang anak muda dari Venezuela yang berbekal keberuntungan, mimpi, dan harapan. Berkerja lebih dari 7 tahun di bidang industri pusat dukungan, Ia selalu siap untuk segala jenis tantangan yang dihadapinya. Apabila Anda mempunyai pertanyaan apapun tentang Bitcoin, pastikan Anthony akan selalu dapat menjawabnya. Karena hal itulah selama dua tahun terakhir Ia sudah mempunyai beberapa startup dibawah sayapnya."
+                },
+                {
+                    "name": "Husain Zabir",
+                    "pos": "Penasehat Listing",
+                    "desc": "Trader dan Investor Cryptocurrency, peneliti dan analis Elliott Wave dengan 4 tahun pengalaman"
+                }
+            ],
+            "youMember": {
+                "title": "Komunitas kami adalah Kekuatan kami",
+                "text": "Masuk ke grup Telegram kami di"
+            }
+        },
+        "downloads": {
+            "t1": "Dokumen-dokumen untuk di unduh",
+            "p1": "Semua dokumen penting tentang Loteo, setifikat, atau dokumen penting lainnya di satu tempat untuk orientasi yang lebih mudah. Masih merasa kekurangan sesuatu hal? Kirimkan kami email dan kami akan berusaha memenuhi kebutuhan Anda.",
+            "documents": [
+                {
+                    "name": "Whitepaper"
+                },
+                {
+                    "name": "Loteo in Box"
+                },
+                {
+                    "name": "Paper Afiliasi"
+                },
+                {
+                    "name": "Sertifikasi RNG"
+                }
+            ],
+            "alts": [
+                {
+                    "alt": "bahasa"
+                },
+                {
+                    "alt": "download"
+                }
+            ],
+            "english": "Bahasa Inggris",
+            "russian": "Bahasa Rusia",
+            "slovak": "Bahasa Slovakia",
+            "spanish": "Bahasa Spanyol",
+            "englishPdf": "PDF Bahasa Inggris"
+        },
+        "faq": {
+            "t1": "FAQ",
+            "p1": "Semua pertanyaan mendasar berada di satu tempat. Apabila Anda merasa masih ada sesuatu yang belum terjawab, pastikan Anda masuk ke Channel Telegram kami dimana pertanyaan Anda akan kami jawab secara langsung.",
+            "t2": "GAME",
+            "t3": "LEGAL",
+            "t4": "CRYPTO",
+            "questions": {
+                "game": [
+                    {
+                        "q": "Berapa harga tiket di LOTEO?",
+                        "a": "Harga tiket lotere mingguan adalah 10 Euro. Lotere harian sedang kami siapkan dimana harga tiket satuannya adalah 2 Euro."
+                    },
+                    {
+                        "q": "Berapa peluang Saya untuk menang?",
+                        "a": "Peluang dapat dihitung dari rasio tiket yang Anda miliki dengan jumlah total tiket didalam pool."
+                    },
+                    {
+                        "q": "Bagaimana cara Saya membeli tiket secara online?",
+                        "a": "Anda hanya perlu membuat akun gratis di website kami dan kunjungi dashboard di akun Anda untuk melihat opsi membeli tiket."
+                    },
+                    {
+                        "q": "Kapan lotere diundi?",
+                        "a": "Undian lotere utama - mingguan - diadakan setiap minggu pada hari Minggu, jam 17:00 WIB. Akan ada pengumunan resmi setiap mendekati waktu pengundian."
+                    },
+                    {
+                        "q": "Bagaimana Saya mengetahui apakah Saya memenangkan lotere?",
+                        "a": "Ada beberapa cara untuk mengetahui pemenang lotere. 1. Lihat saldo ETH Anda di dashboard; 2. Lihat daftar Moon Visitor dibagiah bawah dashboard; 3. Kunjungi channel resmi LOTEO"
+                    },
+                    {
+                        "q": "Berapa banyak yang bisa saya dapatkan dari pool lotere?",
+                        "a": "Besaran dana yang terkumpul pada pool hadiah tidak dapat dipastikan karena hal itu tergantung pada jumlah tiket yang terlibat di setiap lotere."
+                    },
+                    {
+                        "q": "Apa itu LOTEOPASS dan apa keuntungannya?",
+                        "a": "LOTEOPASS adalah salah satu cara membeli tiket terusan selama satu tahun yang dimulai dari saat Anda membeli LOTEOPASS tersebut. Seorang pemegang LOTEOPASS akan secara otomatis ikut dalam setiap undian tanpa perlu melihat waktu atau tanggal. Terdiri 52 tiket lotere dengan bonus sebesar 5200 LOTEU token yang akan secara otomatis digunakan untuk menggandakan peluang Anda untuk menang."
+                    },
+                    {
+                        "q": "Apa itu LOTEOMAXX dan apa keuntungannya?",
+                        "a": "LOTEOMAXX adalah paket tiket dengan berbagai jumlah - 10, 20, 50, atau 100 buah tiket. Harga LOTEOMAXX sudah termasuk LOTEU token yang akan secara otomatis digunakan untuk menggandakan peluang Anda untuk menang. Pemegang LOTEOMAXX dapat menggunakan tiket dengan tokennya sesuai selera, kapanpun, berapapun."
+                    },
+                    {
+                        "q": "Manfaat program afiliasi",
+                        "a": "Seorang partner afiliasi akan mendapatkan dari aktivitas pengguna baru yang mendaftarkan dirinya di platform LOTEO melalui tautan milik partner tersebut. Partner akan menerima hadiah sebesar 50 LOTEU untuk setiap akun baru yang aktif. Para partner juga mempunyai hak untuk mendapatkan hadiah dari setiap pembelian LOTEOPASS atau LOTEOMAXX oleh pengguna yang diundang oleh partner, juga mendapatkan 4% dari setiap nilai tiket yang dibeli oleh pengguna baru yang terdaftar di Line pertama partner afiliasi."
+                    },
+                    {
+                        "q": "Apa yang dimaksud dengan Akun Aktif?",
+                        "a": "Akun pengguna baru disebut aktif dengan membeli dan menggunakan produk LOTEO dalam bentuk apapun."
+                    },
+                    {
+                        "q": "Apa itu Space Program?",
+                        "a": "Space Program ditujukan kepada partner afiliasi terbaik. Bonusnya akan didistribusikan kepada para partner berdasarkan hasil aktivitas mereka. Untuk program ini, LOTEO sudah menyediakan persentase dari semua token LOTES yang dimiliki perusahaan masing-masing sebesar 1%, 2%, dan 3%. Partner afiliasi yang dapat menjual tiket akan dihadiahi sesuai dengan persentase komisi yang ada. Token LOTES selanjutnya akan menghasilkan pendapatan pasif bagi para peserta dengan persentase secara rata dan adil. Program ini berbatas waktu dengan kemungkinan diperpanjang. Untuk info selanjutnya, kunjungi bagian Afiliasi."
+                    },
+                    {
+                        "q": "Apa saja opsi pembayarannya?",
+                        "a": "Pada fase awal, cara satu-satunya untuk membeli tiket adalah dengan menggunakan ETH. Di masa mendatang, opsi pembayaran lainnya akan tersedia, dimulai dengan BTC, lalu Euro dengan menggunakan kartu kredit, transfer bank, pembayaran melalui SMS, atau opsi lainnya seperti ADV Cash, PayPal, dll."
+                    },
+                    {
+                        "q": "Kenapa harus menggunakan Google Authenticator?",
+                        "a": "Google Authenticator adalah fitur keamanan tambahan yang menghindarkan akun Anda dari tangan-tangal jahil di Internet."
+                    },
+                    {
+                        "q": "Apakah tiket dapat dikirimkan ke orang lain?",
+                        "a": "Platform kami memungkinkan pengguna untuk saling mengirim tiket yang sudah dibeli dengan satu sama lain."
+                    },
+                    {
+                        "q": "Apa itu peluang ganda dan bagaimana cara mendapatkannya?",
+                        "a": "Anda dapat menggandakan peluang Anda untuk memenangkan lotere tanpa harus membayar lebih. Caranya adalah dengan menggunakan 100 LOTEU untuk entri tambahan atau dengan membeli tiket terusan satu tahun, LOTEOPASS. Jumlah tiket Anda akan bertambah yang secara langsung meningkatkan peluang Anda untuk menang."
+                    }
+                ],
+                "legal": [
+                    {
+                        "q": "Dimana kantor pusat LOTEO berada?",
+                        "a": "LOTEO mendirikan perusahaan induk di Curacao untuk menerima lisensi perjuadian online global dengan anak perusahaan di negara Cyprus."
+                    },
+                    {
+                        "q": "Apakah Saya harus membayar pajak?",
+                        "a": "Setiap negara mempunyai kebijakan pajak masing-masing. Dalam hal menang, setiap pajak di negara tempat Anda tinggal adalah tanggung jawab Anda."
+                    },
+                    {
+                        "q": "Apakah undian 100% acak?",
+                        "a": "Tentu saja. Berkat tingkat efisiensi yang tinggi dari TRNG – True Random Number Generator – nomor yang diciptakan dapat dipastikan 100% acak. Anda dapat melihat sertifikasi TRNG Loteo di bagian download."
+                    },
+                    {
+                        "q": "Apakah LOTEO terhubung dengan badan amal?",
+                        "a": "1% dari setiap total hadiah akan dibagikan kepada badan amal."
+                    },
+                    {
+                        "q": "Negara-negara dan para penduduknya dilarang untuk bermain di paltform Kami",
+                        "a": "Penduduk dari negara berikut ini: i) Amerika Serikat dan seluruh teritorialnya; ii) Belanda (termasuk Curacao dan negara lainnya yang merupakan bagian dari Kerajaan Belanda); iii) Republik Demokratik Kore Utara; dan negara lainnya yang melarang kegiatan judi online pada penduduknya atau kepada seseorang yang sedang tinggal di negara seperti yang disebutkan. Perjudian online merupakan kegiatan ilegal di beberapa negara terutama namun tidak terbatas pada Australia, Aruba, Bonaire, Curacao, Cyprus, Perancis, Belanda, Saba, Statia, St Martin, AS, atau yuridiksi lainnya yang dianggap oleh pemerintah pusat Curacao bahwa perjudian merupakan kegiatan ilegal."
+                    }
+                ],
+                "crypto": [
+                    {
+                        "q": "Token apa saja yang ditawarkan oleh LOTEO?",
+                        "a": "LOTEO menghadirkan dua jenis token – LOTES dan LOTEU. Security Token LOTES memberikan para pemegangnya kesempatan untuk mendapat keuntungan dari pendapatan platform. LOTEU adalah Utility Token yang mempunyai salah satu kegunaan untuk menggandakan peluang Anda untuk memenangkan lotere, juga dapat digunakan untuk bermain game-game instan di platform LOTEO."
+                    },
+                    {
+                        "q": "Kenapa token LOTES terkunci?",
+                        "a": "Token LOTES akan terkunci selama 15 bulan setelah dibeli, selama periode tersebut, manipulasi apapun terhadap LOTES tidak akan bisa dilakukan. Sementara itu, platform LOTEO diluncurkan dan semua pengetesan berlanjut. Setelah 15 bulan berlalu, token akan terbuka dan transaksi terhadap token tersebut bisa dilakukan."
+                    },
+                    {
+                        "q": "Bagaimana untuk mendapatkan keuntungan dari lotere?",
+                        "a": "Membeli dan memiliki token LOTES berarti Anda bisa mendapatkan keuntungan dari platform LOTEO. Sebesar 20% dari total pendapatan platform akan didistribusikan kepada para pemegang token LOTES. Jumlah ini secara otomatis didistribusikan oleh smart-contract berdasarkan jumlah token yang masing-masing pengguna miliki."
+                    },
+                    {
+                        "q": "Bagaimana cara untuk mendapatkan LOTES dan LOTEU?",
+                        "a": "Token LOTES dijual secara eksklusif dalam ronde pendanaan pribadi. Di ronde pertama yang dilaksanakan pada tanggal 1 Maret 2019 sampai dengan tanggal 30 April 2019, 50 juta token tersedia dengan harga 0,05 Euro per-token. Di ronde kedua yang akan dimulai pada tanggal 1 Agustus 2020 sampai dengan tanggal 9 September 2020 atau selama token belum habis, dimana 30 juta token LOTES akan dijual dengan harga 0,10 Euro per-token. Sementara LOTEU token didapatkan dari berbagai airdrop, program afiliasi, kompetisi di komunitas, juga di berbagai exchange crypto."
+                    },
+                    {
+                        "q": "Dapatkan saya bermain menggunakan Metamask?",
+                        "a": "Setiap orang yang memiliki ETH atau dompet Metamask dapat bermain game tanpa mendaftar di platform kami."
+                    },
+                    {
+                        "q": "Di mana saya bisa melihat smart-contract?",
+                        "a": "Smart-contract dapat dilacak di GitHub dan Etherscan."
+                    }
+                ]
+            }
+        }
+    },
+    "airdrop": {
+        "title": "Loteo 3rd Round Airdrop",
+        "helmet": "LOTEO - Lotere Blockchain Transparan",
+        "href": "Loteo 3rd Round Airdrop"
+    },
+    "airdropThankYou": {
+        "helmet": "LOTEO - Lotere Blockchain Transparan",
+        "title": "Terima kasih",
+        "content": {
+            "title": "Halo moonvisitor!",
+            "p": "Not needed"
+        }
+    },
+    "balanceCard": {
+        "balance": "Saldo",
+        "comingSoon": "Segera Datang",
+        "loading": "Loading...",
+        "alts": [
+            {
+                "alt": "ikon kartu"
+            },
+            {
+                "alt": "buka"
+            }
+        ]
+    },
+    "contactUs": {
+        "messageSent": "Pesan terkirim",
+        "thankYou": "Terima kasih atas pesan Anda! Kami akan menghubungi Anda sesegera mungkin.",
+        "okText": "OK ",
+        "sending": "MENGIRIM...",
+        "send": "KIRIM",
+        "yourName": "Nama Anda",
+        "email": "Email",
+        "message": "Pesan Anda",
+        "investing": "Saya ingin berinvestasi",
+        "andMore": "dan lainnya",
+        "investments": [
+            {
+                "value": "1000 - 5000"
+            },
+            {
+                "value": "5000 - 10.000"
+            },
+            {
+                "value": "10.000 - 100.000"
+            },
+            {
+                "value": "100 000"
+            }
+        ]
+    },
+    "inviteFriendsSection": {
+        "t1": "Menjadi partner Afiliasi",
+        "t2": "Undang terman dan bermain secara gratis!",
+        "p": [
+            "Dapatkan Hadiah",
+            "setidaknya 40% dari pendapatan platfom",
+            "berkat space program kami."
+        ],
+        "learnMore": "Pelajari lebih lanjut"
+    },
+    "drawDialog": {
+        "eth": "ETH",
+        "title": "Dikit lagi untuk jadi<br\/>moon visitor selanjutnya",
+        "loading": "Undian lotere sedang berlangsung",
+        "backToDashboard": "Kembali ke Dashboard",
+        "btnText": "Tunjukkan Hasil"
+    },
+    "drawVideo": {
+        "eth": "ETH",
+        "video": "Browser Anda tidak mendukung tag video.",
+        "backToDashboard": "Kembali ke Dashboard",
+        "unmute": "Unmute",
+        "mute": "Mute",
+        "skip": "Skip",
+        "alts": [
+            {
+                "alt": "play"
+            },
+            {
+                "alt": "unmute"
+            },
+            {
+                "alt": "mute"
+            },
+            {
+                "alt": "skip"
+            }
+        ]
+    },
+    "etherscanLink": {
+        "check": "Periksa di Etherscan",
+        "alts": [
+            {
+                "alt": "etherscan"
+            }
+        ]
+    },
+    "moonVisitors": {
+        "title": "Moon visitor",
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "cover background"
+            }
+        ],
+        "gameTitle": "GAME LOTERE"
+    },
+    "paymentDialog": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "alts": [
+            {
+                "alt": "bullet"
+            },
+            {
+                "alt": "kembali"
+            },
+            {
+                "alt": "ethereum"
+            },
+            {
+                "alt": "buka"
+            },
+            {
+                "alt": "bitcoin"
+            }
+        ],
+        "back": "Kembali ke opsi",
+        "messagePanel": {
+            "title": "Pembayaran Berhasil",
+            "text": "Pembayaran Anda berhasil! Sekarang Anda dapat menggunakan tiket Anda untuk memasuki lotere.",
+            "okText": "Pergi ke Dashboard",
+            "cancelText": "Saya akan menggunakan tiket saya nanti",
+            "closeText": "Tutup",
+            "loteuText": "Sekarang, Anda dapat bermain berbagai permainan yang ekslusif bagi para pemegang LOTEU, seperti Moon of Fortune dan Lotere Apollo 11. Sedangkan permainan lainnya mempunyai fitur spesial yang dapat diaktifkan dengan menggunakan LOTEU.",
+            "playText": "Main"
+        },
+        "dialog": [
+            {
+                "title": "Opsi pembayaran",
+                "subTitle": "Pilih opsi pembayaran",
+                "info": "Kirim kan pembayaran <strong>{{payment}}<\/strong> Anda ke alamat berikut"
+            },
+            {
+                "title": "Opsi Pembayaran",
+                "subTitle": "Pilih alat pembayaran",
+                "paymentOptions": {
+                    "summary": {
+                        "title": "Ringkasan",
+                        "label": "Total",
+                        "price": [
+                            {
+                                "row": "Lotere Mingguan"
+                            },
+                            {
+                                "row": "Loteo Pass"
+                            },
+                            {
+                                "row": "Loteo Maxx 10"
+                            },
+                            {
+                                "row": "Loteo Maxx 20"
+                            },
+                            {
+                                "row": "Loteo Maxx 50"
+                            },
+                            {
+                                "row": "Loteo Maxx 100"
+                            },
+                            {
+                                "row": "Loteu"
+                            }
+                        ]
+                    },
+                    "payMethods": {
+                        "t1": "Ambil dari saldo",
+                        "name1": "Dompet Ethereum saya",
+                        "card1": "Dompet Bitcoin Saya",
+                        "t2": "Buat pembayaran baru",
+                        "card2": "Cryptocurrency",
+                        "card3": "Kartu Kredit",
+                        "card4": "Transfer Bank",
+                        "card5": "SMS",
+                        "card6": "World Wide Pay"
+                    },
+                    "otherPayment": {
+                        "title": "Pilih Cryptocurrency",
+                        "name1": "Ethereum",
+                        "info1": "Buat detail pembayaran",
+                        "name2": "Bitcoin",
+                        "info2": "SEGERA DATANG"
+                    },
+                    "confirmation": {
+                        "text1": [
+                            {
+                                "span": "Anda"
+                            },
+                            {
+                                "span": "tidak memiliki cukup dana"
+                            },
+                            {
+                                "span": "di dompet ETH untuk membayar transaksi ini."
+                            }
+                        ],
+                        "info": "Pilih opsi pembayaran lain atau deposit dana ke akun Anda.",
+                        "text2": [
+                            {
+                                "span": "Anda"
+                            },
+                            {
+                                "span": "akan dikenakan biaya"
+                            },
+                            {
+                                "span": "dari wallet Ethereum Loteo Anda"
+                            }
+                        ],
+                        "btn1": "Memproses pembayaran...",
+                        "btn2": "Konfirmasi Pembayaran"
+                    }
+                }
+            }
+        ],
+        "title": "Ringkasan dan riwayat transaksi",
+        "tabs": [
+            {
+                "alt": "Ringkasan"
+            },
+            {
+                "alt": "Opsi Pembayaran"
+            }
+        ],
+        "goToPaymentMethod": "Pergi ke Opsi Pembayaran",
+        "copied": "Tersalin",
+        "copy": "Salin ",
+        "qrCodeValid": "Kode QR berlaku untuk",
+        "total": "TOTAL",
+        "payWithEth": "Bayar dengan Ethereum",
+        "errorDialog": [
+            {
+                "text": "Anda tidak dapat membeli kurang dari 100 Loteu"
+            },
+            {
+                "text": "Anda tidak dapat membeli kurang dari 10 EUR"
+            }
+        ]
+    },
+    "prizes": {
+        "percentage": [
+            {
+                "value": "75"
+            },
+            {
+                "value": "20"
+            },
+            {
+                "value": "4"
+            },
+            {
+                "value": "1"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "pembagian hadiah"
+            }
+        ],
+        "target": [
+            {
+                "name": "Pemenang Lotere"
+            },
+            {
+                "name": "Pemegang LOTES",
+                "detail": "20% dari setiap hadiah akan didistribusikan kepada pemegang LOTES, berdasarkan dengan jumlah LOTES yang dimiliki setiap pengguna."
+            },
+            {
+                "name": "Diberikan kepada partner afiliasi yang mengundang pengguna."
+            },
+            {
+                "name": "Badan Amal yang dipilih oleh komunitas LOTEO."
+            }
+        ]
+    },
+    "ticketCard": {
+        "label": "Jumlah Tiket",
+        "alts": [
+            {
+                "alt": "ikon"
+            },
+            {
+                "alt": "kurang"
+            },
+            {
+                "alt": "tambah"
+            }
+        ]
+    },
+    "ticketSelector": {
+        "eur": "EUR",
+        "btc": "BTC",
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "tutup"
+            },
+            {
+                "alt": "tiket"
+            },
+            {
+                "alt": "minus"
+            },
+            {
+                "alt": "plus"
+            },
+            {
+                "alt": "peluang"
+            },
+            {
+                "alt": "berhasil"
+            },
+            {
+                "alt": "thumb up"
+            },
+            {
+                "alt": "scroll ke bawah"
+            }
+        ],
+        "header": {
+            "title": "Lotere Mingguan Loteo",
+            "text": "Keluar permainan",
+            "learnMore": "Pelajari game ini lebih lanjut"
+        },
+        "prizesCounter": {
+            "label": "Permainan dimulai dalam"
+        },
+        "playArea": {
+            "title": "Pilih jumlah tiket yang Anda ingin daftarkan",
+            "text": "Kesempatan menang aktual Anda adalah",
+            "label": "Tiket"
+        },
+        "loteuSection": {
+            "title": "Gandakan tiket Anda dengan LOTEU dan tingkatkan peluang menang Anda.",
+            "text": "Ketika Anda membeli entri tambahan ke dalam lotere dengan 100 LOTEU, Anda menggandakan kesempatan menang Anda.",
+            "label": "Gunakan Loteu",
+            "availableLoteu": "LOTEU Tersedia",
+            "availableTicket": "Tiket tersedia",
+            "ticketLabel": "tiket",
+            "buyMoreLoteu": "BELI LOTEU LAGI",
+            "buyMoreTicket": "BELI TIKET LAGI",
+            "loteuToDoubleChance": "100 LOTEU = Peluang double untuk menang",
+            "chooseTicket": "Pilij jumlah tiket yang ingin Anda daftarkan:",
+            "yourChanceIs": "Kesempatan menang relatif Anda adalah",
+            "comingPlatform": "Di masa yang akan datang, Anda dapet membeli LOTEU langsung dari platform Loteo.",
+            "needBuyTickets": "Anda harus membeli tiket untuk mengikuti Lotere",
+            "scrollInfo": "Scroll ke bawah untuk membeli tiket",
+            "loteuRate": "100 LOTEU = {{rate}} EUR",
+            "loteuReminder": "Jangan lupa untuk menggunakan LOTEU<br\/>agar peluang Anda untuk menang bertambah!"
+        },
+        "processInfo": {
+            "message": "Tiket berhasil dimasukkan",
+            "chanceInfo": "Peluang Anda pada saat memasuki permainan adalah",
+            "text1": "Keren! Berkat <strong>LOTEU<\/strong> Anda sudah menggandakan peluang menang Anda!",
+            "text2": "Lain kali, gunakan <strong>LOTEU<\/strong> untuk menggandakan peluang menang Anda!"
+        },
+        "bottomPanel": {
+            "title": "Ringkasan Tiket",
+            "info": "Tiket + LOTEU",
+            "tickets": {
+                "single": "tiket",
+                "more": "tiket"
+            },
+            "btn0": "TUAMPILKAN PERATURAN",
+            "btn1": "PERGI KE DASHBOARD",
+            "btn2": {
+                "process": "SEDANG MEMPROSES...",
+                "play": "MAIN LAGI",
+                "enter": "MASUK KE LOTERE"
+            },
+            "btn3": "Tutup"
+        },
+        "ticketShop": {
+            "title": "Beli tiket atau paket spesial"
+        },
+        "errorDialog": {
+            "title": "Undian saat ini sudah ditutup",
+            "text": "Anda dapat memasuki permainan setidaknya 30 menit sebelum undian dimulai. Untuk saat ini, ronde sudah ditutup. Anda dapat mengikuti ronde berikutnya setelah undian yang sekarang selesai.",
+            "okText": "Ok"
+        },
+        "successDialog": {
+            "close": "Tutup",
+            "increaseChance": "Tingkatkan peluang menang Anda",
+            "title": "Berhasil!",
+            "text": "Anda sudah memasuki permainan"
+        }
+    },
+    "ticketShop": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "buyNowBtn": "Beli sekarang",
+        "alts": [
+            {
+                "alt": "keranjang belanja"
+            }
+        ],
+        "label": "Waktu ke undian Lotere Mingguan",
+        "bonus": {
+            "title": "WELCOME BONUS",
+            "text": "BELI TIKET PERTAMA, DAPATKAN 100 LOTEU"
+        },
+        "tickets": [
+            {
+                "title": "Tiket",
+                "text": "Satu tiket untuk lotere mingguan"
+            },
+            {
+                "title": "Loteo Pass",
+                "text": "Dapatkan <strong>tiket terusan lotere selama setahun<\/strong>, tanpa harus berulang kali membeli tiket, dan jadi <span>PARTNER PREMIUM kami<\/span>"
+            },
+            {
+                "title": "Loteo Maxx 10",
+                "text": "Dapatkan <strong>10 tiket lotere + 250 LOTEU<\/strong><br \/>Anda dapat menggunakan tiket ini kapanpun dan berapapun."
+            },
+            {
+                "title": "Loteo Maxx 20",
+                "text": "Dapatkan <strong>20 tiket lotere + 1000 LOTEU<\/strong><br \/>Anda dapat menggunakan tiket ini kapanpun dan berapapun."
+            },
+            {
+                "title": "Loteo Maxx 50",
+                "text": "Dapatkan <strong>50tiket lotere + 3750 LOTEU<\/strong><br \/>Anda dapat menggunakan tiket ini kapanpun dan berapapun."
+            },
+            {
+                "title": "Loteo Maxx 100",
+                "text": "Dapatkan <strong>100 tiket lotere + 10 000 LOTEU<\/strong><br \/>Anda dapat menggunakan tiket ini kapanpun dan berapapun."
+            }
+        ],
+        "summaryPanel": {
+            "label": "Ringkasan",
+            "total": "Total"
+        }
+    },
+    "userInfoComponent": {
+        "loading": "Loading...",
+        "logout": "Logout",
+        "profile": "Profil Saya",
+        "soon": "Segera Hadir",
+        "alts": [
+            {
+                "alt": "Profil pengguna"
+            }
+        ],
+        "affiliateStatus": {
+            "PREMIUM": "Partner premium",
+            "AFFILIATE": "Partner Afiliasi"
+        }
+    },
+    "loteoPassPopup": {
+        "title1": "LOTEOPASS",
+        "validity": "Berlaku Sampai",
+        "valueText": "sisa tiket",
+        "title2": "LoteoPass Saya",
+        "alts": [
+            {
+                "alt": "tutup"
+            }
+        ]
+    },
+    "coinbackPopup": {
+        "title": "Bonus Coinback diklaim!",
+        "text": "sudah dikirimkan.",
+        "alts": [
+            {
+                "alt": "tutup"
+            },
+            {
+                "alt": "dompet"
+            }
+        ]
+    },
+    "walletPanel": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "loteu": "Loteu",
+        "lotes": "Lotes",
+        "alts": [
+            {
+                "alt": "tutup"
+            },
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "tiket"
+            },
+            {
+                "alt": "info"
+            }
+        ],
+        "setTransactionSuccessMessage": "berhasil ditransfer dari dompet Ethereum Anda.<br\/> Anda dapat melacak status transaksi di ",
+        "pendingTransactions": {
+            "text": "Transaksi di dompet Anda sedang dalam proses...",
+            "link": "Anda dapat melacak status transaksi Anda di"
+        },
+        "walletDetails": {
+            "title1": "Tiket Saya",
+            "title2": "Cryptocurrency Saya",
+            "btn": "Buka Dompet",
+            "label": "Lotere Mingguan",
+            "apollo11Label": "Lotere Apollo 11",
+            "myTicket": "TIKET SAYA"
+        },
+        "walletHeader": {
+            "title": "Dompet Saya"
+        },
+        "nextMoonVisitorInfo": {
+            "title": "Apakah Anda ingin menjadi moon visitor selanjutnya?",
+            "subTitle": "Beli tiket untuk undian berikutnya",
+            "btn1": "Tidak, Terima Kasih",
+            "btn2": "Beli Tiket"
+        },
+        "currenciesInfo": {
+            "currenciesSection1": {
+                "title1": "Tiket Saya",
+                "loading": "Loading...",
+                "title2": "Lotere Mingguan",
+                "label1": "Tiket tersedia",
+                "text": "Tiket LoteoPass",
+                "label2": "Tiket dalam game",
+                "label3": "Terpakai untuk Coinback",
+                "text3": "Tiket",
+                "label4": "Hadiah Coinback",
+                "title3": "Lotere Apollo 11"
+            },
+            "currenciesSection2": {
+                "title": "Cryptocurrency Saya"
+            }
+        },
+        "dialog": [
+            {
+                "title1": "Deposit ETH",
+                "title2": "Saldo Anda",
+                "title3": "Alamat Deposit ETH",
+                "name": "Dompet Ethereum Saya",
+                "note": "Setelah melakukan deposit, Anda dapat melacak status transaksi di",
+                "title": "Deposit ETH"
+            },
+            {
+                "title1": "Penarikan ETH",
+                "title2": "Saldo Anda",
+                "title3": "Alamat Penarikan ETH",
+                "name": "Dompet Ethereum Saya",
+                "error": "Format harus valid",
+                "placeholder1": "Masukkan alamat untuk mentransfer ETH",
+                "placeholder2": "Jumlah ETH",
+                "note": "<strong>Harap diingat<\/strong>Setelah melakukan penarikan, Anda dapat melacak status transaksi Anda di ",
+                "btn1": "Memproses...",
+                "btn2": "Kirim",
+                "title": "Penarikan ETH"
+            },
+            {
+                "title": "Transaksi berhasil",
+                "okText": "Pergi ke Dashboard"
+            },
+            {
+                "title1": "Deposit LOTEU",
+                "title2": "Saldo Anda",
+                "title3": "Alamat Deposit LOTEU",
+                "name": "Dompet Loteu Saya",
+                "note": "Setelah melakukan deposit, Anda dapat melacak transaksi Anda di ",
+                "title": "Deposit LOTEU"
+            },
+            {
+                "title1": "Penarikan Loteu",
+                "title2": "Saldo Anda",
+                "title3": "Alamat Penarikan Loteu",
+                "name": "Wallet Loteu Saya",
+                "error": "Format harus valid",
+                "placeholder1": "Masukkan alamat penarikan LOTEU Anda",
+                "placeholder2": "Jumlah Loteu",
+                "note": "<strong>Catatan:<\/strong> <br\/>Setelah melakukan penarikan, Anda dapat melacak transaksi Anda di ",
+                "btn1": "Memproses...",
+                "btn2": "Submit",
+                "title": "Penarikan LOTEU"
+            },
+            {
+                "title": "Dana tidak mencukupi untuk melakukan penarikan",
+                "text": {
+                    "part1": "Saldo Anda tidak mencukupi. Untuk dapat berpartisipasidalam permainan lotere, <strong>Anda harus mempunyai minimal 0.017 ETH di dompet Anda<\/strong>. Silakan deposit terlebih dahulu.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Penarikan membutuhkan biaya gas untuk jaringan Ethereum."
+                },
+                "okText": "Ok "
+            },
+            {
+                "title": "Saldo tidak mencukupi untuk penarikan LOTEU",
+                "text": {
+                    "part1": "Saldo Anda tidak mencukupi. Untuk dapat melakukan penarikan, <strong>Anda harus mempunyai saldo minimal 0.0132 ETH untuk biaya transaksi<\/strong>.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Penarikan membutuhkan biaya gas untuk jaringan Ethereum."
+                },
+                "okText": "Oke"
+            },
+            {
+                "title": "Deposit BTC",
+                "name": "Dompet Bitcoin Saya",
+                "note": "Setelah melakukan deposit, Anda dapat melacak transaksi Anda di"
+            },
+            {
+                "title": "Penarikan BTC",
+                "name": "Dompet Bitcoin Saya",
+                "error": "Format harus valid",
+                "placeholder1": "Masukkan alamat penarikan BTC",
+                "placeholder2": "Jumlah BTC",
+                "note": "<strong>Catatan<\/strong><br\/>Setelah melakukan penarikan, Anda dapat melacak transaksi Anda di"
+            },
+            {
+                "title": "Dana tidak mencukupi untuk melakukan penarikan BTC",
+                "text": {
+                    "part1": "Anda tidak mempunyai saldo yang cukup. Untuk melakukan penarikan, <strong>Anda harus mempunyai sedikitnya 0.000137 BTC untuk membayar biaya transaksi<\/strong>.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Penarikan membutuhkan biaya transaksi pada jaringan Bitcoin."
+                },
+                "okText": "Ok"
+            }
+        ],
+        "max": "Maks",
+        "withdraw": {
+            "balanceTitle": "Saldo Anda",
+            "addressTitle": "Alamat Penarikan",
+            "max": "MAX",
+            "processingButton": "Memproses...",
+            "submitButton": "Kirim"
+        },
+        "deposit": {
+            "balanceTitle": "Saldo Anda",
+            "addressTitle": "Alamat Deposit "
+        },
+        "ticketReminder": {
+            "title": "Jangan lupa gunakan tiket Anda!",
+            "text": "Apabila Anda ingin mengikuti undian lotere mingguan selanjutnya, Anda harus menggunakan tiket Anda.",
+            "close": "Tutup",
+            "useTicket": "Gunakan tiket"
+        }
+    },
+    "authOverlay": {
+        "alts": [
+            {
+                "alt": "logo"
+            }
+        ],
+        "text": "Mengecek autentikasi"
+    },
+    "userForm": {
+        "loading": "Loading...",
+        "alts": [
+            {
+                "alt": "avatar"
+            },
+            {
+                "alt": "mfa"
+            }
+        ],
+        "form": [
+            {
+                "label": "Avatar",
+                "btn": "Unggah avatar baru"
+            },
+            {
+                "label": "Username"
+            },
+            {
+                "label": "Email"
+            },
+            {
+                "label": "Negara"
+            },
+            {
+                "label": "Telegram",
+                "input": "Masukkan username Telegram Anda di sini"
+            },
+            {
+                "label": "Aktifkan Otentikasi 2-faktor (2FA)"
+            },
+            {
+                "label": "Alamat ETH",
+                "loading": "Loading..."
+            },
+            {
+                "saving": "Menyimpan...",
+                "saved": "Perubahan Tersimpan",
+                "save": "Simpan Perubahan"
+            }
+        ]
+    },
+    "messagePanel": {
+        "alts": [
+            {
+                "alt": "info"
+            }
+        ],
+        "okText": "OK ",
+        "cancelText": "Batalkan"
+    },
+    "userProfile": {
+        "alts": [
+            {
+                "alt": "Profile Pengguna"
+            }
+        ],
+        "logout": "Logout",
+        "tabs": [
+            {
+                "name": "Akun"
+            }
+        ]
+    },
+    "background": {
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "shine"
+            },
+            {
+                "alt": "end cover"
+            }
+        ]
+    },
+    "backgroundTexture": {
+        "alts": [
+            {
+                "alt": "background elements"
+            }
+        ]
+    },
+    "question": {
+        "alts": [
+            {
+                "alt": "expand collapse"
+            }
+        ]
+    },
+    "homeTopBackground": {
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "end cover"
+            }
+        ]
+    },
+    "lastWinners": {
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "trofi"
+            }
+        ],
+        "loteu": "LOTEU",
+        "DAILY": "Lotere Harian",
+        "WEEKLY": "Lotere Mingguan",
+        "APOLLO_11": "Apollo 11",
+        "SPECIAL_APOLLO_11": "Lotere  Apollo 11  Spesial",
+        "watchDraw": "Lihat Undian",
+        "DAILYMOBILE": "Harian",
+        "WEEKLYMOBILE": "Mingguan",
+        "APOLLO_11MOBILE": "Lotere Harian Apollo 11",
+        "SPECIAL_APOLLO_11MOBILE": "Lotere  Apollo 11  Spesial"
+    },
+    "networks": {
+        "alts": [
+            {
+                "alt": "telegram"
+            },
+            {
+                "alt": "twitter"
+            },
+            {
+                "alt": "instagram"
+            },
+            {
+                "alt": "linkedin"
+            },
+            {
+                "alt": "facebook"
+            },
+            {
+                "alt": "reddit"
+            },
+            {
+                "alt": "github"
+            },
+            {
+                "alt": "youtube"
+            },
+            {
+                "alt": "bitcointalk"
+            }
+        ]
+    },
+    "newsBanner": {
+        "alts": [
+            {
+                "alt": "bullet"
+            }
+        ],
+        "mockedNews": [
+            {
+                "text": "PROGRAM UNIK TRIPLE AFILIASI LOTEO - MAINKAN & MENANGKAN & HASILKAN"
+            },
+            {
+                "text": "Loteopass - Jadilah partner premium kami dan dapatkan bonus bulan Juni"
+            },
+            {
+                "text": "Not needed"
+            },
+            {
+                "text": "THE LOTEO YOUTUBE PLANS — LOTEO ACADEMY AND TV"
+            }
+        ],
+        "loteoNews": "berita loteo",
+        "loading": "Loading..."
+    },
+    "partner": {
+        "alts": [
+            {
+                "alt": "logo"
+            }
+        ]
+    },
+    "scrollInfo": {
+        "alts": [
+            {
+                "alt": "scroll ke bawah"
+            }
+        ]
+    },
+    "ticketSummaryCard": {
+        "alts": [
+            {
+                "alt": "ringkasan"
+            },
+            {
+                "alt": "info"
+            }
+        ]
+    },
+    "button": {
+        "alts": [
+            {
+                "alt": "tanda tombol"
+            }
+        ]
+    },
+    "dialog": {
+        "alts": [
+            {
+                "alt": "tutup"
+            }
+        ]
+    },
+    "bonusDialog": {
+        "title1": "Menangkan LOTEU!",
+        "title2": "Selesaikan airdrop tutorial",
+        "title3": "dan temukan kode rahasia di akhir",
+        "btn1": "Mulai"
+    },
+    "messageContextProvider": {
+        "close": "Tutup"
+    },
+    "copyField": {
+        "copied": "Tersalin",
+        "copy": "Salin "
+    },
+    "countInfo": {
+        "valueLeft": "sisa"
+    },
+    "dashboard": {
+        "scrollInfo": "Scroll ke bawah untuk membeli tiket ke Bulan",
+        "buyTickets": "Beli tiket",
+        "unknown": "mr.unknown",
+        "errors": [
+            {
+                "title": "Anda tidak mempunyai tiket",
+                "text": "Anda harus membeli tiket lotere terlebih dahulu, kemudian Anda dapat bermain Lotere Mingguan Loteo.",
+                "okText": "Beli tiket",
+                "cancelText": "Batalkan"
+            },
+            {
+                "title": "Dana tidak mencukupi untuk memasuki permainan",
+                "text": {
+                    "part1": "Saldo Anda tidak mencukupi. Untuk dapat berpartisipasidalam permainan lotere, <strong>Anda harus mempunyai minimal 0.017 ETH di dompet Anda<\/strong>. Silakan deposit terlebih dahulu.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Setiap partisipasi dalam lotere akan menghasilkan sebuah transaksi on-chain dalam jaringan Ethereum. Dan setiap transaksi on-chain memerlukan biaya, dalam platform kami biaya itu sebesar 0.017 ETH. Hal ini dikarenakan kami ingin memastikan setiap partisipasi menjadi transparan dan terlihat secara langsung dalam jaringan Ethereum. Kami akan selalu melakukan pengembangan untuk membuat biaya ini sekecil mungkin."
+                },
+                "okText": "Ok "
+            }
+        ],
+        "leaderboard": {
+            "leaderboard": "Leaderboard",
+            "gameTitle": "GAME LOTEO",
+            "game": "GAME",
+            "users": "PENGGUNA \/ MINGGU",
+            "tickets": "TIKET \/ MINGGU",
+            "totalAmount": "JUMLAH TOTAL \/ MINGGU",
+            "weeklyLottery": {
+                "title": "LOTERE MINGGUAN",
+                "currency": "ETH",
+                "winText": "MENANG",
+                "users": "TIKET \/ MINGGU"
+            },
+            "apollo11Lottery": {
+                "title": "LOTERE APOLLO 11",
+                "currency": "LOTEU",
+                "winText": "MENANG",
+                "users": "TIKET \/ MINGGU"
+            },
+            "moonOfFortune": {
+                "title": "MOON OF FORTUNE",
+                "currency": "LOTEU",
+                "winText": "VOLUME",
+                "users": "PENGGUNA \/ MINGGU"
+            },
+            "winnerOfTheWeek": "Pemenang minggu ini",
+            "loteu": "LOTEU"
+        }
+    },
+    "gamesInfo": {
+        "title": "Detail Game | LOTEO - Lotere Blockchain Transparan"
+    },
+    "headerTabs": [
+        {
+            "name": "Lotere Mingguan"
+        },
+        {
+            "name": "Lotere Harian"
+        },
+        {
+            "name": "Moon of Fortune"
+        },
+        {
+            "name": "Rekt Rooms"
+        },
+        {
+            "name": "Event Spesial"
+        },
+        {
+            "name": "Turnamen Loteo"
+        },
+        {
+            "name": "Lotere Apollo 11"
+        },
+        {
+            "name": "Fomo"
+        },
+        {
+            "name": "Jacks or Better"
+        },
+        {
+            "name": "Dice"
+        }
+    ],
+    "unavailable": {
+        "roadmap": "*Sesuai dengan roadmap",
+        "comingSoon": "segera hadir"
+    },
+    "gameWallet": {
+        "title": "LOTEU",
+        "sections": [
+            {
+                "title": "Transaksi berhasil!",
+                "text": "Sekarang Anda dapat mengatur jumlah taruhan dan putar roda Moon of Fortune!",
+                "buttonText": "Ayo main"
+            },
+            {
+                "text": "Penarikan"
+            },
+            {
+                "text": "Deposit "
+            },
+            {
+                "title": "Deposit LOTEU & mulai bermain!",
+                "text": "Untuk bermain, Anda harus mendepositkan LOTEU dari dompet Loteo Anda",
+                "buttonText": "Ok, saya mengerti"
+            },
+            {
+                "title": "Tarik LOTEU",
+                "balanceCardCurrency": "Game",
+                "inputLabel": "Jumlah penarikan",
+                "buttonText": "Tarik Semua"
+            },
+            {
+                "title": "Deposit LOTEU",
+                "balanceCardCurrency": "LOTEU",
+                "inputLabel": "Jumlah deposit",
+                "buttonText": "Deposit "
+            }
+        ],
+        "pendingTransactions": {
+            "text": "Transaksi di dompet Anda sedang dalam proses...",
+            "link": "Anda dapat melacak transaksi Anda di"
+        },
+        "errors": [
+            {
+                "title": "Dana tidak mencukupi untuk memasuki permainan",
+                "text": "Saldo Anda tidak mencukupi. Untuk bermain Moon of Fortune, <strong>Anda harus mempunyai minimal 0.017 ETH dalam saldo Anda.<\/strong> Mohon deposit terlebih dahulu.",
+                "confirm": "Oke"
+            }
+        ],
+        "myBalance": "Saldo Saya"
+    },
+    "moonOfFortuneControls": {
+        "segOpt": [
+            {
+                "v": "10"
+            },
+            {
+                "v": "20"
+            },
+            {
+                "v": "30"
+            },
+            {
+                "v": "40"
+            },
+            {
+                "v": "50"
+            }
+        ],
+        "btnHalf": "½",
+        "btnTwo": "2x",
+        "title": "Moon<br \/>of Fortune",
+        "betAmount": "Jumlah Bet",
+        "loteu": "LOTEU",
+        "max": "MAX",
+        "risk": {
+            "title": "Risiko",
+            "options": [
+                {
+                    "value": "Tinggi"
+                },
+                {
+                    "value": "Sedang"
+                },
+                {
+                    "value": "Rendah"
+                }
+            ]
+        },
+        "segments": "Segmen",
+        "bet": "BET",
+        "showRules": "Tampilkan Peraturan",
+        "rules": [
+            "Mode dikonfigurasi melalui risiko dan penggandaan menentukan potensi pembayaran yang berbeda",
+            "Roda tidak dimodifikasi sama sekali",
+            "1% edge",
+            "Maksimal hadiah 1 000 000 LOTEU dalam satu taruhan"
+        ]
+    },
+    "myAffiliate": {
+        "alts": [
+            {
+                "text": "Partner Premium"
+            }
+        ],
+        "helmet": "LOTEO - Lotere Berbasis Blockchain Yang Transparan",
+        "title": "Terserah Anda, apapun yang Anda pilih",
+        "titleSpan": "Upline Saya:",
+        "subtitle1": "Statistik Afiliasi Saya",
+        "subtitle2": "Partner Afiliasi Saya",
+        "subtitle3": "Statistik Space Program",
+        "subtitle4": "Status VIP",
+        "loading": "LOADING",
+        "tabs": [
+            {
+                "name": "Statistik"
+            },
+            {
+                "name": "Partner Afiliasi Saya"
+            }
+        ],
+        "progressInfo": {
+            "alts": [
+                {
+                    "alt": "Partner Premium"
+                },
+                {
+                    "alt": "Prtner Afiliasi"
+                },
+                {
+                    "alt": "Terkunci"
+                },
+                {
+                    "alt": "Terbuka"
+                }
+            ],
+            "unlockedHeader": "Anda",
+            "premiumPartner": {
+                "title": "PARTNER PREMIUM",
+                "subtitle": "Jadi Partner Premium dan dapatkan akses ke semua bonus."
+            },
+            "affiliatePartner": {
+                "title": "PARTNER AFILIASI",
+                "subtitle": "Jadi partner afiliasi, buka line afiliasi dan dapatkan bonus spesial."
+            },
+            "buyPass": "Beli Loteopass untuk MEMBUKA BANYAK BONUS",
+            "buyTicket": "Beli Tiket Lotere untuk MEMBUKA BONUS",
+            "unlocked": "unlocked",
+            "unlockables": {
+                "premiumPartner": {
+                    "premiumLine": {
+                        "title": "Line Premium",
+                        "lockedText": "Buka semua bonus untuk Line Premium.",
+                        "unlockedText": "Semua bonus dari Line Premium terbuka."
+                    },
+                    "doubleChance": {
+                        "title": "Kesempatan 2x",
+                        "lockedText": "Buka kesempatan ganda setiap undian lotere.",
+                        "unlockedText": "Kesempatan ganda untuk setiap undian lotere terbuka."
+                    },
+                    "spaceProgram": {
+                        "title": "Space Program"
+                    },
+                    "VIPStatus": {
+                        "title": "Status VIP"
+                    }
+                },
+                "affiliatePartner": {
+                    "affiliateLine": {
+                        "title": "Line Afiliasi",
+                        "lockedText": "Buka semua bonus untuk Line Afiliasi.",
+                        "unlockedText": "Semua bonus untuk Line Afiliasi terbuka."
+                    }
+                },
+                "learnMore": "Pelajari lebih lanjut"
+            }
+        },
+        "partnersTable": {
+            "headers": [
+                "nickname",
+                "negara",
+                "partner",
+                "spaceProgram",
+                "DigunakanMingguIni",
+                "TotalTiket",
+                "TotalEth",
+                "status"
+            ],
+            "empty": "Anda belum mempunyai partner afiliasi",
+            "copyText": "Salin tautan afiliasi Anda, bagikan ke semua teman Anda dan bermain secara gratis!",
+            "copied": "Tersalin",
+            "copy": "Salin ",
+            "status": {
+                "NONE": "TIDAK ADA",
+                "AFFILIATE": "AFILIASI",
+                "PREMIUM": "PREMIUM"
+            }
+        },
+        "statisticsTable": {
+            "headers": [
+                {
+                    "name": "Status Saya"
+                },
+                {
+                    "name": "Total Pengguna"
+                },
+                {
+                    "name": "Pengguna Aktif"
+                },
+                {
+                    "name": "Pengguna yang bermain minggu ini"
+                },
+                {
+                    "name": "Tiket yang digunakan minggu ini"
+                },
+                {
+                    "name": "Total Tiket"
+                }
+            ],
+            "bodyNoData": "Tidak ada data untuk ditampilkan",
+            "soldTickets": "Tiket terjual",
+            "notPremium": {
+                "title": "TERKUNCI",
+                "text": "Untuk membuka dan masuk ke Space Program, Anda harus menjadi <strong>Partner Afiliasi Premium<\/strong>"
+            },
+            "foot": {
+                "title": "Profit",
+                "eth": "ETH",
+                "loteu": "LOTEU",
+                "nextPayout": "Pembayaran ETH berikutnya"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "Line Pertama"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Space Program",
+                        "span1": "TERJUAL",
+                        "span2": "Level Space Program"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Downline",
+                        "span": "PENGGUNA"
+                    }
+                }
+            ]
+        },
+        "spaceProgramStatisticsTable": {
+            "header": "Level Space Program",
+            "foot": {
+                "lastMonth": "Dibayarkan bulan lalu",
+                "totally": "Total dibayarkan kepada partner Space kami",
+                "eth": "ETH"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "Pengguna"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "ETH"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "ETH per pengguna"
+                    }
+                }
+            ]
+        },
+        "VIPInfo": {
+            "toGet": "untuk mendapatkan"
+        },
+        "passDialog": {
+            "title": "Beli LoteoPass dan jadi <strong>Partner Premium<\/strong>",
+            "text": "Sebagai Partner PREMIUM Anda akan mendapatkan akses ke berbagai bonus spesial seperti Space Program, Program VIP, peluang ganda dan linke afiliasi premium.",
+            "ok": "BELI SEKARANG",
+            "cancel": "Saya tidak tertarik"
+        }
+    },
+    "currencyCardFull": {
+        "loading": "Loading...",
+        "withdraw": "Penarikan",
+        "deposit": "Deposit",
+        "nextPayout": "Pembayaran Berikutnya",
+        "totalPayout": "Total Pembayaran"
+    },
+    "joyride": {
+        "locale": {
+            "back": "Kembali",
+            "close": "Tutup",
+            "last": "Selesai",
+            "next": "Next",
+            "skip": "Skip"
+        },
+        "video": {
+            "video": "Browser Anda tidak mendukung tag video.",
+            "backToDashboard": "Kembali ke Dashboard",
+            "claimLOTEU": "Klaim LOTEU",
+            "yourCode": "Kode Anda:",
+            "unmute": "Unmute",
+            "mute": "Mute",
+            "alts": [
+                {
+                    "alt": "play"
+                },
+                {
+                    "alt": "unmute"
+                },
+                {
+                    "alt": "mute"
+                }
+            ]
+        },
+        "dashboard": {
+            "text1": "Anda yakin tidak mau memasang avatar kece atau merubah profil Anda... Semuanya akan ditampilkan setelah Anda menekan tombol Profil ini.",
+            "text2": "Ini adalah panel wallet Anda. Saldo Anda ditampilkan disini beserta jumlah tiket yang Anda beli",
+            "text3": "Apabila kolom ini menunjukkan angka nol, Anda harus mengisi wallet Anda apabila Anda ingin mulai bermain lotere.",
+            "text4": [
+                "Lihat saldo LOTEU Anda, token utilitas yang dapat menggandakan kesempatan menang Anda dalam lotere. Informasi lebih lanjut dapat Anda temukan",
+                "di link ini",
+                ". LOTEU dapat didapatkan sebagai hadiah atau Anda dapat membelinya di exchange. Cari tau cara mendapatkannya dengan mudah",
+                "link ini"
+            ],
+            "text5": [
+                "Setelah berinvestasi dengan LOTEO, Anda akan segera dapat melihat jumlah relevan investasi Anda disini. Apa keuntungan menjadi investor selain mendapatkan 20% dari setiap hadiah pemenangan? Klik",
+                "disini",
+                "dan cari tau lebih lanjut."
+            ],
+            "text6": "Persis seperti toko online, pilih produk yang paling cocok buat Anda lalu lihat keranjang belanja Anda dibawah. Dengan menekan tombol beli, Anda akan dipersilakan untuk memilih opsi pembayaran.",
+            "text7": "Masukkan tiket lotere Anda dengan klik tombol ini. Pastikan Anda mempunyai cukup dana untuk dapat main lotere ini... Anda akan selalu ditanya untuk memastikan keputusan Anda.",
+            "text8": "Dengan klik disini Anda dapat masuk ke wallet Anda dan melakukan kegiatan yang Anda mau.",
+            "text9": "Ini adalah antar muka wallet Anda. Pada bagian sebelah kiri, Anda bisa melihat apakah tiket Anda sudah berhasil masuk ke dalam lotere atau belum. Ada baiknya di cek secara berkala.",
+            "text10": "Ketika Anda klik tombolnya, Anda akan menemukan alamat Anda, kode QR, dan semua informasi yang dibutuhkan.",
+            "text11": [
+                "Semua informasi tentang lotere minggu ini di satu tempat. Biarpun platform Loteo berjalan didalam Ethereum, jumlah hadiah yang ditampilkan akan berupa Euro yang nilai tukarnya diperbarui setiap 5 menit sekali. Hadiah juga ditampilkandalam BTC dan ETH. Untuk melihat contract-nya, klik",
+                "Lihat di Etherscan",
+                " untuk melihat peluang menang Anda, lihat pemenang terakhir dan periksa tanggal & waktu untuk undian berikutnya."
+            ],
+            "text12": [
+                "Seperti tiket terusan lainnya, kami menawarkan tiket terusan selama satu tahun dengan peluang menang ganda. Info lebih lanjut dapat Anda temukan disini",
+                "artikel",
+                ". Jika Anda ingin menjadi PARTNER PREMIUM, hal ini adalah sebuah keharusan."
+            ],
+            "text13": [
+                "Apabila Anda lebih memilih untuk bermain dengan jumlah yang lebih besar, hal ini sangatlah cocok untuk Anda. Kami akan memberikan bonus apabila Anda memutuskan untuk membeli tiket lebih banyak... Lebih lagi, Anda dapat menggunakannya kapanpun. Lihat disini",
+                "disini"
+            ],
+            "text14": [
+                "Ini adalah peluang Anda untuk memenangkan jackpot tanpa membeli tiket. Game dimana Anda dapat menggunakan token LOTEU yang Anda dapat dari airdrop. Anda dapat memenangkan tiket gratis ke lotere mingguan atau untuk sekedar menggandakan jumlah token LOTEU Anda. ",
+                "salah satu artikel terbaru kami",
+                "untuk mengetahui lebih banyak"
+            ],
+            "text15": [
+                "Apabila Anda seseorang yang sangat aktif secara sosial atau memiliki teman yang mungkin tertarik pada Loteo, inilah kesempatan Anda untuk mendapatkan hadiah. Bantu kami berkembang! Semua info tentang program afiliasi terbaik di dunia dapat Anda temukan di",
+                "artikel ini"
+            ],
+            "text16": "Hadil lotere terakhir dapat Anda temukan disini... Anda bahkan dapat melihatnya di etherscan, yang merupakan salah satu keunggulan dibandingkan dengan lotere umum.",
+            "text17": "Kami percaya Anda akan bersenang-senang di platform kami. Dan kami akan selalu memberi penghargaan kepada mereka yang membantu kami tumbuh dan berkembang. Sebarkan tautan afiliasi Anda dan dapatkan LOTEU. "
+        }
+    },
+    "loading": "loading",
+    "counter": {
+        "d": "D",
+        "h": "H",
+        "m": "M",
+        "s": "S"
+    },
+    "quitButton": {
+        "alt": "tutup"
+    },
+    "gameWalletDialog": {
+        "title": "Saldo Tersedia",
+        "balance": {
+            "my": "Saya",
+            "wallet": "Dompet",
+            "loteu": "LOTEU"
+        }
+    },
+    "MESSAGE_WALLET_HAS_PENDING_TRANSACTION": {
+        "title": "Transaksi tertunda",
+        "text": "Transaksi di dompet Anda sedang dalam proses. Anda harus menunggu sampai transaksi selesai."
+    },
+    "newsInitialState": {
+        "news": "Memuat berita..."
+    },
+    "shareMoF": {
+        "title": "Sebelum Anda pergi...",
+        "text1": "Bagikan Moon of Fortune kepada teman Anda dan",
+        "text2": "dapatkan +100 ke dompet Anda.",
+        "facebook": "Bagikan ke Facebook",
+        "twitter": "Bagikan ke Twitter",
+        "cancel": "Batalkan",
+        "quit": "Keluar Permainan",
+        "quote": "Main game Moon of Fortune dan menangkan token LOTEU. Game nya asyik, lho!",
+        "hashtags": {
+            "facebook": "#playloteo",
+            "twitter": "loteo,loteu,lotere,cryptocurrency,blockchainlottery,gambling,playloteo"
+        }
+    },
+    "board": {
+        "leaderboard": "Papan Ranking",
+        "myBets": "Taruhan Saya",
+        "position": "POSISI",
+        "player": "PEMAIN",
+        "usedLoteu": "LOTEU TERPAKAI",
+        "loteu": "Loteu",
+        "bet": "TARUHAN",
+        "time": "WAKTU",
+        "payout": "PEMBAYARAN",
+        "profit": "PROFIT",
+        "weekly": "Mingguan",
+        "monthly": "Bulanan",
+        "allTime": "Semua",
+        "gameTitle": "GAME LOTEO"
+    },
+    "apollo11Dialog": {
+        "title": "DEPSOIT<br \/>50 000 LOTEU",
+        "subtitle": "...<strong>sebelum penerbangan (16 Juli) <\/strong> dan <strong>stake sampai dengan<br \/>20 Juli<\/strong> ketika Apollo 11 mendarat di Bulan",
+        "cta": "Deposit",
+        "text": "Rayakan ulang tahun ke 50 Apollo 11<br \/> Misi ke Bulan!"
+    },
+    "apollo11Lottery": {
+        "title": "Lotere  Apollo 11  Spesial",
+        "learnMore": "Pelajari lebih lanjut",
+        "gameStartsIn": "Undian lotere berikutnya",
+        "loteu": "LOTEU",
+        "drawingSchedule": "Jadwal Undian",
+        "youreIn": "Anda sudah didalam permainan",
+        "playNow": "MAIN SEKARANG",
+        "nextDraw": "Undian berikutnya besok",
+        "lastWinner": "Pemenang Terakhir",
+        "alts": [
+            {
+                "text": "Pemenang"
+            }
+        ]
+    },
+    "leaderboard": {
+        "player": "PEMAIN",
+        "loteoRooms": "ROOM LOTEO",
+        "mof": "MOON OF FORTUNE",
+        "affiliate": "Line Pertama Afiliasi",
+        "usedLoteu": "Loteu Terpakai",
+        "spentEth": "ETH Terpakai",
+        "loteuVolumne": "Volume Loteu",
+        "users": "Pengguna",
+        "loteu": "Loteu",
+        "usedTickets": "Tiket Terpakai",
+        "leaderboard": "Leaderboard",
+        "gameTitle": "GAME LOTEO",
+        "game": "GAME",
+        "totalAmount": "JUMLAH TOTAL \/ MINGGU",
+        "weeklyLottery": {
+            "title": "LOTERE MINGGUAN",
+            "winCurrency": "ETH",
+            "winText": "MENANG"
+        },
+        "apollo11Lottery": {
+            "title": "LOTERE APOLLO 11",
+            "winCurrency": "LOTEU",
+            "winText": "MENANG"
+        },
+        "moonOfFortune": {
+            "title": "Moon of Fortune",
+            "winCurrency": "LOTEU",
+            "winText": "VOLUME"
+        },
+        "winnerOfTheWeek": "Pemenang minggu ini"
+    },
+    "apolloDailyLottery": {
+        "title": "Lotere Harian Apollo",
+        "learnMore": "Pelajari game ini lebih lanjut",
+        "quit": "Keluar Permainan",
+        "nextDrawIn": "Undian selanjutnya dalam:",
+        "availableLoteu": "LOTEU Tersedia",
+        "buyMoreLoteu": "Beli LOTEU",
+        "controlsTitle": "Pilih jumlah LOTEU yang ingin Anda gunakan.<br \/>100 LOTEU = 1 tiket lotre",
+        "yourChanceIs": "Kesempatan menang relatif Anda adalah",
+        "enter": "Main Lotere",
+        "alts": [
+            {
+                "text": "Kesempatan Ganda"
+            }
+        ],
+        "playNow": [
+            {
+                "title": "Anda tidak memiliki tiket",
+                "text": "Anda harus membeli tiket lotere terlebih dahulu, kemudian Anda dapat bermain di Lotere Mingguan Loteo.",
+                "okText": "Beli Tiket ",
+                "cancelText": "Batalkan"
+            },
+            {
+                "title": "Dana tidak mencukupi untuk memasuki permainan",
+                "text": {
+                    "part1": "Saldo Anda tidak mencukupi. Untuk dapat berpartisipasi dalam lotere, <strong>Anda harus mempunyai minimal 0.017 ETH di dompet Anda<\/strong>. Silakan deposit terlebih dahulu.<br \/><br \/>",
+                    "part2": "<strong>Keterangan:<\/strong> Setiap partisipasi dalam lotere akan menghasilkan sebuah transaksi on-chain dalam jaringan Ethereum. Dan setiap transaksi on-chain memerlukan biaya, dalam platform kami biaya itu sebesar 0.017 ETH. Hal ini dikarenakan kami ingin memastikan setiap partisipasi menjadi transparan dan terlihat secara langsung dalam jaringan Ethereum. Kami akan selalu melakukan pengembangan untuk membuat biaya ini sekecil mungkin."
+                },
+                "okText": "Ok "
+            },
+            {
+                "title": "Undian saat ini sudah ditutup",
+                "text": "Anda dapat memasuki permainan setidaknya 30 menit sebelum undian dimulai. Untuk saat ini, ronde sudah ditutup. Anda dapat mengikuti ronde berikutnya setelah undian yang sekarang selesai.",
+                "okText": "Ok "
+            },
+            {
+                "close": "Tutup",
+                "increaseChance": "Tingkatkan peluang menang Anda",
+                "title": "Berhasil!",
+                "text": "Anda sudah memasuki permainan"
+            }
+        ],
+        "process": "Sedang Memproses..."
+    },
+    "transactionInProgress": {
+        "title": "Transaksi sedang dalam proses",
+        "text": "Harap tunggu hingga transaksi selesai. Hal ini dapat memakan waktu <strong>hingga 1 menit.<\/strong>",
+        "alts": [
+            {
+                "text": "Loading..."
+            }
+        ]
+    },
+    "backgroundBanners": {
+        "alts": [
+            {
+                "alt": "apollo"
+            }
+        ],
+        "apollo": {
+            "title": "hero<br \/>apollo 11",
+            "promotionDetail": "Jadilah Hero lotere Apollo 11,<br\/>& dapatkan LoteoPass Gratis",
+            "gamesSection": {
+                "title": "Lotere Harian<br\/>APOLLO 11",
+                "text": "Ikuti lotere dengan hanya 100 LOTEU<br\/>Setelah itu sistem akan memilih salah satu peserta melalui smart contract dan RNG<br\/>Provably Fair, Transparan, Hadiah yang Besar<br\/>Tiket gratis untuk pemilik LoteoPass"
+            }
+        },
+        "deposit": {
+            "title": "hero<br\/>apollo 11"
+        },
+        "depositBonus": {
+            "title": "BONUS<br\/>DEPOSIT PERTAMA",
+            "promotionDetail": "Buatlah deposit pertama sebesar 1 ETH dan dapatkan bonus sebesar 3000 LOTEU token!<br\/>300 LOTEU pertama akan masuk ke Akun Anda 23 jam setelah Anda sukses melakukan deposit dan 300 LOTEU lainnya setiap<br\/>24 jam selama 10 hari sampai Anda mendapatkan total 3000 LOTEU. Gunakan token LOTEU<br\/>untuk menggandakan peluang Anda di Lotere Mingguan atau gunakan pada salah satu permainan kami yang lain seperti Moon<br\/>of Fortune atau Lotere Apollo 11!"
+        },
+        "ticketBonus": {
+            "title": "BONUS<br\/>TIKET PERTAMA",
+            "promotionDetail": "Ketika Anda membeli tiket lotere mingguan pertama Anda, bonus sebesar 100 LOTEU akan diberikan<br\/>untuk menggandakan peluang menang Anda. Hal tersebut tidak menambah jumlah hadiah lotere, tapi<br\/>tiket Anda di dalam lotere Akan bertambah. Semoga beruntung!"
+        },
+        "loteoPass": {
+            "title": "LOTEOPASS",
+            "promotionDetail": "BONUS KESEMPATAN GANDA — LOTEOPASS \"1000\"<br\/> Kami akan menyediakan bonus untuk setiap 1000 pembeli pertama LOTEOPASS. Hal ini adalah tawaran<br\/>terbatas yang akan kami adakan lagi setelah satu tahun, ketika batch pertama LOTEOPASS kadaluarsa.<br\/>Para peserta yang membeli 1000 tiket pertama akan mendapatkan opsi untuk membeli<br\/>kembali tiket mereka sebelum kami jual ke publik."
+        },
+        "weekly": {
+            "title": "LOTERE<br\/>MINGGUAN",
+            "promotionDetail": "Jadilah Hero lotere Apollo 11,<br\/>& dapatkan LoteoPass Gratis",
+            "gamesSection": {
+                "title": "LOTERE<br\/>MINGGUAN",
+                "text": "Ikuti lotere dengan hanya 10€<br\/>Gandakan peluang Anda dengan menggunakan 100 LOTEU<br\/>Setelah itu sistem akan memilih salah satu peserta melalui smart contract dan RNG<br\/>Provably Fair, Transparan, Hadiah yang Besar"
+            }
+        },
+        "mof": {
+            "title": "Moon of<br\/>Fortune",
+            "promotionDetail": "Jadilah Hero lotere Apollo 11,<br\/>& dapatkan LoteoPass Gratis",
+            "gamesSection": {
+                "title": "Moon of<br\/>Fortune",
+                "text": "Pilih tingkat risiko yang Anda inginkan<br\/>Pilih jumlah segmen<br\/>Kedua hal tersebut akan menentukan jumlah kemenangan Anda<br\/>Putar rodanya dengan menekan tombol BET<br\/>RNG kemudian akan memberitahu Anda hasilnya"
+            }
+        },
+        "rekt": {
+            "title": "REKT ROOMS",
+            "promotionDetail": "Empty",
+            "gamesSection": {
+                "title": "REKT ROOMS",
+                "text": "Empty"
+            }
+        },
+        "daily": {
+            "title": "LOTERE HARIAN",
+            "promotionDetail": "Empty",
+            "gamesSection": {
+                "title": "LOTERE HARIAN",
+                "text": "Empty"
+            }
+        },
+        "dice": {
+            "title": "Dice",
+            "promotionDetail": "Empty",
+            "gamesSection": {
+                "title": "Dice",
+                "text": "Empty"
+            }
+        },
+        "fomo": {
+            "title": "Fomo",
+            "promotionDetail": "Empty",
+            "gamesSection": {
+                "title": "Fomo",
+                "text": "Empty"
+            }
+        },
+        "jacks": {
+            "title": "JACKS OR BETTER",
+            "promotionDetail": "Empty",
+            "gamesSection": {
+                "title": "JACKS OR BETTER",
+                "text": "Empty"
+            }
+        },
+        "getLoteu": {
+            "title": "Bagaimana cara mendapatkan<br\/>LOTEU",
+            "detail": "Tingkatkan peluang menang Anda<br\/>Beli LOTEU token & mulai bermain"
+        },
+        "affiliateProgram": {
+            "title": "POGRAM<br\/>AFILIASI",
+            "detail": "Hadiah sedikitnya 40%<br\/>Jadilah Partner Premium<br\/>Menjadi Investor tanpa Investasi"
+        }
+    },
+    "whyInvest": {
+        "helmet": "Investasi | LOTEO - Lotere Berbasis Blockchain yang Transparan",
+        "title": "Alasan Berinvestasi",
+        "t1": "946BN$",
+        "p1": "Ukuran pasar perjudian global pada tahun 2021",
+        "p2": "setiap<span>{{percent}}<\/span> membawa <span>{{revenue}}<\/span> keuntungan untuk Loteo dan untuk investor yang berarti",
+        "p3": "ROI pendapatan pasif + nilai tambahan token",
+        "p4": "JUMLAH INVESTASI",
+        "p5": "PENGHASILAN PASIF BULANAN",
+        "p6": "PENGHASILAN PASIF TAHUNAN",
+        "alts": [
+            {
+                "alt": "Investasi yang Baik"
+            },
+            {
+                "alt": "Persentase Keuntungan"
+            }
+        ],
+        "p21": "setiap"
+    },
+    "loteuTokens": {
+        "leftTokens": {
+            "doubleChance": {
+                "name": "Kesempatan ganda untuk setiap undian lotere",
+                "description": "Dengan menggunakan 100 LOTEU,<br\/> Anda dapat menggandakan peluang menang Anda di permainan lotere."
+            },
+            "mof": {
+                "name": "Masuk ke Moon of Fortune",
+                "description": "Anda dapat melipatgandakan token Anda, bersenang-senang, dan<br\/> malah mungkin bisa mendapatkan tiket lotere secara gratis hanya dengan bermain<br\/> Moon Of Fortune"
+            },
+            "specialGame": {
+                "name": "Permainan spesial hanya untuk LOTEU",
+                "description": "Permainan custom seperti Apollo 11, Moon of Fortune, dan permainan lainnya<br\/>hanya dibuat secara eksklusif untuk LOTEU. Sementara yang lainnya mempunyai fitur spesial<br\/> yang dapat diaktifkan dengan menggunakan LOTEU."
+            },
+            "quarter": {
+                "name": "Burning tiga bulan-an",
+                "description": "Burning akan terus dilakukan hingga total supply mencapai angka 100 Juta. 20% dari semua<br\/>LOTEU yang dipakai didalam platform akan masuk ke tahap burning setiap 3 bulan<br\/> dan akan diumumkan secara publik."
+            },
+            "payment": {
+                "name": "Opsi pembayaran penuh",
+                "description": "Integrasi LOTEU sebagai opsi pembayaran penuh juga untuk<br\/>game lotere akan dimulai setelah pendistribusian token, <br\/>listing di berbagai exchange, dan stabilisasi harga."
+            },
+            "staking": {
+                "name": "Staking untuk B2B",
+                "description": "Untuk kelancaran pembuatan sistem atau permainan di dalam blockchain dengan menggunakan arsitektur platform, lisensi, dan lain-lain, kebutuhan untuk staking LOTEU sangatlah mungkin."
+            }
+        },
+        "rightTokens": {
+            "quarter": {
+                "name": "Burning tiga bulan-an",
+                "description": "Burning akan terus dilakukan hingga total supply mencapai angka 100 Juta. 20% dari semua<br\/> LOTEU yang dipakai didalam platform akan masuk ke tahap burning setiap 3 bulan<br\/> dan akan diumumkan secara publik."
+            },
+            "payment": {
+                "name": "Opsi pembayaran penuh",
+                "description": "Integrasi LOTEU sebagai opsi pembayaran penuh juga untuk<br\/>game lotere akan dimulai setelah pendistribusian token, <br\/>listing di berbagai exchange, dan stabilisasi harga."
+            },
+            "staking": {
+                "name": "Staking untuk B2B",
+                "description": "Untuk kelancaran pembuatan sistem atau permainan di dalam blockchain dengan menggunakan arsitektur platform, lisensi, dan lain-lain, kebutuhan untuk staking LOTEU sangatlah mungkin."
+            }
+        },
+        "mobileLeftTokens": {
+            "doubleChance": {
+                "name": "Kesempatan ganda untuk setiap undian lotere",
+                "description": "Dengan menggunakan 100 LOTEU, Anda dapat menggandakan peluang menang Anda di permainan lotere."
+            },
+            "mof": {
+                "name": "Masuk ke Moon of Fortune",
+                "description": "Anda dapat melipatgandakan token Anda, bersenang-senang, dan malah mungkin bisa mendapatkan tiket lotre secara gratis hanya dengan bermain Moon Of Fortune"
+            },
+            "specialGame": {
+                "name": "Permainan spesial hanya untuk LOTEU",
+                "description": "Permainan custom seperti Apollo 11, Moon of Fortune, dan permainan lainnya hanya dibuat secara eksklusif untuk LOTEU. Sementara yang lainnya mempunyai fitur spesial yang dapat diaktifkan dengan menggunakan LOTEU."
+            },
+            "quarter": {
+                "name": "Burning tiga bulan-an",
+                "description": "Burning akan terus dilakukan hingga total supply mencapai angka 100 Juta. 20% dai semua LOTEU yang dipakai didalam platform akan masuk ke tahap burning setiap 3 bulan dan akan diumumkan secara publik."
+            },
+            "payment": {
+                "name": "Opsi pembayaran penuh",
+                "description": "Integrasi LOTEU sebagai opsi pembayaran penuh akan dimulai setelah pendistribusian token, listing di berbagai exchange, dan stabilisasi harga."
+            },
+            "staking": {
+                "name": "Staking untuk B2B",
+                "description": "Untuk kelancaran pembuatan sistem atau permainan di dalam blockchain dengan menggunakan arsitektur platform, lisensi, dan lain-lain, kebutuhan untuk staking LOTEU sangatlah mungkin."
+            }
+        }
+    },
+    "page404": {
+        "title": "Sepertinya Anda tersesat di ruang angkasa"
+    }
+}

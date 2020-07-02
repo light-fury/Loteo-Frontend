@@ -1,0 +1,166 @@
+@import "styles/colors";
+
+.spaceProgramStatisticsTable {
+    width: 100%;
+    margin-top: 50px;
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 30px 10px $greyBright;
+
+    &.locked {
+        .spaceProgramStatisticsTable {
+            &__headerItem {
+                color: $dark;
+
+                .star.active {
+                    filter: brightness(0);
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        tfoot {
+            background: $grey2;
+        }
+    }
+
+    &__headerItem {
+        color: $red;
+
+        &__stars {
+            margin: 2px 0 0 5px;
+        }
+
+        span {
+            margin-right: 4px;
+            font-size: 24px;
+        }
+    }
+
+    &__profit {
+        padding: 16px 24px;
+
+        &__item {
+            color: white;
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 24px;
+            position: relative;
+
+            &:not(:last-of-type) {
+                margin-right: 48px;
+
+                &::after {
+                    content: " ";
+                    width: 1px;
+                    height: 24px;
+                    background: white;
+                    transform: translateY(-50%);
+                    position: absolute;
+                    top: 50%;
+                    right: -25px;
+                }
+            }
+
+            &__value {
+                max-width: initial;
+                flex-basis: initial;
+                font-weight: 400;
+
+                strong {
+                    padding: 4px 32px;
+                    margin-left: 12px;
+                    background: white;
+                    border-radius: 4px;
+                    color: $dark;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+
+    .star {
+        width: 16px;
+        height: 16px;
+        margin: 0 3px;
+
+        &.active {
+            filter: drop-shadow(0 0 3px $yellow);
+        }
+
+        &.inactive {
+            filter: grayscale(1);
+        }
+    }
+
+    table {
+        min-width: 100%;
+        overflow: hidden;
+        border-radius: 8px;
+        line-height: 18px;
+        border-collapse: collapse;
+        border-spacing: 0;
+        table-layout: fixed;
+
+        thead {
+            background: $greyBright;
+
+            th {
+                padding: 20px 24px;
+                color: $dark;
+                font-weight: 900;
+                line-height: 24px;
+                text-align: left;
+                white-space: nowrap;
+            }
+        }
+
+        tbody {
+            background: white;
+
+            tr {
+                &:not(:last-of-type) {
+                    border-bottom: 1px solid $greyBright;
+                }
+
+                td {
+                    padding: 12px 24px;
+
+                    &:first-of-type {
+                        color: $grey1;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 24px;
+                    }
+
+                    &:not(:first-of-type) {
+                        border-left: 1px solid $greyBright;
+                        color: $dark;
+                        font-weight: 400;
+                        text-align: center;
+                    }
+
+                    span {
+                        margin: 1px 8px -1px 8px;
+                        color: $dark;
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+
+                        &.extraMarginRight {
+                            margin-right: 16px;
+                        }
+
+                        &.grey {
+                            color: $grey1;
+                        }
+                    }
+                }
+            }
+        }
+
+        tfoot {
+            background: $red;
+        }
+    }
+}

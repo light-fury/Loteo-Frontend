@@ -1,0 +1,57 @@
+@import "styles/mixins";
+
+.info {
+    overflow: hidden;
+
+    .background {
+        padding: 0;
+        background-size: 100% 600px;
+    }
+
+    .content {
+        @include centerMax(1080px);
+
+        padding: 24px;
+        position: relative;
+
+        @include media(md) {
+            padding: 48px 40px;
+        }
+
+        &.hero {
+            h1 {
+                color: $yellow;
+                text-shadow: 0 0 8px transparentize($yellow, 0.5);
+            }
+
+            p {
+                max-width: 900px;
+                color: white;
+            }
+        }
+
+        &.main {
+            padding-top: 64px;
+            padding-bottom: 96px;
+            position: relative;
+
+            @include media(md) {
+                padding-top: 100px;
+                padding-bottom: 250px;
+            }
+        }
+    }
+
+    .contextTabs {
+        @include centerMax;
+        @include flexboxScrollfix;
+
+        position: relative;
+        margin-top: 16px;
+        padding: 0 24px;
+
+        @include media(md) {
+            padding: 0 40px;
+        }
+    }
+}

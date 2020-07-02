@@ -1,0 +1,17 @@
+@import "styles/mixins";
+
+.webVistor {
+    margin-bottom: 80px;
+
+    .trend {
+        padding: 0;
+
+        .userCard {
+            margin: 38px 24px;
+
+            &__thumb {
+                margin: 0 80px;
+            }
+        }
+    }
+}

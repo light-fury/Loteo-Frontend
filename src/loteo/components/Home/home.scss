@@ -1,10 +1,441 @@
+@import "styles/colors";
+@import "styles/mixins";
+
 .home {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    overflow: hidden;
 
-    .homeCenter {
-        flex-grow: 1;
+    .newsBanner {
+        padding: 16px 0 42px;
+
+        @include media(md) {
+            padding: 16px 40px 10px;
+        }
+    }
+
+    .centerContent {
+        // background: linear-gradient(180deg, transparentize(black, 0.23) 0%, transparentize($brown, 1) 42.65%), url("/images/home/content-bg.png"), url("/images/home/content-bg1.png");
+        background: url("/images/home/content.png");
+        padding: 0 40px;
+        background-repeat: repeat-y;
+        background-size: cover;
+        position: relative;
+
+        @include media($max: md) {
+            padding: 0 6px 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,.9) 10%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,.9) 100%), url("/images/home/content.png");
+        }
+
+        @include media($max: sm) {
+            background-image: url("/images/home/content-bg-mobile2.png"), url("/images/home/content-bg-mobile.png"), url("/images/home/content-bg-mobile1.png");
+            background-repeat: no-repeat, repeat-y;
+            background-position: left 0 top 2500px,left 0 top 0,left 0 top 2919px;
+            background-size: contain;
+        }
+
+        .digitalEraLottery {
+            @include centerMax;
+
+            padding: 0 18px;
+            position: relative;
+            z-index: 2;
+
+            .titles {
+                h2 {
+                    margin-top: 80px;
+                    font-size: 40px;
+                    line-height: 57px;
+                    text-align: center;
+                    color: white;
+
+                    @include media(md) {
+                        margin-top: 200px;
+                        font-size: 120px;
+                        line-height: 140px;
+                        text-align: right;
+                        white-space: pre;
+                    }
+                }
+
+                h5 {
+                    font-size: 24px;
+                    color: $yellow;
+                    text-align: center;
+
+                    @include media(md) {
+                        margin-left: 350px;
+                        font-size: 48px;
+                        text-align: left;
+                    }
+
+                    @include media(lg) {
+                        margin-top: -60px;
+                        text-align: left;
+                    }
+                }
+            }
+
+            .leftMoon {
+                position: absolute;
+                width: 1060px;
+                height: 1060px;
+                left: -530px;
+                top: 225px;
+                display: none;
+
+                @include media(md) {
+                    left: -630px;
+                    display: block;
+                }
+
+                @include media(lg) {
+                    left: -530px;
+                    display: block;
+                }
+
+                @include media($max: sm) {
+                    display: none;
+                }
+            }
+
+            .advantages {
+                margin-top: 32px;
+                margin-left: 0;
+                position: relative;
+
+                @include media(md) {
+                    margin-top: 96px;
+                    margin-left: 330px;
+                }
+
+                @include media(lg) {
+                    margin-left: 530px;
+                }
+
+                &.desktopAdvantages {
+                    display: none;
+                    
+                    @include media(md) {
+                        display: block;
+                    }
+                }
+
+                &__load-more {
+                    background: rgba(255, 255, 255, 0.1);
+                    mix-blend-mode: normal;
+                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 4px;
+                    text-align: center;
+                    vertical-align: middle;
+                    line-height: 48px;
+                    width: 328px;
+                    height: 48px;
+                    margin: auto;
+                    cursor: pointer;
+                    color: white;
+                    transition: opacity 1s ease-out;
+                    position: relative;
+
+                    .icon {
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        top: calc(50% - 2px);
+                        border-style: solid;
+                        border-width: 4px 4px 0 4px;
+                        border-color: #ffffff transparent transparent transparent;
+                        opacity: 0.6;
+                        margin-left: 10px;
+                    }
+                }
+
+                .advantage {
+                    display: flex;
+                    align-items: flex-start;
+
+                    @include media($max: md) {
+                        margin-left: 0 !important;
+                    }
+
+                    .hexBullet {
+                        width: 17px;
+                        height: 19px;
+                        margin-top: 4px;
+                        position: relative;
+                        flex-shrink: 0;
+
+                        @include media(md) {
+                            width: 24px;
+                            height: 27px;
+                            margin-top: 0;
+                        }
+
+                        &::before {
+                            content: "";
+                            background: radial-gradient(circle at center, $yellow, rgba($yellow, 0) 50%, rgba($yellow, 0) 100%);
+                            position: absolute;
+                            top: -10px;
+                            left: -10px;
+                            bottom: -10px;
+                            right: -10px;
+
+                            @include media(md) {
+                                top: -15px;
+                                left: -15px;
+                                bottom: -15px;
+                                right: -15px;
+                            }
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: $yellow;
+                            clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                        }
+                    }
+
+                    .texts {
+                        margin-left: 16px;
+
+                        @include media(md) {
+                            margin-left: 24px;
+                        }
+
+                        @include media($max: sm) {
+                            white-space: pre-wrap;
+                        }
+
+                        .title {
+                            color: $yellow;
+                            font-weight: bold;
+                            font-size: 16px;
+
+                            @include media(md) {
+                                font-size: 24px;
+                            }
+                        }
+
+                        p {
+                            max-width: 460px;
+                            margin-bottom: 40px;
+                            margin-top: 12px;
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: white;
+
+                            @include media(md) {
+                                margin-bottom: 54px;
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(1) {
+                        margin-left: 78px;
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-left: 170px;
+                    }
+
+                    &:nth-of-type(3) {
+                        margin-left: 200px;
+                        margin-top: 20px;
+                    }
+
+                    &:nth-of-type(4) {
+                        margin-left: 200px;
+                    }
+
+                    &:nth-of-type(5) {
+                        margin-top: 20px;
+                        margin-left: 144px;
+                    }
+                }
+            }
+        }
+
+        .prizeSplit {
+            @include centerMax(1000px);
+
+            margin-top: 64px;
+            padding: 0 18px;
+
+            @include media(md) {
+                margin-top: 0;
+            }
+
+            .titles {
+                h2 {
+                    margin-top: 0;
+                    font-size: 48px;
+                    line-height: 57px;
+                    text-align: left;
+
+                    @include media(md) {
+                        margin-top: 200px;
+                        font-size: 120px;
+                        line-height: 140px;
+                        text-align: right;
+                    }
+                }
+
+                h5 {
+                    font-size: 16px;
+
+                    @include media(md) {
+                        font-size: 48px;
+                    }
+
+                    @include media(lg) {
+                        margin-top: -60px;
+                    }
+                }
+
+                h1 {
+                    margin-top: 100px;
+                    font-size: 72px;
+                    line-height: 80px;
+                }
+
+                h6 {
+                    margin-top: 28px;
+                }
+            }
+
+            .prizesComponent {
+                margin-top: 32px;
+
+                @include media(md) {
+                    margin-top: 100px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .platformFee {
+                text-align: center;
+                margin-top: 100px;
+
+                h5 {
+                    font-size: 48px;
+                    color: $yellow;
+                    font-weight: 900;
+                    text-shadow: 1px 1px 4px $yellow;
+                }
+
+                h5::first-letter {
+                    font-size: 150%;
+                }
+
+                p {
+                    color: $dark;
+                    font-size: 20px;
+                    font-weight: bold;
+                    line-height: 39px;
+                }
+            }
+        }
+    }
+
+    .roadmap {
+        margin: 0 -40px;
+
+        .roadmapBackground {
+            z-index: 1;
+        }
+
+        @include media(md) {
+            padding: 0 0 80px;
+        }
+
+        @include media($max: sm) {
+            margin: 0 -6px;
+        }
+
+        .content {
+            z-index: 2;
+
+            @include media($max: lg) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .timeline {
+                margin-left: 0;
+
+                @include media(md) {
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+
+    .darkBackground {
+        background: linear-gradient(to bottom, transparentize(#1d0506, 1) 5%, transparentize(#1d0506, .3) 20%, transparentize(#1d0506, .3) 60%, transparentize(#1d0506, .2) 80%, transparentize(#1d0506, 0) 100%);
+        margin: 0 -40px;
+
+        @include media($max: sm) {
+            margin: 0 -6px;
+        }
+    }
+
+    .partners {
+        padding: 0 20px;
+
+        @include media(md) {
+            padding-top: 20px;
+        }
+
+        @include media(lg) {
+            padding-top: 64px;
+        }
+    }
+
+    .acceptedCurrencies {
+        margin-top: 88px;
+        padding: 0 10px 1px 10px;
+        // background: linear-gradient(180deg, rgba(21, 0, 1, 0) 4.33%, #150101 51.18%);
+
+        @include media(md) {
+            margin-top: 150px;
+        }
+
+        .title,
+        .currencies {
+            padding: 0 24px;
+
+            @include media(md) {
+                padding: 0;
+            }
+        }
+    }
+
+    #footer {
+        margin-top: -1px;
+    }
+
+    .home-footer {
+        background: linear-gradient(to bottom, rgba(0,0,0,.9) 10%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 80%, rgba(0,0,0,.9) 100%), url("/images/home/content-bg-mobile1.png");
+        background-size: cover;
+        background-position: left 0 top 1299px;
+    }
+
+    @keyframes showLoteoCard {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
     }
 }

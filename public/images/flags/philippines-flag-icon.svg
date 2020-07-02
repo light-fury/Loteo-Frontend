@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>philippines-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-525.000000, -400.000000)">
+            <g id="philippines-flag-icon" transform="translate(525.000000, 400.000000)">
+                <path d="M48,18 L20,18 L2,0 L46,0 C47.105,0 48,0.895 48,2 L48,18 Z" id="Path" fill="#073CA5"></path>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 L20,18 L48,18 L48,34 Z" id="Path" fill="#D7141A"></path>
+                <path d="M2,0 C0.895,0 0,0.895 0,2 L0,18 L0,34 C0,35.105 0.895,36 2,36 L20,18 L2,0 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M9,14 C6.791,14 5,15.791 5,18 C5,20.209 6.791,22 9,22 C11.209,22 13,20.209 13,18 C13,15.791 11.209,14 9,14 Z" id="Path" fill="#EFD358"></path>
+            </g>
+        </g>
+    </g>
+</svg>

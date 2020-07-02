@@ -1,0 +1,184 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.lastWinners {
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .table {
+
+        &__load-more {
+            display: none;
+        }
+
+        &.mobile-view {
+            display: none;
+        }
+
+        &.desktop-view {
+            display: block;
+        }
+
+        @include media($max: lg) {
+            &.mobile-view {
+                display: block;
+            }
+
+            &.desktop-view {
+                display: none;
+            }
+
+            &__load-more {
+                background: rgba(255, 255, 255, 0.1);
+                mix-blend-mode: normal;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+                text-align: center;
+                line-height: 48px;
+                width: 100%;
+                height: 48px;
+                margin: auto;
+                cursor: pointer;
+                transition: opacity 1s ease-out;
+                display: block;
+                position: relative;
+                margin-top: 20px;
+                color: white;
+                opacity: 0.6;
+                text-transform: uppercase;
+                font-size: 12px;
+
+                .icon {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    top: calc(50% - 2px);
+                    border-style: solid;
+                    border-width: 4px 4px 0 4px;
+                    border-color: #ffffff transparent transparent transparent;
+                    opacity: 0.6;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .winner {
+            padding: 12px 10px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.1);
+
+            @include media(md) {
+                flex-direction: row;
+            }
+
+            .hidden-desktop-tag {
+                display: none;
+
+                @include media(md) {
+                    display: block;
+                }
+            }
+
+            .icon {
+                margin-top: 4px;
+                max-width: 16px;
+                max-height: 16px;
+            }
+
+            .lottery-mobile {
+                @include media($max: md) {
+                    flex-basis: initial;
+                    .lottery {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .username {
+                margin-left: 11px;
+                color: white;
+                font-size: 14px;
+                width: 125px;
+
+                @media only screen and (max-width: 580px) {
+                    margin-left: 6px;
+                    width: 40px;
+                }
+            }
+
+            .lottery {
+                width: 130px;
+                padding: 6px 12px;
+                border-radius: 16px;
+                margin-left: 11px;
+                font-size: 10px;
+                font-weight: bold;
+                white-space: nowrap;
+                text-align: center;
+
+                @include media($max: sm) {
+                    width: 60px;
+                }
+
+                &.yellow {
+                    background: $yellow;
+                    box-shadow: 0 0 8px 0 transparentize($yellow, 0.2);
+                    color: $brown;
+                }
+
+                &.blue {
+                    background: $blue;
+                    box-shadow: 0 0 8px 0 transparentize($blue, 0.2);
+                    color: white;
+                }
+            }
+
+            .prize {
+                align-items: center;
+                float: right;
+
+                @media only screen and (max-width: 580px) {
+                    .etherscanLink {
+                        .text {
+                            display: none;
+                        }
+                    }
+                }
+
+                .value {
+                    font-size: 14px;
+                    font-weight: bold;
+                    white-space: nowrap;
+                    color: white;
+                    min-width: 50px;
+
+                    @include media($max: sm) {
+                        text-align: center;
+                    }
+                }
+
+                .currency {
+                    margin: 0 16px 0 8px;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: 300;
+
+                    @include media(md) {
+                        margin: 0 8px 0 32px;
+                    }
+
+                    @include media($max: md) {
+                        margin: 0;
+                    }
+                }
+            }
+
+            &:not(:first-of-type) {
+                margin-top: 8px;
+            }
+        }
+    }
+}

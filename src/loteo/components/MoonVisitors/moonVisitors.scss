@@ -1,0 +1,98 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.moonVisitors {
+    margin-bottom: 48px;
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+    background-size: 100% 100%;
+
+    > .title {
+        margin-bottom: 37px;
+        position: relative;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: white;
+        z-index: 500;
+
+        @include media(sm) {
+            font-size: 64px;
+            line-height: 96px;
+        }
+    }
+
+    .gameTitle {
+        font-size: 16px;
+        line-height: 19px;
+        color: $yellow;
+    }
+
+    .lastWinners {
+        position: relative;
+        z-index: 500;
+    }
+
+    .moon {
+        width: 360px;
+        height: 360px;
+        position: absolute;
+        top: -180px;
+        right: -180px;
+        z-index: 400;
+
+        @include media(md) {
+            width: 750px;
+            height: 750px;
+            top: -100px;
+            right: -375px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .elements {
+        .backgroundMoon1,
+        .backgroundMoon2,
+        .backgroundMoon3 {
+            position: absolute;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .backgroundMoon1 {
+            width: 300px;
+            height: 300px;
+            left: 100px;
+            top: 200px;
+            opacity: 0.6;
+        }
+
+        .backgroundMoon2 {
+            width: 300px;
+            height: 300px;
+            left: calc(50% - 400px);
+            bottom: 200px;
+        }
+
+        .backgroundMoon3 {
+            width: 300px;
+            height: 300px;
+            left: calc(50% + 400px);
+            top: 100px;
+        }
+
+        .backgroundMoon4 {
+            width: 150px;
+            height: 150px;
+            left: calc(50% - 800px);
+            bottom: 200px;
+        }
+    }
+}

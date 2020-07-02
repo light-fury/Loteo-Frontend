@@ -1,0 +1,71 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.acceptedCurrencies {
+    padding: 5px 10px;
+
+    .title {
+        color: $pink;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .separator {
+        height: 1px;
+        opacity: 0.2;
+        background: linear-gradient(270deg, rgba(white, 0) 0%, white 10%, white 82%, rgba(white, 0) 100%);
+    }
+
+    .currencies {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        margin: 0 20px;
+        max-width: 120px;
+
+        @include media($max: sm) {
+            margin: 0;
+        }
+
+        .currency {
+            margin: 15px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 32px;
+        }
+
+        @include media(md) {
+            margin: 24px 10px 6px 10px;
+        }
+
+        .currencyName {
+            margin-top: 15px;
+            margin-bottom: 24px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            opacity: .4;
+        }
+    }
+
+    .active {
+        opacity: 1;
+    }
+
+    .image {
+        width: 42px;
+        height: 32px;
+        opacity: .4;
+    }
+
+    .ethereum {
+        width: 29px;
+        height: 41px;
+    }
+}

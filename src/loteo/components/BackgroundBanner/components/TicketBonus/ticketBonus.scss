@@ -1,0 +1,214 @@
+@import "styles/mixins";
+
+.ticketBonus {
+    background-position: right;
+    width: 100%;
+    height: 776px;
+    padding-top: 250px;
+    position: relative;
+
+    &.promotion {
+        padding-top: 80px;
+        height: 486px;
+        margin: auto;
+
+        @include media($max: lg) {
+            height: 486px;
+        }
+
+        @include media($max: md) {
+            height: 496px;
+        }
+    
+        @include media($max: ssm) {
+            height: 491px;
+            padding-top: 50px;
+        }
+    
+        @include media($max: sm) {
+            padding-top: 50px;
+            height: 491px;
+        }
+    }
+
+    @include media($max: md) {
+        padding-top: 200px;
+    }
+
+    @include media($max: sm) {
+        padding-top: 150px;
+        height: 591px;
+    }
+
+    &::after {
+        content: "";
+        background: url("/images/dashboard/ticket-bg1.png") no-repeat;
+        background-size: cover;
+        background-position: 0 50%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+
+        @include media($max: md) {
+            background: linear-gradient(transparentize(#000000, 0.35), transparentize(#000000, 0.35)), url("/images/dashboard/ticket.png") no-repeat;
+            background-size: cover;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    @include media($max: sm) {
+        padding-top: 150px;
+        background-position: left -100px top -10px;
+        height: 591px;
+    }
+
+    @media only screen and (max-width: 415px) {
+        background-position: left -80px top -10px;
+    }
+
+    @media only screen and (max-width: 375px) {
+        background-position: left -90px top -10px;
+    }
+
+    @media only screen and (max-width: 320px) {
+        background-position: left -70px top -10px;
+    }
+
+    &__content {
+        width: 70%;
+        margin: auto;
+
+        @include media($max: md) {
+            width: 90%;
+            text-align: center;
+        }
+
+        @include media($max: sm) {
+            width: 80%;
+            text-align: center;
+        }
+
+        .title {
+            h1 {
+                font-size: 72px;
+                -webkit-text-stroke-color: $yellow;
+                -webkit-text-stroke-width: 3px;
+                text-shadow: 0 0 16px transparentize($red, .6);
+                text-transform: uppercase;
+                color: transparent;
+
+                @include media($max: md) {
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+                
+                @include media($max: sm) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+
+                &.promotion {
+                    @include media($max: lg) {
+                        font-size: 60px;
+                    }
+            
+                    @include media($max: md) {
+                        font-size: 50px;
+                    }
+                
+                    @include media($max: ssm) {
+                        font-size: 40px;
+                    }
+                
+                    @include media($max: sm) {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        .detail {
+            margin-bottom: 20px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 48px;
+
+            &.promotion {
+                font-size: 20px;
+                line-height: 38px;
+
+                @include media($max: lg) {
+                    line-height: 28px;
+                }
+        
+                @include media($max: md) {
+                    font-size: 18px;
+                }
+            
+                @include media($max: ssm) {
+                    font-size: 16px;
+                }
+            }
+
+            @include media($max: md) {
+                margin-top: 30px;
+            }
+
+            @include media($max: sm) {
+                margin-top: 20px;
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    &__bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        .action {
+            margin: auto;
+            width: 70%;
+
+            .mixButton {
+                margin-bottom: 80px;
+                width: 281px;
+                height: 72px;
+    
+                @include media($max: md) {
+                    margin: auto auto 100px auto;
+                    width: 200px;
+                    height: 51px;
+                }
+                @include media($max: sm) {
+                    margin: auto auto 50px auto;
+                    width: 200px;
+                    height: 51px;
+                }
+            }
+        }
+    }
+    &__promotionAction {
+        width: 70%;
+        margin: auto;
+        
+        .mixButton {
+            width: 215px;
+            height: 52px;
+            z-index: 2;
+            
+            @include media($max: md) {
+                margin: auto;
+            }
+        }
+    }
+}

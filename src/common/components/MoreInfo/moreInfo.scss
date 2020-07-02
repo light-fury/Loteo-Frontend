@@ -1,0 +1,49 @@
+@import "styles/colors";
+
+.moreInfo {
+    padding-top: 6px;
+
+    &.pink {
+        color: $pink;
+    }
+
+    &.white {
+        color: white;
+    }
+
+    &.clickable {
+        cursor: pointer;
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+
+        img,
+        svg {
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        path {
+            fill: currentColor;
+        }
+    }
+    &--small {
+        width: 14px;
+        height: 14px;
+        img,
+        svg {
+            width: 14px;
+            height: 14px;
+            min-width: 14px;
+            min-height: 14px;
+        }
+    }
+
+    &__text {
+        margin-left: 8px;
+        font-size: 12px;
+        color: currentColor;
+    }
+}

@@ -1,21 +1,19 @@
-.networks {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+@import "styles/mixins";
 
-    a {
-        padding: 12px;
+.networks {
+    margin-right: -14px;
+    margin-left: -14px;
+
+    @include media(md) {
+        display: none;
     }
 
-    @media screen and (max-width: 800px) {
-        a {
-            padding: 20px;
+    a {
+        padding: 20px;
 
-            img {
-                width: 24px;
-                height: 24px;
-            }
+        img {
+            width: 24px;
+            height: 24px;
         }
     }
 }

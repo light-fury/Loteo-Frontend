@@ -1,0 +1,82 @@
+@import "styles/mixins";
+
+.background-banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+
+    &__slick {
+        &__dots {
+            position: absolute;
+            top: 40%;
+            display: flex;
+            width: 100%;
+            height: 50px;
+
+            @include media(md) {
+                top: 50%;
+            }
+
+            &__inner {
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+                margin: auto;
+
+                &__prev,
+                &__next {
+                    position: relative;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background: transparentize(white, 0.6);
+                    
+                    @include media($max: sm) {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    &::before {
+                        content: " ";
+                        width: 8px;
+                        height: 8px;
+                        border-top: 1px solid transparentize(black, 0.6);
+                        border-left: 1px solid transparentize(black, 0.6);
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+
+                        @include media(md) {
+                            width: 10px;
+                            height: 10px;
+                            border-top: 2px solid transparentize(black, 0.6);
+                            border-left: 2px solid transparentize(black, 0.6);
+                        }
+                    }
+                }
+
+                &__prev::before {
+                    transform: translate(-35%, -50%) rotate(-45deg);
+                }
+
+                &__next::before {
+                    transform: translate(-75%, -50%) rotate(135deg);
+                }
+            }
+        }
+    }
+
+    .videoDialog {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 3000;
+
+        .infoVideo {
+            z-index: 3000;
+        }
+    }
+}

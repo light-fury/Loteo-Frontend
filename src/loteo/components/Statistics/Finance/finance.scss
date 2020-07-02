@@ -1,0 +1,76 @@
+@import "styles/_colors";
+
+
+.finance {
+    margin-bottom: 100px;
+   
+    &__content {
+        margin-bottom: 84px;
+        padding: 40px;
+        background-color: white;
+
+        &__progress {
+            width: 80%;
+
+            .progress1 {
+                margin-bottom: 56px;
+            }
+    
+            .progress1, .progress2 {
+                width: 80%;
+            }
+        }
+
+        &__profit {
+            .value {
+                font-size: 24px;
+                line-height: 29px;
+                color: $dark;
+                margin-bottom: 0;
+            }
+
+            .detail {
+                margin-top: 10px;
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 15px;
+                color: $grey1;
+            }
+        }
+    }
+
+    &__affiliate {
+        .content {
+            margin-bottom: 80px;
+
+            .affiliateCard:first-child {
+                margin-left: 0;
+            }
+    
+            .affiliateCard:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__profits {
+        .content {
+            .trend {
+                margin: 0 20px;
+    
+                .trendCard {
+                    width: 336px;
+                    height: 104px;
+                }
+    
+                &:first-child {
+                    margin-left: 0;
+                }
+    
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }   
+    }
+}

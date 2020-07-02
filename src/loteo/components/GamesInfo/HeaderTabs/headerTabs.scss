@@ -1,0 +1,185 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.gameSectionTabs {
+    .contextTabs {        
+        @include noScrollbar;
+
+        @media only screen and (max-width: 1410px) {
+            display: none;
+        }
+
+        overflow-x: auto;
+        display: flex;
+        align-items: flex-end;
+    
+        &.headerTabs {
+            position: relative;
+            align-items: baseline;
+    
+            .contextTab {
+                color: transparentize(white, 0.4);
+                font-weight: 700;
+                text-align: center;
+                text-shadow: 0 0 6px $red;
+                flex-shrink: 0;
+                cursor: pointer;
+    
+                &:not(:first-of-type) {
+                    margin-left: 32px;
+                }
+    
+                &.active {
+                    color: $yellow;
+                    font-size: 22px;
+                    font-weight: 900;
+                    text-shadow: 0 0 8px transparentize($yellow, 0.5);
+                    cursor: default;
+    
+                    @include media(md) {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    
+        &:not(.headerTabs) .contextTab {
+            position: relative;
+            color: white;
+            opacity: 0.6;
+            font-size: 16px;
+            text-align: center;
+            padding: 4px 10px 22px;
+            cursor: pointer;
+            // transition: opacity 0.2s;
+            flex-shrink: 0;
+    
+            @include media(sm) {
+                padding: 4px 24px 22px;
+            }
+    
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                height: 6px;
+                border-radius: 4px 4px 0 0;
+                // transition: background-color 0.2s;
+                background-color: transparent;
+            }
+    
+            &.active {
+                opacity: 1;
+    
+                &::after {
+                    background-color: white;
+                }
+            }
+    
+            &:not(:first-of-type) {
+                margin-left: 24px;
+            }
+        }
+    }
+
+    &__mobile {
+        display: none;
+        color: white;
+        position: relative;
+
+        @media only screen and (max-width: 1410px) {
+            display: block;
+        }
+
+        &__Tabs {
+            overflow: hidden;
+            width: 80%;
+
+            @include media($max: md) {
+                margin: auto;
+            }
+
+            &__slick {
+                width: 1100px;
+    
+                .slick-slide {
+                    > .contextTab {
+                        color: transparentize(white, 0.4);
+                        font-weight: 700;
+                        text-align: center;
+                        text-shadow: 0 0 6px $red;
+                        flex-shrink: 0;
+                        cursor: pointer;
+                    }
+                }
+    
+                .slick-active {
+                    .contextTab {
+                        padding-bottom: 20px;
+                        text-align: center;
+    
+                        &.active {
+                            position: relative;
+                            opacity: 1;
+                            font-size: 16px !important;
+                            font-weight: 900;
+                            color: white !important;
+            
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                left: 50%;
+                                transform: translate(-50%, 0);
+                                bottom: 0;
+                                width: 60px;
+                                height: 4px;
+                                background-color: white;
+                                border-top-left-radius: 8px;
+                                border-top-right-radius: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__dots {
+            position: absolute;
+            top: 0%;
+            right: 0;
+            width: 24px;
+            height: 24px;
+            z-index: 3;
+
+            &__next {
+                position: relative;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                background: transparentize(white, 0.6);
+
+                &::before {
+                    content: " ";
+                    width: 8px;
+                    height: 8px;
+                    border-top: 1px solid transparentize(black, 0.6);
+                    border-left: 1px solid transparentize(black, 0.6);
+                    transform: translate(-75%, -50%) rotate(135deg);
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+
+                    @include media(md) {
+                        width: 10px;
+                        height: 10px;
+                        border-top: 2px solid transparentize(black, 0.6);
+                        border-left: 2px solid transparentize(black, 0.6);
+                    }
+                }
+            }
+        }
+    }
+}
+

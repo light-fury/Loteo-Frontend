@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>guinea-bissau-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1007.000000, -843.000000)">
+            <g id="guinea-bissau-flag-icon" transform="translate(1007.000000, 843.000000)">
+                <path d="M16,0 L2,0 C0.895,0 0,0.895 0,2 L0,34 C0,35.105 0.895,36 2,36 L16,36 L16,0 Z" id="Path" fill="#CB2322"></path>
+                <path d="M48,18 L16,18 L16,0 L46,0 C47.105,0 48,0.895 48,2 L48,18 Z" id="Path" fill="#F8CC15"></path>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L16,36 L16,18 L48,18 L48,34 Z" id="Path" fill="#078754"></path>
+                <polygon id="Path" fill="#000105" points="12.184 16.543 9.238 16.543 8 13.859 6.762 16.543 3.816 16.543 5.968 18.77 5.172 22 8 20.395 10.828 22 10.031 18.77"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

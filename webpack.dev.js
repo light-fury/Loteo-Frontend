@@ -12,11 +12,14 @@ module.exports = merge(common, {
         host: "0.0.0.0",
         port: 3000,
         progress: true,
-        hot: true
+        hot: true,
+        historyApiFallback: true
     },
     output: {
         filename: "[name].js",
-        chunkFilename: "[name].js"
+        chunkFilename: "[name].js",
+        path: path.resolve(__dirname, "public"),
+        publicPath: "/"
     },
     module: {
         rules: [
@@ -38,7 +41,8 @@ module.exports = merge(common, {
     },
     plugins: [
         new DotenvPlugin({
-            path: "./.env.dev"
+            path: "./.env.dev",
+            systemvars: true
         }),
         new webpack.HotModuleReplacementPlugin()
     ]

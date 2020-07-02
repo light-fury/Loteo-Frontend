@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>zambia-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -40.000000)">
+            <g id="zambia-flag-icon" transform="translate(814.000000, 40.000000)">
+                <path d="M48,2 C48,0.895 47.104,0 46,0 L2,0 C0.896,0 0,0.895 0,2 L0,34 C0,35.105 0.896,36 2,36 L24,36 L24,22 L48,22 L48,2 Z" id="Path" fill="#198B43"></path>
+                <path d="M48,22 L40,22 L40,36 L46,36 C47.105,36 48,35.105 48,34 L48,22 Z" id="Path" fill="#EA8028"></path>
+                <rect id="Rectangle" fill="#57373A" x="32" y="22" width="8" height="14"></rect>
+                <rect id="Rectangle" fill="#DD2525" x="24" y="22" width="8" height="14"></rect>
+                <path d="M44.553,10.894 C44.863,10.274 44.83,9.538 44.465,8.948 C44.1,8.358 43.457,8 42.764,8 L29.236,8 C28.543,8 27.899,8.359 27.535,8.949 C27.171,9.539 27.137,10.275 27.447,10.895 L28,12 L44,12 L44.553,10.894 Z" id="Path" fill="#7B6045"></path>
+                <path d="M38,16 L36,18 L34,16 L34,6 C34,4.895 34.895,4 36,4 C37.105,4 38,4.895 38,6 L38,16 Z" id="Path" fill="#7B6045"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>spain-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-236.000000, -275.000000)">
+            <g id="spain-flag-icon" transform="translate(236.000000, 275.000000)">
+                <path d="M48,10 L0,10 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,10 Z" id="Path" fill="#C60B1E"></path>
+                <rect id="Rectangle" fill="#FFC300" x="0" y="10" width="48" height="16"></rect>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,26 L48,26 L48,34 Z" id="Path" fill="#C60B1E"></path>
+                <polygon id="Path" fill="#91443A" points="14 14 14 12 6 12 6 14 8 14 8 16 6 16 6 21.332 10 24 14 21.332 14 16 12 16 12 14"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

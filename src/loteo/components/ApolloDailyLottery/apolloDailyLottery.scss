@@ -1,0 +1,322 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.apolloDailyLottery {
+    min-height: 100vh;
+
+    &__inner {
+        @include centerMax(1680px);
+
+        padding: 16px;
+
+        @include media(lg) {
+            padding: 16px 40px 20px;
+        }
+
+        &__ticketSelector {
+            padding: 16px;
+            background: transparentize($orange, 0.8);
+            border-radius: 12px;
+            border: 6px solid $yellow;
+            box-shadow: inset 0 0 1px 0 $orange, 0 0 16px 0 $yellow;
+
+            @include media(md) {
+                padding: 24px 48px;
+            }
+
+            &__title {
+                &__text {
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    @include media(lg) {
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                }
+
+                .quitButton .text {
+                    @include media($max: md) {
+                        display: none;
+                    }
+                }
+
+                h1 {
+                    margin-right: 16px;
+                    color: $yellow;
+                    font-size: 24px;
+                    line-height: 32px;
+
+                    @include media(md) {
+                        font-size: 48px;
+                        line-height: 58px;
+                    }
+                }
+            }
+
+            &__prizes {
+                margin: 16px 0 0;
+                white-space: nowrap;
+
+                @include media(md) {
+                    margin: 16px 0;
+                }
+
+                &.loteoGrid {
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+
+                    @include media(md) {
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+
+                    @include media(lg) {
+                        flex-wrap: nowrap;
+                    }
+                }
+
+                &__item {
+                    color: white;
+                    font-size: 24px;
+                    font-weight: 300;
+                    line-height: 1;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+
+                    strong {
+                        margin-right: 5px;
+                        font-size: 40px;
+                        font-weight: 900;
+                        line-height: 36px;
+                    }
+                }
+
+                &__counter {
+                    width: 100%;
+                    margin-top: 16px;
+                    flex-direction: column;
+
+                    @include media(md) {
+                        width: auto;
+                        margin-top: 0;
+                        flex-direction: row;
+                    }
+
+                    &.loteoGrid {
+                        align-items: flex-start;
+
+                        @include media(md) {
+                            align-items: center;
+                        }
+                    }
+
+                    .counter {
+                        @include media($max: md) {
+                            margin-top: 8px;
+                        }
+                    }
+
+                    span {
+                        margin-right: 12px;
+                        color: white;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 14px;
+                    }
+                }
+            }
+
+            &__main {
+                flex-direction: column;
+
+                @include media(md) {
+                    margin-bottom: 130px;
+                    flex-direction: row;
+                }
+
+                &__availableLoteu {
+                    padding: 16px;
+
+                    .borderedButton {
+                        background: none;
+                        box-shadow: none;
+                        border: 2px solid $yellow;
+                        box-sizing: border-box;
+                    }
+
+                    &__title {
+                        margin: 0 auto 24px;
+
+                        @include media(md) {
+                            margin: 0 0 24px;
+                        }
+
+                        img {
+                            max-width: 46px;
+                            margin-right: 20px;
+                        }
+
+                        span {
+                            margin-bottom: 2px;
+                            color: transparentize(white, 0.4);
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 17px;
+                        }
+
+                        strong {
+                            color: white;
+                            font-size: 24px;
+                            line-height: 32px;
+                        }
+                    }
+
+                    &__conversion {
+                        margin-top: 16px;
+                        color: transparentize(white, 0.4);
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 17px;
+                        text-align: center;
+                    }
+
+                    .button {
+                        cursor: default;
+                    }
+                }
+
+                &__controls {
+                    margin: 16px 0 0 0;
+                    padding: 24px;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 32px;
+
+                    @include media(md) {
+                        margin: 0 0 0 16px;
+                        font-size: 24px;
+                    }
+
+                    &.loteoGrid {
+                        @include media(lg) {
+                            flex-wrap: nowrap;
+                        }
+                    }
+
+                    &__chance {
+                        margin-top: 12px;
+                        color: $pink;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 17px;
+
+                        @include media(md) {
+                            font-size: 14px;
+                        }
+
+                        span {
+                            margin-left: 8px;
+                            padding: 4px 12px;
+                            background: $red;
+                            border-radius: 4px;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 900;
+                            line-height: 17px;
+                            display: inline-block;
+                        }
+                    }
+
+                    &__buttons {
+                        margin: 32px 0 0;
+
+                        @include media($min: 1100px) {
+                            margin: 0 24px;
+                        }
+
+                        &.loteoGrid {
+                            @include media($max: md) {
+                                width: 100%;
+                                justify-content: space-between;
+                            }
+                        }
+
+                        button {
+                            width: 56px;
+                            height: 56px;
+                            padding: 0;
+                            background: radial-gradient(56px at top center, $yellow 0%, $lightOrange 100%);
+                            border-radius: 50%;
+                            border: none;
+                            opacity: 0.9;
+                            box-shadow: 0 2px 9px transparentize($yellow, 0.4);
+                            cursor: pointer;
+
+                            &:hover {
+                                opacity: 1;
+                            }
+
+                            &:focus {
+                                outline: none;
+                            }
+
+                            &:disabled {
+                                opacity: 0.5;
+                                cursor: default;
+                            }
+                        }
+
+                        div {
+                            color: white;
+                            font-size: 40px;
+                            font-weight: 900;
+                            line-height: 64px;
+
+                            @include media(md) {
+                                margin: 0 50px;
+                            }
+                        }
+                    }
+
+                    br {
+                        @include media($max: sm) {
+                            display: none;
+                        }
+                    }
+                }
+
+                > * {
+                    background: transparentize($dark, 0.4);
+                    border-radius: 4px;
+                }
+            }
+
+            &__enter {
+                padding: 8px 0;
+
+                &.green {
+                    width: 260px;
+                    height: 64px;
+                    flex-basis: unset;
+                    padding: 0;
+                    margin-left: auto;
+                }
+
+                .button {
+                    @include media($max: md) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    hr {
+        width: 100%;
+        height: 1px;
+        margin: 16px 0;
+        border-color: transparentize(white, 0.8);
+    }
+}

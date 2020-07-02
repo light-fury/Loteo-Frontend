@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>zimbabwe-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -40.000000)">
+            <g id="zimbabwe-flag-icon" transform="translate(718.000000, 40.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 L6,32 L48,32 L48,34 Z" id="Path" fill="#3C9038"></path>
+                <polygon id="Path" fill="#F8D406" points="6 32 48 32 48 26 12 26"></polygon>
+                <polygon id="Path" fill="#D12325" points="48 26 12 26 18 20 48 20"></polygon>
+                <polygon id="Path" fill="#D12325" points="18 16 48 16 48 10 12 10"></polygon>
+                <path d="M6,4 L48,4 L48,2 C48,0.895 47.105,0 46,0 L2,0 L6,4 Z" id="Path" fill="#3C9038"></path>
+                <polygon id="Path" fill="#F8D406" points="48 10 12 10 6 4 48 4"></polygon>
+                <polygon id="Path" fill="#443A17" points="48 20 18 20 20 18 18 16 48 16"></polygon>
+                <path d="M2,0 C0.895,0 0,0.895 0,2 L0,18 L0,34 C0,35.105 0.895,36 2,36 L20,18 L2,0 Z" id="Path" fill="#E6E6E6"></path>
+                <polygon id="Path" fill="#D12325" points="14 15.525 10.127 15.525 8.506 12 6.881 15.525 3.012 15.525 5.84 18.443 4.793 22.687 8.506 20.579 12.219 22.687 11.172 18.443"></polygon>
+                <circle id="Oval" fill="#FFFF00" cx="8.506" cy="17.719" r="3.406"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,31 +1,45 @@
+@import "styles/colors";
+
 .linkButton {
-    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
     font-weight: bold;
     cursor: pointer;
     position: relative;
-    color: white;
+    color: $pink;
+    transition: color 0.5s;
+    text-transform: uppercase;
 
-    &::after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        height: 1px;
-        width: 0;
-        background: white;
-        transition: width 0.1s;
-        transform: translateX(-50%);
+    svg,
+    img {
+        margin-right: 12px;
+        max-height: 19px;
+        max-width: 19px;
+    }
+
+    path {
+        color: $pink;
+        transition: fill 0.5s;
     }
 
     &:hover {
-        &::after {
-            width: 100%;
+        color: white;
+
+        path {
+            fill: white;
         }
     }
 
     &.active {
-        &::after {
-            width: 100%;
+        color: white;
+
+        path {
+            fill: white;
+        }
+
+        img {
+            filter: brightness(0) invert(1);
         }
     }
 }

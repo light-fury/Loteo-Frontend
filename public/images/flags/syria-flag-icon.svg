@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>syria-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-621.000000, -197.000000)">
+            <g id="syria-flag-icon" transform="translate(621.000000, 197.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,24 L48,24 L48,34 Z" id="Path" fill="#000105"></path>
+                <rect id="Rectangle" fill="#E6E6E6" x="0" y="12" width="48" height="12"></rect>
+                <path d="M48,12 L0,12 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,12 Z" id="Path" fill="#CC162C"></path>
+                <polygon id="Path" fill="#0E783D" points="20.313 16.613 17.365 16.613 16.129 13.929 14.892 16.613 11.945 16.613 14.098 18.84 13.302 22.07 16.129 20.465 18.956 22.07 18.16 18.84"></polygon>
+                <polygon id="Path" fill="#0E783D" points="36 16.613 33.052 16.613 31.816 13.929 30.579 16.613 27.632 16.613 29.785 18.84 28.989 22.07 31.816 20.465 34.643 22.07 33.847 18.84"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

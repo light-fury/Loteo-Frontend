@@ -1,0 +1,57 @@
+@import "styles/mixins";
+
+.products {
+
+    &__ticketSales {
+
+        @include media($max: lg) {
+            flex-direction: column !important;
+        }
+
+        .trend {
+            margin: 0 20px;
+            flex: 3 1;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            @include media($max: lg) {
+                margin: 20px 0 0 0;
+            }
+        }
+    }
+
+    &__loteoSales {
+        margin-top: 32px;
+    }
+
+    &__games {
+        margin-top: 32px;
+
+        @include media($max: lg) {
+            flex-direction: column !important;
+        }
+
+        .trend {
+            margin: 0 20px;
+            flex: 2 1;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            @include media($max: lg) {
+                margin: 20px 0 0 0;
+            }
+        }
+    }
+}

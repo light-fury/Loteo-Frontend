@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>cyprus-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-621.000000, -1044.000000)">
+            <g id="cyprus-flag-icon" transform="translate(621.000000, 1044.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M34,10 L34,12 L32,12 L32,10 L30,10 L30,12 L28,12 L28,10 L26,10 L26,12 L22,12 L22,10 L20,10 L20,12 L18,12 L18,10 L16,10 L16,12 L14,12 L14,10 C12.895,10 12,10.896 12,12 L12,16 C12,17.104 12.895,18 14,18 L14,16 L16,16 L16,18 L18,18 L18,16 L20,16 L20,18 L22,18 L22,16 L26,16 L26,18 L28,18 L28,16 L30,16 L30,18 L32,18 L32,16 L34,16 L34,18 C35.105,18 36,17.104 36,16 L36,12 C36,10.896 35.105,10 34,10 Z" id="Path" fill="#ED8000"></path>
+                <path d="M10,24 L22,24 L22,22 L12,22 C10.895,22 10,22.895 10,24 Z" id="Path" fill="#11674A"></path>
+                <path d="M26,24 L38,24 C38,22.895 37.105,22 36,22 L26,22 L26,24 Z" id="Path" fill="#11674A"></path>
+            </g>
+        </g>
+    </g>
+</svg>

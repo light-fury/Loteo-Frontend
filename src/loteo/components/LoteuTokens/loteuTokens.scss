@@ -1,0 +1,392 @@
+@import "styles/mixins";
+
+.loteuTokens {
+    margin: 0 10px;
+    color: white;
+    @include media($max: md) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include centerMax(1500px);
+
+    &__header-desktop {
+        order: 1;
+        margin-top: 120px;
+        margin-bottom: 90px;
+        text-align: center;
+
+        @include media($max: md) {
+            margin-bottom: 10px;
+        }
+
+        @include media($max: sm) {
+            margin-top: 50px;
+            order: 1;
+            margin-bottom: 0;
+            .coin {
+                margin-bottom: 24px;
+            }
+        }
+
+        .header {
+            margin-bottom: 5px;
+            font-size: 40px;
+            line-height: 48px;
+            color: white;
+        }
+
+        .question {
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 16px;
+            color: $yellow;
+
+            @include media($max: md) {
+                margin-bottom: 10px;
+            }
+
+            @include media($max: sm) {
+                margin: 0
+            }
+
+        }
+
+        .coin {
+            img {
+                width: 191px;
+                height: 196px;
+                @include media($max: sm) {
+                    height: initial;
+                }
+            }
+        }
+
+        @include media(md) {
+            .coin {
+                display: none;
+            }
+
+            .header {
+                margin-top: 120px;
+                margin-bottom: 16px;
+                line-height: 80px;
+                font-size: 80px;
+            }
+
+            .question {
+                font-size: 24px;
+            }
+        }
+    }
+
+    &__section {
+        order: 3;
+        display: flex;
+        justify-content: center;
+
+        &.desktop-view {
+            display: flex;
+        }
+
+        &.mobile-view {
+            display: none;
+        }
+
+        &__load-more {
+            width: 500px;
+            display: block;
+        }
+
+        
+
+        @include media($max: md) {
+            &.desktop-view {
+                display: none;
+            }
+
+            &.mobile-view {
+                display: block;
+            }
+        }
+
+        @include media($max: md) {
+            order: 3;
+            flex-direction: column;
+
+            &--coin  {
+                display: none;
+            }
+
+            &__left, &__right {
+                margin: 0 auto;
+            }
+
+            &__right {
+                transition: opacity 1s ease-in;
+                opacity: 0;
+                display: none;
+            }
+
+            &__load-more {
+                width: 100%;
+                background: rgba(255, 255, 255, 0.1);
+                mix-blend-mode: normal;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+                text-align: center;
+                line-height: 48px;
+                height: 48px;
+                margin: auto;
+                cursor: pointer;
+                transition: opacity 1s ease-out;
+                display: block;
+                position: relative;
+
+                .icon {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    top: calc(50% - 2px);
+                    border-style: solid;
+                    border-width: 4px 4px 0 4px;
+                    border-color: #ffffff transparent transparent transparent;
+                    opacity: 0.6;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        @include media($max: sm) {
+            &__load-more {
+                width: 100%;
+            }
+        }
+
+        &--coin {
+            margin: 0 20px 0 20px;
+            position: relative;
+            width: 295px;
+            height: 302px;
+
+            img {
+                // width: 295px;
+                // height: 302px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                z-index: 2;
+            }
+
+            .shine {
+                opacity: .3;
+                width: 200%;
+                left: -50%;
+                top: -25%;
+                z-index: 1;
+            }
+
+            &::after {
+                content: "";
+                background: url("/images/shine.png");
+                opacity: 0.5;
+                top: -50%;
+                left: -50%;
+                bottom: -50%;
+                right: -50%;
+                position: absolute;
+                z-index: -1;
+            }
+        }
+
+        &__left {
+            text-align: right;
+            width: 500px;
+
+            @include media($max: md) {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .item {
+                &.lLoteu-1 {
+                    padding-top: 40px;
+                }
+
+                &--name {
+                    margin: 0 20px 8px 0;
+                    display: flex;
+                    position: relative;
+                    font-size: 24px;
+                    font-weight: bold;
+                    line-height: 32px;
+                    color: $yellow;
+                    float: right;
+                }
+
+                &--name::after {
+                    content: "";
+                    width: 25px;
+                    height: 33px;
+                    position: absolute;
+                    right: -25px;
+                    top: 0;
+                    bottom: 0;
+                    background: url("/images/dashboard/loteuTokens/loteu-polygon.png");
+                    background-size: cover;
+                }
+
+                &--description {
+                    margin: 0 20px 46px 0;
+                    white-space: pre-wrap;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: white;
+                    float: right;
+                }
+
+                &.left {
+                    .item--name {
+                        margin-right: 80px;
+                    }
+
+                    .item--description {
+                        margin-right: 80px;
+                    }
+                }
+                //Mobile View Loteu Tokens
+                @include media($max: md) {
+                    text-align: left;
+
+                    &.left {
+                        .item--name {
+                            margin-right: 0;
+                            font-size: 16px;
+                        }
+
+                        .item--description {
+                            margin-right: 0;
+                        }
+                    }
+
+                    &--name {
+                        width: 100%;
+                        padding-left: 35px;
+                        margin-right: 0;
+                        font-size: 16px;
+                        float: left;
+                    }
+
+                    &--description {
+                        padding-left: 30px;
+                        font-size: 14px;
+                        white-space: pre-wrap;
+                        float: left;
+                    }
+
+                    &--name::after {
+                        display: none;
+                    }
+
+                    &--name::before {
+                        content: "";
+                        width: 25px;
+                        height: 33px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        background: url("/images/dashboard/loteuTokens/loteu-polygon.png");
+                        background-size: cover;
+                    }
+                }
+            }
+
+        }
+
+        &__right {
+            width: 500px;
+
+            @include media($max: md) {
+                width: 100%;
+            }
+
+            .item {
+                &--name {
+                    margin: 0 0 8px 20px;
+                    padding-left: 12px;
+                    position: relative;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: $yellow;
+                }
+
+                &--name::before {
+                    content: "";
+                    width: 25px;
+                    height: 33px;
+                    position: absolute;
+                    left: -20px;
+                    top: 0;
+                    bottom: 0;
+                    background: url("/images/dashboard/loteuTokens/loteu-polygon.png");
+                    background-size: cover;
+                }
+
+                &--description {
+                    margin: 0 0 32px 20px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: white;
+                    white-space: pre-wrap;
+                }
+
+                &.right {
+                    .item--name {
+                        margin-left: 80px;
+                    }
+
+                    .item--description {
+                        margin-left: 80px;
+                    }
+                }
+                //Mobile View Loteu Tokens
+                @include media($max: md) {
+                    &.right {
+                        .item--name {
+                            margin-left: 0;
+                            font-size: 16px;
+                        }
+
+                        .item--description {
+                            margin-left: 0;
+                        }
+                    }
+
+                    &--name, &--description {
+                        padding-left: 20px;
+                        margin: 0 0 8px 0;
+                    }
+
+                    &--name::before {
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &__buy-loteu {
+        order: 2;
+        margin: 56px auto;
+        width: 261px;
+        height: 72px;
+
+        @include media($max: md) {
+            order: 2;
+            margin: 10px auto 40px auto;
+        }
+    }
+}

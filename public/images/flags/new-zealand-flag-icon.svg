@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>new-zealand-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -478.000000)">
+            <g id="new-zealand-flag-icon" transform="translate(814.000000, 478.000000)">
+                <path d="M46,0 L2,0 C0.8954305,0 1.3527075e-16,0.8954305 0,2 L0,34 C1.3527075e-16,35.1045695 0.8954305,36 2,36 L46,36 C47.1045695,36 48,35.1045695 48,34 L48,2 C48,0.8954305 47.1045695,0 46,0 Z" id="Path" fill="#0F2E72"></path>
+                <polygon id="Path" fill="#FF0000" points="19 13 16 13 16 13.25 22.333 18 24 18 24 16.75"></polygon>
+                <path d="M0.12,1.34 L5,5 L8,5 L8,4.75 L1.706,0.03 C0.975230373,0.138590584 0.364672302,0.642897692 0.12,1.34 Z" id="Path" fill="#FF0000"></path>
+                <polygon id="Path" fill="#FF0000" points="24 0 22.334 0 16 4.75 16 5 19.001 5 24 1.25"></polygon>
+                <polygon id="Path" fill="#FF0000" points="0 16.75 0 18 1.667 18 8 13.25 8 13 5 13"></polygon>
+                <polygon id="Path" fill="#FF0000" points="24 7 14 7 14 0 10 0 10 7 0 7 0 11 10 11 10 18 14 18 14 11 24 11"></polygon>
+                <polygon id="Path" fill="#FF0000" points="40 25.2 38.1 25.2 37.3 23.47 36.5 25.2 34.615 25.2 36 26.628 35.489 28.71 37.309 27.678 39.129 28.71 38.616 26.628"></polygon>
+                <polygon id="Path" fill="#FF0000" points="33.946 15.377 32.557 15.377 31.974 14.109 31.389 15.377 30 15.377 31.015 16.423 30.641 17.948 31.974 17.191 33.307 17.948 32.931 16.423"></polygon>
+                <polygon id="Path" fill="#FF0000" points="44.281 15.268 42.892 15.268 42.308 14 41.723 15.268 40.335 15.268 41.35 16.314 40.975 17.839 42.308 17.082 43.641 17.839 43.265 16.314"></polygon>
+                <polygon id="Path" fill="#FF0000" points="39.281 9.268 37.892 9.268 37.308 8 36.723 9.268 35.335 9.268 36.35 10.314 35.975 11.839 37.308 11.082 38.641 11.839 38.265 10.314"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

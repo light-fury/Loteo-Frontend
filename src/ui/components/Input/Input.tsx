@@ -1,15 +1,22 @@
-import React from "react";
+import React, {ChangeEventHandler} from "react";
 
 import "./input.scss";
 
 type Props = {
-    type: string | null;
-    value: string;
-    onChange: () => void;
+    containerClassName?: string;
+    className?: string;
+    type?: string | undefined;
+    value: string | number;
+    onChange: ChangeEventHandler;
+    error?: string | null | object;
+    [key: string]: any;
 };
 
-const Input = ({type, value, onChange, ...other}: Props) => (
-    <input type={type} value={value} onChange={onChange} {...other}/>
+const Input = ({containerClassName = "", className = "", type, value, error, onChange, ...other}: Props) => (
+    <div className={`inputComponent ${error ? "error" : ""} ${containerClassName}`}>
+        <input className={`input ${className}`} type={type} value={value} onChange={onChange} {...other}/>
+        {error && <div className="error">{error}</div>}
+    </div>
 );
 
 export default Input;

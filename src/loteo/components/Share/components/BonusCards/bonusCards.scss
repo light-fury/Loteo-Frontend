@@ -1,0 +1,76 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.bonusCards {
+    padding-top: 40px;
+
+    &__item {
+        padding-top: 45px;
+        position: relative;
+
+        &__card {
+            width: 100%;
+            padding: 60px 24px 22px;
+            margin-bottom: 24px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 8px 16px 0 transparentize(black, 0.85);
+
+            @include media(md) {
+                margin-bottom: 16px;
+            }
+
+            &__title {
+                font-size: 20px;
+                font-weight: 900;
+                line-height: 24px;
+
+                &.red {
+                    color: $red;
+                }
+
+                &.yellow {
+                    color: $yellow;
+                    text-shadow: 0 0 6px transparentize($yellow, 0.5);
+                }
+            }
+
+            &__price {
+                color: $dark;
+                font-weight: 900;
+                line-height: 19px;
+                text-align: right;
+            }
+
+            &__text {
+                margin-top: 6px;
+                color: $grey1;
+                font-size: 12px;
+                line-height: 20px;
+
+                strong {
+                    font-weight: 900;
+                }
+            }
+        }
+
+        img {
+            max-width: 90px;
+            max-height: 100px;
+            position: absolute;
+            top: 0;
+            left: 18px;
+
+            @include media(md) {
+                left: 38px;
+            }
+        }
+    }
+
+    &__disclaimer {
+        color: $grey1;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+}

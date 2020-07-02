@@ -1,0 +1,38 @@
+@import "styles/colors";
+
+.countInfo {
+    .info {
+        display: flex;
+        align-items: flex-end;
+
+        .text {
+            margin-right: 3px;
+            color: $brown;
+            font-size: 14px;
+        }
+
+        .remaining {
+            font-size: 14px;
+            color: $brown;
+            font-weight: 900;
+        }
+    }
+
+    .progressBar {
+        position: relative;
+        margin-top: 8px;
+        height: 4px;
+        border-radius: 4px;
+        background-color: rgba(white, 0.2);
+
+        .bar {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 4px;
+            background: linear-gradient(270deg, #ef512d 0%, $red 100%);
+            box-shadow: 0 0 4px 0 $red;
+        }
+    }
+}

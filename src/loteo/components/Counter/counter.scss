@@ -1,0 +1,48 @@
+@import "styles/colors";
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        padding: 6px 10px;
+        border-radius: 4px;
+        background-color: rgba($greyBright, 0.1);
+        overflow: hidden;
+
+        .values {
+            flex-shrink: 0;
+            position: relative;
+            height: 24px;
+            width: 30px;
+
+            .value {
+                top: -3px;
+                position: absolute;
+                font-size: 21px;
+                font-weight: 900;
+                color: white;
+            }
+        }
+
+        .text {
+            margin-top: 6px;
+            height: 15px;
+            font-size: 10px;
+            color: white;
+        }
+    }
+
+    .separator {
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 16px;
+        font-weight: 900;
+        color: white;
+    }
+}

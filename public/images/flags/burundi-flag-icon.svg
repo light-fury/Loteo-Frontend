@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>burundi-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1103.000000, -275.000000)">
+            <g id="burundi-flag-icon" transform="translate(1103.000000, 275.000000)">
+                <polyline id="Path" fill="#2CB04D" points="0 32 0 4 20 18"></polyline>
+                <polyline id="Path" fill="#2CB04D" points="48 32 48 4 28 18"></polyline>
+                <path d="M48,2 C48,0.895 47.105,0 46,0 L44,0 L24,14 L4,0 L2,0 C0.895,0 0,0.895 0,2 L0,4 L20,18 L0,32 L0,34 C0,35.105 0.895,36 2,36 L4,36 L24,22 L44,36 L46,36 C47.105,36 48,35.105 48,34 L48,32 L28,18 L48,4 L48,2 Z" id="Path" fill="#E6E6E6"></path>
+                <polygon id="Path" fill="#BD2230" points="24 22 24 22 4 36 44 36"></polygon>
+                <polygon id="Path" fill="#BD2230" points="24 14 24 14 4 0 44 0"></polygon>
+                <circle id="Oval" fill="#E6E6E6" cx="24" cy="18" r="10"></circle>
+                <polygon id="Path" fill="#BD2230" points="26.145 13.299 24.685 13.299 24.073 11.969 23.46 13.299 22 13.299 23.066 14.399 22.672 16 24.072 15.205 25.472 16 25.078 14.398"></polygon>
+                <polygon id="Path" fill="#BD2230" points="22.145 19.33 20.685 19.33 20.072 18 19.459 19.33 18 19.33 19.066 20.43 18.671 22.032 20.071 21.237 21.471 22.032 21.077 20.43"></polygon>
+                <polygon id="Path" fill="#BD2230" points="30.145 19.33 28.685 19.33 28.072 18 27.459 19.33 26 19.33 27.066 20.43 26.671 22.032 28.071 21.237 29.471 22.032 29.077 20.43"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

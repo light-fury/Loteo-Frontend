@@ -1,0 +1,40 @@
+@import "styles/mixins";
+
+.trendCard {
+    margin: 0 20px;
+    color: black;
+
+    &__name {
+        font-size: 16px;
+        font-weight: bold;
+        color: $grey1;
+        line-height: 19px;
+    }
+
+    &__value {
+        margin-top: 7px;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 29px;
+        color: $dark;
+
+        &__currency {
+            margin-left: 5px;
+            font-weight: normal;
+        }
+
+        &__detail {
+            margin-left: 5px;
+            padding: 4px 6px;
+            border-radius: 20px;
+            background-color: $greyBright;
+            font-size: 10px;
+            font-weight: 900;
+            line-height: 12px;
+            cursor: pointer;
+            color: $grey2;
+        }
+    }
+}

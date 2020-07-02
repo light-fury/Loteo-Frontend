@@ -1,7 +1,8 @@
 import React, {FormEvent, useState} from "react";
+import {useTranslation} from "react-i18next";
 
 import {Button} from "ui/components";
-import {subscribeToNews} from "common/aws";
+import {subscribeToNews} from "loteo/api";
 import {useInputState} from "hooks";
 
 import "./subscribeForm.scss";
@@ -17,7 +18,9 @@ type Props = {
     placeholder?: string;
 };
 
-const SubscribeForm = ({placeholder = "Join our newsletter"}: Props) => {
+const SubscribeForm = ({placeholder}: Props) => {
+    const {t} = useTranslation();
+    const TRANSLATE = "subscribeForm";
     const [email, setEmail] = useInputState("");
     const [status, setStatus] = useState<StatusType>(StatusType.Ready);
 
@@ -27,8 +30,9 @@ const SubscribeForm = ({placeholder = "Join our newsletter"}: Props) => {
         setStatus(StatusType.Subscribing);
         subscribeToNews(email)
             .then(() => setStatus(StatusType.Success))
-            .catch(statusCode => {
-                if (statusCode === 400) {
+            .catch(error => {
+                if (error.status === 409) {
+                    // already subscribed - ignoring
                     setStatus(StatusType.Success);
                 } else {
                     setStatus(StatusType.Error);
@@ -39,21 +43,21 @@ const SubscribeForm = ({placeholder = "Join our newsletter"}: Props) => {
     const getButtonText = () => {
         switch (status) {
             case StatusType.Subscribing:
-                return "Subscribing...";
+                return t(`${TRANSLATE}.status.subscribing`);
             case StatusType.Success:
-                return "Successfully subscribed";
+                return t(`${TRANSLATE}.status.success`);
             case StatusType.Error:
-                return "Error occurred";
+                return t(`${TRANSLATE}.status.error`);
             default:
-                return "Subscribe";
+                return t(`${TRANSLATE}.status.default`);
         }
     };
 
     return (
         <form className="subscribeForm" onSubmit={subscribe}>
             <input
-                title="Enter your email address"
-                placeholder={placeholder}
+                title={t(`${TRANSLATE}.title`)}
+                placeholder={placeholder ? placeholder : t(`${TRANSLATE}.placeholder`)}
                 type="email"
                 value={email}
                 onChange={setEmail}

@@ -1,0 +1,43 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.copyField {
+    .valueField {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 8px 8px 16px;
+        border-radius: 8px;
+        border: 1px solid $greyBorder;
+        background-color: white;
+
+        .value {
+            font-size: 12px;
+            font-weight: 900;
+            overflow-x: auto;
+        }
+
+        .button {
+            width: 96px;
+            height: 32px;
+            padding: 0;
+            box-shadow: none;
+            margin-left: 5px;
+            display: none;
+
+            @include media(md) {
+                display: block;
+            }
+        }
+    }
+
+    .mobileCopyButton {
+        width: 100%;
+        margin-top: 10px;
+        display: block;
+
+        @include media(md) {
+            display: none;
+        }
+    }
+}

@@ -1,3 +1,108 @@
+@import "styles/colors";
+@import "styles/mixins";
+
 .dashboard {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    &__hero {
+        position: relative;
+        flex-grow: 1;
+        overflow: hidden;
+
+        .scrollInfo {
+            margin-top: 90px;
+        }
+    }
+
+    &__content {
+        padding: 0 16px;
+        background: linear-gradient(to bottom, transparentize(#1d0506, 1) 0%, transparentize(#1d0506, 1) 99%, transparentize(#1d0506, 0) 100%), url("/images/dashboard/content.png");
+        background-size: cover;
+
+        .ticketShop {
+            @include centerMax;
+
+            padding-top: 150px;
+        }
+    }
+
+    #footer {
+        background: linear-gradient(to bottom, transparentize(#1d0506, 0) 5%, transparentize(#1d0506, 0) 100%), url("/images/dashboard/content.png");
+        background-size: cover;
+        background-position: left 0 top 500px;
+    }
+
+    .lotteryLoteoUsers {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        @include centerMax(1600px);
+
+        @include media($max: lg) {
+            flex-direction: column;
+        }
+
+        .moonVisitors, .leaderboard {
+            flex: 1 1 0;
+        }
+    }
+
+    &__loteuDepositDialog {
+        .dialogArea {
+            width: 600px;
+        }
+
+        .dialogContent {
+            .title {
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 16px;
+
+                @include media(md) {
+                    margin-bottom: 8px;
+                }
+            }
+
+            .balanceCard {
+                margin-bottom: 24px;
+
+                @include media(md) {
+                    margin-bottom: 40px;
+                }
+            }
+
+            .addressComponent {
+                .note {
+                    margin: 12px 0;
+                    color: $grey1;
+                    font-size: 14px;
+
+                    a {
+                        color: inherit;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .newsBanner {
+        margin-bottom: 54px;
+        padding: 16px 0 10px;
+        border-radius: 0;
+
+        @include media(md) {
+            margin-bottom: 0;
+            padding: 16px 40px 10px;
+            border-radius: 8px;
+        }
+    }
+
+    &__noTicketsDialog .dialogScrollContainer .dialogArea {
+        max-width: 400px;
+    }
 }

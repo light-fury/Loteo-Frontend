@@ -1,0 +1,60 @@
+.auth0-lock-overlay {
+    display: none !important;
+}
+
+.auth0-lock-header-bg.auth0-lock-blur-support {
+    display: none !important;
+}
+
+.background-elements {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    background: url("https://www.playloteo.com/images/background-gradient.jpg") !important;
+    background-size: 100% 100% !important;
+}
+
+.background-elements .moon {
+    position: absolute;
+    right: -55vmin;
+    bottom: -55vmin;
+    width: 110vmin;
+    height: 110vmin;
+}
+
+.background-elements .backgroundMoon1 {
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    height: 20vmin;
+    width: 20vmin;
+}
+
+.background-elements .backgroundMoon2 {
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+    height: 14vmin;
+    width: 14vmin;
+}
+
+.background-elements .backgroundMoon3 {
+    position: absolute;
+    left: calc(50% - 10vw);
+    bottom: 10vh;
+    height: 20vmin;
+    width: 20vmin;
+}
+
+.closeButton {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000000;
+}

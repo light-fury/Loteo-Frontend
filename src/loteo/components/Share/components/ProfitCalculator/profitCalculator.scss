@@ -1,0 +1,111 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.profitCalculator {
+    width: 100%;
+    margin-top: 40px;
+
+    @include media(md) {
+        margin-top: 100px;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+        color: $dark;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    &__card {
+        width: 100%;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 12px 32px 0 transparentize(black, 0.9);
+
+        &__inner {
+            padding: 48px 40px 0;
+
+            & &__column {
+                margin-bottom: 40px;
+                justify-content: center;
+
+                @include media(md) {
+                    justify-content: flex-start;
+                }
+
+                &__text {
+                    max-width: 280px;
+                    margin-left: 24px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 24px;
+                }
+
+                &__value {
+                    margin: 0 18px;
+                    font-size: 16px;
+                    font-weight: 900;
+                    user-select: none;
+                }
+
+                .slider {
+                    margin-left: -10px;
+                    margin-right: 20px;
+                }
+
+                button {
+                    width: 26px;
+                    height: 26px;
+                    background: white;
+                    border: 2px solid $red;
+                    border-radius: 50%;
+                    box-shadow: 0 1px 4px 0 transparentize($red, 0.4);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    user-select: none;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        & &__summary {
+            padding: 16px;
+            background: $red;
+            border-radius: 0 0 8px 8px;
+            flex-wrap: wrap;
+            user-select: none;
+
+            @include media(md) {
+                flex-wrap: nowrap;
+            }
+
+            div {
+                width: 100%;
+                margin: 3px 0;
+                color: white;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+
+                @include media(md) {
+                    width: auto;
+                }
+            }
+
+            span {
+                margin-left: 16px;
+                margin-right: 12px;
+                color: white;
+                font-size: 24px;
+                font-weight: 900;
+            }
+        }
+    }
+}

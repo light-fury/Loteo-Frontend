@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>angola-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1296.000000, -707.000000)">
+            <g id="angola-flag-icon" transform="translate(1296.000000, 707.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,18 L48,18 L48,34 Z" id="Path" fill="#3C3C3C"></path>
+                <path d="M48,18 L0,18 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,18 Z" id="Path" fill="#D21E29"></path>
+                <path d="M36,30.357 L27.135,22.1 C27.632,21.698 28.109,21.258 28.541,20.758 C30.461,18.533 31.401,15.696 31.187,12.766 C30.973,9.834 29.63,7.164 27.406,5.243 L26.099,6.759 C27.918,8.329 29.017,10.515 29.193,12.911 C29.368,15.309 28.599,17.632 27.028,19.45 C26.611,19.932 26.151,20.356 25.662,20.729 L18.438,14 L17.075,15.463 L23.847,21.77 C20.766,23.127 17.049,22.723 14.334,20.379 L13.027,21.895 C15.102,23.686 17.661,24.563 20.209,24.563 C22.015,24.563 23.809,24.11 25.426,23.241 L34.638,31.821 L36,30.357 Z" id="Path" fill="#FFFF00"></path>
+                <polygon id="Path" fill="#FFFF00" points="24.256 6.648 21.348 6.648 20.128 4 18.906 6.648 16 6.648 18.124 8.841 17.338 12.03 20.128 10.446 22.918 12.03 22.132 8.841"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

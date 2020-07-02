@@ -1,0 +1,157 @@
+@import "styles/mixins";
+
+.gamesInfo {
+    .background {
+        padding-bottom: 0;
+    }
+
+    .contextTabs {
+        @include centerMax(1100px);
+        @include flexboxScrollfix;
+
+        margin-top: 70px;
+        padding: 0 24px;
+        position: relative;
+
+        @include media(md) {
+            padding: 0 40px;
+        }
+    }
+    
+    &__header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    &__slides {
+        position: relative;
+
+        &__tabs{
+            position: absolute;
+            bottom: 0;
+            margin: 0 10%;
+
+            .headerTabs {
+                margin: 10px auto 0 auto;
+    
+                .contextTab {
+                    opacity: 0.6;
+                    font-size: 16px;
+                    font-weight: 900;
+                    color: white;
+                    position: relative;
+                    padding-bottom: 20px;
+                }
+    
+                .active {
+                    opacity: 1;
+                    font-size: 16px !important;
+                    font-weight: 900;
+                    color: white !important;
+    
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                        bottom: 0;
+                        width: 60px;
+                        height: 4px;
+                        background-color: white;
+                        border-top-left-radius: 8px;
+                        border-top-right-radius: 8px;
+                    }
+                }
+            }
+        }
+
+        &__slick {
+            &__dots {
+                position: fixed;
+                top: 30%;
+                display: flex;
+                width: 100%;
+                height: 50px;
+    
+                @include media(md) {
+                    top: 30%;
+                }
+
+                @include media($max: ssm) {
+                    top: 28%;
+                }
+
+                @media only screen and (max-width: 414px) {
+                    top: 30%;
+                }
+
+                @media only screen and (max-width: 375px) {
+                    top: 30%;
+                }
+
+                @media only screen and (max-width: 360px) {
+                    top: 40%;
+                }
+
+                @media only screen and (max-width: 321px) {
+                    top: 45%;
+                }
+    
+                &__inner {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 90%;
+                    margin: auto;
+    
+                    &__prev,
+                    &__next {
+                        position: relative;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background: transparentize(white, 0.6);
+                        
+                        @include media($max: sm) {
+                            width: 24px;
+                            height: 24px;
+                        }
+    
+                        &::before {
+                            content: " ";
+                            width: 8px;
+                            height: 8px;
+                            border-top: 1px solid transparentize(black, 0.6);
+                            border-left: 1px solid transparentize(black, 0.6);
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+    
+                            @include media(md) {
+                                width: 10px;
+                                height: 10px;
+                                border-top: 2px solid transparentize(black, 0.6);
+                                border-left: 2px solid transparentize(black, 0.6);
+                            }
+                        }
+                    }
+    
+                    &__prev::before {
+                        transform: translate(-35%, -50%) rotate(-45deg);
+                    }
+    
+                    &__next::before {
+                        transform: translate(-75%, -50%) rotate(135deg);
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        background: rgba(#1E0606, 1);
+        background-image: none;
+    }
+}

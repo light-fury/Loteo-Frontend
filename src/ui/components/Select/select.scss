@@ -1,0 +1,121 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.select {
+    @include caretDown();
+
+    max-width: 270px;
+    padding: 14px 36px 14px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+
+    &::after {
+        transform: rotate(-45deg);
+        position: absolute;
+        top: calc(50% - 7px);
+        right: 18px;
+    }
+
+    &.disabled {
+        opacity: 0.5;
+        cursor: default;
+    }
+
+    &.transparentWhite {
+        background: transparentize(white, 0.9);
+        color: white;
+
+        &:not(.disabled):hover {
+            background: transparentize(white, 0.8);
+        }
+    }
+
+    &__placeholder {
+        color: transparentize(white, 0.6);
+    }
+
+    &__value {
+        @include trimText();
+    }
+
+    &__dropdown {
+        width: 100%;
+        max-height: 150px;
+        margin: 8px 0;
+        overflow-y: auto;
+        background: $greyBright;
+        border-radius: 4px;
+        transform-origin: top;
+        animation: openDropdown 0.15s ease-in;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+
+        @keyframes openDropdown {
+            0% {
+                transform: scale(0.7);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.1);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        &::-webkit-scrollbar {
+            -webkit-appearance: none;
+            position: absolute;
+            right: 0;
+        }
+
+        &::-webkit-scrollbar:vertical {
+            width: 11px;
+        }
+
+        &::-webkit-scrollbar:horizontal {
+            height: 11px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            border: 2px solid $greyBright;
+            background-color: transparentize(black, 0.5);
+        }
+
+        &__option {
+            @include trimText();
+
+            padding: 14px 16px;
+            color: $dark;
+            font-weight: 400;
+            position: relative;
+            cursor: pointer;
+
+            &.active {
+                @include checkMark($pink, 14);
+
+                padding: 14px 36px 14px 16px;
+                font-weight: 700;
+            }
+
+            &.hasScrollbar {
+                padding: 14px 25px 14px 16px;
+
+                &.active::before,
+                &.active::after {
+                    margin-right: -11px;
+                }
+            }
+        }
+    }
+}

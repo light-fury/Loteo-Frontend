@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>togo-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-236.000000, -197.000000)">
+            <g id="togo-flag-icon" transform="translate(236.000000, 197.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,28 L48,28 L48,34 Z" id="Path" fill="#0D6849"></path>
+                <rect id="Rectangle" fill="#1D266B" x="0" y="12" width="48" height="12"></rect>
+                <path d="M48,8 L14,8 L14,0 L46,0 C47.105,0 48,0.895 48,2 L48,8 Z" id="Path" fill="#0D6849"></path>
+                <rect id="Rectangle" fill="#F8D406" x="0" y="22" width="48" height="6"></rect>
+                <rect id="Rectangle" fill="#F8D406" x="14" y="8" width="34" height="6"></rect>
+                <rect id="Rectangle" fill="#0D6849" x="0" y="14" width="48" height="8"></rect>
+                <path d="M14,14 L0,14 L0,2 C0,0.895 0.895,0 2,0 L14,0 L14,14 Z" id="Path" fill="#D52027"></path>
+                <polygon id="Path" fill="#FFFFFF" points="10.754 6.305 8.291 6.305 7.26 4.063 6.227 6.305 3.766 6.305 5.565 8.161 4.899 10.86 7.26 9.52 9.621 10.86 8.955 8.16"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

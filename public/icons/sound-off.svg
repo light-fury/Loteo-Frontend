@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>22749640-ED7B-481E-912D-A9AA7CD70FD1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0672 0.5824 16.12576 0.5824 16.12576 16.8 0.0672 16.8"></polygon>
+    </defs>
+    <g id="Video---vyhlasanie-vyhercu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sound-ON" transform="translate(-1392.000000, -16.000000)">
+            <g id="Group-2" transform="translate(1392.000000, 16.000000)">
+                <g id="skip-button" fill="#FFFFFF" fill-rule="nonzero" opacity="0.4">
+                    <g id="Oval">
+                        <circle cx="16" cy="16" r="16"></circle>
+                    </g>
+                </g>
+                <g id="volume-off-indicator" transform="translate(8.000000, 8.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M12.09712,8.64528 C12.09712,7.03584 11.2,5.68848 9.85712,5.0624 L9.85712,7.03584 L12.09712,9.27584 L12.09712,8.64528 Z M14.33712,8.64528 C14.33712,9.45504 14.15792,10.26032 13.88576,10.97712 L15.23424,12.32 C15.8592,11.2448 16.12576,9.9008 16.12576,8.55792 C16.12576,4.704 13.44,1.47952 9.85712,0.66976 L9.85712,2.55584 C12.45552,3.44848 14.33712,5.78032 14.33712,8.64528 Z M1.16368,0.5824 L0,1.74608 L4.21344,5.95952 L0,5.95952 L0,11.33664 L3.58288,11.33664 L8.06288,15.81664 L8.06288,9.80896 L11.91792,13.664 C11.28736,14.10976 10.6624,14.46816 9.85712,14.74032 L9.85712,16.6208 C11.11264,16.34976 12.18448,15.81664 13.17344,15.00688 L14.96208,16.8 L16.12576,15.63632 L8.06288,7.56896 L1.16368,0.5824 Z M8.06288,1.47952 L6.1824,3.36 L8.06288,5.2416 L8.06288,1.47952 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

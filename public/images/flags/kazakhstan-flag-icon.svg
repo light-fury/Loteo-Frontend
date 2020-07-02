@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>kazakhstan-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-236.000000, -778.000000)">
+            <g id="kazakhstan-flag-icon" transform="translate(236.000000, 778.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#01B1C8"></path>
+                <circle id="Oval" fill="#F8CC15" cx="24" cy="16" r="6"></circle>
+                <path d="M24,26 C17.935,26 13,21.065 13,15 C13,14.447 13.447,14 14,14 C14.553,14 15,14.447 15,15 C15,19.963 19.037,24 24,24 C28.963,24 33,19.963 33,15 C33,14.447 33.447,14 34,14 C34.553,14 35,14.447 35,15 C35,21.065 30.065,26 24,26 Z" id="Path" fill="#F8CC15"></path>
+            </g>
+        </g>
+    </g>
+</svg>

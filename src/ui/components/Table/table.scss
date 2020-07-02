@@ -1,0 +1,113 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.loteoTable {
+    background: transparentize($dark, 0.6);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    color: white;
+    text-align: left;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th {
+            font-size: 12px;
+            padding: 20px;
+            background: transparentize($dark, 0.6);
+
+            .header {
+                padding: 10px;
+
+                &__subHeader {
+                    color: white;
+                    font-size: 12px;
+                    font-weight: 300;
+                    margin: 0;
+                }
+
+                &__arrowButton {
+                    width: 10px;
+                    height: 10px;
+
+                    &.down {
+                        transform: rotate(180deg);
+                    }
+                }
+
+                &.active {
+                    background-color: transparentize(white, 0.8);
+                    border-radius: 4px;
+                }
+            }
+        }
+
+        td {
+            position: relative;
+            font-size: 14px;
+            padding: 15px 30px;
+        }
+
+        tr {
+            border-bottom: 1px solid rgba(48, 3, 0, 0.2);
+        }
+
+        tr.active {
+            color: $yellow;
+
+            td:first-child::after {
+                content: " ";
+                width: 4px;
+                height: 30px;
+                background: $yellow;
+                border-radius: 0 4px 4px 0;
+                box-shadow: 0 0 4px 0 $yellow;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                position: absolute;
+                left: 0;
+                top: 50%;
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+        span {
+            color: transparentize(white, 0.4);
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        .pagination {
+            display: flex;
+            align-items: center;
+
+            &__arrowButton {
+                width: 36px;
+                height: 36px;
+                padding: 0;
+
+                img {
+                    width: 10px;
+                    height: 10px;
+                    margin: 0;
+                }
+
+                &.left {
+                    transform: rotate(180deg);
+                }
+            }
+
+            span {
+                padding: 0 20px;
+            }
+        }
+    }
+}

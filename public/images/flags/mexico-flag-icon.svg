@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="37px" viewBox="0 0 48 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>mexico-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -553.000000)">
+            <g id="mexico-flag-icon" transform="translate(814.000000, 553.000000)">
+                <rect id="Rectangle" fill="#E6E6E6" x="16" y="0.5" width="16" height="36"></rect>
+                <path d="M48,34.5 C48,35.605 47.105,36.5 46,36.5 L32,36.5 L32,0.5 L46,0.5 C47.105,0.5 48,1.395 48,2.5 L48,34.5 Z" id="Path" fill="#D30F25"></path>
+                <path d="M16,36.5 L2,36.5 C0.895,36.5 0,35.605 0,34.5 L0,2.5 C0,1.395 0.895,0.5 2,0.5 L16,0.5 L16,36.5 Z" id="Path" fill="#006847"></path>
+                <path d="M24,12.5 C20.688,12.5 18,15.188 18,18.5 C18,21.813 20.688,24.5 24,24.5 C27.313,24.5 30,21.813 30,18.5 C30,15.188 27.313,12.5 24,12.5 Z M24,22.5 C21.791,22.5 20,20.709 20,18.5 C20,16.291 21.791,14.5 24,14.5 C26.209,14.5 28,16.291 28,18.5 C28,20.709 26.209,22.5 24,22.5 Z" id="Shape" fill="#6B422E" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

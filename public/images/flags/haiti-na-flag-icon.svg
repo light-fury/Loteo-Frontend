@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>haiti-na-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -843.000000)">
+            <g id="haiti-na-flag-icon" transform="translate(718.000000, 843.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,18 L48,18 L48,34 Z" id="Path" fill="#D52A20"></path>
+                <path d="M48,18 L0,18 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,18 Z" id="Path" fill="#01209F"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="18" y="12" width="12" height="12"></rect>
+                <polygon id="Path" fill="#4D792C" points="24 18 18 24 30 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

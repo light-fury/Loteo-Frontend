@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>saint-lucia-na-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -336.000000)">
+            <g id="saint-lucia-na-flag-icon" transform="translate(718.000000, 336.000000)">
+                <path d="M48,34 C48,35.1045695 47.1045695,36 46,36 L2,36 C0.8954305,36 1.3527075e-16,35.1045695 0,34 L0,2 C-1.3527075e-16,0.8954305 0.8954305,0 2,0 L46,0 C47.1045695,0 48,0.8954305 48,2 L48,34 Z" id="Path" fill="#67CBFD"></path>
+                <polygon id="Path" fill="#FFFFFF" points="36 32 24 4 12 32"></polygon>
+                <polygon id="Path" fill="#000000" points="15.033 30 24 9.077 32.967 30"></polygon>
+                <polygon id="Path" fill="#EAC52A" points="24 19 12 32 36 32"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

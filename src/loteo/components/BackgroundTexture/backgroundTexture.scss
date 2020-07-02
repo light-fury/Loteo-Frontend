@@ -1,0 +1,62 @@
+@import "styles/mixins";
+
+.backgroundTexture {
+    position: absolute;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: -1;
+    background: url("/images/background-texture.png"), white repeat-y;
+    background-size: 1921px;
+    opacity: 0.8;
+    overflow: hidden;
+
+    .elements1 {
+        position: absolute;
+        top: -50px;
+        left: calc(50% + 500px);
+    }
+
+    .elements2 {
+        position: absolute;
+        top: 800px;
+        left: calc(50% - 675px);
+    }
+
+    .elements3 {
+        position: absolute;
+        top: 1300px;
+        left: calc(50% + 150px);
+    }
+
+    .elements4 {
+        position: absolute;
+        top: 2800px;
+        left: calc(50% - 675px);
+    }
+
+    .elements5 {
+        position: absolute;
+        top: 75px;
+        left: calc(50% - 675px);
+        transform: rotate(180deg) scaleY(-1);
+    }
+
+    .elements6 {
+        position: absolute;
+        top: 500px;
+        left: calc(50% + 300px);
+        transform: rotate(120deg) scaleY(-1);
+    }
+
+    .elements7 {
+        position: absolute;
+        top: 2500px;
+        left: calc(50% + 500px);
+    }
+
+    @include media(xl) {
+        background-size: 100vw;
+    }
+}

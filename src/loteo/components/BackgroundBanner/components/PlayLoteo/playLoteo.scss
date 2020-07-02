@@ -1,0 +1,163 @@
+@import "styles/mixins";
+
+.playLoteo {
+    background: linear-gradient(90deg, transparentize(black, 0) 0%, transparentize(black, 1) 42.65%), url("/images/dashboard/playloteo-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 776px;
+    padding-top: 250px;
+    position: relative;
+
+    @include media($max: md) {
+        padding-top: 200px;
+    }
+
+    @include media($max: sm) {
+        padding-top: 150px;
+        height: 591px;
+    }
+
+    &__content {
+        width: 70%;
+        margin: auto;
+
+        @include media($max: sm) {
+            width: 80%;
+        }
+
+        @include media($max: md) {
+            text-align: center;
+        }
+
+        .title {
+            h1 {
+                font-size: 72px;
+                -webkit-text-stroke-color: $red;
+                -webkit-text-stroke-width: 3px;
+                text-shadow: 0 0 16px transparentize($red, .6);
+                color: transparent;
+                text-transform: uppercase;
+
+                @media only screen and (max-width: 1147px) {
+                    line-height: 65px;
+                }
+
+                @include media($max: md) {
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+
+                @include media($max: sm) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+
+        .detail {
+            margin-bottom: 20px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 48px;
+
+            @include media($max: ssm) {
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 24px;
+            }
+
+            @include media($max: sm) {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 24px;
+            }
+
+            &__statements {
+                width: 60%;
+
+                @include media($max: md) {
+                    margin: auto;
+                    width: 80%;
+                }
+
+                @include media($max: sm) {
+                    width: 80%;
+                }
+
+                p {
+                    text-align: left;
+                    margin: 0;
+                    color: white;
+                    line-height: 20px;
+
+
+                    span {
+                        color: $red;
+                    }
+
+                    @include media($max: md) {
+                        padding-left: 1.3em;
+                        text-indent:-1.1em;
+                        line-height: 20px;
+                    }
+
+                    @include media($max: ssm) {
+                        padding-left: 1.3em;
+                        text-indent:-1.1em;
+                        line-height: 20px;
+                        font-size: 14px;
+                    }
+
+                    @include media($max: sm) {
+                        padding-left: 1.3em;
+                        text-indent:-1.1em;
+                        line-height: 20px;
+                    }
+                }
+
+                p:first-child {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .mixButton {
+            width: 281px;
+            height: 72px;
+
+            @include media($max: md) {
+                margin: 20px auto auto auto;
+                width: 200px;
+                height: 51px;
+            }
+        }
+    }
+    &__bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        .action {
+            margin: auto;
+            width: 70%;
+
+            .mixButton {
+                margin-bottom: 80px;
+                width: 281px;
+                height: 72px;
+
+                @include media($max: md) {
+                    margin: auto auto 100px auto;
+                    width: 200px;
+                    height: 51px;
+                }
+                @include media($max: sm) {
+                    margin: auto auto 50px auto;
+                    width: 200px;
+                    height: 51px;
+                }
+            }
+        }
+    }
+}

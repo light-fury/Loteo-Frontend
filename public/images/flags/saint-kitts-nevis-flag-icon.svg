@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>saint-kitts-nevis-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -336.000000)">
+            <g id="saint-kitts-nevis-flag-icon" transform="translate(814.000000, 336.000000)">
+                <path d="M2,0 L30,0 L0,20 L0,2 C0,0.896 0.895,0 2,0 Z" id="Path" fill="#009D39"></path>
+                <path d="M46,36 L18,36 L48,16 L48,34 C48,35.104 47.105,36 46,36 Z" id="Path" fill="#D90E2B"></path>
+                <path d="M37.211,0 L46,0 C47.105,0 48,0.896 48,2 L48,11.193 L10.789,36 L2,36 C0.895,36 0,35.104 0,34 L0,24.807 L37.211,0 Z" id="Path" fill="#161616"></path>
+                <polygon id="Path" fill="#F4CE01" points="48 16 18 36 10.789 36 48 11.193"></polygon>
+                <polygon id="Path" fill="#F4CE01" points="30 0 37.211 0 0 24.807 0 20"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="12.367 26.684 9.42 26.684 8.184 24 6.946 26.684 4 26.684 6.152 28.911 5.355 32.141 8.183 30.536 11.011 32.141 10.214 28.911"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="44 6.543 41.053 6.543 39.817 3.859 38.579 6.543 35.634 6.543 37.786 8.77 36.988 12 39.816 10.395 42.645 12 41.848 8.77"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

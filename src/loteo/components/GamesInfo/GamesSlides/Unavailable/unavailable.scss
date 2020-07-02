@@ -1,0 +1,36 @@
+@import "styles/mixins";
+
+.unavailableGame {
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    strong {
+        color: transparentize(white, 0.8);
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 1.8px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: uppercase;
+
+        @include media(md) {
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        @include media(lg) {
+            font-size: 64px;
+            line-height: 88px;
+        }
+    }
+
+    span {
+        color: transparentize(white, 0.6);
+        font-size: 12px;
+        line-height: 32px;
+        text-align: center;
+    }
+}

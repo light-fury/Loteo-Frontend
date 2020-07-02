@@ -1,0 +1,31 @@
+@import "styles/_colors";
+
+.progressBar {
+    margin-bottom: 20px;
+    
+    &__info {
+        margin-bottom: 18px;
+        
+        &__target {
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 19px;
+            color: $dark;
+        }
+
+        &__percent {
+            font-size: 12px;
+            font-weight: 900;
+            line-height: 15px;
+            color: $green;
+        }
+    }
+
+    &__values {
+        .item {
+            font-size: 12px;
+            line-height: 15px;
+            color: $grey1;
+        }
+    }
+}

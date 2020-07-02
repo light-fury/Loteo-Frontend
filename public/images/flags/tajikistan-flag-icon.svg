@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>tajikistan-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-429.000000, -197.000000)">
+            <g id="tajikistan-flag-icon" transform="translate(429.000000, 197.000000)">
+                <path d="M48,12 L0,12 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,12 Z" id="Path" fill="#CA0814"></path>
+                <rect id="Rectangle" fill="#E6E6E6" x="0" y="12" width="48" height="12"></rect>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,24 L48,24 L48,34 Z" id="Path" fill="#0A650C"></path>
+                <path d="M24,14 C21.791,14 20,15.791 20,18 C20,20.209 21.791,22 24,22 C26.209,22 28,20.209 28,18 C28,15.791 26.209,14 24,14 Z" id="Path" fill="#EFD358"></path>
+            </g>
+        </g>
+    </g>
+</svg>

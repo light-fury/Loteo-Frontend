@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>montenegro-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-332.000000, -553.000000)">
+            <g id="montenegro-flag-icon" transform="translate(332.000000, 553.000000)">
+                <path d="M46,0 L2,0 C0.895,0 0,0.896 0,2 L0,34 C0,35.104 0.895,36 2,36 L46,36 C47.105,36 48,35.104 48,34 L48,2 C48,0.896 47.105,0 46,0 Z M44,32 L4,32 L4,4 L44,4 L44,32 Z" id="Shape" fill="#D5AD3B" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#C40308" x="4" y="4" width="40" height="28"></rect>
+                <path d="M24,10 C24,8.895 23.105,8 22,8 L18,8 C16.895,8 16,8.895 16,10 L24,10 Z" id="Path" fill="#D5AD3B"></path>
+                <path d="M32,14 L32,18 L28,18 L28,10 L32,10 C32,8.896 31.105,8 30,8 L28,8 L26,8 C24.895,8 24,8.896 24,10 C24,8.896 23.105,8 22,8 L20,8 L20,18 L16,18 L16,14 C14.895,14 14,14.896 14,16 L14,20 C14,21.104 14.895,22 16,22 L20.127,22 L19.008,26.102 L22.469,23.41 L24,28 L25.531,23.409 L28.992,26.101 L27.873,22 L32,22 C33.105,22 34,21.104 34,20 L34,16 C34,14.896 33.105,14 32,14 Z" id="Path" fill="#D5AD3B"></path>
+                <path d="M24,28 L22,22" id="Path" fill="#D5AD3B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

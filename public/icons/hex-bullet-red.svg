@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="11px" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>F8DD361A-F7A3-41E5-9FEA-B3D0308031A8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M262.17147,24.8506718 L265.899711,23.0631092 C265.98286,23.0232419 266.079666,23.023539 266.162569,23.0639159 L269.830199,24.8501866 C269.934082,24.9007815 270,25.0062062 270,25.1217551 L270,29.8782449 C270,29.9937938 269.934082,30.0992185 269.830199,30.1498134 L266.162569,31.9360841 C266.079666,31.976461 265.98286,31.9767581 265.899711,31.9368908 L262.17147,30.1493282 C262.066675,30.0990826 262,29.993171 262,29.876953 L262,25.123047 C262,25.006829 262.066675,24.9009174 262.17147,24.8506718 Z" id="path-1"></path>
+        <filter x="-18.8%" y="-16.0%" width="137.5%" height="131.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.169214221 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MVP-Dashboard-1440px" transform="translate(-382.000000, -207.000000)">
+            <g id="New-games-are-coming" transform="translate(121.000000, 185.000000)">
+                <g id="hex-bullet-icon">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#da2814" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

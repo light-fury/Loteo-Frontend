@@ -1,3 +1,38 @@
 {
-
+  "wallet": {
+    "weeklyLotteryTickets": 20,
+    "weeklyLotteryTicketsInGame": 3,
+    "loteoPasses": [
+      {
+        "remaining": 102,
+        "total": 104,
+        "validUntil": "2019-06-21T20:18:43.309Z"
+      },
+      {
+        "remaining": 40,
+        "total": 110,
+        "validUntil": "2020-12-31T23:59:59.999Z"
+      }
+    ],
+    "loteoPassesInGame": 2,
+    "ethereum": 2.6545465464545,
+    "loteu": 5600,
+    "lotes": 25,
+    "ethDepositAddress": "0xdCBbBb0221ff85056E2C27DBb4ea78e1547f6369"
+  },
+  "news": [
+    "Facebook CEO Contemplates Another Step Towards Blockchain",
+    "Something New for the Cryptoverse Coming from MEW",
+    "Samsung is Not the Only Mega-Company to Exploit Crypto Progress"
+  ],
+  "lottery-weekly": {
+    "prizeEUR": 123000,
+    "prizeBTC": 41.328,
+    "prizeETH": 1197.87,
+    "chanceToWin": 11254,
+    "lastWinner": "Yurayko",
+    "lastPrizeETH": 522.65,
+    "totalTickets": 2000,
+    "remainingTickets": 887
+  }
 }

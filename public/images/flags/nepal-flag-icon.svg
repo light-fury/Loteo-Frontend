@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>nepal-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1007.000000, -478.000000)">
+            <g id="nepal-flag-icon" transform="translate(1007.000000, 478.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M12,16 L28,16 L8,0 L2,0 C0.896,0 0,0.895 0,2 L0,14 L0,34 C0,35.105 0.896,36 2,36 L30,36 L12,16 Z" id="Path" fill="#DA1A40"></path>
+                <polygon id="Path" fill="#FFFFFF" points="12.615 23.994 11.4 26.365 14 26.959 11.543 27.996 13.152 30.119 10.604 29.336 10.47 32 9.024 29.76 7.209 31.713 7.54 29.068 4.895 29.398 6.85 27.584 4.61 26.137 7.272 26.004 6.487 23.455 8.612 25.064 9.649 22.609 10.243 25.207"></polygon>
+                <circle id="Oval" fill="#FFFFFF" cx="9" cy="9" r="2"></circle>
+                <path d="M9,14 C6.243,14 4,11.758 4,9 L6,9 C6,10.654 7.346,12 9,12 C10.654,12 12,10.654 12,9 L14,9 C14,11.758 11.757,14 9,14 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

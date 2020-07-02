@@ -1,0 +1,77 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.addressComponent {
+    display: flex;
+    flex-direction: column;
+
+    .addressCopy {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #dbd9d9;
+        background-color: $greyBright;
+        word-break: break-all;
+
+        @include media(md) {
+            padding: 8px 16px;
+        }
+
+        .address {
+            margin-right: 8px;
+            color: $grey1;
+            font-size: 14px;
+        }
+
+        .button {
+            margin-left: auto;
+            padding: 8px 16px;
+            box-shadow: none;
+            font-size: 12px;
+
+            @include media(md) {
+                width: 120px;
+                height: 40px;
+                padding: 10px 32px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .qrCodeContainer {
+        margin-top: 24px;
+        padding: 50px;
+        background: $greyBright;
+        border: 1px solid $greyBorder;
+        border-radius: 4px;
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+
+        .generatingText {
+            color: $grey1;
+            font-size: 12px;
+            text-align: center;
+            line-height: 100%;
+            padding: 32px;
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+        }
+
+        .note {
+            margin-left: 32px;
+            padding-top: 16px;
+            padding-right: 32px;
+            color: $grey1;
+            font-size: 14px;
+            line-height: 22px;
+            align-self: flex-start;
+        }
+    }
+}

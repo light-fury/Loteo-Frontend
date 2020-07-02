@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>sao-tome-and-principe-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-429.000000, -336.000000)">
+            <g id="sao-tome-and-principe-flag-icon" transform="translate(429.000000, 336.000000)">
+                <path d="M48,10 L12,10 L2,0 L46,0 C47.105,0 48,0.895 48,2 L48,10 Z" id="Path" fill="#17AC4E"></path>
+                <polygon id="Path" fill="#FFDB0C" points="48 26 12 26 20 18 12 10 48 10"></polygon>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 L12,26 L48,26 L48,34 Z" id="Path" fill="#17AC4E"></path>
+                <path d="M2,0 C0.896,0 0,0.895 0,2 L0,18 L0,34 C0,35.105 0.896,36 2,36 L20,18 L2,0 Z" id="Path" fill="#D91E2F"></path>
+                <polygon id="Path" fill="#424041" points="30.369 16.543 27.421 16.543 26.185 13.859 24.948 16.543 22 16.543 24.153 18.77 23.357 22 26.184 20.395 29.012 22 28.216 18.77"></polygon>
+                <polygon id="Path" fill="#424041" points="42.369 16.543 39.421 16.543 38.185 13.859 36.948 16.543 34 16.543 36.153 18.77 35.357 22 38.184 20.395 41.012 22 40.216 18.77"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

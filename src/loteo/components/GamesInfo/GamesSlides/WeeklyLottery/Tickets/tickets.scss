@@ -1,0 +1,243 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.gamesInfo__weeklyLottery__tickets {
+    .cards {
+        margin-top: 48px;
+
+        .ticket {
+            width: 100%;
+            box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            cursor: pointer;
+            background: white;
+
+            @include media(md) {
+                width: 640px;
+            }
+
+            .header {
+                position: relative;
+
+                .icon {
+                    height: 80px;
+                    transition: all 0.2s;
+                }
+
+                .titleWrapper {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 100px;
+                    right: 0;
+                    transition: all 0.2s;
+                    background: white;
+                    border-radius: 8px;
+
+                    .title {
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        color: $dark;
+                        font-size: 18px;
+                        font-weight: bold;
+                        transform: translateY(-50%);
+                        transition: all 0.2s;
+
+                        @include media(md) {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .showDetails {
+                        position: absolute;
+                        top: 50%;
+                        right: 24px;
+                        height: 32px;
+                        width: 120px;
+                        background-color: $greyBright;
+                        border-radius: 32px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        transform: translateY(-50%);
+                        overflow: hidden;
+                        transition: all 0.2s;
+                        white-space: nowrap;
+                        display: none;
+
+                        @include media(md) {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+
+                    .closeButton {
+                        position: absolute;
+                        top: 50%;
+                        right: 40px;
+                        opacity: 0;
+                        width: 18px;
+                        filter: brightness(75%);
+                        transform: translateY(-50%);
+                        transition: all 0.2s;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .content {
+                opacity: 0;
+                padding: 0 40px;
+                max-height: 0;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                transition: all 0.2s;
+
+                .pricesRow {
+                    display: flex;
+                    margin-bottom: 24px;
+
+                    .prices {
+                        display: flex;
+                        align-items: baseline;
+                        padding: 4px 12px;
+                        background: linear-gradient(135deg, $red 0%, $orange 100%);
+                        border-radius: 8px;
+                        height: 32px;
+
+                        .price {
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 900;
+                        }
+
+                        .small {
+                            font-size: 14px;
+                            font-weight: normal;
+
+                            &.price {
+                                margin-left: 12px;
+                            }
+                        }
+
+                        .from {
+                            margin-right: 4px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            .bottomPanel {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 56px;
+
+                @include media(md) {
+                    flex-direction: row;
+                }
+
+                .text {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .buyButton {
+                    width: 200px;
+                    height: 48px;
+                    margin-top: 24px;
+                    font-size: 14px;
+
+                    @include media(md) {
+                        height: 56px;
+                        margin-top: 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            &.expanded {
+                cursor: default;
+
+                .icon {
+                    opacity: 0;
+                }
+
+                .titleWrapper {
+                    left: 0;
+
+                    .title {
+                        margin-left: 24px;
+                        font-size: 32px;
+                        font-weight: 900;
+
+                        @include media(md) {
+                            margin-left: 40px;
+                        }
+                    }
+
+                    .showDetails {
+                        width: 32px;
+                        opacity: 0;
+                    }
+
+                    .closeButton {
+                        opacity: 1;
+                    }
+                }
+
+                .content {
+                    max-height: 1000px;
+                    padding: 0 24px 32px;
+                    opacity: 1;
+
+                    @include media(md) {
+                        padding: 0 40px 40px;
+                    }
+                }
+            }
+
+            &:not(:first-of-type) {
+                margin-top: 24px;
+            }
+        }
+
+        .loteoMaxxCard {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 0;
+            border-bottom: 1px solid $greyBright;
+
+            .title {
+                color: $red;
+                font-size: 16px;
+                font-weight: 900;
+            }
+
+            .entries {
+                margin-top: 4px;
+                color: $grey1;
+                font-size: 14px;
+            }
+
+            .price {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 88px;
+                height: 40px;
+                background: linear-gradient(135deg, $red 0%, $orange 100%);
+                border-radius: 8px;
+                color: white;
+                font-size: 16px;
+                font-weight: 900;
+            }
+        }
+    }
+}

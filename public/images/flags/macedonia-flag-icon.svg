@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>macedonia-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -632.000000)">
+            <g id="macedonia-flag-icon" transform="translate(814.000000, 632.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#C60B1E"></path>
+                <polygon id="Path" fill="#FFC300" points="26 36 24 20 22 36"></polygon>
+                <polygon id="Path" fill="#FFC300" points="48 16 26 18 48 20"></polygon>
+                <polygon id="Path" fill="#FFC300" points="0 20 22 18 0 16"></polygon>
+                <path d="M48,2 C48,0.895 47.104,0 46,0 L44,0 L24,16 L4,0 L2,0 C0.896,0 0,0.895 0,2 L0,4 L22,18 L0,32 L0,34 C0,35.105 0.896,36 2,36 L4,36 L24,20 L44,36 L46,36 C47.104,36 48,35.105 48,34 L48,32 L26,18 L48,4 L48,2 Z" id="Path" fill="#FFC300"></path>
+                <polygon id="Path" fill="#FFC300" points="22 0 24 16 26 0"></polygon>
+                <circle id="Oval" fill="#C60B1E" cx="24" cy="18" r="5"></circle>
+                <circle id="Oval" fill="#FFC300" cx="24" cy="18" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

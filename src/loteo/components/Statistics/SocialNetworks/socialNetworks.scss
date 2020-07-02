@@ -1,0 +1,18 @@
+.socialNetworks {
+    margin-bottom: 100px;
+
+    &__content {
+        .trend {
+            padding: 0;
+            justify-content: center;
+
+            .userCard {
+                margin: 38px 0;
+
+                &__thumb {
+                    margin: 0 80px;
+                }
+            }
+        }
+    }
+}

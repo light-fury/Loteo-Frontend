@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="75px" viewBox="0 0 41 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Sipka</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="51.9298041%" cy="0%" fx="51.9298041%" fy="0%" r="540.446659%" gradientTransform="translate(0.519298,0.000000),scale(1.000000,0.449275),rotate(89.617397),translate(-0.519298,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#FFDE00" offset="0%"></stop>
+            <stop stop-color="#FF5F00" offset="100%"></stop>
+        </radialGradient>
+        <path d="M226.245447,10.4425102 L237.773495,0.43565631 C238.450535,-0.152044349 239.456857,-0.151911454 240.133742,0.435968004 L251.65526,10.4424906 C252.71307,11.3612067 253.141769,12.8101903 252.754111,14.1565647 L238.949902,62.0999984 L225.145878,14.1572077 C224.758125,12.8105027 225.187134,11.3611724 226.245447,10.4425102 Z M238.949902,20.9044628 C242.438925,20.9044628 245.267337,18.097787 245.267337,14.6355769 C245.267337,11.1733669 242.438925,8.36669106 238.949902,8.36669106 C235.460879,8.36669106 232.632466,11.1733669 232.632466,14.6355769 C232.632466,18.097787 235.460879,20.9044628 238.949902,20.9044628 Z" id="path-2"></path>
+        <filter x="-44.8%" y="-13.7%" width="189.6%" height="140.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.189999998   0 0 0 0 0.0126666669   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="MOF-Game" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Moon-of-Fortune-(default)" transform="translate(-899.000000, -216.000000)" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(120.000000, 176.000000)">
+                <g id="Wheel" transform="translate(560.000000, 43.000000)">
+                    <g id="Sipka">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

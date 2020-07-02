@@ -1,0 +1,2787 @@
+{
+    "global": {
+        "learnMore": "Tìm hiểu thêm",
+        "contactUs": "Liên hệ chúng tôi",
+        "moreInfo": "Hiển thị thêm thông tin",
+        "buy": "MUA",
+        "comingSoon": "sắp có",
+        "locked": "đã khóa",
+        "unlock": "mở khóa",
+        "showMore": "Hiển thị thêm",
+        "showLess": "Hiển thị ít hơn",
+        "loteu": "Loteu",
+        "btc": "BTC",
+        "eth": "ETH",
+        "errors": {
+            "notEnoughETH": {
+                "title": "Không đủ tiền để tham gia trò chơi",
+                "text": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để tham gia xổ số, <strong>bạn cần có ít nhất 0,017 ETH trong ví của mình<\/strong>. Hãy nạp tiền vào ví.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Việc tham gia xổ số yêu cầu một giao dịch trực tuyến trên mạng lưới Ethereum. Mỗi giao dịch trực tuyến yêu cầu một khoản phí, và chúng tôi tính 0,017 ETH. Nguyên nhân là do chúng tôi muốn đảm bảo mọi sự tham gia đều minh bạch và hiển thị trực tiếp trên mạng Ethereum. Chúng tôi đang làm việc rất chăm chỉ để làm cho mức phí này thấp nhất có thể."
+                },
+                "okText": "Ok",
+                "textApollo11": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để tham gia xổ số, <strong>bạn cần có ít nhất 0,051 ETH trong ví của mình<\/strong>. Hãy nạp tiền vào ví.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Việc tham gia xổ số yêu cầu một giao dịch trực tuyến trên mạng lưới Ethereum. Mỗi giao dịch trực tuyến yêu cầu một khoản phí, và chúng tôi tính 0,017 ETH. Nguyên nhân là do chúng tôi muốn đảm bảo mọi sự tham gia đều minh bạch và hiển thị trực tiếp trên mạng Ethereum. Chúng tôi đang làm việc rất chăm chỉ để làm cho mức phí này thấp nhất có thể."
+                }
+            }
+        },
+        "euro": "€"
+    },
+    "header": {
+        "navigation": {
+            "dashboard": "Bảng điều khiển",
+            "howItWorks": "Nó hoạt động như thế nào?",
+            "games": "Trò chơi",
+            "charity": "Từ thiện",
+            "myAffiliate": "Liên kết của tôi",
+            "affiliate": "Liên kết",
+            "info": "Thông tin",
+            "blog": "Blog",
+            "howToPlay": "Cách chơi",
+            "loginRegister": "Đăng nhập\/Đăng ký",
+            "inviteFriends": "Mời bạn bè",
+            "alts": [
+                {
+                    "alt": "Logo"
+                },
+                {
+                    "alt": "Menu"
+                }
+            ],
+            "leaderboard": "Bảng xếp hạng",
+            "whyInvest": "TẠI SAO NÊN ĐẦU TƯ",
+            "promotion": "Khuyến mãi",
+            "home": "Trang chủ"
+        }
+    },
+    "infoVideo": {
+        "loteo": "Loteo",
+        "watchVideo": "Xem video",
+        "alts": [
+            {
+                "alt": "tỏa sáng"
+            },
+            {
+                "alt": "Nội dung"
+            },
+            {
+                "alt": "phát"
+            },
+            {
+                "alt": "đóng"
+            }
+        ]
+    },
+    "home": {
+        "alts": [
+            {
+                "alt": "loteopass"
+            },
+            {
+                "alt": "loteomaxx"
+            },
+            {
+                "alt": "loteogames"
+            },
+            {
+                "alt": "moon"
+            }
+        ],
+        "products": [
+            {
+                "title": "Loteo Pass",
+                "text": "Nhân đôi cơ hội của bạn và trở thành <span>ĐỐI TÁC cao cấp <\/span>",
+                "amountLeftText": [
+                    "Vé 1 năm: ",
+                    " còn lại"
+                ],
+                "cta": "MUA NGAY"
+            },
+            {
+                "title": "Loteo Maxx",
+                "text": "Nhận gói 10, 20, 50 hoặc 100 vé với phần thưởng đặc biệt!",
+                "cta": "MUA NGAY"
+            },
+            {
+                "title": "Trò chơi Loteo",
+                "text": "Chơi nhiều trò chơi LOTEO để giành chiến thắng ngay lập tức!",
+                "cta": "CHƠI GAME"
+            }
+        ],
+        "welcomeToLOTEO": "Chào mừng bạn đến với LOTEO - Xổ số trên Blockchain minh bạch",
+        "lotteryNeedsARevolution": "Xổ số cần<br \/>một cuộc cách mạng",
+        "missionToTheMoon": "Sứ mệnh lên mặt trăng",
+        "digitalEraLottery": "Xổ số<br\/>Kỷ nghuyên số",
+        "advantages": {
+            "title": "Ưu điểm",
+            "chancesToWin": {
+                "title": "Cơ hội trúng thưởng",
+                "text": "Cơ hội trúng thưởng cao hơn nhiều so với xổ số thông thường nhờ cơ chế của chúng tôi."
+            },
+            "trustworthy": {
+                "title": "Đáng tin cậy",
+                "text": "Bằng cách bị chi phối bởi các hợp đồng thông minh thay vì chính phủ hoặc cá nhân, quy trình quay số trở nên tự động và đáng tin cậy."
+            },
+            "transparency": {
+                "title": "Tính minh bạch",
+                "text": "Nhờ công nghệ blockchain và sử dụng tiền mã hóa để tham gia xổ số, LOTEO minh bạch 100% và mọi giao dịch cũng như việc phân chia giải thưởng có thể xem được mọi lúc, không như xổ số truyền thống nơi bạn không biết số lượng người tham dự, số tiền thưởng, thậm chí sự công bằng cũng bị thao túng, vì nó bị quản lý tập trung."
+            },
+            "winnerEveryDrawing": {
+                "title": "Có người trúng thưởng mỗi lần quay số",
+                "text": "Không giống như trong xổ số truyền thống, nơi bạn cần có bộ số chính xác và người trúng giải thường là một lần\/năm."
+            },
+            "biggestSliceForTheWinner": {
+                "title": "Phần lớn nhất cho người trúng giải",
+                "text": "LOTEO cảm thấy một nhu cầu rất lớn cho trải nghiệm người dùng tốt nhất, và khách hàng của chúng tôi đặc biệt những ai chưa quen với tiền mã hóa, sẽ quen với điều đó, đó là lý do tại sao chúng tôi sẽ tích hợp thanh toán thẻ tín dụng cũng như thanh toán di động qua tin nhắn."
+            },
+            "speed": {
+                "title": "Tốc độ",
+                "text": "Nhờ công nghệ blockchain và tiền mã hóa, Loteo nhanh hơn hẳn so với xổ số truyền thống."
+            }
+        },
+        "everyGameHasAWinner": "Mỗi trò chơi đều có một người chiến thắng",
+        "prizeSplit": "Phân chia giải thưởng",
+        "platformFee": {
+            "title": "Phí nền tảng",
+            "description": "Toàn bộ quỹ được phân phối giữa người chơi và chủ sở hữu token"
+        }
+    },
+    "privateSale": {
+        "privateSaleEndsIn": "Private Sale kết thúc trong"
+    },
+    "weeklyLottery": {
+        "mockedBonus": {
+            "title": "Loteopass",
+            "desc": "- Trở thành đối tác cao cấp và nhận ƯU ĐÃI đặc biệt tháng 6"
+        },
+        "eur": "EUR",
+        "btc": "BTC",
+        "eth": "ETH",
+        "playNowBtn": "CHƠI NGAY",
+        "alts": [
+            {
+                "alt": "nền"
+            },
+            {
+                "alt": "cơ hội"
+            }
+        ],
+        "title": "Xổ số hàng tuần Loteo",
+        "learnMore": "Tìm hiểu thêm về trò chơi này",
+        "gameStartsIn": "Trò chơi bắt đầu trong",
+        "chanceToWin": "Cơ hội trúng thưởng thực sự của bạn là",
+        "lastWinner": "Người chiến thắng cuối cùng",
+        "nextDraw": "Lượt quay số tiếp theo vào Chủ nhật tuần này",
+        "playNow": [
+            {
+                "title": "Bạn không có vé",
+                "text": "Bạn cần mua vé số trước và sau đó bạn có thể tham gia Xổ số Loteo hàng tuần.",
+                "okText": "Mua vé",
+                "cancelText": "Hủy"
+            },
+            {
+                "title": "Không đủ tiền để tham gia trò chơi",
+                "text": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để tham gia xổ số, <strong>bạn cần có ít nhất 0,017 ETH trong ví của mình<\/strong>. Hãy nạp tiền vào ví.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Việc tham gia xổ số yêu cầu một giao dịch trực tuyến trên mạng lưới Ethereum. Mỗi giao dịch trực tuyến yêu cầu một khoản phí, và chúng tôi tính 0,017 ETH. Nguyên nhân là do chúng tôi muốn đảm bảo mọi sự tham gia đều minh bạch và hiển thị trực tiếp trên mạng Ethereum. Chúng tôi đang làm việc rất chăm chỉ để làm cho mức phí này thấp nhất có thể."
+                },
+                "okText": "Ok"
+            },
+            {
+                "title": "Lượt quay số hiện tại đã kết thúc",
+                "text": "Chỉ có thể tham gia trò chơi ít nhất 30 phút trước khi bắt đầu quay số. Vòng này đã kết thúc. Bạn có thể tham gia trò chơi tuần tới sau khi vòng quay số hiện tại kết thúc",
+                "okText": "Ok"
+            }
+        ]
+    },
+    "lotteryInfo": {
+        "loteopass": {
+            "title": "Loteopass",
+            "text": "Nhân đôi cơ hội của bạn!",
+            "countInfo": "Vé 1 năm:"
+        },
+        "loteomaxx": {
+            "title": "Loteomaxx",
+            "text": "Nhận gói 10, 20, 50 hoặc 100 vé với phần thưởng đặc biệt!"
+        },
+        "dailyLottery": {
+            "title": "Xổ số hàng ngày",
+            "text": "Tham gia xổ số hàng ngày!<br \/>Chỉ với 2 €"
+        },
+        "rektRooms": {
+            "title": "Phòng Rekt",
+            "text": "Chọn phòng của bạn và giành chiến thắng!<br \/> Cơ hội của bạn là chắc chắn"
+        },
+        "MOF": {
+            "texts": [
+                "moon",
+                "of",
+                "fortune",
+                "sắp có",
+                "CHƠI",
+                "CHƠI"
+            ],
+            "alts": [
+                "MOF"
+            ]
+        },
+        "headers": [
+            "Trò chơi xổ số",
+            "Trò chơi Loteo"
+        ],
+        "monthlyLottery": {
+            "title": "Xổ số hàng tháng"
+        },
+        "gameComingSoon": "Sắp có",
+        "weeklyLottery": {
+            "title": "XỔ SỐ LOTEO HÀNG TUẦN"
+        },
+        "apollo11": {
+            "title": "XỔ SỐ APOLLO 11"
+        },
+        "fomo": {
+            "title": "FOMO"
+        },
+        "loteoTournament": {
+            "title": "GIẢI ĐẤU LOTEO"
+        },
+        "mockedBonus": {
+            "title": "ƯU ĐÃI LOTEOPASS THÁNG BẢY",
+            "desc": "- Tham gia miễn phí xổ số Apollo11"
+        }
+    },
+    "roadmap": {
+        "years": [
+            {
+                "year": "2019"
+            },
+            {
+                "year": "2020"
+            },
+            {
+                "year": "2021"
+            },
+            {
+                "year": "2022"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "ảnh nền"
+            }
+        ],
+        "title": "Lộ trình",
+        "subTitle": "NỀN TẢNG LOTEO",
+        "item": [
+            {
+                "date": "Q1",
+                "p1": "Tài trợ pháp lý & dự án",
+                "p2": "Giai đoạn thử nghiệm xổ số hàng tuần"
+            },
+            {
+                "date": "1 tháng 4",
+                "p1": "Ra mắt MVP với xổ số hàng tuần",
+                "p2": "Ra mắt Website Loteo chính thức"
+            },
+            {
+                "date": "Q2",
+                "p1": "Thử nghiệm MVP"
+            },
+            {
+                "date": "1 tháng 5",
+                "p1": "Ra mắt thử nghiệm"
+            },
+            {
+                "date": "1 tháng 6",
+                "p1": "Ra mắt chính thức",
+                "p2": "Khởi động chiến dịch quảng cáo",
+                "p3": "Mở thanh toán BTC"
+            },
+            {
+                "date": "Q3",
+                "p1": "Ra mắt xổ số hàng ngày",
+                "p2": "Triển khai thanh toán qua Thẻ",
+                "p3": "Kích hoạt thanh toán di dộng qua tin nhắn cục bộ"
+            },
+            {
+                "date": "Q4",
+                "p1": "Ra mắt trò chơi Loteo thứ 3",
+                "p2": "Nhân rộng thanh toán di động qua tin nhắn",
+                "p3": "Khởi động chiến dịch quảng cáo"
+            },
+            {
+                "date": "Q1",
+                "p1": "Ứng dụng Loteo iOS và Android",
+                "p2": "Thông báo đặc biệt"
+            },
+            {
+                "date": "Q3",
+                "p1": "Tích hợp API bên ngoài, Mở khóa LOTES",
+                "p2": "Vòng gọi vốn thứ 2 & phát triển trò chơi LOTEO"
+            },
+            {
+                "date": "Q4",
+                "p1": "Sàn giao dịch niêm yết LOTES"
+            },
+            {
+                "p1": "LOTEO Bets - Hệ thống Cá cược P2P"
+            },
+            {
+                "p1": "Vé LOTEO cũng có sẵn thông qua bên thứ 3"
+            },
+            {
+                "p1": "Ra mắt nền tảng LOTEO B2B"
+            }
+        ]
+    },
+    "affiliate": {
+        "title": "Trở thành đối tác liên kết",
+        "subTitle": "Nhận phần thưởng ít nhất 40% từ doanh thu nền tảng, <br\/>nhờ vào chương trình không gian của chúng tôi"
+    },
+    "acceptedCurrencies": {
+        "acceptedCurrencies": "Tiền tệ được chấp nhận",
+        "ethereum": "Ethereum",
+        "alts": [
+            {
+                "alt": "ethereum"
+            }
+        ]
+    },
+    "footer": {
+        "address": "Abraham de Veerstraat 9<br\/>P.O. Box 3421, Curaçao",
+        "email": {
+            "questions": "Bạn có câu hỏi nào khác?",
+            "text": "Gửi email cho chúng tôi"
+        },
+        "subscribe": {
+            "title": "Đăng ký",
+            "text": "Tham gia danh sách nhận mail của chúng tôi để nhận tin tức và cập nhật mới nhất từ dự án về mail của bạn. Chúng tôi không spam!"
+        },
+        "affiliate": {
+            "text": "Chương trình liên kết của Loteo",
+            "btn": "Trở thành đối tác liên kết"
+        },
+        "copyrightTerms": {
+            "text": "Bản quyền © 2019 Loteo",
+            "link": {
+                "terms": "Điều khoản và điều kiện",
+                "cookie": "Chính sách cookie",
+                "disclaimer": "Miễn trừ trách nhiệm"
+            }
+        },
+        "alts": [
+            {
+                "alt": "mặt trăng"
+            },
+            {
+                "alt": "chứng chỉ"
+            }
+        ],
+        "feedback": {
+            "title": "Gửi phản hồi",
+            "text": "Ý kiến của bạn rất quan trọng với chúng tôi! Gửi cho chúng tôi bất kỳ ý tưởng nào mà bạn nghĩ có thể cải thiện được LOTEO.",
+            "btn": "Gửi phản hồi"
+        }
+    },
+    "cookieNotification": {
+        "cookie": "Trang web này sử dụng cookie để đảm bảo bạn có trải nghiệm tốt nhất. Bằng việc tiếp tục sử dụng trang web này, bạn đồng ý với chúng tôi",
+        "href": "Chính sách cookie",
+        "btn": "Ok, tôi chấp nhận Cookies"
+    },
+    "subscribeForm": {
+        "status": {
+            "subscribing": "Đang đăng ký...",
+            "success": "Đăng ký thành công",
+            "error": "Không thể đăng ký",
+            "default": "Đăng ký"
+        },
+        "title": "Nhập địa chỉ email của bạn",
+        "placeholder": "Nhập email của bạn"
+    },
+    "howItWorks": {
+        "helmet": "Nó hoạt động như thế nào | LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Nó hoạt động như thế nào?",
+        "tabs": [
+            {
+                "name": "Giải pháp Loteo"
+            },
+            {
+                "name": "Nó hoạt động như thế nào?"
+            },
+            {
+                "name": "Ưu điểm cho người dùng"
+            },
+            {
+                "name": "Ưu điểm cho nhà đầu tư"
+            }
+        ],
+        "loteoSolutionSection": {
+            "t1": "Giải pháp Loteo",
+            "p1": "LOTEO là một nền tảng xổ số hoàn toàn tự động, sử dụng blockchain và hợp đồng thông minh để tạo ra một nền taqrng xổ số hoàn toàn minh bạch và đáng tin cậy, trong đó cơ hội của bạn cao hơn hẳn so với xổ số thông thường. Có một số vấn đề với xổ số theo kiểu \"cũ\", mà chúng tôi đã giải quyết với LOTEO.",
+            "t2": "Tin cậy",
+            "p2": "Bằng cách bị chi phối bởi các hợp đồng thông minh thay vì chính phủ hoặc cá nhân, quy trình quay số trở nên tự động và đáng tin cậy.",
+            "t3": "Tính minh bạch",
+            "p3": "Tất cả các giao dịch và giải thưởng đều có thể xem được trên blockchain mọi lúc.",
+            "t4": "Cơ hội trúng giải",
+            "p4": "Không giống như xổ số thông thường khi bạn đặt cược với số rút thăm không xác định, trong LOTEO bạn chỉ đặt cược với các vé đã mua khác, số con số nhỏ hơn hàng nghìn lần so với số con số số trong xổ số tiêu chuẩn.",
+            "p5": "Nhờ blockchain, hệ thống minh bạch và bạn có thể theo dõi tất cả các giao dịch. Bạn có cơ hội trúng thưởng mọi lúc xổ số diễn ra vì bạn chỉ đang đặt cược với một số lượng người tham gia nhất định.",
+            "p6": "Có nhiều vấn đề với các nền tảng đánh bạc kỹ thuật số dựa trên blockchain hiện tại. Chúng thường quá phức tạp, chỉ phù hợp với những người đam mê tiền mã hóa, cung cấp một thiết kế quá đơn giản, không hấp dẫn cũng không thân thiện với người dùng."
+        },
+        "infoSection": {
+            "t1": "Xổ số hoạt động như thế nào?",
+            "p1": "Người dùng tham gia xổ số bằng cách mua một vé xổ số hàng tuần của LOTEO bằng cách sử dụng tiền mã hóa như Ethereum hoặc thông qua một thương gia bên thứ ba. Mỗi địa chỉ ví Ethereum đã mua vé tham gia sau đó được đăng ký làm người tham gia xổ số hàng tuần của LOTEO. Sau đó, LOTEO sẽ thêm xổ số hàng ngày được quản lý bởi các quy tắc tương tự.",
+            "p2": "Xổ số LOTEO sẽ được thực hiện thông qua hợp đồng thông minh sử dụng Bộ tạo số ngẫu nhiên (RNG). Pool được quay số chỉ bao gồm vé số (dựa trên địa chỉ Ethereum của người tham gia) thay vì quay số ngẫu nhiên, do đó, mọi lượt quay đều có người trúng thưởng.",
+            "p3": "Sau khi người trúng thưởng được chọn, một hợp đồng thông minh sẽ tự động gửi giải thưởng đến địa chỉ Ethereum thích hợp. Giải thưởng sẽ được chia theo cách sau:",
+            "p4": "Để đạt được số lượng người dùng tối đa, LOTEO có kế hoạch cung cấp các tùy chọn thanh toán bổ sung ngoài Ethereum, chẳng hạn như các loại tiền mã hóa hoặc thương nhân bên thứ ba khác chấp nhận các loại tiền tệ fiat như USD hoặc EUR. Tuy nhiên, chúng tôi vẫn sẽ yêu cầu ví Ethereum vì xổ số sẽ được rút từ một pool chứa địa chỉ Ethereum của tất cả người dùng đang tham gia.",
+            "p5": "Nhận được token LOTEU bổ sung sẽ tăng cơ hội trúng thưởng của người dùng, nhưng chúng không làm tăng số tiền giải thưởng. Bạn không thể mua token LOTEU, thay vào đó, người dùng có thể nhận được chúng thông qua các đợt airdrop, chiến dịch bounty, các cuộc thi và hoạt động quảng cáo khác của LOTEO."
+        },
+        "userAdvantagesSection": {
+            "t1": "Lợi thế đối với người dùng",
+            "t2": "Cơ hội trúng thưởng",
+            "p1": "Cơ hội trúng thưởng cao hơn nhiều so với xổ số thông thường nhờ cơ chế của chúng tôi.",
+            "t3": "Có người trúng thưởng mỗi lần quay số",
+            "p2": "Không giống như xổ số thông thường, nơi bạn cần có một bộ các con số được kết hợp đúng và người trúng giải mỗi năm chỉ có một, trong LOTEO, chúng tôi có một người trúng thưởng mỗi lần quay số.",
+            "t4": "Phần lớn nhất cho người trúng giải",
+            "p3": "75%, không có đối thủ cạnh tranh nào khác có cùng%",
+            "t5": "Tin cậy",
+            "p4": "Bằng cách bị chi phối bởi các hợp đồng thông minh thay vì chính phủ hoặc cá nhân, quy trình quay số trở nên tự động và đáng tin cậy.",
+            "t6": "Tính minh bạch",
+            "p5": "Nhờ công nghệ blockchain và sử dụng tiền mã hóa để tham gia xổ số, LOTEO minh bạch 100% và mọi giao dịch cũng như việc phân chia giải thưởng có thể xem được mọi lúc, không như xổ số truyền thống nơi bạn không biết số lượng người tham dự, số tiền thưởng, thậm chí sự công bằng cũng bị thao túng, vì nó bị quản lý tập trung.",
+            "t7": "Mở rộng phương thức thanh toán",
+            "p6": "LOTEO cảm thấy một nhu cầu rất lớn cho trải nghiệm người dùng tốt nhất, và khách hàng của chúng tôi đặc biệt những ai chưa quen với tiền mã hóa, sẽ quen với điều đó, đó là lý do tại sao chúng tôi sẽ tích hợp thanh toán thẻ tín dụng cũng như thanh toán di động qua tin nhắn.",
+            "t8": "Tốc độ",
+            "p7": "Nhờ công nghệ blockchain và tiền mã hóa, Loteo nhanh hơn hẳn so với xổ số truyền thống.",
+            "t9": "Cơ hội trúng thưởng cao hơn",
+            "p8": "Cơ hội để chiến thắng cao hơn nhiều so với xổ số thông thường.",
+            "chanceExample": {
+                "one": "1",
+                "formula": "số lượng vé trong xổ số",
+                "details": "* Nếu giải thưởng là 100k, thì là 1:10 000"
+            },
+            "comparisons": {
+                "title": "Xổ số thông thường",
+                "table": {
+                    "million": "Triệu",
+                    "r1": "Super Ena Lotto (Ý)",
+                    "r2": "Power Ball (Mỹ)",
+                    "r3": "Mega Millions (Anh)",
+                    "r4": "Euro Millions (Mỹ)",
+                    "r5": "Euro Jackpot",
+                    "r6": "Xổ số Anh",
+                    "r7": "Xổ số Tây Ban Nha",
+                    "r8": "Xổ số Thụy Điển",
+                    "r9": "Lotto Max (CAN)"
+                }
+            }
+        },
+        "investorAdvantagesSection": {
+            "t1": "Ưu điểm cho nhà đầu tư",
+            "p1": "Không có xổ số, hoặc một nền tảng cờ bạc trực tuyến nào khác có thể triển khai cấu trúc token như LOTEO đã làm. Token chứng quyền mang lại giá trị cho các nhà đầu tư và thưởng cho họ giá trị 20% cho mỗi giải thưởng, được chia nhỏ. Và LOTEO cũng quan tâm đến môi trường tổng thể và môi trường xung quanh, chúng tôi có một chương trình từ thiện được lấy kinh phí từ tỷ lệ phần thưởng diễn ra trên nền tảng LOTEO.",
+            "l1": "Cơ hội duy nhất để mua token chứng quyền LOTES và trở thành một phần của LOTEO, nhận ETH mỗi khi diễn ra quay xổ số.",
+            "l2": "20% giải thưởng mỗi vòng quay số sẽ được phân phối lại cho các chủ sở hữu LOTES, dựa trên số lượng LOTES mà mỗi người dùng sở hữu.",
+            "l3": "Quyền điều chỉnh đối với việc ra quyết định (lựa chọn các tổ chức từ thiện, thay đổi lớn trong mô hình kinh doanh)",
+            "l4": "Khi xổ số trở nên bền vững và thành công, tổng giá trị của nó và giá trị của LOTES cũng sẽ tăng lên"
+        }
+    },
+    "gameDetails": {
+        "helmet": "LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Xổ số hàng tuần Loteo",
+        "text": "Xổ số LOTEO hàng tuần sẽ được thực hiện thông qua hợp đồng thông minh trên blockchain Ethereum, sử dụng bộ tạo số ngẫu nhiên thực sự (RNG). Pool quay số chỉ bao gồm các vé số (dựa trên địa chỉ Ethereum của người tham gia) thay vì quay số ngẫu nhiên, do đó, mọi lượt quay số phải có người trúng thưởng. Sau khi người trúng thưởng được chọn, một hợp đồng thông minh sẽ tự động gửi giải thưởng đến địa chỉ Ethereum thích hợp.",
+        "time": {
+            "day": "Mỗi chủ nhật",
+            "time": "12:00 CET",
+            "info": "Bạn nên sử dụng vé ít nhất 30 phút trước khi quay số, nếu không chúng tôi không thể đảm bảo rằng bạn có thể tham gia vào vòng của tuần hiện tại."
+        },
+        "tabs": [
+            {
+                "name": "Quy tắc"
+            },
+            {
+                "name": "Cơ hội trúng thưởng"
+            },
+            {
+                "name": "Pool Giải thưởng"
+            },
+            {
+                "name": "Vé"
+            }
+        ],
+        "rules": {
+            "t1": "Quy tắc",
+            "p1": "Người dùng tham gia xổ số bằng cách mua một vé xổ số hàng tuần của LOTEO bằng cách sử dụng tiền mã hóa như Ethereum hoặc thông qua một thương gia bên thứ ba. Mỗi địa chỉ ví Ethereum đã mua vé tham gia sau đó được đăng ký làm người tham gia xổ số hàng tuần của LOTEO.",
+            "p2": "Xổ số LOTEO sẽ được thực hiện thông qua hợp đồng thông minh sử dụng Bộ tạo số ngẫu nhiên (RNG).",
+            "p3": "Pool để quay số chỉbao gồm các vé số (dựa trên địa chỉ Ethereum của người tham giaị) thay vì quay các số ngẫu nhiên, do đó, mọi lượt quay số phải có người trúng giải."
+        },
+        "chance": {
+            "t1": "Cơ hội",
+            "p1": "Cơ hội trúng thưởng cao hơn nhiều so với xổ số thông thường nhờ cơ chế của chúng tôi."
+        },
+        "prize": {
+            "t1": "Giải thưởng"
+        },
+        "tickets": {
+            "title1": "Vé tham gia một lần",
+            "title2": "LoteoPass",
+            "title3": "LoteoMaxx",
+            "price1": "10",
+            "price2": "520",
+            "price3": "100",
+            "eth": "ETH",
+            "loteoMaxxCards": [
+                {
+                    "text": "LoteoMaxx 10 + 250 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 20 + 1000 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 50 + 3750 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 100 + 10 000 LOTEU"
+                }
+            ],
+            "entries": "Tham gia xổ số",
+            "t1": "Vé",
+            "ticket": {
+                "showDetails": "Hiển thị chi tiết",
+                "buyTicketsAndPlay": "Mua vé và chơi!",
+                "from": "Từ",
+                "buyNow": "MUA NGAY",
+                "card": [
+                    {
+                        "title": "Vé tham gia một lần",
+                        "p1": "Người dùng tham gia xổ số bằng cách mua một vé xổ số hàng tuần của LOTEO bằng cách sử dụng tiền mã hóa như Ethereum hoặc thông qua một thương gia bên thứ ba. Mỗi địa chỉ ví Ethereum đã mua vé tham gia sau đó được đăng ký làm người tham gia xổ số hàng tuần của LOTEO. Sau đó, LOTEO sẽ thêm xổ số hàng ngày được quản lý bởi các quy tắc tương tự.",
+                        "p2": "Pool để quay số chỉbao gồm các vé số (dựa trên địa chỉ Ethereum của người tham giaị) thay vì quay các số ngẫu nhiên, do đó, mọi lượt quay số phải có người trúng giải."
+                    },
+                    {
+                        "title": "LoteoPass",
+                        "p1": "Bạn có lựa chọn mua một vé năm để tham gia xổ số, không cần phải mua vé lặp lại. Đối với 1000 người mua LOTEOPASS đầu tiên, sẽ có một phần thưởng. Đây sẽ là một ưu đãi giới hạn sẽ diễn ra một lần nữa sau 1 năm, khi lượt LOTEOPASS đầu tiên hết hạn.",
+                        "p2": "Phần thưởng bao gồm nhân đôi cơ hội trúng thưởng trong mỗi lần rút xổ số bằng cách sử dụng LOTEU. Bằng cách mua LOTEOPASS, người mua sẽ nhận được một lượng LOTEU và được chuyển vào tài khoản của mình bao gồm vé tham gia xổ số 52 tuần."
+                    },
+                    {
+                        "title": "LoteoMaxx",
+                        "p1": "Bạn có thể mua vé tham gia xổ số với số lượng cao hơn - 10, 20, 50.100 với vé tham gia xổ số được thưởng thêm dưới dạng token tiện ích. Bạn có thể sử dụng những vé này bất cứ lúc nào với số lượng bất kỳ.",
+                        "renderLoteoMaxxCard": {
+                            "entries": "Tham gia xổ số"
+                        }
+                    }
+                ],
+                "alts": [
+                    {
+                        "alt": "icon"
+                    },
+                    {
+                        "alt": "đóng"
+                    }
+                ]
+            }
+        },
+        "currencyTag": {
+            "accepted": "Tiền tệ được chấp nhận",
+            "maxBet": "CƯỢC tối đa",
+            "minBET": "CƯỢC tối thiểu",
+            "specialPower": "Quyền đặc biệt",
+            "edge": "Nhà cái"
+        }
+    },
+    "charity": {
+        "helmet": "Từ thiện | LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Cuộc cách mạng<br\/>trong việc cho đi",
+        "text": "Mỗi khi một người dùng trúng giải, 1% tổng giải thưởng sẽ được trao cho một tổ chức từ thiện",
+        "donateHelp": "Quyên góp & giúp đỡ",
+        "t1": "Tổ chức từ thiện Loteo",
+        "p1": "LOTEO đặt mục tiêu trở thành nền tảng sinh lời cho những người đóng góp trong khi cung cấp một chương trình xổ số hào phóng cho người dùng. Những người tạo ra LOTEO tin rằng trách nhiệm của tất cả những doanh nghiệp hoạt động có lợi nhuận là phải trả lại một phần đó cho các tổ chức từ thiện, phi lợi nhuận và các tổ chức khác đang cống hiến để biến thế giới thành một nơi tốt đẹp hơn.",
+        "p2": "Sự đổi mới và công nghệ có thể cải thiện cuộc sống cho phần lớn chúng ta, nhưng điều quan trọng là đừng quên những người bị bỏ lại phía sau vì họ đang cần thêm sự giúp đỡ.",
+        "t2": "Bạn có thể ủng hộ tại đây",
+        "alts": [
+            {
+                "alt": "bìa cuối"
+            }
+        ]
+    },
+    "address": {
+        "copied": "Đã sao chép",
+        "copy": "Sao chép",
+        "pleaseNote": "Xin lưu ý",
+        "generatingQrCode": "Đang tạo mã QR ...",
+        "alts": [
+            {
+                "alt": "Mã QR"
+            }
+        ]
+    },
+    "share": {
+        "tabs": [
+            {
+                "name": "Chương trình liên kết"
+            },
+            {
+                "name": "Lợi ích của người chơi"
+            }
+        ],
+        "helmet": "Liên kết | LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Nhận phần thưởng ít nhất là<br \/>40% từ doanh thu nền tảng",
+        "text": "Tham gia chương trình liên kết của LOTEO và trở thành đối tác Liên kết hoặc Cao cấp. Bạn có thể chọn bất cứ hình thức nào mình muốn.",
+        "affiliateLink": {
+            "title": "Đây là liên kết giới thiệu duy nhất của bạn",
+            "text": "Sao chép liên kết này, chia sẻ nó với bạn bè và chơi miễn phí!"
+        },
+        "affiliatePrograms": {
+            "alts": [
+                {
+                    "alt": "Đối tác cao cấp"
+                },
+                {
+                    "alt": "Đối tác liên kết"
+                }
+            ],
+            "title1": "Bạn có muốn trở thành một nhà đầu tư mà không cần đầu tư? Trở thành <span>Đối tác cao cấp<\/span>",
+            "title2": "Mua <span>Loteo Pass<\/span> và trở thành Đối tác cao cấp của LOTEO",
+            "title3": "Mời bạn bè, trở thành <span>Đối tác liên kết<\/span> và chơi miễn phí!",
+            "title4": "Mua <span>Vé<\/span> hoặc <span>Loteo Maxx<\/span> và trở thành Đối tác liên kết của LOTEO",
+            "subtitle1": "<strong>Để trở thành đối tác liên kết của Loteo, bạn cần đăng ký và mua vé LoteoPass.<\/strong>",
+            "subtitle2": "Do đó, Đội ngũ LOTEO đã dành 6% số Token chứng quyền  dành riêng cho đội ngũ và đã tạo ra các pool 1%, 2% và 3% sẽ được phân phối giữa các đối tác liên kết tốt nhất theo các quy tắc được đề cập dưới đây.<br \/><br \/><strong>Tất cả các đối tác bán vé sẽ được thưởng theo tỷ lệ hoa hồng như sau:<\/strong>",
+            "subtitle3": "<strong>Để trở thành đối tác liên kết của Loteo, bạn cần đăng ký và mua vé một lần hoặc vé LoteoMaxx.<\/strong>",
+            "bonuses": [
+                {
+                    "label": "ƯU ĐÃI 1",
+                    "text": "Tuyến cao cấp",
+                    "description": "Tiền thưởng được yêu cầu cho người dùng ở tuyến 1 dưới đối tác liên kết"
+                },
+                {
+                    "label": "ƯU ĐÃI 2",
+                    "text": "Liên kết chương trình không gian - Nhận lợi nhuận từ nền tảng Loteo"
+                },
+                {
+                    "label": "ƯU ĐÃI 3",
+                    "text": "Chương trình VIP"
+                },
+                {
+                    "label": "ƯU ĐÃI 1",
+                    "text": "Tuyến liên kết",
+                    "description": "Tiền thưởng được yêu cầu cho người dùng ở tuyến 1 dưới đối tác liên kết"
+                }
+            ],
+            "premiumBonusCards": [
+                {
+                    "title": "Vé Loteo",
+                    "price": "10 €",
+                    "text": "Là đối tác liên kết, bạn sẽ nhận được <strong>4% giá trị mỗi vé được mua trong ETH + phần thưởng kích hoạt 50 LOTEU. <\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "price": "100 - 1000 €",
+                    "text": "Là đối tác liên kết, bạn sẽ nhận được <strong>4% giá trị mỗi vé được mua trong ETH + 100 - phần thưởng kích hoạt 1 000 LOTEU. <\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "price": "520 €",
+                    "text": "Là đối tác liên kết, bạn sẽ nhận được <strong>4% giá trị mỗi vé được mua bằng ETH + 1000 LOTEU. <\/strong>"
+                }
+            ],
+            "affiliateBonusCards": [
+                {
+                    "title": "Vé Loteo",
+                    "text": "Là đối tác liên kết, bạn sẽ nhận được <strong>4% giá trị mỗi vé được mua trong ETH + phần thưởng kích hoạt 50 LOTEU. <\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "text": "Là đối tác liên kết, bạn sẽ nhận được <strong>4% giá trị mỗi vé được mua trong ETH + 100 - phần thưởng kích hoạt 1 000 LOTEU. <\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "text": "Là đối tác liên kết, bạn sẽ nhận được <strong>4% giá trị mỗi vé được mua bằng ETH + 500 LOTEU. <\/strong>"
+                }
+            ],
+            "bonusCardsDisclaimer": "*Ưu đãi Loteomaxx chỉ có thể được yêu cầu một lần cho mỗi người dùng - mỗi năm<br\/>cho mỗi gói. Ưu đãi Loteopass áp dụng mọi lúc.",
+            "spaceProgram": [
+                {
+                    "text": "Tất cả các đối tác có<strong>30 vé trở lên<\/strong> đã đăng ký theo họ trong cây phân nhánh sẽ được thưởng bằng lợi nhuận từ xổ số, nhờ token chứng quyền từ 1% pool"
+                },
+                {
+                    "text": "Tất cả các đối tác có<strong>100 vé trở lên<\/strong> đã đăng ký theo họ trong cây phân nhánh sẽ được thưởng bằng lợi nhuận từ xổ số, nhờ token chứng quyền từ 2% pool"
+                },
+                {
+                    "text": "Tất cả các đối tác có<strong>200 vé trở lên<\/strong> đã đăng ký theo họ trong cây phân nhánh sẽ được thưởng bằng lợi nhuận từ xổ số, nhờ token chứng quyền từ 3% pool"
+                }
+            ],
+            "VIPInfo": {
+                "tiers": {
+                    "bronze": {
+                        "title": "Đồng",
+                        "text": "Nhận 500 LOTEU, cho 50 Vé được sử dụng bởi nhánh đầu tiên"
+                    },
+                    "silver": {
+                        "title": "Bạc",
+                        "text": "Nhận 1000 LOTEU, cho 100 Vé được sử dụng bởi nhánh đầu tiên"
+                    },
+                    "gold": {
+                        "title": "Vàng",
+                        "text": "Nhận 2000 LOTEU, cho 200 Vé được sử dụng bởi nhánh đầu tiên"
+                    },
+                    "platinum": {
+                        "title": "Bạch kim",
+                        "text": "Nhận 5000 LOTEU, cho 500 Vé được sử dụng bởi nhánh đầu tiên"
+                    },
+                    "diamond": {
+                        "title": "Kim cương",
+                        "text": "Nhận 10 000 LOTEU, cho 1000 Vé được sử dụng bởi nhánh đầu tiên"
+                    },
+                    "moonStone": {
+                        "title": "Moon Stone",
+                        "text": "Nhận 50 000 LOTEU + 200 000 LOTES, cho 5000 Vé được sử dụng bởi nhánh đầu tiên"
+                    }
+                }
+            },
+            "CTA": "MUA NGAY",
+            "divider": "HOẶC",
+            "profitCalculator": {
+                "friends": "Bạn bè",
+                "tickets": "Vé",
+                "friend": "Bạn bè",
+                "ticket": "Vé",
+                "title": "Tôi sẽ kiếm được bao nhiêu tiền dựa trên nỗ lực của mình",
+                "text1": "Số lượng bạn bè mà bạn sẽ mời",
+                "text2": "Ước tính số lượng vé trung bình được mua để quay số của mỗi người dùng",
+                "label1": "Thu nhập tiềm năng của bạn",
+                "label2": "mỗi lần họ mua vé",
+                "eur": "EUR",
+                "alts": [
+                    {
+                        "alt": "Ăn mừng"
+                    },
+                    {
+                        "alt": "trừ"
+                    },
+                    {
+                        "alt": "cộng"
+                    },
+                    {
+                        "alt": "vé"
+                    }
+                ]
+            }
+        },
+        "playerBenefits": {
+            "title": "Nhận nhiều phần thưởng <span>cho mỗi sản phẩm của LOTEO.<\/span> Chọn bất cứ điều gì bạn muốn.",
+            "imageTitlePrefix": "Loteo",
+            "bonuses": [
+                {
+                    "image": {
+                        "title": "Loteo <strong>Vé<\/strong>",
+                        "price": "10 €"
+                    },
+                    "title": "<span>ƯU ĐÃI chào mừng<\/span> Vé Loteo",
+                    "bonuses": [
+                        {
+                            "label": "+ 100 LOTEU",
+                            "text": "cho vé thứ nhất"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong>Maxx<\/strong>",
+                        "price": "100 - 1000 €"
+                    },
+                    "title": "<span>ƯU ĐÃI<\/span> Loteo Maxx",
+                    "bonuses": [
+                        {
+                            "label": "+ 250 LOTEU",
+                            "text": "cho gói 10 vé"
+                        },
+                        {
+                            "label": "+ 1000 LOTEU",
+                            "text": "cho gói 20 vé"
+                        },
+                        {
+                            "label": "+ 3750 LOTEU",
+                            "text": "cho gói 50 vé"
+                        },
+                        {
+                            "label": "+ 10 000 LOTEU",
+                            "text": "cho gói 100 vé"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong>Pass<\/strong>",
+                        "price": "520 €"
+                    },
+                    "title": "<span>ƯU ĐÃI<\/span> Loteo Pass",
+                    "bonuses": [
+                        {
+                            "label": "2 CHO 1",
+                            "text": "Nhận 2 vé trong mỗi lượt quay số với giá chỉ 1 vé"
+                        },
+                        {
+                            "label": "+ 520 LOTEU",
+                            "text": "Đối với mỗi LoteoPass nhận ngay 520 LOTEU vào ví của bạn"
+                        },
+                        {
+                            "label": "CHƯƠNG TRÌNH KHÔNG GIAN",
+                            "text": "Nhận quyền truy cập và trở thành nhà đầu tư mà không cần phải đầu tư"
+                        },
+                        {
+                            "label": "TRẠNG THÁI VIP",
+                            "text": "Nhận quyền truy cập và LOTEO ưu đãi dựa trên thống kê số liên kết của bạn."
+                        }
+                    ]
+                }
+            ],
+            "coinback": {
+                "title": "Chương trình Coinback",
+                "text": "Mỗi lần sử dụng vé trong xổ số hàng tuần bạn sẽ nhận được ưu đãi với chương trình LOTEO Coinback. Đối với mỗi vé được sử dụng trong xổ số, người chơi sẽ được thưởng 10 LOTEU. Coinback được chuyển vào ví bạn sau khi sử dụng 10 vé.",
+                "example": "VÍ DỤ: Sử dụng 10 vé - Nhận 100 LOTEU"
+            }
+        }
+    },
+    "info": {
+        "helmet": "Thông tin | LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Tất cả những gì bạn cần biết",
+        "tabs": [
+            {
+                "name": "Loteo Token"
+            },
+            {
+                "name": "Đội ngũ"
+            },
+            {
+                "name": "FAQ"
+            },
+            {
+                "name": "Tải xuống"
+            }
+        ],
+        "loteoTokens": {
+            "t1": "Loteo Token",
+            "p1": "Chúng tôi đã quyết định cấu trúc token duy nhất, mang lại rất nhiều lợi thế cho các nhà đầu tư cũng như cho tất cả các thành viên cộng đồng. Dưới đây bạn có thể xem tất cả các chi tiết để làm quen với token Loteo.",
+            "t2": "Token chứng quyền (LOTES)",
+            "p2": "LOTES là một token chứng quyền có nghĩa là chỉ được bán trong vòng Private funding (STO). Sẽ không có bất kỳ đợt mở bán công khai nào, néu bạn có yêu cầu đầu tư, xin vui lòng điền vào mẫu trên trang web. 100% lợi nhuận từ nền tảng sẽ được phân phối cho chủ sở hữu LOTES, tùy thuộc vào số lượng token họ giữ trong ví. Token phải có trong ví playloteo. Những người giữ 2 000 000 LOTES trở lên được quyền quản trị.",
+            "p3": "LOTES bị khóa trong 15 tháng và trong thời gian này không thể mua hoặc bán chúng ở bất kỳ nơi nào khác. Sau 15 tháng đầu, sẽ có một vòng gọi vốn khác, trong đó LOTEO sẽ bán ít nhất 30% tổng số token tuân thủ các yêu cầu pháp lý và quy định. Tất cả chi tiết sẽ được tiết lộ trước sự kiện này. Sau khi bán số token này, nó sẽ được liệt kê trên các sàn giao dịch ngay lập tức.",
+            "p4": "Sau 15 tháng, tối đa 20% tổng số token chứng quyền sẽ được sở hữu bởi xổ số trong khi ít nhất 80% sẽ được phân tán, ngăn không cho xổ số bị thao túng. Token cũng có chức năng quản trị, có nghĩa là nếu có bất kỳ thay đổi đáng kể nào thì nó phải đạt được bằng sự đồng thuận và bất kỳ chủ sở hữu token nào cũng có thể đưa ra đề xuất hoặc bỏ phiếu.",
+            "t3": "Token Tiện ích (LOTEU)",
+            "p5": "LOTEU là một token tiện ích được sử dụng cho mục đích marketing. Khi bạn mua một vé tham gia xổ số bổ sung với 100 LOTEU, bạn sẽ được nhân đôi cơ hội trúng thưởng. Nó không tăng giải thưởng lên nhưng nó làm tăng số vé của bạn trong pool. Token sẽ được hủy hàng quý một cách công khai, trong đó 20% token đã sử dụng và nhận được sẽ bị hủy.",
+            "p6": "Sự kiện hủy token sẽ diễn ra cho đến khi tổng cung của LOTEU bằng  tổng cung của LOTES - 100 000 000 hoặc khi LOTEU bắt đầu được chấp nhận làm phương thức thanh toán để mua vé số. Sẽ có rất nhiều airdrop token này trực tiếp cho cộng đồng và thông qua các đối tác marketing của LOTEO, và sẽ có rất nhiều cuộc thi khác nhau được trao thưởng bằng LOTEU.",
+            "p7": "LOTEU token cũng sẽ được phân phối thông qua các chiến dịch bounty theo kế hoạch marketing và thông báo chính thức của LOTEO qua các kênh truyền thông. Có một kế hoạch staking dài hạn trong tương lai với LOTEU cho các mục đích của nền tảng B2B, sẽ được chỉ ra trước khi vòng huy động vốn thứ 2 của dự án diễn ra. Giá của 1 LOTEU không được xác định chính xác vì không có sự kiện Bán token, thị trường sẽ thiết lập giá của nó, nhưng giá được đánh dấu hiện tại là 0,1 €\/1 LOTEU.",
+            "alts": [
+                {
+                    "alt": "lotes"
+                }
+            ]
+        },
+        "team": {
+            "alts": [
+                {
+                    "alt": "Đó là bạn"
+                },
+                {
+                    "alt": "Telegram"
+                }
+            ],
+            "t0": "Đội ngũ",
+            "p0": "Phần mạnh nhất và có giá trị nhất của mỗi dự án là trong các thành viên của nó. Đội ngũ của chúng tôi không ngừng phát triển, chủ yếu tập trung tại Bratislava, Slovakia với các thành viên ở Serbia, Nga, Chile, Ấn Độ ... Và có thể là bạn? Đừng ngần ngại tiếp cận với chúng tôi, chúng tôi đang tuyển dụng.",
+            "t1": "Câu chuyện đằng sau",
+            "p1": "Khi đã có một trò chơi, hãy gọi nó là con ong, trong đó mười nhân viên đã từng đầu tư 100 EUR từ tiền lương của họ mỗi tháng và chọn ra một người trúng giải. Người trúng giải được lấy tất cả - giải thưởng 1000 EUR. Trong tháng tiếp theo, người trúng giải cuối cùng lại chuyển vào số tiền thông thường, như những người tham gia còn lại, nhưng không được tham gia quay số và trúng giải. Đối với người trúng giải đầu tiên, tổng giải thưởng đại diện cho một khoản vay không mất phí trong khi đối với những người trúng giải trong tương lai, khoản đầu tư hàng tháng của họ chỉ đơn giản là khoản tiết kiệm cho tương lai. Hầu như chúng tôi - những nhân viên bình thường - khó có thể nhận được hoặc tiết kiệm một số tiền như vậy trong các trường hợp thông thường.",
+            "p2": "Kể từ khi bị ong đốt vài năm trước, chúng tôi đã có một động lực mạnh mẽ: phát triển một dự án để mọi người có thể tin tưởng, tận hưởng và hưởng lợi từ đó. Theo thời gian, ý tưởng tuyệt vời về một người trúng giải trong mỗi lần quay số cùng với môi trường thân thiện với người dùng đã trở thành triết lý chính của chúng tôi.",
+            "p3": "Chào mừng bạn đến với Loteo!",
+            "members": [
+                {
+                    "name": "Rastislav Bakala",
+                    "pos": "CEO, Đồng sáng lập",
+                    "desc": "Rastislav là chủ sở hữu của 3 công ty thành công mà được ông xây dựng lên hoàn toàn từ ban đầu đầu. Ông bắt đầu sự nghiệp của mình trong lĩnh vực tài chính, từ một quản lý khu vực và sau đó bắt đầu qua vị trí quản lý bán lẻ tại một ngân hàng. Sau khởi đầu thành công, ông bắt đầu làm việc trong lĩnh vực doanh nghiệp và tại đây, ông bắt đầu nghĩ về một bức tranh lớn hơn. Rastislav sau đó đã thành lập công ty riêng của mình về công nghệ blockchain và xây dựng doanh nghiệp bán và quản lý kim loại quý của mình.  Nhưng đó mới chỉ là khởi đầu. Khi chỉ mới 28 tuổi, ông có tham vọng làm cho thế tốt đẹp hươn giới thông qua các công nghệ như blockchain. Ông tin vào một thế giới minh bạch và công bằng. Loteo mang đến điều tốt nhất của cả hai thế giới, kết hợp tính minh bạch nhờ công nghệ blockchain với mong muốn của con người là kiếm tiền . Phương châm của ông là nếu bạn giúp người khác làm giàu, chính là bạn đang tự giúp mình!"
+                },
+                {
+                    "name": "Juraj Illes",
+                    "pos": "CMO, Đồng sáng lập",
+                    "desc": "Juraj có nhiều năm kinh nghiệm trong mảng kinh doanh và marketing. Trong thời gian học khoa quản lý tại Đại học Comenius ở Bratislava, ông là trưởng phòng marketing trong một doanh nghiệp gia đình điều hành với các thiết bị điện tử cao cấp. Sau đó, ông làm việc như một chuyên gia marketing trực tuyến tại một công ty quốc tế là đối tác SMB của Google. Là một doanh nhân, ông hướng công ty phân phối của mình vào lĩnh vực mỹ phẩm và dược phẩm. Sau khi bán công ty của mình, ông bắt đầu tận dụng kinh nghiệm có được để trở thành freelancer, tập trung vào các chiến lược marketing. Trong thời gian này, ông chấp nhận lời đề nghị làm giám đốc marketing trong lĩnh vực FMCG. Điểm dừng chân cuối cùng của ông là quản lý bộ phận trực tuyến tại một trong những công ty bảo hiểm y tế hàng đầu của Slovakia, nhưng vào thời điểm đó, ông đã bắt đầu quan tâm đến thế giới tiền mã hóa và từ đó bắt đầu tận dụng thành công những cơ hội kinh doanh trong lĩnh vực này, một trong số đó là dự án Loteo."
+                },
+                {
+                    "name": "Rene Darmos",
+                    "pos": "CBDO, Đồng sáng lập",
+                    "desc": "Ông có bằng đại học trong ngành Quan hệ quốc tế và Ngoại giao kinh tế, sau đó ông đã học thêm Kinh tế và Quản lý Kinh doanh Quốc tế. Ông là một doanh nhân, nhà đầu tư tiền mã hóa, đại sứ, cố vấn và đôi khi là người dẫn chương trình cho các sự kiện blockchain. Là một doanh nhân, ông đã thành lập và xây dựng 2 công ty mà về sau đã được bán thành công và hiện ông đang nắm quyền điều hành một công ty khác. Ông cũng tham gia vào công tác tổ chức các buổi hội thảo và tham gia vào một số dự án. Ông đã tham gia vào thế giới tiền mã hóa trong một thời gian tương đối ngắn (gần 3 năm), nhưng vẫn đạt được nhiều kết quả quan trọng trong lĩnh vực này và trở thành đại sứ cho Mainframe. Rene đã gặp nhiều người có ảnh hưởng và quan trọng trong lĩnh vực blockchain và nhờ kinh nghiệm trước đây là giám đốc thương hiệu cho Red Bull và Unilever, kết hợp với kỹ năng kinh doanh và tư duy định hướng khách hàng của mình, ông một thành viên quan trọng của đội ngũ Loteo,đảm nhiệm vai trò phát triển kinh doanh tổng thể."
+                },
+                {
+                    "name": "Jan Lalka",
+                    "pos": "CFO, Đồng sáng lập",
+                    "desc": "Hy vọng, niềm tin vào thành công và kinh nghiệm sống. Đây là những điều mà Jan đã hướng vào dự án kinh doanh này. Ý tưởng này chưa bao giờ rõ ràng như ngày nay. Ông bắt đầu sự nghiệp của mình từ một doanh nhân khi 23 tuổi vào năm 1997, dần dần phát triển các kỹ năng kinh doanh cho mình. Năm 2003, ông quay lại ngành kinh doanh tài chính toàn cầu và gia nhập một ngành công nghiệp, từ đó ông đã phát triển 4 thương hiệu trong 16 năm và dần dần chuyển từ vị trí bán hàng thông qua quản lý kinh doanh trở thành người đứng đầu toàn bộ bộ phận. Mặc dù làm việc cho những thương hiệu lớn đã mang lại cho Jan kinh nghiệm tuyệt vời, nhưng không có gì xứng đáng hơn việc thành lập và phát triển thương hiệu của chính mình. Đây là lý do đằng sau cam kết của ông đối với dự án. Năng lượng, khi được truyền đi đúng hướng, được định hướng với tầm nhìn dài hạn và có nhiều cánh tay góp sức với niềm tin vào thành công, tất cả  đảm bảo một kết quả thành công trong kinh doanh."
+                },
+                {
+                    "name": "Nina Bakalova",
+                    "pos": "Trưởng phòng PR",
+                    "desc": "Nina nhận bằng đại học tại Đại học Kinh tế Bratislava. Đồng thời cô cũng đang làm việc trong nghề người mẫu, viết bài trên nhiều phương tiện truyền thông và có được kinh nghiệm quý báu trong sáng tạo nội dung và chiến lược PR. Công việc gần đây nhất của cô là vị trí cố vấn trưởng cho Bộ trưởng Bộ Quốc phòng trong hội đồng quốc gia Cộng hòa Slovak."
+                },
+                {
+                    "name": "Max Zakomoldin",
+                    "pos": "Cố vấn bán hàng",
+                    "desc": "Cryptoinvestor, cryptotrader, nhà phân tích, gây quỹ, đại diện cho thị trường tài chính, báo cáo với Ngân hàng trung ương, diễn giả cộng đồng. Chuyên môn của ông là về kinh tế học của tiền mã hóa, xây dựng các mô hình token và tăng trưởng giá tự nhiên cho token, dựa trên sự phát triển của doanh nghiệp. Max đã đưa ra hàng chục khóa học giáo dục trực tuyến và ngoại tuyến, điều này đã khiến nhiều người tìm ra được cơ hội kiếm tiền khá tốt qua internet."
+                },
+                {
+                    "name": "Julius Buchel",
+                    "pos": "Quản lý cộng đồng",
+                    "desc": "Người tạo nội dung và chủ sở hữu của một công ty tư vấn truyền thông xã hội, đam mê blockchain và tập trung vào giáo dục về tiền mã hóa, có kinh nghiệm về tạo mạng lưới quan hệ, có hơn mười năm kinh nghiệm trong lĩnh vực tài chính doanh nghiệp với tư cách là CFO trong các lĩnh vực sản xuất đa dạng, từng học ngành kinh tế và luật ở đại học."
+                },
+                {
+                    "name": "Robert Ailen",
+                    "pos": "Cố vấn pháp lý & Sàn giao dịch",
+                    "desc": "Robert là đồng sáng lập ETERBASE. Ông phục vụ ở cấp độ hội đồng quản trị của Ngân hàng Đầu tư Châu Âu, Cơ chế Ổn định Châu Âu và một số tổ chức khác với bảng cân đối hàng tỷ USD. Ông từng học Trường Kinh tế London, Đại học London và Trường Kinh doanh Thẩm phán của Đại học Cambridge."
+                },
+                {
+                    "name": "Peter Kris",
+                    "pos": "CTO",
+                    "desc": "Peter là người sáng lập một studio dev blockchain và tư vấn cho Block Unison, dẫn dắt các kỹ sư triển khai nhiều dự án. Peter có hơn mười năm kinh nghiệm trong CNTT từ quản trị, qua mảng di động, đến phát triển backend. Một người nhạy bén trong ngành công nghiệp blockchain kể từ kỷ nguyên Bitcoin 2013, anh thỉnh thoảng nói về nhiều chủ đề khác nhau và giúp đỡ cộng đồng Ethereum địa phương trong Progressbar."
+                },
+                {
+                    "name": "David Kokavec",
+                    "pos": "Cố vấn",
+                    "desc": "Sau khi tốt nghiệp ngành luật, người sáng lập dự án kryptotrejder đã biến sở thích và mối quan tâm của mình về crypto thành một doanh nghiệp thành công nhằm mục đích giáo dục mọi người trong lĩnh vực này. Ông đã cung cấp dịch vụ tư vấn tài chính toàn diện cho cả cá nhân và công ty. Ông ấy thích giúp đỡ mọi người và nhìn thấy kết quả, nhưng điều anh ấy yêu thích nhất trong công việc của mình là sự tiến bộ cá nhân và học tập suốt đời. Ngoài ra, ông quan tâm đến việc quản lý cổng thông tin rap lớn nhất Slovakia và một tạp chí về lối sống. Khi ông không nghĩ ra những ý tưởng và chiến lược kinh doanh mới, ông sẽ dành thời gian cho gia đình, du lịch và thể thao. Ở Loteo, ông giữ vị trí cố vấn."
+                },
+                {
+                    "name": "Nenad Ristic",
+                    "pos": "Cố vấn cộng đồng",
+                    "desc": "Nenad đã bị thu hút đến thế giới crypto vào năm 2014, một người Serbia biết vượt qua pump&dump và sống sót với nụ cười trên khuôn mặt. Một người tin tưởng thực sự vào blockchain và tất cả những lợi thế mà nó mang lại cho người dùng. Nenad có hơn 4 năm kinh nghiệm trong quản lý cộng đồng, tạo sự chú ý về thương hiệu và giúp các dự án lắng nghe tiếng nói của cộng đồng của họ. Ông cũng nằm trong ban cố vấn của một số dự án trong ngành công nghiệp đột phá này. Một anh chàng lạc quan và nhiệt tình sẽ không bao giờ quay lưng lại với cộng đồng khi có cơ hội giảng dạy kiến thức, giúp đưa Blockchain đến gần hơn với số đông."
+                },
+                {
+                    "name": "Sapta Munggaran",
+                    "pos": "Cố vấn cộng đồng",
+                    "desc": "Tham gia vào Bitcoin từ đầu năm 2013, Sapta là chàng trai làm cộng đồng tốt nhất đến từ Indonesia. Anh đã giúp đỡ và tư vấn cho các công ty khởi nghiệp Blockchain khác nhau để tạo ra nhận thức thương hiệu, thu hút người dùng, đồng thời quản lý các kênh cộng đồng của họ. Anh ấy cũng là người điều hành tình nguyện của diễn đàn Bitcoin lớn nhất kể từ năm 2014. Anh ấy thích giáo dục mọi người về tiền mã hóa."
+                },
+                {
+                    "name": "Anthony Sanchez",
+                    "pos": "Cố vấn cộng đồng",
+                    "desc": "Bắt đầu hành trình tiền mã hóa của mình bằng cách làm hỗ trợ công nghệ cho một công ty ATM bitcoin, một người Venezuela gặp khá nhiều may mắn, một bộ não và một giấc mơ. Làm việc trong ngành công nghiệp hỗ trợ trong hơn 7 năm, luôn luôn vượt qua mọi thử thách gặp phải. Chuyên môn của anh là quản lý khủng hoảng và giải quyết vấn đề ở các nhóm cụ thể ở cấp độ dự án hoặc lớn hơn. Bitcoin là niềm đam mê của anh ấy, nếu bạn cần biết bất cứ điều gì về tiền mã hóa, bạn có thể hỏi anh ấy. Có hơn 2 năm kinh nghiệm làm quản lý cộng đồng cho một loạt các dự án khác nhau."
+                },
+                {
+                    "name": "Husain Zabir",
+                    "pos": "Danh sách cố vấn",
+                    "desc": "Trader và nhà đầu tư tiền mã hóa, nhà phân tích và nghiên cứu sóng Elliott với 4 năm kinh nghiệm"
+                }
+            ],
+            "youMember": {
+                "title": "ComMOONity là sức mạnh của chúng tôi",
+                "text": "Tham gia nhóm Telegram trên"
+            }
+        },
+        "downloads": {
+            "t1": "Tài liệu để tải về",
+            "p1": "Tất cả các tài liệu quan trọng, chứng chỉ hoặc các chủ đề quan trọng khác về dự án ở một nơi, để định hướng dễ dàng hơn. Vẫn còn thiếu? Viết email cho chúng tôi và chúng tôi sẽ cố gắng đáp ứng nhu cầu của bạn.",
+            "documents": [
+                {
+                    "name": "Whitepaper"
+                },
+                {
+                    "name": "Loteo in Box"
+                },
+                {
+                    "name": "Chứng nhận liên kết"
+                },
+                {
+                    "name": "Chứng nhận RNG"
+                }
+            ],
+            "alts": [
+                {
+                    "alt": "ngôn ngữ"
+                },
+                {
+                    "alt": "tải về"
+                }
+            ],
+            "english": "Tiếng Anh",
+            "russian": "Tiếng Nga",
+            "slovak": "Tiếng Slovak",
+            "spanish": "Tiếng Tây Ban Nha",
+            "englishPdf": "PDF Tiếng Anh"
+        },
+        "faq": {
+            "t1": "Câu hỏi thường gặp",
+            "p1": "Tất cả các câu hỏi thường gặp ở một nơi. Trong trường hợp vẫn còn thắc mắc chưa được giải đáp, hãy tham gia kênh telegram của chúng tôi nơi bạn sẽ nhận câu trả lời ngay lập tức.",
+            "t2": "TRÒ CHƠI",
+            "t3": "HỢP PHÁP",
+            "t4": "CRYPTO",
+            "questions": {
+                "game": [
+                    {
+                        "q": "Giá vé LOTEO là bao nhiêu?",
+                        "a": "Giá vé số hàng tuần là 10 EUR. Xổ số hàng ngày đang được chuẩn bị với giá một vé là 2 EUR."
+                    },
+                    {
+                        "q": "Tỷ lệ cược để trúng giải là gì?",
+                        "a": "Nó có thể được tính bằng tỷ lệ giữa số vé của tôi và tổng số vé trong pool."
+                    },
+                    {
+                        "q": "Tôi có thể mua vé trực tuyến như thế nào?",
+                        "a": "Bạn cần mở một tài khoản người dùng miễn phí trên trang web và đi đến đến bảng điều khiển, nơi bạn có thể thấy tùy chọn mua vé."
+                    },
+                    {
+                        "q": "Khi nào diễn ra quay số?",
+                        "a": "Lần quay số chính - trò chơi hàng tuần - diễn ra mỗi tuần một lần - Chủ nhật hàng tuần lúc 12:00 CET. Thời gian quay số bổ sung sẽ được công bố đúng hạn trước khi ra mắt."
+                    },
+                    {
+                        "q": "Làm thế nào để kiểm tra xem tôi có trúng giải không?",
+                        "a": "Có nhiều cách khác nhau để bạn kiểm tra xem mình có trúng giải không. 1. kiểm tra số dư ETH của bạn trong bảng điều khiển; 2. kiểm tra người đặt chân xuống mặt trăng trong bảng điều khiển; 3. truy cập kênh LOTEO"
+                    },
+                    {
+                        "q": "Bảo đảm pool thưởng là gì?",
+                        "a": "Khối lượng tiền trong quỹ giải thưởng không thể được đảm bảo vì nó phụ thuộc hoàn toàn vào số lượng vé tham gia vào trò chơi cụ thể."
+                    },
+                    {
+                        "q": "LOTEOPASS là gì và lợi thế của nó là gì?",
+                        "a": "LOTEOPASS là một phương tiện để mua một vé năm trong mỗi lần quay số hàng tuần bắt đầu từ ngày mua. Chủ sở hữu LOTEOPASS được tham gia mỗi lần quay số một cách tự động mà không cần phải xem ngày và giờ. Gói 52 vé bao gồm phần tiền thưởng 5 200 token LOTEU được sử dụng tự động để nhân đôi cơ hội trúng giải của bạn."
+                    },
+                    {
+                        "q": "LOTEOMAXX là gì và ưu điểm của nó là gì",
+                        "a": "LOTEOMAXX là một gói vé với số lượng khác nhau - 10, 20, 50 hoặc 100 vé. Giá của gói LOTEOMAXX bao gồm các token LOTEU được sử dụng để tăng cơ hội giành chiến thắng của bạn. Chủ sở hữu có thể sử dụng vé với token theo sở thích của mình để tham gia bất cứ lúc nào với bất kỳ số tiền nào, điều này làm tăng cơ hội trúng thưởng."
+                    },
+                    {
+                        "q": "Lợi ích của chương trình liên kết",
+                        "a": "Một đối tác liên kết được thưởng từ các hoạt động của một người dùng mới đã đăng ký nền tảng thông qua liên kết giới thiệu của đối tác. Đối tác liên kết sẽ nhận được phần thưởng là 50 token LOTEU cho tài khoản đang hoạt động của người dùng mới. Đối tác có quyền được thưởng với mỗi LOTEOPASS hoặc LOTEOMAXX được bán, cũng như họ nhận được 4%  giá trị vé được mua bởi một người dùng mới đăng ký trong nhánh liên kết đầu tiên của đối tác."
+                    },
+                    {
+                        "q": "\"Tài khoản hoạt động\" có nghĩa là gì?",
+                        "a": "Một tài khoản người dùng mới tạo ra hoạt động bằng cách mua và sử dụng bất kỳ sản phẩm LOTEO nào."
+                    },
+                    {
+                        "q": "Chương trình không gian là gì?",
+                        "a": "Chương trình không gian hướng đến các đối tác liên kết tốt nhất. Phần thưởng sẽ được phân phối cho họ theo kết quả hoạt động của đối tác. Đối với chương trình này, LOTEO đã tạo ra các nhóm 1%, 2% và 3% trong số tất cả token của công ty. Các đối tác liên kết bán vé sẽ được thưởng theo tỷ lệ hoa hồng với pool thích hợp. Do đó, token LOTES tạo thu nhập thụ động cho tất cả những người tham gia trong ba pool hoa hồng như nhau. Chương trình bị giới hạn thời gian với khả năng kéo dài thêm. Để biết thêm thông tin xem phần Liên kết."
+                    },
+                    {
+                        "q": "Các phương thức thanh toán là gì?",
+                        "a": "Vào ngày ra mắt nền tảng LOTEO, cách duy nhất có thể để mua vé là bằng ETH. Trong tương lai gần, một loạt các tùy chọn thanh toán sẽ có sẵn, bắt đầu với BTC, sau đó là EUR sử dụng thẻ tín dụng, chuyển khoản ngân hàng, thanh toán qua tin nhắn di động (SMS) hoặc các loại hình khác, chẳng hạn như tiền mặt, PayPal, v.v."
+                    },
+                    {
+                        "q": "Tại sao là Google Authenticator?",
+                        "a": "Google Authenticator là một tính năng an toàn để ngăn chặn đăng nhập trái phép vào tài khoản của bạn."
+                    },
+                    {
+                        "q": "Có thể chuyển nhượng vé?",
+                        "a": "Nền tảng của chúng tôi cho phép chuyển các vé đã mua giữa những người tham gia đã đăng ký."
+                    },
+                    {
+                        "q": "Cơ hội nhân đôi là gì và làm thế nào để có được nó?",
+                        "a": "Bạn có thể nhân đôi cơ hội trúng xổ số mà không cần tăng giá vé. Nó có thể được thực hiện khi bạn sử dụng 100 vé LOTEU để tham gia xổ số bổ sung hoặc mua một vé năm LOTEOPASS. Số vé của bạn được nhân đôi trong pool và do đó tỷ lệ thắng của bạn sẽ tăng gấp đôi."
+                    }
+                ],
+                "legal": [
+                    {
+                        "q": "Trụ sở chính của LOTEO nằm ở đâu?",
+                        "a": "LOTEO đã thành lập một công ty mẹ ở Curacao để nhận giấy phép kinh doanh cờ bạc trực tuyến toàn cầu với một công ty con ở Síp."
+                    },
+                    {
+                        "q": "Tôi có phải trả thuế không?",
+                        "a": "Mỗi quốc gia có quy định về thuế riêng. Trong trường hợp trúng giải, bất kỳ khoản thuế nào ở quốc gia cư trú của bạn thuộc trách nhiệm của bạn."
+                    },
+                    {
+                        "q": "Quay số là ngẫu nhiên 100%?",
+                        "a": "Chắc chắn là như vậy. Nhờ TRNG hiệu quả cao - Trình tạo số ngẫu nhiên tin cậy - số được tạo ra là ngẫu nhiên 100%. Bạn có thể thấy chứng chỉ TRNG trong phần tải xuống."
+                    },
+                    {
+                        "q": "Có phải LOTEO được kết nối với tổ chức từ thiện?",
+                        "a": "1% tổng giải thưởng sẽ được trao cho một tổ chức từ thiện."
+                    },
+                    {
+                        "q": "Các quốc gia và cư dân của họ bị cấm chơi trên nền tảng của chúng tôi",
+                        "a": "Người dân từ các quốc gia sau: i) Hợp chủng quốc Hoa Kỳ và các lãnh thổ của nó; ii) Hà Lan (bao gồm Curacao và các quốc gia và vùng lãnh thổ khác tạo thành một phần Vương quốc Hà Lan); iii) Cộng hòa Dân chủ Nhân dân Triều Tiên; và bất kỳ quốc gia nào khác có thể cấm việc cung cấp cờ bạc trực tuyến cho cư dân của mình hoặc cho bất kỳ người nào trong quốc gia đó. Cờ bạc trên Internet có thể là bất hợp pháp ở khu vực pháp lý mà bạn sống, chủ yếu nhưng không chỉ riêng ở Úc, Aruba, Bonaire, Curacao, Síp, Pháp, Hà Lan, Saba, Statia, St Martin, Hoa Kỳ hoặc bất kỳ khu vực pháp lý nào khác mà Chính phủ Trung ương Curacao (trước đây là Antilles của Hà Lan) coi cờ bạc trực tuyến là bất hợp pháp."
+                    }
+                ],
+                "crypto": [
+                    {
+                        "q": "Token nào được cung cấp bởi LOTEO?",
+                        "a": "LOTEO phát hành hai loại token - LOTES và LOTEU. Token chứng quyền LOTES cấp cho chủ sở hữu cơ hội kiếm lợi nhuận từ doanh thu của nền tảng. LOTEU là token tiện ích với khả năng nhân đôi số vé của bạn trong pool thưởng và do đó nhân đôi cơ hội trúng xổ số, tuy nhiên, bạn cũng có thể sử dụng nó trong các trò chơi tức thời trên nền tảng LOTEO."
+                    },
+                    {
+                        "q": "Tại sao token LOTES bị khóa?",
+                        "a": "LOTES token bị khóa trong 15 tháng sau khi mua, trong thời gian này người mua không thể sử dụng nó. Trong khi đó, sự ra mắt của nền tảng LOTEO và thử nghiệm của nó diễn ra. Sau 15 tháng, token sẽ được mở khóa và sẵn sàng để sử dụng hoặc bán."
+                    },
+                    {
+                        "q": "Làm thế nào để kiếm lợi nhuận từ xổ số?",
+                        "a": "Mua và nắm giữ token LOTES có nghĩa là thu lợi nhuận từ nền tảng LOTEO. 20% tổng doanh thu nền tảng được phân phối cho chủ sở hữu token LOTES. Số tiền này được phân phối ngay lập tức bằng các hợp đồng thông minh cho chủ sở hữu token LOTES theo số lượng họ giữ."
+                    },
+                    {
+                        "q": "Tôi có thể nhận được token LOTES và LOTEU bằng cách nào?",
+                        "a": "LOTES token sẽ được bán độc quyền trong các vòng Private Funding. Trong vòng đầu tiên, diễn ra từ ngày 1 tháng 3 năm 2019 đến ngày 30 tháng 4 năm 2019, 50 triệu token sẽ được bán với giá 0,05 EUR mỗi vé. Trong vòng thứ hai, bắt đầu từ ngày 1 tháng 8 năm 2020 và kết thúc vào ngày 9 tháng 9 năm 2020 hoặc khi vẫn còn, 30 triệu LOTES token sẽ được bán với giá 0,10 EUR mỗi token. LOTEU token có thể thu được qua airdrops, chương trình liên kết, trong các cuộc thi cộng đồng cũng như trên thị trường giao dịch."
+                    },
+                    {
+                        "q": "Tôi có thể chơi qua Metamask không?",
+                        "a": "Mỗi chủ sở hữu ví ETH hoặc metamask có thể tham gia trò chơi mà không cần phải đăng ký trên nền tảng của chúng tôi."
+                    },
+                    {
+                        "q": "Tôi có thể xem hợp đồng thông minh ở đâu?",
+                        "a": "Hợp đồng thông minh có thể được theo dõi trên cả GitHub và Etherscan."
+                    }
+                ]
+            }
+        }
+    },
+    "airdrop": {
+        "title": "Airdrop Loteo vòng 3",
+        "helmet": "LOTEO - Xổ số trên Blockchain minh bạch",
+        "href": "Airdrop Loteo vòng 3"
+    },
+    "airdropThankYou": {
+        "helmet": "LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Cảm ơn",
+        "content": {
+            "title": "Xin chào moonvisitor!",
+            "p": "Xin chúc mừng bạn đã tham gia thành công Hướng dẫn Airdrop và giúp chúng tôi phát triển!<br \/> Bạn sẽ nhận được LOTEU trực tiếp trên nền tảng sau khi kết thúc toàn bộ airdrop. <br \/>Hãy nhớ theo dõi các trang xã hội của chúng tôi và tham gia Nhóm Telegram để nhận tất cả thông tin quan trọng sớm nhất.<br \/> Bạn có thể nhân số lượng LOTEU của mình bằng cách chơi ngay game đầu tiên của chúng tôi Moon Of Fortune. Và nhân tiện, bạn có thể giành được một vé tham gia xổ số hàng tuần.<br \/><br \/> Chúc một ngày tốt lành và cảm ơn bạn đã tham gia sứ mệnh đặt chân lên Mặt trăng của Loteo."
+        }
+    },
+    "balanceCard": {
+        "balance": "Số dư",
+        "comingSoon": "Sắp có",
+        "loading": "Đang tải...",
+        "alts": [
+            {
+                "alt": "biểu tượng thẻ"
+            },
+            {
+                "alt": "mở"
+            }
+        ]
+    },
+    "contactUs": {
+        "messageSent": "Tin nhắn đã gửi",
+        "thankYou": "Cảm ơn tin nhắn của bạn! Chúng tôi sẽ liên lạc lại với bạn sớm nhất có thể.",
+        "okText": "OK",
+        "sending": "ĐANG GỬI...",
+        "send": "GỬI",
+        "yourName": "Tên của bạn",
+        "email": "Email",
+        "message": "Tin nhắn",
+        "investing": "Tôi đang nghĩ về việc đầu tư",
+        "andMore": "và thêm nữa",
+        "investments": [
+            {
+                "value": "1000 - 5000"
+            },
+            {
+                "value": "5000 - 10 000"
+            },
+            {
+                "value": "10 000 - 100 000"
+            },
+            {
+                "value": "100 000"
+            }
+        ]
+    },
+    "inviteFriendsSection": {
+        "t1": "Trở thành đối tác liên kết",
+        "t2": "Mời bạn bè và chơi miễn phí!",
+        "p": [
+            "Nhận phần thưởng",
+            "ít nhất 40% từ doanh thu nền tảng",
+            "nhờ chương trình không gian của chúng tôi."
+        ],
+        "learnMore": "Tìm hiểu thêm"
+    },
+    "drawDialog": {
+        "eth": "ETH",
+        "title": "Rất gần cơ hội trở thành <br\/>hành khách tiếp theo ghé thăm mặt trăng",
+        "loading": "Đang tiến hành quay xổ số",
+        "backToDashboard": "Quay lại Bảng điều khiển",
+        "btnText": "Hiển thị kết quả"
+    },
+    "drawVideo": {
+        "eth": "ETH",
+        "video": "Trình duyệt của bạn không hỗ trợ tag video.",
+        "backToDashboard": "Quay lại Bảng điều khiển",
+        "unmute": "Bật tiếng",
+        "mute": "Tắt tiếng",
+        "skip": "Bỏ qua",
+        "alts": [
+            {
+                "alt": "phát"
+            },
+            {
+                "alt": "bật tiếng"
+            },
+            {
+                "alt": "tắt tiếng"
+            },
+            {
+                "alt": "bỏ qua"
+            }
+        ]
+    },
+    "etherscanLink": {
+        "check": "Kiểm tra trên Etherscan",
+        "alts": [
+            {
+                "alt": "eterscan"
+            }
+        ]
+    },
+    "moonVisitors": {
+        "title": "Người ghé thăm mặt trăng",
+        "alts": [
+            {
+                "alt": "mặt trăng"
+            },
+            {
+                "alt": "ảnh nền"
+            }
+        ],
+        "gameTitle": "TRÒ CHƠI XỔ SỐ"
+    },
+    "paymentDialog": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "alts": [
+            {
+                "alt": "bullet"
+            },
+            {
+                "alt": "quay lại"
+            },
+            {
+                "alt": "ethereum"
+            },
+            {
+                "alt": "mở"
+            },
+            {
+                "alt": "bitcoin"
+            }
+        ],
+        "back": "Quay lại tùy chọn",
+        "messagePanel": {
+            "title": "Thanh toán thành công",
+            "text": "Bạn đã thanh toán thành công! Bây giờ bạn có thể sử dụng vé của mình để tham gia xổ số.",
+            "okText": "Đi đến bảng điều khiển",
+            "cancelText": "Tôi sẽ sử dụng vé sau",
+            "closeText": "Đóng",
+            "loteuText": "Giờ đây, bạn có thể chơi các trò chơi tùy chỉnh như Apollo 11, Moon of Fortune và các game khác được phát triển riêng cho LOTEU. Những người khác có tính năng đặc biệt bằng cách sử dụng LOTEU",
+            "playText": "Chơi"
+        },
+        "dialog": [
+            {
+                "title": "Tùy chọn thanh toán",
+                "subTitle": "Chọn phương thức thanh toán ưa thích",
+                "info": "Gửi tiền thanh toán <strong>{{payment}}<\/strong> đến địa chỉ sau"
+            },
+            {
+                "title": "Tùy chọn thanh toán",
+                "subTitle": "Chọn phương thức thanh toán ưa thích",
+                "paymentOptions": {
+                    "summary": {
+                        "title": "Tổng kết",
+                        "label": "Tổng cộng",
+                        "price": [
+                            {
+                                "row": "Xổ số hàng tuần"
+                            },
+                            {
+                                "row": "Loteo Pass"
+                            },
+                            {
+                                "row": "Loteo Maxx 10"
+                            },
+                            {
+                                "row": "Loteo Maxx 20"
+                            },
+                            {
+                                "row": "Loteo Maxx 50"
+                            },
+                            {
+                                "row": "Loteo Maxx 100"
+                            },
+                            {
+                                "row": "Loteu"
+                            }
+                        ]
+                    },
+                    "payMethods": {
+                        "t1": "Khấu trừ từ số dư",
+                        "name1": "Ví Ethereum của tôi",
+                        "card1": "Ví Bitcoin của tôi",
+                        "t2": "Tạo thanh toán mới",
+                        "card2": "Tiền mã hóa",
+                        "card3": "Thẻ tín dụng",
+                        "card4": "Chuyển khoản ngân hàng",
+                        "card5": "SMS",
+                        "card6": "Thanh toán toàn cầu"
+                    },
+                    "otherPayment": {
+                        "title": "Chọn tiền mã hóa",
+                        "name1": "Ethereum",
+                        "info1": "Tạo chi tiết thanh toán",
+                        "name2": "Bitcoin",
+                        "info2": "SẮP CÓ"
+                    },
+                    "confirmation": {
+                        "text1": [
+                            {
+                                "span": "Bạn"
+                            },
+                            {
+                                "span": "không có đủ tiền"
+                            },
+                            {
+                                "span": "trong Ví ETH của bạn để thanh toán cho giao dịch."
+                            }
+                        ],
+                        "info": "Chọn phương thức thanh toán khác hoặc nạp tiền vào ví của bạn.",
+                        "text2": [
+                            {
+                                "span": "Bạn"
+                            },
+                            {
+                                "span": "sẽ bị tính phí"
+                            },
+                            {
+                                "span": "từ ví Loteo Ethereum"
+                            }
+                        ],
+                        "btn1": "Đang xử lý thanh toán ...",
+                        "btn2": "Xác nhận thanh toán"
+                    }
+                }
+            }
+        ],
+        "title": "Tổng hợp và thanh toán",
+        "tabs": [
+            {
+                "alt": "Tổng kết"
+            },
+            {
+                "alt": "Phương thức thanh toán"
+            }
+        ],
+        "goToPaymentMethod": "Chuyển đến phương thức thanh toán",
+        "copied": "Đã sao chép",
+        "copy": "Sao chép",
+        "qrCodeValid": "Mã QR hợp lệ trong",
+        "total": "TỔNG CỘNG",
+        "payWithEth": "Thanh toán bằng Ethereum",
+        "errorDialog": [
+            {
+                "text": "Bạn không thể mua ít hơn 100 Loteu"
+            },
+            {
+                "text": "Bạn không thể mua ít hơn 10 EUR"
+            }
+        ]
+    },
+    "prizes": {
+        "percentage": [
+            {
+                "value": "75"
+            },
+            {
+                "value": "20"
+            },
+            {
+                "value": "4"
+            },
+            {
+                "value": "1"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "chia giải thưởng"
+            }
+        ],
+        "target": [
+            {
+                "name": "Người trúng xổ số"
+            },
+            {
+                "name": "Chủ sở hữu Lotes",
+                "detail": "20% giải thưởng mỗi vòng quay số sẽ được phân phối lại cho các chủ sở hữu LOTES, tương ứng với số lượng LOTES mà mỗi người dùng sở hữu"
+            },
+            {
+                "name": "Được thưởng cho đối tác liên kết đã mời người dùng"
+            },
+            {
+                "name": "Tổ chức từ thiện được cộng đồng LOTEO lựa chọn"
+            }
+        ]
+    },
+    "ticketCard": {
+        "label": "Số lượng vé",
+        "alts": [
+            {
+                "alt": "icon"
+            },
+            {
+                "alt": "trừ"
+            },
+            {
+                "alt": "thêm"
+            }
+        ]
+    },
+    "ticketSelector": {
+        "eur": "EUR",
+        "btc": "BTC",
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "đóng"
+            },
+            {
+                "alt": "vé"
+            },
+            {
+                "alt": "trừ"
+            },
+            {
+                "alt": "cộng"
+            },
+            {
+                "alt": "cơ hội"
+            },
+            {
+                "alt": "thành công"
+            },
+            {
+                "alt": "đồng ý"
+            },
+            {
+                "alt": "Kéo xuống"
+            }
+        ],
+        "header": {
+            "title": "Xổ số hàng tuần Loteo",
+            "text": "Thoát khỏi trò chơi",
+            "learnMore": "Tìm hiểu thêm về trò chơi này"
+        },
+        "prizesCounter": {
+            "label": "Trò chơi bắt đầu trong"
+        },
+        "playArea": {
+            "title": "Chọn số lượng vé để chơi",
+            "text": "Cơ hội trúng thưởng thực sự của bạn là",
+            "label": "Vé"
+        },
+        "loteuSection": {
+            "title": "Nhân đôi vé của bạn với LOTEU và tăng cơ hội trúng thưởng.",
+            "text": "Khi bạn mua một vé bổ sung để tham gia xổ số với 100 LOTEU, bạn sẽ được nhân đôi cơ hội trúng thưởng.",
+            "label": "Sử dụng Loteu",
+            "availableLoteu": "LOTEU khả dụng",
+            "availableTicket": "Vé khả dụng",
+            "ticketLabel": "vé",
+            "buyMoreLoteu": "MUA THÊM LOTEU",
+            "buyMoreTicket": "MUA THÊM VÉ",
+            "loteuToDoubleChance": "100 LOTEU = nhân đôi cơ hội chiến thắng",
+            "chooseTicket": "Chọn số lượng vé để chơi:",
+            "yourChanceIs": "Cơ hội giành chiến thắng của bạn là",
+            "comingPlatform": "Bạn sẽ sớm có thể mua LOTEU ngay từ nền tảng LOTEO",
+            "needBuyTickets": "Bạn cần mua vé để tham gia xổ số",
+            "scrollInfo": "Kéo xuống để mua vé",
+            "loteuRate": "100 LOTEU = {{rate}} EUR",
+            "loteuReminder": "Đừng quên sử dụng LOTEU <br\/>để tăng cơ hội trúng thưởng!"
+        },
+        "processInfo": {
+            "message": "Vé đã gửi thành công",
+            "chanceInfo": "Cơ hội trúng thưởng của bạn trong thời gian tham gia trò chơi là",
+            "text1": "Tuyệt quá! Nhờ <strong>LOTEU<\/strong> bạn đã nhân đôi được cơ hội trúng thưởng!",
+            "text2": "Lần tới hãy sử dụng <strong>LOTEU<\/strong> để nhân đôi cơ hội trúng thưởng!"
+        },
+        "bottomPanel": {
+            "title": "Tổng kết vé",
+            "info": "Vé + Loteu",
+            "tickets": {
+                "single": "vé",
+                "more": "vé"
+            },
+            "btn0": "HIỆN QUY TẮC",
+            "btn1": "ĐI ĐẾN BẢNG ĐIỀU KHIỂN",
+            "btn2": {
+                "process": "ĐANG XỬ LÝ...",
+                "play": "CHƠI LẠI",
+                "enter": "THAM GIA XỔ SỐ"
+            },
+            "btn3": "Đóng"
+        },
+        "ticketShop": {
+            "title": "Mua vé hoặc gói đặc biệt"
+        },
+        "errorDialog": {
+            "title": "Lượt quay số hiện tại đã kết thúc",
+            "text": "Chỉ có thể tham gia trò chơi ít nhất 30 phút trước khi bắt đầu quay số. Vòng này đã kết thúc. Bạn có thể tham gia trò chơi vào ngày tiếp theo sau khi vòng quay số hiện tại kết thúc",
+            "okText": "Ok"
+        },
+        "successDialog": {
+            "close": "Đóng",
+            "increaseChance": "Tăng cơ hội trúng thưởng",
+            "title": "Thành công!",
+            "text": "Bạn đang ở trong trò chơi"
+        }
+    },
+    "ticketShop": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "buyNowBtn": "Mua ngay",
+        "alts": [
+            {
+                "alt": "giỏ hàng"
+            }
+        ],
+        "label": "Thời gian quay số hàng tuần",
+        "bonus": {
+            "title": "ƯU ĐÃI CHÀO MỪNG",
+            "text": "MUA VÉ ĐẦU TIÊN NHẬN 100 LOTEU"
+        },
+        "tickets": [
+            {
+                "title": "Vé",
+                "text": "Một vé tham gia xổ số hàng tuần"
+            },
+            {
+                "title": "Loteo Pass",
+                "text": "Nhận <strong>vé tham gia xổ số cả năm <\/strong> mà không cần tham gia lặp đi lặp lại và trở thành <span>ĐỐI TÁC CAO CẤP<\/span>"
+            },
+            {
+                "title": "Loteo Maxx 10",
+                "text": "Nhận <strong>10 vé tham gia xổ số + 250 LOTEU<\/strong><br \/> Bạn có thể sử dụng vé này bất cứ lúc nào với số lượng bất kỳ."
+            },
+            {
+                "title": "Loteo Maxx 20",
+                "text": "Nhận <strong>20 vé tham gia xổ số + 1000 LOTEU<\/strong><br \/> Bạn có thể sử dụng vé này bất cứ lúc nào với số lượng bất kỳ."
+            },
+            {
+                "title": "Loteo Maxx 50",
+                "text": "Nhận <strong>50 vé tham gia xổ số + 3750 LOTEU<\/strong><br \/> Bạn có thể sử dụng vé này bất cứ lúc nào với số lượng bất kỳ."
+            },
+            {
+                "title": "Loteo Maxx 100",
+                "text": "Nhận <strong>100 vé tham gia xổ số + 10 000 LOTEU<\/strong><br \/> Bạn có thể sử dụng vé này bất cứ lúc nào với số lượng bất kỳ."
+            }
+        ],
+        "summaryPanel": {
+            "label": "Tổng kết",
+            "total": "Tổng cộng"
+        }
+    },
+    "userInfoComponent": {
+        "loading": "Đang tải...",
+        "logout": "Đăng xuất",
+        "profile": "Thông tin của tôi",
+        "soon": "Sắp có",
+        "alts": [
+            {
+                "alt": "Thông tin người dùng"
+            }
+        ],
+        "affiliateStatus": {
+            "PREMIUM": "Đối tác cao cấp",
+            "AFFILIATE": "Đối tác liên kết"
+        }
+    },
+    "loteoPassPopup": {
+        "title1": "LOTEOPASS",
+        "validity": "Có hiệu lực đến",
+        "valueText": "vé còn lại",
+        "title2": "LoteoPasses của tôi",
+        "alts": [
+            {
+                "alt": "đóng"
+            }
+        ]
+    },
+    "coinbackPopup": {
+        "title": "Đã yêu cầu tiền thưởng Coinback!",
+        "text": "đã được chuyển vào.",
+        "alts": [
+            {
+                "alt": "đóng"
+            },
+            {
+                "alt": "ví"
+            }
+        ]
+    },
+    "walletPanel": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "loteu": "Loteu",
+        "lotes": "Lotes",
+        "alts": [
+            {
+                "alt": "đóng"
+            },
+            {
+                "alt": "mặt trăng"
+            },
+            {
+                "alt": "vé"
+            },
+            {
+                "alt": "thông tin"
+            }
+        ],
+        "setTransactionSuccessMessage": "đã được chuyển thành công từ ví Ethereum của bạn.<br\/> Bạn có thể theo dõi quá trình giao dịch trên",
+        "pendingTransactions": {
+            "text": "Ví của bạn có một giao dịch đang diễn ra ...",
+            "link": "Bạn có thể theo dõi quá trình giao dịch trên"
+        },
+        "walletDetails": {
+            "title1": "Vé của tôi",
+            "title2": "Tiền mã hóa của tôi",
+            "btn": "Mở ví",
+            "label": "Xổ số hàng tuần",
+            "apollo11Label": "Xổ số Apollo 11",
+            "myTicket": "VÉ CỦA TÔI"
+        },
+        "walletHeader": {
+            "title": "Ví của tôi"
+        },
+        "nextMoonVisitorInfo": {
+            "title": "Bạn có muốn trở thành hành khách đặt chân lên mặt trăng tiếp theo?",
+            "subTitle": "Mua vé cho lượt quay số tiếp theo",
+            "btn1": "Không, cám ơn",
+            "btn2": "Mua vé"
+        },
+        "currenciesInfo": {
+            "currenciesSection1": {
+                "title1": "Vé của tôi",
+                "loading": "Đang tải...",
+                "title2": "Xổ số hàng tuần",
+                "label1": "Vé khả dụng",
+                "text": "Vé LoteoPass",
+                "label2": "Vé trong trò chơi",
+                "label3": "Được sử dụng trong Coinback",
+                "text3": "Vé",
+                "label4": "Phần thưởng Coinback",
+                "title3": "Xổ số Apollo 11"
+            },
+            "currenciesSection2": {
+                "title": "Tiền mã hóa của tôi"
+            }
+        },
+        "dialog": [
+            {
+                "title1": "Nạp ETH",
+                "title2": "Số dư của bạn",
+                "title3": "Địa chỉ nạp ETH",
+                "name": "Ví Ethereum của tôi",
+                "note": "Sau khi gửi tiền, bạn có thể theo dõi quá trình trên",
+                "title": "Nạp ETH"
+            },
+            {
+                "title1": "Rút ETH",
+                "title2": "Số dư của bạn",
+                "title3": "Địa chỉ rút ETH",
+                "name": "Ví Ethereum của tôi",
+                "error": "Định dạng phải hợp lệ",
+                "placeholder1": "Nhập địa chỉ rút tiền để chuyển ETH",
+                "placeholder2": "Số lượng ETH",
+                "note": "<strong>Xin lưu ý<\/strong><br\/> Sau khi rút tiền, bạn có thể theo dõi quá trình trên",
+                "btn1": "Đang xử lý...",
+                "btn2": "Gửi",
+                "title": "Rút ETH"
+            },
+            {
+                "title": "Giao dịch thành công",
+                "okText": "Đi đến bảng điều khiển"
+            },
+            {
+                "title1": "Nạp Loteu",
+                "title2": "Số dư của bạn",
+                "title3": "Địa chỉ nạp Loteu",
+                "name": "Ví Loteu của tôi",
+                "note": "Sau khi gửi tiền, bạn có thể theo dõi quá trình trên",
+                "title": "Nạp Loteu"
+            },
+            {
+                "title1": "Rút Loteu",
+                "title2": "Số dư của bạn",
+                "title3": "Địa chỉ rút Loteu",
+                "name": "Ví Loteu của tôi",
+                "error": "Định dạng phải hợp lệ",
+                "placeholder1": "Nhập địa chỉ rút tiền để chuyển Loteu",
+                "placeholder2": "Số lượng Loteu",
+                "note": "<strong>Xin lưu ý<\/strong><br\/> Sau khi rút tiền, bạn có thể theo dõi quá trình trên",
+                "btn1": "Đang xử lý...",
+                "btn2": "Gửi",
+                "title": "Rút Loteu"
+            },
+            {
+                "title": "Không đủ tiền để rút",
+                "text": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để rút tiền, <strong>bạn cần có một ít ETH để làm phí giao dịch trong ví<\/strong>.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Rút tiền yêu cầu phí gas để trả cho giao dịch trên mạng Ethereum."
+                },
+                "okText": "Ok"
+            },
+            {
+                "title": "Không đủ tiền để rút LOTEU",
+                "text": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để rút tiền, <strong>bạn cần có ít nhất 0,0132 ETH để làm phí giao dịch trong ví<\/strong>.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Rút tiền yêu cầu phí gas để trả cho giao dịch trên mạng Ethereum."
+                },
+                "okText": "Ok"
+            },
+            {
+                "title": "Nạp BTC",
+                "name": "Ví Bitcoin của tôi",
+                "note": "Sau khi nạp tiền, bạn có thể theo dõi quá trình trên"
+            },
+            {
+                "title": "Rút BTC",
+                "name": "Ví Bitcoin của tôi",
+                "error": "Định dạng phải hợp lệ",
+                "placeholder1": "Nhập địa chỉ rút tiền để chuyển BTC",
+                "placeholder2": "Số lượng BTC",
+                "note": "<strong>Xin lưu ý<\/strong><br\/> Sau khi rút tiền, bạn có thể theo dõi quá trình trên"
+            },
+            {
+                "title": "Không đủ tiền để rút BTC",
+                "text": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để rút tiền, <strong>bạn cần có ít nhất 0,000137 BTC để làm phí giao dịch trong ví<\/strong>.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Rút tiền yêu cầu phí giao dịch trên mạng Bitcoin."
+                },
+                "okText": "Ok"
+            }
+        ],
+        "max": "TỐI ĐA",
+        "withdraw": {
+            "balanceTitle": "Số dư của bạn",
+            "addressTitle": "Địa chỉ rút tiền",
+            "max": "TỐI ĐA",
+            "processingButton": "Đang xử lý...",
+            "submitButton": "Gửi"
+        },
+        "deposit": {
+            "balanceTitle": "Số dư của bạn",
+            "addressTitle": "Địa chỉ nạp tiền"
+        },
+        "ticketReminder": {
+            "title": "Đừng quên sử dụng vé của bạn!",
+            "text": "Nếu bạn muốn tham gia bốc thăm hàng tuần sắp tới, bạn cần sử dụng vé của mình.",
+            "close": "Đóng",
+            "useTicket": "Sử dụng vé"
+        }
+    },
+    "authOverlay": {
+        "alts": [
+            {
+                "alt": "Logo"
+            }
+        ],
+        "text": "Kiểm tra xác thực"
+    },
+    "userForm": {
+        "loading": "Đang tải...",
+        "alts": [
+            {
+                "alt": "avatar"
+            },
+            {
+                "alt": "mfa"
+            }
+        ],
+        "form": [
+            {
+                "label": "Avatar",
+                "btn": "Tải lên avatar mới"
+            },
+            {
+                "label": "Tên đăng nhập"
+            },
+            {
+                "label": "Email"
+            },
+            {
+                "label": "Quốc gia"
+            },
+            {
+                "label": "Telegram",
+                "input": "Nhập tên người dùng Telegram của bạn tại đây"
+            },
+            {
+                "label": "Bật xác thực 2 yếu tố"
+            },
+            {
+                "label": "Địa chỉ ETH",
+                "loading": "Đang tải..."
+            },
+            {
+                "saving": "Đang lưu...",
+                "saved": "Thay đổi đã lưu",
+                "save": "Lưu thay đổi"
+            }
+        ]
+    },
+    "messagePanel": {
+        "alts": [
+            {
+                "alt": "thông tin"
+            }
+        ],
+        "okText": "OK",
+        "cancelText": "Hủy"
+    },
+    "userProfile": {
+        "alts": [
+            {
+                "alt": "Thông tin người dùng"
+            }
+        ],
+        "logout": "Đăng xuất",
+        "tabs": [
+            {
+                "name": "Tài khoản"
+            }
+        ]
+    },
+    "background": {
+        "alts": [
+            {
+                "alt": "mặt trăng"
+            },
+            {
+                "alt": "tỏa sáng"
+            },
+            {
+                "alt": "bìa cuối"
+            }
+        ]
+    },
+    "backgroundTexture": {
+        "alts": [
+            {
+                "alt": "các yếu tố nền tảng"
+            }
+        ]
+    },
+    "question": {
+        "alts": [
+            {
+                "alt": "mở rộng thanh cuộn"
+            }
+        ]
+    },
+    "homeTopBackground": {
+        "alts": [
+            {
+                "alt": "mặt trăng"
+            },
+            {
+                "alt": "bìa cuối"
+            }
+        ]
+    },
+    "lastWinners": {
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "danh hiệu"
+            }
+        ],
+        "loteu": "LOTEU",
+        "DAILY": "Xổ số hàng ngày",
+        "WEEKLY": "Xổ số hàng tuần",
+        "APOLLO_11": "Apollo 11",
+        "SPECIAL_APOLLO_11": "Special Apollo 11",
+        "watchDraw": "Xem quay số",
+        "DAILYMOBILE": "Hàng ngày",
+        "WEEKLYMOBILE": "Hàng tuần",
+        "APOLLO_11MOBILE": "Apollo 11 hàng ngày",
+        "SPECIAL_APOLLO_11MOBILE": "Special Apollo 11"
+    },
+    "networks": {
+        "alts": [
+            {
+                "alt": "Telegram"
+            },
+            {
+                "alt": "Twitter"
+            },
+            {
+                "alt": "Instagram"
+            },
+            {
+                "alt": "Linkedin"
+            },
+            {
+                "alt": "Facebook"
+            },
+            {
+                "alt": "reddit"
+            },
+            {
+                "alt": "github"
+            },
+            {
+                "alt": "youtube"
+            },
+            {
+                "alt": "bitcointalk"
+            }
+        ]
+    },
+    "newsBanner": {
+        "alts": [
+            {
+                "alt": "bullet"
+            }
+        ],
+        "mockedNews": [
+            {
+                "text": "CHƯƠNG TRÌNH LIÊN KẾT BA CẤP ĐỘC ĐÁO CỦA LOTEO - CHƠI & CHIẾN THẮNG & KIẾM TIỀN"
+            },
+            {
+                "text": "Loteopass - Trở thành đối tác cao cấp và nhận ƯU ĐÃI đặc biệt vào tháng 6"
+            },
+            {
+                "text": "LOTEO THÔNG BÁO RA MẮT CHÍNH THỨC"
+            },
+            {
+                "text": "KẾ HOẠCH YOUTUBE LOTEO - HỌC VIỆN LOTEO VÀ TV"
+            }
+        ],
+        "loteoNews": "tin tức loteo",
+        "loading": "Đang tải..."
+    },
+    "partner": {
+        "alts": [
+            {
+                "alt": "Logo"
+            }
+        ]
+    },
+    "scrollInfo": {
+        "alts": [
+            {
+                "alt": "Kéo xuống"
+            }
+        ]
+    },
+    "ticketSummaryCard": {
+        "alts": [
+            {
+                "alt": "thẻ tổng hợp"
+            },
+            {
+                "alt": "thông tin"
+            }
+        ]
+    },
+    "button": {
+        "alts": [
+            {
+                "alt": "biểu tượng nút"
+            }
+        ]
+    },
+    "dialog": {
+        "alts": [
+            {
+                "alt": "đóng"
+            }
+        ]
+    },
+    "bonusDialog": {
+        "title1": "Giành LOTEU!",
+        "title2": "Hoàn thành hướng dẫn airdrop của chúng tôi",
+        "title3": "và tìm mã bí mật ở phần cuối",
+        "btn1": "Bắt đầu"
+    },
+    "messageContextProvider": {
+        "close": "Đóng"
+    },
+    "copyField": {
+        "copied": "Đã sao chép",
+        "copy": "Sao chép"
+    },
+    "countInfo": {
+        "valueLeft": "rời"
+    },
+    "dashboard": {
+        "scrollInfo": "Kéo xuống để mua vé lên Mặt trăng",
+        "buyTickets": "Mua vé",
+        "unknown": "mr.không rõ",
+        "errors": [
+            {
+                "title": "Bạn không có vé",
+                "text": "Bạn cần mua vé số trước và sau đó bạn có thể tham gia Xổ số Loteo hàng tuần.",
+                "okText": "Mua vé",
+                "cancelText": "Hủy"
+            },
+            {
+                "title": "Không đủ tiền để tham gia trò chơi",
+                "text": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để tham gia xổ số, <strong>bạn cần có ít nhất 0,017 ETH trong ví của mình<\/strong>. Hãy nạp tiền vào ví.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Việc tham gia xổ số yêu cầu một giao dịch trực tuyến trên mạng lưới Ethereum. Mỗi giao dịch trực tuyến yêu cầu một khoản phí, và chúng tôi tính 0,017 ETH. Nguyên nhân là do chúng tôi muốn đảm bảo mọi sự tham gia đều minh bạch và hiển thị trực tiếp trên mạng Ethereum. Chúng tôi đang làm việc rất chăm chỉ để làm cho mức phí này thấp nhất có thể."
+                },
+                "okText": "Ok"
+            }
+        ],
+        "leaderboard": {
+            "leaderboard": "Bảng xếp hạng",
+            "gameTitle": "TRÒ CHƠI LOTEO",
+            "game": "TRÒ CHƠI",
+            "users": "NGƯỜI DÙNG\/TUẦN",
+            "tickets": "VÉ\/TUẦN",
+            "totalAmount": "TỔNG SỐ LƯỢNG\/TUẦN",
+            "weeklyLottery": {
+                "title": "XỔ SỐ HÀNG TUẦN",
+                "currency": "ETH",
+                "winText": "CHIẾN THẮNG",
+                "users": "VÉ\/TUẦN"
+            },
+            "apollo11Lottery": {
+                "title": "XỔ SỐ APOLLO 11",
+                "currency": "LOTEU",
+                "winText": "CHIẾN THẮNG",
+                "users": "VÉ\/TUẦN"
+            },
+            "moonOfFortune": {
+                "title": "MOON OF FORTUNE",
+                "currency": "LOTEU",
+                "winText": "KHỐI LƯỢNG",
+                "users": "NGƯỜI DÙNG\/TUẦN"
+            },
+            "winnerOfTheWeek": "Người trúng giải trong tuần",
+            "loteu": "LOTEU"
+        }
+    },
+    "gamesInfo": {
+        "title": "Chi tiết trò chơi | LOTEO - Xổ số trên Blockchain minh bạch"
+    },
+    "headerTabs": [
+        {
+            "name": "Xổ số hàng tuần"
+        },
+        {
+            "name": "Xổ số hàng ngày"
+        },
+        {
+            "name": "Moon of Fortune"
+        },
+        {
+            "name": "Phòng Rekt"
+        },
+        {
+            "name": "Sự kiện đặc biệt"
+        },
+        {
+            "name": "Giải đấu Loteo"
+        },
+        {
+            "name": "Xổ số Apollo 11"
+        },
+        {
+            "name": "Fomo"
+        },
+        {
+            "name": "Jacks or Better"
+        },
+        {
+            "name": "Dice"
+        }
+    ],
+    "unavailable": {
+        "roadmap": "*Theo lộ trình",
+        "comingSoon": "sắp có"
+    },
+    "gameWallet": {
+        "title": "LOTEU",
+        "sections": [
+            {
+                "title": "Giao dịch thành công!",
+                "text": "Bây giờ bạn có thể đặt tiền CƯỢC và quay The Moon of Fortune.",
+                "buttonText": "Chơi"
+            },
+            {
+                "text": "Rút tiền"
+            },
+            {
+                "text": "Nạp tiền"
+            },
+            {
+                "title": "Nạp LOTEU và chơi!",
+                "text": "Để chơi, bạn cần gửi LOTEU từ ví Loteo của mình.",
+                "buttonText": "Ok, tôi đã hiểu"
+            },
+            {
+                "title": "Rút LOTEU",
+                "balanceCardCurrency": "Trò chơi",
+                "inputLabel": "Số tiền cần rút",
+                "buttonText": "Rút toàn bộ"
+            },
+            {
+                "title": "Nạp LOTEU",
+                "balanceCardCurrency": "LOTEU",
+                "inputLabel": "Số tiền nạp",
+                "buttonText": "Nạp tiền"
+            }
+        ],
+        "pendingTransactions": {
+            "text": "Ví của bạn có một giao dịch đang diễn ra ...",
+            "link": "Bạn có thể theo dõi quá trình giao dịch trên"
+        },
+        "errors": [
+            {
+                "title": "Không đủ tiền để tham gia trò chơi",
+                "text": "Bạn không có đủ số dư trong ví của mình. Để chơi Moon of Fortune, <strong>bạn cần có ít nhất 0,017 ETH trong ví. <\/strong>Vui lòng nạp thêm tiền.",
+                "confirm": "Ok"
+            }
+        ],
+        "myBalance": "Số dư của tôi"
+    },
+    "moonOfFortuneControls": {
+        "segOpt": [
+            {
+                "v": "10"
+            },
+            {
+                "v": "20"
+            },
+            {
+                "v": "30"
+            },
+            {
+                "v": "40"
+            },
+            {
+                "v": "50"
+            }
+        ],
+        "btnHalf": "½",
+        "btnTwo": "2x",
+        "title": "Moon<br \/>of Fortune",
+        "betAmount": "Số tiền đặt cược",
+        "loteu": "LOTEU",
+        "max": "TỐI ĐA",
+        "risk": {
+            "title": "Rủi ro",
+            "options": [
+                {
+                    "value": "Cao"
+                },
+                {
+                    "value": "Trung bình"
+                },
+                {
+                    "value": "Thấp"
+                }
+            ]
+        },
+        "segments": "Phân khúc",
+        "bet": "ĐẶT CƯỢC",
+        "showRules": "Hiển thị các quy tắc",
+        "rules": [
+            "Các chế độ được cấu hình thông qua rủi ro và hệ số nhân xác định những khoản thanh toán tiềm năng khác nhau",
+            "Không làm giả vòng quay",
+            "1% nhà cái",
+            "GIÀNH tối đa 1 000 000 LOTEU mỗi lần ĐẶT CƯỢC"
+        ]
+    },
+    "myAffiliate": {
+        "alts": [
+            {
+                "text": "Đối tác cao cấp"
+            }
+        ],
+        "helmet": "LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Tùy bạn lựa chọn",
+        "titleSpan": "Tuyến trên của tôi:",
+        "subtitle1": "Thống kê liên kết của tôi",
+        "subtitle2": "Đối tác liên kết của tôi",
+        "subtitle3": "Thống kê chương trình không gian",
+        "subtitle4": "Trạng thái VIP",
+        "loading": "ĐANG TẢI",
+        "tabs": [
+            {
+                "name": "Số liệu thống kê"
+            },
+            {
+                "name": "Đối tác liên kết của tôi"
+            }
+        ],
+        "progressInfo": {
+            "alts": [
+                {
+                    "alt": "Đối tác cao cấp"
+                },
+                {
+                    "alt": "Đối tác liên kết"
+                },
+                {
+                    "alt": "Đã khóa"
+                },
+                {
+                    "alt": "Đã mở khóa"
+                }
+            ],
+            "unlockedHeader": "Bạn là",
+            "premiumPartner": {
+                "title": "ĐỐI TÁC CAO CẤP",
+                "subtitle": "Trở thành đối tác cao cấp và được tiếp cận với nhiều phần thưởng."
+            },
+            "affiliatePartner": {
+                "title": "ĐỐI TÁC LIÊN KẾT",
+                "subtitle": "Trở thành đối tác liên kết, mở khóa tuyến liên kết và phần thưởng đặc biệt."
+            },
+            "buyPass": "Mua Loteopass để MỞ KHÓA PHẦN THƯỞNG",
+            "buyTicket": "Mua Vé Xổ số để MỞ KHÓA PHẦN THƯỞNG",
+            "unlocked": "đã mở khóa",
+            "unlockables": {
+                "premiumPartner": {
+                    "premiumLine": {
+                        "title": "Tuyến cao cấp",
+                        "lockedText": "Mở khóa tất cả các phần thưởng cho tuyến cao cấp.",
+                        "unlockedText": "Tất cả các phần thưởng cho tuyến Cao cấp đã được mở khóa."
+                    },
+                    "doubleChance": {
+                        "title": "x2 cơ hội",
+                        "lockedText": "Mở khóa nhân đôi cơ hội cho mỗi lần quay số.",
+                        "unlockedText": "Nhân đôi cơ hội cho mỗi lần quay số đã được mở khóa."
+                    },
+                    "spaceProgram": {
+                        "title": "Chương trình không gian"
+                    },
+                    "VIPStatus": {
+                        "title": "Trạng thái VIP"
+                    }
+                },
+                "affiliatePartner": {
+                    "affiliateLine": {
+                        "title": "Tuyến liên kết",
+                        "lockedText": "Mở khóa tất cả các phần thưởng cho tuyến liên kết.",
+                        "unlockedText": "Tất cả các phần thưởng cho tuyến Liên kết đã được mở khóa."
+                    }
+                },
+                "learnMore": "Tìm hiểu thêm"
+            }
+        },
+        "partnersTable": {
+            "headers": [
+                "nickname",
+                "quốc gia",
+                "đối tác",
+                "chương trình không gian",
+                "đã dùng tuần này",
+                "tổng số Vé",
+                "tổng ETH",
+                "trạng thái"
+            ],
+            "empty": "Bạn chưa có đối tác liên kết nào.",
+            "copyText": "Sao chép liên kết liên kết đặc biệt của bạn, chia sẻ nó với bạn bè và chơi hoàn toàn miễn phí!",
+            "copied": "Đã sao chép",
+            "copy": "Sao chép",
+            "status": {
+                "NONE": "KHÔNG",
+                "AFFILIATE": "LIÊN KẾT",
+                "PREMIUM": "CAO CẤP"
+            }
+        },
+        "statisticsTable": {
+            "headers": [
+                {
+                    "name": "Trạng thái của tôi"
+                },
+                {
+                    "name": "Tổng số người dùng"
+                },
+                {
+                    "name": "Người dùng tích cực"
+                },
+                {
+                    "name": "Đã chơi tuần này (Người dùng)"
+                },
+                {
+                    "name": "Đã dùng tuần này (vé)"
+                },
+                {
+                    "name": "Tổng số vé"
+                }
+            ],
+            "bodyNoData": "Không có dữ liệu khả dụng",
+            "soldTickets": "Vé đã bán",
+            "notPremium": {
+                "title": "Bị KHÓA",
+                "text": "Để mở khóa và tham gia chương trình không gian, bạn cần phải là <strong>ĐỐI TÁC LIÊN KẾT CAO CẤP<\/strong>"
+            },
+            "foot": {
+                "title": "Lợi nhuận",
+                "eth": "ETH",
+                "loteu": "LOTEU",
+                "nextPayout": "Thanh toán ETH tiếp theo"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "Tuyến 1"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Chương trình không gian",
+                        "span1": "ĐÃ BÁN",
+                        "span2": "Cấp độ chương trình không gian"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Tuyến dưới",
+                        "span": "NGƯỜI DÙNG"
+                    }
+                }
+            ]
+        },
+        "spaceProgramStatisticsTable": {
+            "header": "Cấp độ chương trình không gian",
+            "foot": {
+                "lastMonth": "Thanh toán tháng trước",
+                "totally": "Tổng số tiền thanh toán cho đối tác không gian của chúng tôi",
+                "eth": "ETH"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "Người dùng"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "ETH"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "ETH mỗi người"
+                    }
+                }
+            ]
+        },
+        "VIPInfo": {
+            "toGet": "để nhận"
+        },
+        "passDialog": {
+            "title": "Mua LoteoPass và trở thành <strong>Đối tác cao cấp<\/strong>",
+            "text": "Là đối tác CAO CẤP, bạn sẽ nhận được quyền tiếp cận với nhiều ưu đãi đặc biệt như chương trình không gian, chương trình VIP, nhân đôi cơ hội  và nhánh liên kết cao cấp.",
+            "ok": "MUA NGAY",
+            "cancel": "Tôi không quan tâm"
+        }
+    },
+    "currencyCardFull": {
+        "loading": "Đang tải...",
+        "withdraw": "Rút tiền",
+        "deposit": "Nạp tiền",
+        "nextPayout": "Thanh toán tiếp theo",
+        "totalPayout": "Tổng thanh toán"
+    },
+    "joyride": {
+        "locale": {
+            "back": "Quay lại",
+            "close": "Đóng",
+            "last": "Kết thúc",
+            "next": "Tiếp theo",
+            "skip": "Bỏ qua"
+        },
+        "video": {
+            "video": "Trình duyệt của bạn không hỗ trợ tag video.",
+            "backToDashboard": "Quay lại Bảng điều khiển",
+            "claimLOTEU": "Yêu cầu LOTEU",
+            "yourCode": "Mã của bạn: ",
+            "unmute": "Bật tiếng",
+            "mute": "Tắt tiếng",
+            "alts": [
+                {
+                    "alt": "phát"
+                },
+                {
+                    "alt": "bật tiếng"
+                },
+                {
+                    "alt": "tắt tiếng"
+                }
+            ]
+        },
+        "dashboard": {
+            "text1": "Bạn chắc chắn muốn cài đặt một số avatar tuyệt vời hoặc tùy chỉnh hồ sơ của bạn .... Mọi thứ hiện ra sau khi nhấn nút Hồ sơ này.",
+            "text2": "Đây là bảng điều khiển ví. Số dư cũng như số lượng vé bạn đã mua của bạn được hiển thị ở đây",
+            "text3": "Nếu chỗ này hiển thị số không, bạn nên tải lại ví của mình trong trường hợp bạn muốn tham gia xổ số.",
+            "text4": [
+                "Xem số dư LOTEU thực tế, một token tiện ích nhân đôi cơ hội của bạn để giành chiến thắng trong mỗi lượt quay số. Bạn có thể tìm thêm thông tin ",
+                "trên liên kết này",
+                ". Bạn có thể nhận được LOTEU như một phần thưởng hoặc mua sớm trên sàn giao dịch. Tìm cách nhận LOTEU dễ dàng ",
+                "vào liên kết này"
+            ],
+            "text5": [
+                "Sau khi đầu tư vào LOTEO, bạn sẽ sớm thấy số tiền có liên quan ở đây. Những lợi ích khi trở thành một nhà đầu tư bên cạnh việc nhận được 20% số tiền từ mỗi lần quay thưởng là gì? Click ",
+                "ở đây",
+                "và tìm hiểu thêm."
+            ],
+            "text6": "Giống như trong cửa hàng điện tử, hãy chọn những sản phẩm phù hợp với bạn nhất và bạn có thể xem tóm tắt về mình dưới đây. Bằng cách nhấn nút mua, bạn sẽ được yêu cầu chọn một tùy chọn thanh toán.",
+            "text7": "Tham gia xổ số bằng cách nhấn vào nút này. Hãy đảm bảo bạn có đủ tiền để có thể tham gia xổ số... Bạn luôn được yêu cầu xác nhận quyết định của mình.",
+            "text8": "Bằng cách click vào đây, bạn có thể nhập ví của mình và thực hiện các thao tác bạn muốn.",
+            "text9": "Đây là giao diện ví đã mở. Ở bên trái phía dưới Vé đã tham gia xổ số, bạn có thể kiểm tra xem mình đã tham gia xổ số thành công sau khi mua vé chưa. Thường xuyên kiểm tra là việc nên làm!",
+            "text10": "Khi bạn click vào nút này, bạn sẽ tìm thấy địa chỉ, mã QR và tất cả thông tin cần thiết.",
+            "text11": [
+                "Tất cả thông tin về xổ số tuần hiện tại có trong một chỗ. Mặc dù nền tảng chạy trên Ethereum, tiền thưởng được tính bằng EUR, tỷ giá giao dịch được cập nhật sau mỗi 5 phút. Giải thưởng cũng được hiển thị theo BTC và ETH. Để kiểm tra hợp đồng, click ",
+                "Kiểm tra trên Etherscan",
+                "để xem cơ hội trúng giải hiện tại của mình, kiểm tra người chiến thắng cuối cùng và thời gian quay số tiếp theo."
+            ],
+            "text12": [
+                "Cũng giống như một vé cố định, hoặc bất kỳ loại vé qua cổng khác, chúng tôi cung cấp vé năm với phần thưởng là nhân đôi cơ hội giành chiến thắng trong cả năm! Thông tin thêm có thể được tìm thấy trong ",
+                "bài viết",
+                ". Nếu bạn muốn trở thành ĐỐI TÁC CAO CẤP, đây là điều bắt buộc."
+            ],
+            "text13": [
+                "Nếu bạn thích chơi với số lượng lớn hơn, đây là thứ dành cho bạn. Chúng tôi chắc chắn cung cấp ưu đãinếu bạn mua thêm vé ... Bạn có thể sử dụng chúng bất cứ lúc nào bạn muốn. Kiểm tra ngay",
+                "ở đây"
+            ],
+            "text14": [
+                "Đây là cơ hội để bạn giành giải đặc biệt mà không cần mua bất kỳ vé nào. Trò chơi tuyệt vời này cho phép bạn có thể sử dụng LOTEU từ airdrops, và nó sẽ bắt đầu sớm. Bạn có thể nhân số token lên nhiều lần của mình hoặc giành vé xổ số hàng tuần. Thực sự quá tuyệt khi bạn có cơ hội trúng xổ số mà không cần phải bỏ tiền túi của mình? Thông tin thêm về Moon of Fortune sẽ sớm được phát hành trên blog của chúng tôi. Kiểm tra",
+                "một trong những bài viết mới nhất của chúng tôi",
+                " để tìm hiểu thêm."
+            ],
+            "text15": [
+                "Nếu bạn có một mạng lưới hoặc một số bạn bè quan tâm đến nền tảng Loteo, đây là cơ hội để bạn kiếm tiền. Giúp chúng tôi phát triển đổi lại bạn sẽ nhận được phần thưởng. Tất cả thông tin về chương trình giới thiệu hào phóng nhất từ trước đến nay có thể được tìm thấy tại ",
+                "bài viết này"
+            ],
+            "text16": "Kết quả xổ số cuối cùng có thể được tìm thấy ở đây... Bạn thậm chí có thể kiểm tra chúng trên etherscan, đây là một trong số nhiều lợi thế của chúng tôi so với xổ số thông thường.",
+            "text17": "Chúng tôi tin rằng bạn sẽ tìm được nhiều niềm vui trên nền tảng. Chúng tôi rất hào phóng trong việc thưởng cho những người giúp chúng tôi phát triển. Quảng bá liên kết giới thiệu của bạn và kiếm LOTEU. Cảm ơn bạn đã tham gia hướng dẫn, gửi thông tin phản hồi của bạn và nếu có bất kỳ câu hỏi nào, hãy hỏi admin của chúng tôi trong Telegram. Thưởng thức video và hãy nhớ người chiến thắng!"
+        }
+    },
+    "loading": "đang tải...",
+    "counter": {
+        "d": "D",
+        "h": "H",
+        "m": "M",
+        "s": "S"
+    },
+    "quitButton": {
+        "alt": "đóng"
+    },
+    "gameWalletDialog": {
+        "title": "Số dư khả dụng",
+        "balance": {
+            "my": "Của tôi",
+            "wallet": "Ví",
+            "loteu": "LOTEU"
+        }
+    },
+    "MESSAGE_WALLET_HAS_PENDING_TRANSACTION": {
+        "title": "Giao dịch đang chờ xử lý",
+        "text": "Ví của bạn có một giao dịch đang diễn ra. Bạn cần đợi cho đến khi giao dịch kết thúc."
+    },
+    "newsInitialState": {
+        "news": "Đang tải tin tức ..."
+    },
+    "shareMoF": {
+        "title": "Trước khi bạn bắt đầu...",
+        "text1": "Chia sẻ Moon of Fortune với bạn bè của bạn và",
+        "text2": "nhận 100+ LOTEU vào ví của bạn.",
+        "facebook": "Chia sẻ trên Facebook",
+        "twitter": "Chia sẻ trên Twitter",
+        "cancel": "Hủy",
+        "quit": "Thoát khỏi trò chơi",
+        "quote": "Chơi game Moon of Fortune và giành được Loteu token. Nó rất thú vị!",
+        "hashtags": {
+            "facebook": "#playloteo",
+            "twitter": "loteo,loteu,lottery,cryptocurrency,blockchainlottery,gambling,playloteo"
+        }
+    },
+    "board": {
+        "leaderboard": "Bảng xếp hạng",
+        "myBets": "Phần cược của tôi",
+        "position": "VỊ TRÍ",
+        "player": "NGƯỜI CHƠI",
+        "usedLoteu": "LOTEU ĐÃ SỬ DỤNG",
+        "loteu": "Loteu",
+        "bet": "ĐẶT CƯỢC",
+        "time": "THỜI GIAN",
+        "payout": "THANH TOÁN",
+        "profit": "LỢI NHUẬN",
+        "weekly": "Hàng tuần",
+        "monthly": "Hàng tháng",
+        "allTime": "Tất Cả Thời Gian",
+        "gameTitle": "TRÒ CHƠI LOTEO"
+    },
+    "apollo11Dialog": {
+        "title": "NẠP <br \/> 50 000 LOTEU",
+        "subtitle": "...<strong>trước chuyến bay (ngày 16 tháng 7) <\/strong> và <strong> stake chúng cho đến <br \/>ngày 20 tháng 7<\/strong> khi tàu Apollo 11 hạ cánh trên Mặt trăng",
+        "cta": "Nạp tiền",
+        "text": "Kỷ niệm 50 năm Apollo 11<br \/>Sứ mệnh đặt chân lên Mặt trăng!"
+    },
+    "apollo11Lottery": {
+        "title": "Xổ số Apollo 11 đặc biệt",
+        "learnMore": "Tìm hiểu thêm",
+        "gameStartsIn": "Lượt quay số tiếp theo trong:",
+        "loteu": "LOTEU",
+        "drawingSchedule": "Lịch trình quay số",
+        "youreIn": "Bạn đang ở trong trò chơi",
+        "playNow": "CHƠI NGAY",
+        "nextDraw": "Lượt quay số tiếp theo vào ngày mai:",
+        "lastWinner": "Người chiến thắng cuối cùng",
+        "alts": [
+            {
+                "text": "Người chiến thắng"
+            }
+        ]
+    },
+    "leaderboard": {
+        "player": "NGƯỜI CHƠI",
+        "loteoRooms": "PHÒNG LOTEO",
+        "mof": "MOON OF FORTUNE",
+        "affiliate": "LIÊN KẾT HÀNG THỨ NHẤT",
+        "usedLoteu": "Loteu đã dùng",
+        "spentEth": "ETH đã dùng",
+        "loteuVolumne": "Khối lượng Loteu",
+        "users": "Người dùng",
+        "loteu": "Loteu",
+        "usedTickets": "Vé đã sử dụng",
+        "leaderboard": "Bảng xếp hạng",
+        "gameTitle": "TRÒ CHƠI LOTEO",
+        "game": "TRÒ CHƠI",
+        "totalAmount": "TỔNG SỐ LƯỢNG\/TUẦN",
+        "weeklyLottery": {
+            "title": "XỔ SỐ HÀNG TUẦN",
+            "winCurrency": "ETH",
+            "winText": "CHIẾN THẮNG"
+        },
+        "apollo11Lottery": {
+            "title": "XỔ SỐ APOLLO 11",
+            "winCurrency": "LOTEU",
+            "winText": "CHIẾN THẮNG"
+        },
+        "moonOfFortune": {
+            "title": "Moon of Fortune",
+            "winCurrency": "LOTEU",
+            "winText": "KHỐI LƯỢNG"
+        },
+        "winnerOfTheWeek": "Người trúng giải trong tuần"
+    },
+    "apolloDailyLottery": {
+        "title": "Xổ số Apollo hàng ngày",
+        "learnMore": "Tìm hiểu thêm về trò chơi này",
+        "quit": "Thoát khỏi trò chơi",
+        "nextDrawIn": "Lượt quay số tiếp theo trong:",
+        "availableLoteu": "LOTEU khả dụng",
+        "buyMoreLoteu": "Mua thêm LOTEU",
+        "controlsTitle": "Chọn số lượng LOTEU để sử dụng.<br \/>100 LOTEU = 1 vé tham gia xổ số",
+        "yourChanceIs": "Cơ hội giành chiến thắng của bạn là",
+        "enter": "Tham gia xổ số",
+        "alts": [
+            {
+                "text": "nhân đôi cơ hội"
+            }
+        ],
+        "playNow": [
+            {
+                "title": "Bạn không có vé",
+                "text": "Bạn cần mua vé số trước và sau đó bạn có thể tham gia Xổ số Loteo hàng tuần.",
+                "okText": "Mua vé",
+                "cancelText": "Hủy"
+            },
+            {
+                "title": "Không đủ tiền để tham gia trò chơi",
+                "text": {
+                    "part1": "Bạn không có đủ số dư trong ví. Để tham gia xổ số, <strong>bạn cần có ít nhất 0,017 ETH trong ví của mình<\/strong>. Hãy nạp tiền vào ví.<br \/><br \/>",
+                    "part2": "<strong>Giải thích:<\/strong> Việc tham gia xổ số yêu cầu một giao dịch trực tuyến trên mạng lưới Ethereum. Mỗi giao dịch trực tuyến yêu cầu một khoản phí, và chúng tôi tính 0,017 ETH. Nguyên nhân là do chúng tôi muốn đảm bảo mọi sự tham gia đều minh bạch và hiển thị trực tiếp trên mạng Ethereum. Chúng tôi đang làm việc rất chăm chỉ để làm cho mức phí này thấp nhất có thể."
+                },
+                "okText": "Ok"
+            },
+            {
+                "title": "Lượt quay số hiện tại đã kết thúc",
+                "text": "Chỉ có thể tham gia trò chơi ít nhất 30 phút trước khi bắt đầu quay số. Vòng này đã kết thúc. Bạn có thể tham gia trò chơi vào ngày tiếp theo sau khi vòng quay số hiện tại kết thúc",
+                "okText": "Ok"
+            },
+            {
+                "close": "Đóng",
+                "increaseChance": "Tăng cơ hội trúng thưởng",
+                "title": "Thành công!",
+                "text": "Bạn đang ở trong trò chơi"
+            }
+        ],
+        "process": "ĐANG XỬ LÝ..."
+    },
+    "transactionInProgress": {
+        "title": "Giao dịch đang xử lý",
+        "text": "Vui lòng đợi cho đến khi giao dịch hoàn thành. Nó có thể mất <strong>tối đa 1 phút.<\/strong>",
+        "alts": [
+            {
+                "text": "Đang tải..."
+            }
+        ]
+    },
+    "backgroundBanners": {
+        "alts": [
+            {
+                "alt": "apollo"
+            }
+        ],
+        "apollo": {
+            "title": "apollo 11<br \/>hero",
+            "promotionDetail": "Trở thành Hero của xổ số Apollo 11,<br\/>& nhận LoteoPass miễn phí",
+            "gamesSection": {
+                "title": "Xổ số hàng ngày<br\/>APOLLO 11",
+                "text": "Tham gia xổ số bằng cách sử dụng 100 LOTEU<br\/>Xổ số chọn một trong những người tham gia thông qua hợp đồng thông minh và RNG<br\/>Nó rất công bằng, minh bạch, và đa dạng<br\/>Tham gia cửa miễn phí cho người sở hữu LoteoPass"
+            }
+        },
+        "deposit": {
+            "title": "apollo 11<br\/>hero"
+        },
+        "depositBonus": {
+            "title": "ƯU ĐÃI NẠP TIỀN<br\/>LẦN ĐẦU",
+            "promotionDetail": "Nạp 1ETH đầu tiên và bạn sẽ nhận được ƯU ĐÃI 3000 token LOTEU!<br\/>300 LOTEU đầu tiên được ghi có 23 giờ sau lần gửi đầu tiên và sau đó thêm 300 sau mỗi<br\/>24 giờ trong 10 ngày cho đến khi bạn nhận được tổng số 3000 LOTEU. Sử dụng LOTEU của bạn để<br\/>nhân đôi cơ hội của mình trong Xổ số hàng tuần hoặc chơi một trong những trò chơi tuyệt vời của chúng tôi như Moon<br\/>of Fortune hoặc Xổ số Apollo 11!"
+        },
+        "ticketBonus": {
+            "title": "VÉ ĐẦU TIÊN<br\/>ƯU ĐÃI",
+            "promotionDetail": "Khi bạn mua vé tham gia đầu tiên của mình vào xổ số hàng tuần, bạn sẽ nhận được ƯU ĐÃI 100 LOTEU<br\/>token để nhân đôi cơ hội trúng xổ số. Nó không tăng giải thưởng, nhưng nó<br\/>nhân đôi số vé của bạn trong pool. Chúc may mắn!"
+        },
+        "loteoPass": {
+            "title": "LOTEOPASS",
+            "promotionDetail": "ƯU ĐÃI NHÂN ĐÔI CƠ HỘI - LOTEOPASS \"1000\"<br\/>Đối với 1000 người mua LOTEOPASS đầu tiên, sẽ có một ưu đãi. Đây sẽ là một ưu đãi<br\/>giới hạn diễn ra một lần nữa sau 1 năm, khi đợt LOTEOPASSes đầu tiên hết hạn.<br\/>Những người tham gia đã mua 1000 vé đầu tiên sẽ có tùy chọn mua<br\/>chúng trong đợt thứ hai trước khi có sẵn cho những người khác."
+        },
+        "weekly": {
+            "title": "XỔ SỐ<br\/>HÀNG TUẦN",
+            "promotionDetail": "Trở thành Hero của xổ số Apollo 11,<br\/>& nhận LoteoPass miễn phí",
+            "gamesSection": {
+                "title": "XỔ SỐ<br\/>HÀNG TUẦN",
+                "text": "Tham gia xổ số bằng cách mua một vé có giá trị 10 €<br\/>Nhân đôi cơ hội của bạn bằng cách sử dụng 100 LOTEU<br\/>Xổ số chọn một trong các vé thông qua hợp đồng thông minh và RNG<br\/>Nó rất công bằng, minh bạch, đa dạng"
+            }
+        },
+        "mof": {
+            "title": "Moon of<br\/>fortune",
+            "promotionDetail": "Trở thành Hero của xổ số Apollo 11,<br\/>& nhận LoteoPass miễn phí",
+            "gamesSection": {
+                "title": "Moon of<br\/>fortune",
+                "text": "Chọn mức độ rủi ro mong muốn của bạn<br\/>Chọn số phần<br\/>Cả hai yếu tố xác định hệ số nhân nếu trúng thưởng<br\/>Quay bánh xe bằng nút BET <br\/>RNG tạo kết quả, không thể giả mạo"
+            }
+        },
+        "rekt": {
+            "title": "PHÒNG REKT",
+            "gamesSection": {
+                "title": "PHÒNG REKT"
+            }
+        },
+        "daily": {
+            "title": "XỔ SỐ HÀNG NGÀY",
+            "gamesSection": {
+                "title": "XỔ SỐ HÀNG NGÀY"
+            }
+        },
+        "dice": {
+            "title": "Dice",
+            "gamesSection": {
+                "title": "Dice"
+            }
+        },
+        "fomo": {
+            "title": "Fomo",
+            "gamesSection": {
+                "title": "Fomo"
+            }
+        },
+        "jacks": {
+            "title": "JACKS OR BETTER",
+            "gamesSection": {
+                "title": "JACKS OR BETTER"
+            }
+        },
+        "getLoteu": {
+            "title": "Cách nhận<br\/>Loteu",
+            "detail": "Nhân đôi cơ hội của bạn<br\/>Mua token LOTEU và chơi"
+        },
+        "affiliateProgram": {
+            "title": "CHƯƠNG TRÌNH<br\/>LIÊN KẾT",
+            "detail": "Phần thưởng ít nhất 40%<br\/>Trở thành đối tác cao cấp<br\/>Trở thành nhà đầu tư mà không cần đầu tư"
+        }
+    },
+    "whyInvest": {
+        "helmet": "Tại sao nên đầu tư | LOTEO - Xổ số trên Blockchain minh bạch",
+        "title": "Tại sao nên đầu tư",
+        "t1": "946 tỉ $",
+        "p1": "Quy mô thị trường cờ bạc toàn cầu vào năm 2021",
+        "p2": "mỗi <span>{{percent}}<\/span> mang lại <span>{{revenue}}<\/span> cho Loteo và cho các nhà đầu tư có nghĩa là",
+        "p3": "ROI Thu nhập thụ động + giá trị gia tăng của token",
+        "p4": "ĐẦU TƯ BAO NHIÊU",
+        "p5": "THU NHẬP THỤ ĐỘNG HÀNG THÁNG",
+        "p6": "THU NHẬP THỤ ĐỘNG HÀNG NĂM",
+        "alts": [
+            {
+                "alt": "Đầu tư ngay"
+            },
+            {
+                "alt": "Tỷ lệ phần trăm doanh thu"
+            }
+        ],
+        "p21": "mỗi "
+    },
+    "loteuTokens": {
+        "leftTokens": {
+            "doubleChance": {
+                "name": "Nhân đôi cơ hội trong trò chơi xổ số",
+                "description": "Bằng cách sử dụng 100 LOTEU ngoài việc mua vé<br\/> bạn có thể nhân đôi cơ hội trúng giải xổ số."
+            },
+            "mof": {
+                "name": "Tham gia Moon of Fortune",
+                "description": "Bạn có thể nhân số token của mình, chơi vui vẻ và<br\/> có thể giành được một vé tham gia xổ số bằng cách chơi<br\/>trò chơi Moon of Fortune của chúng tôi"
+            },
+            "specialGame": {
+                "name": "Trò chơi đặc biệt chỉ dành cho LOTEU",
+                "description": "Các trò chơi tùy chỉnh như Apollo 11, Moon of Fortune và các trò chơi khác<br\/> chỉ được phát triển riêng cho LOTEU. Những trò chơi khác có tính năng<br\/> đặc biệt bằng cách sử dụng LOTEU."
+            },
+            "quarter": {
+                "name": "Hủy hàng quý",
+                "description": "Việc hủy token xảy ra cho đến khi tổng cung là 100 triệu. \n 20% tất cả LOTEU<br\/> đã sử dụng trên nền tảng sẽ được hủy mỗi tháng thứ 3 <br\/>và công bố một cách công khai."
+            },
+            "payment": {
+                "name": "Tùy chọn thanh toán toàn bộ",
+                "description": "Việc tích hợp LOTEU làm một tùy chọn thanh toán hoàn thiện cũng như cho<br\/>trò chơi xổ số sẽ bắt đầu sau khi phân phối token, niêm yết trên<br\/>sàn giao dịch và ổn định giá."
+            },
+            "staking": {
+                "name": "Staking cho B2B",
+                "description": "Để tạo xổ số hoặc trò chơi riêng của bạn một cách dễ dàng trên blockchain bằng cách sử dụng kiến trúc, giấy phép và hướng dẫn trên nền tảng, bạn cần staking LOTEU."
+            }
+        },
+        "rightTokens": {
+            "quarter": {
+                "name": "Hủy hàng quý",
+                "description": "Việc hủy token xảy ra cho đến khi tổng cung là 100 triệu. \n 20% tất cả LOTEU<br\/> đã sử dụng trên nền tảng sẽ được hủy mỗi tháng thứ 3 <br\/>và công bố một cách công khai."
+            },
+            "payment": {
+                "name": "Tùy chọn thanh toán toàn bộ",
+                "description": "Việc tích hợp LOTEU làm một tùy chọn thanh toán hoàn thiện cũng như cho<br\/>trò chơi xổ số sẽ bắt đầu sau khi phân phối token, niêm yết trên<br\/>sàn giao dịch và ổn định giá."
+            },
+            "staking": {
+                "name": "Staking cho B2B",
+                "description": "Để tạo xổ số hoặc trò chơi riêng của bạn một cách dễ dàng trên blockchain bằng cách sử dụng kiến trúc, giấy phép và hướng dẫn trên nền tảng, bạn cần staking LOTEU."
+            }
+        },
+        "mobileLeftTokens": {
+            "doubleChance": {
+                "name": "Nhân đôi cơ hội trong trò chơi xổ số",
+                "description": "Bằng cách sử dụng 100 LOTEU ngoài việc mua vé bạn có thể nhân đôi cơ hội trúng giải xổ số."
+            },
+            "mof": {
+                "name": "Tham gia Moon of Fortune",
+                "description": "Bạn có thể nhân số token của mình, chơi vui vẻ và có thể giành được một vé tham gia xổ số bằng cách chơi trò chơi Moon of Fortune của chúng tôi"
+            },
+            "specialGame": {
+                "name": "Trò chơi đặc biệt chỉ dành cho LOTEU",
+                "description": "Các trò chơi tùy chỉnh như Apollo 11, Moon of Fortune và các trò chơi khác chỉ được phát triển riêng cho LOTEU. Những trò chơi khác có tính năng đặc biệt bằng cách sử dụng LOTEU."
+            },
+            "quarter": {
+                "name": "Hủy hàng quý",
+                "description": "Việc hủy token xảy ra cho đến khi tổng cung là 100 triệu. \n 20% tất cả LOTEU đã sử dụng trên nền tảng sẽ được hủy mỗi tháng thứ 3 và công bố một cách công khai."
+            },
+            "payment": {
+                "name": "Tùy chọn thanh toán toàn bộ",
+                "description": "Việc tích hợp LOTEU làm một tùy chọn thanh toán hoàn thiện cũng như cho trò chơi xổ số sẽ bắt đầu sau khi phân phối token, niêm yết trên sàn giao dịch và ổn định giá."
+            },
+            "staking": {
+                "name": "Staking cho B2B",
+                "description": "Để tạo xổ số hoặc trò chơi riêng của bạn một cách dễ dàng trên blockchain bằng cách sử dụng kiến trúc, giấy phép và hướng dẫn trên nền tảng, bạn cần staking LOTEU."
+            }
+        }
+    },
+    "page404": {
+        "title": "Có vẻ bạn bị lạc trong không gian"
+    }
+}

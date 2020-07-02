@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>marocco-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-139.000000, -632.000000)">
+            <g id="marocco-flag-icon" transform="translate(139.000000, 632.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#C0272C"></path>
+                <path d="M32.361,15.041 L26.47,15.041 L24,9.683 L21.528,15.041 L15.638,15.041 L19.942,19.494 L18.351,25.947 L24,22.739 L29.648,25.947 L28.057,19.494 L32.361,15.041 Z M26.594,21.912 L24,20.438 L21.406,21.912 L22.149,18.898 L20.353,17.041 L22.807,17.041 L24,14.458 L25.191,17.041 L27.646,17.041 L25.85,18.898 L26.594,21.912 Z" id="Shape" fill="#484C29" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

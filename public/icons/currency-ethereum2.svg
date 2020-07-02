@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>ethereum-logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="*Hard-Launch-Version" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Page-HARD-LAUNCH" transform="translate(-697.000000, -8462.000000)" fill="#E67C70" fill-rule="nonzero">
+            <g id="accepterd-currencies" transform="translate(240.000000, 8407.000000)">
+                <g id="ethereum" transform="translate(454.000000, 55.000000)">
+                    <path d="M27,48 C13.745166,48 3,37.254834 3,24 C3,10.745166 13.745166,0 27,0 C40.254834,0 51,10.745166 51,24 C51,37.254834 40.254834,48 27,48 Z M36.8757921,24.2929754 L37,24.2211982 L27,8 L27,8.72580029 L26.7862447,8 L17,24.2212545 L17.1226244,24.2936638 L17,24.3469682 L21.9899166,27.1677839 L26.7862447,30 L26.8635801,29.9228814 L27,30 L37,24.3469682 L36.8757921,24.2929754 Z M27,39.6682953 L27,40 L37,27 L27,32.4503106 L27,32.5887311 L26.8784844,32.4503106 L17,27 L26.8784844,40 L27,39.6682953 Z" id="ethereum-logo"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

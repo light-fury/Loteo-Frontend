@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>honduras-ca-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-621.000000, -843.000000)">
+            <g id="honduras-ca-flag-icon" transform="translate(621.000000, 843.000000)">
+                <path d="M48,12 L0,12 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,12 Z" id="Path" fill="#0C72C4"></path>
+                <rect id="Rectangle" fill="#E6E6E6" x="0" y="12" width="48" height="12"></rect>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,24 L48,24 L48,34 Z" id="Path" fill="#0C72C4"></path>
+                <polygon id="Path" fill="#0067C6" points="18.273 13.368 16.767 13.368 16.137 12 15.504 13.368 14 13.368 15.1 14.508 14.694 16.156 16.137 15.338 17.58 16.156 17.174 14.508"></polygon>
+                <polygon id="Path" fill="#0067C6" points="18.273 21.212 16.767 21.212 16.136 19.844 15.503 21.212 14 21.212 15.1 22.352 14.693 24 16.136 23.182 17.58 24 17.174 22.352"></polygon>
+                <polygon id="Path" fill="#0067C6" points="34 13.368 32.494 13.368 31.863 12 31.23 13.368 29.726 13.368 30.826 14.508 30.42 16.156 31.863 15.338 33.306 16.156 32.9 14.508"></polygon>
+                <polygon id="Path" fill="#0067C6" points="34 21.212 32.494 21.212 31.863 19.844 31.23 21.212 29.726 21.212 30.826 22.352 30.42 24 31.863 23.182 33.307 24 32.9 22.351"></polygon>
+                <polygon id="Path" fill="#0067C6" points="26.137 17.29 24.631 17.29 24 15.922 23.367 17.29 21.863 17.29 22.963 18.43 22.557 20.078 24 19.26 25.443 20.078 25.037 18.43"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

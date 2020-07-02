@@ -1,0 +1,21 @@
+@import "styles/colors";
+
+.quitButton {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    img {
+        width: 20px;
+        opacity: 0.5;
+    }
+
+    .text {
+        margin-left: 16px;
+        font-size: 16px;
+        line-height: 20px;
+        color: $pink;
+        white-space: nowrap;
+    }
+}

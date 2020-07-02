@@ -1,0 +1,230 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.ticketShop {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+
+        @include media(md) {
+            flex-direction: row;
+            align-items: center;
+            text-align: left;
+        }
+
+        strong {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: white;
+        }
+
+        .counterInfo {
+            display: flex;
+            flex-direction: column;
+
+            @include media(md) {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .label {
+                margin: 8px 0;
+                color: $grey1;
+                font-size: 14px;
+
+                @include media(md) {
+                    margin: 0;
+                }
+            }
+
+            .counter {
+                @include media(md) {
+                    margin-left: 20px;
+                }
+
+                .number {
+                    background: $red;
+                }
+
+                .separator {
+                    color: $red;
+                }
+            }
+        }
+    }
+
+    .bonusInfo {
+        margin: 32px 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+
+        @include media(md) {
+            margin: 10px 0 20px;
+        }
+
+        strong {
+            margin-right: 4px;
+            color: $yellow;
+            font-weight: 900;
+            text-shadow: 0 0 6px transparentize($yellow, 0.5);
+        }
+
+        span {
+            color: $red;
+            font-weight: 900;
+        }
+    }
+
+    .tickets {
+        margin-top: 16px;
+
+        @include media(md) {
+            width: calc(100% + 24px);
+            margin: 16px -12px 0;
+        }
+
+        @include media(lg) {
+            width: calc(100% + 48px);
+            margin: 16px -24px 0;
+        }
+
+        .ticketCard {
+            min-height: 230px;
+            margin: 12px 0;
+
+            @include media(md) {
+                min-height: 160px;
+                margin: 12px;
+            }
+
+            @include media(lg) {
+                margin: 24px;
+            }
+        }
+    }
+
+    > .separator {
+        height: 1px;
+        background: $greyBright;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .summaryPanel {
+        min-height: 88px;
+        padding: 16px;
+        position: relative;
+        transition: opacity 0.5s;
+        margin-top: 64px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+        background: white;
+        border-radius: 8px;
+        flex-direction: column;
+
+        @include media(md) {
+            padding: 16px 16px 16px 32px;
+            flex-direction: row;
+        }
+
+        img {
+            width: 26px;
+            margin-right: 24px;
+        }
+
+        .label {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .totals {
+            margin: 12px 0;
+            flex-direction: column;
+            align-items: center;
+
+            @include media(md) {
+                margin: 0;
+                flex-direction: row;
+                flex-grow: 1;
+                align-items: baseline;
+            }
+
+            .value {
+                margin: 6px 0;
+                font-size: 14px;
+                font-weight: 300;
+                color: $grey1;
+                white-space: nowrap;
+
+                @include media(md) {
+                    margin: 0;
+                }
+
+                &:not(:first-of-type) {
+                    @include media(md) {
+                        margin-left: 24px;
+                    }
+                }
+
+                &.main {
+                    font-size: 24px;
+                    color: $dark;
+                }
+            }
+
+            &.flexGrowZero {
+                flex-grow: 0;
+            }
+        }
+
+        .payButton {
+            width: 240px;
+            height: 56px;
+            font-size: 20px;
+            font-weight: 900;
+
+            @include media(md) {
+                margin: 16px 0 0;
+            }
+
+            @include media($min: 800px) {
+                margin: 16px 30px 0;
+            }
+
+            @include media($min: 860px) {
+                margin: 0 0 0 60px;
+            }
+
+            &.weeklyLotteryPayButton {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+        &.visible {
+            opacity: 1;
+        }
+
+        &.hidden {
+            opacity: 0;
+            user-select: none;
+        }
+
+        &.fromWeeklyLottery {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 0;
+
+            .dottedBottom {
+                height: 24px;
+                flex: 1 1 0%;
+                border-bottom: 1px dotted;
+                margin: 0 10px;
+            }
+        }
+    }
+}

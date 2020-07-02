@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>kiribati-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-43.000000, -778.000000)">
+            <g id="kiribati-flag-icon" transform="translate(43.000000, 778.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L48,34 Z" id="Path" fill="#040385"></path>
+                <rect id="Rectangle" fill="#E6E6E6" x="0" y="32" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#040385" x="0" y="30" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#E6E6E6" x="0" y="28" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#E6E6E6" x="0" y="24" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#040385" x="0" y="26" width="48" height="2"></rect>
+                <path d="M0,24 L48,24 L48,2 C48,0.895 47.105,0 46,0 L2,0 C0.895,0 0,0.895 0,2 L0,24 Z" id="Path" fill="#FC0204"></path>
+                <path d="M34,24 C34,18.478 29.522,14 24,14 C18.478,14 14,18.478 14,24 L34,24 Z" id="Path" fill="#FFD416"></path>
+                <path d="M18,10 C16.896,10 16,10.896 16,12 L30,12 C30,10.896 29.104,10 28,10 L24,10 L24,6 L26,6 C27.104,6 28,5.104 28,4 L22,4 L22,6 L16,6 C16,7.104 16.896,8 18,8 L20,8 L20,10 L18,10 Z" id="Path" fill="#FFD416"></path>
+            </g>
+        </g>
+    </g>
+</svg>

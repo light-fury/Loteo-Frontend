@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>cameroon-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1103.000000, -843.000000)">
+            <g id="cameroon-flag-icon" transform="translate(1103.000000, 843.000000)">
+                <path d="M16,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L16,0 L16,36 Z" id="Path" fill="#0D795F"></path>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L32,36 L32,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#F8D112"></path>
+                <rect id="Rectangle" fill="#CB2322" x="16" y="0" width="16" height="36"></rect>
+                <polygon id="Path" fill="#EBCA19" points="30.305 15.724 25.864 15.724 24 11.683 22.136 15.724 17.696 15.724 20.94 19.081 19.741 23.947 24 21.528 28.26 23.947 27.061 19.081"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

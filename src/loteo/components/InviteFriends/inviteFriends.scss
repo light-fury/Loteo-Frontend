@@ -1,0 +1,151 @@
+@import "styles/mixins";
+
+.inviteFriendsSection {
+    mix-blend-mode: normal;
+    margin: 100px -36px 0 -36px;
+    padding: 0 36px;
+    margin-bottom: 150px;
+
+    @include media($max: md) {
+        background: initial;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 40px;
+        max-width: 720px;
+        color: $red;
+        font-weight: 900;
+        text-transform: uppercase;
+
+        span {
+            color: $yellow;
+            text-shadow: 0 0 6px transparentize($yellow, 0.5);
+        }
+    }
+
+    .button {
+        margin: 60px auto 0;
+        height: 56px;
+        width: 260px;
+        font-size: 20px;
+
+        @include media(md) {
+            margin: 60px 0 0;
+        }
+    }
+
+    &__header {
+        margin-bottom: 72px;
+        font-weight: 900;
+        font-size: 80px;
+        color: white;
+        text-align: center;
+
+        .detail {
+            text-transform: uppercase;
+            font-size: 24px;
+            color: $yellow;
+        }
+
+        @include media($max: md) {
+            margin-bottom: 56px;
+            font-size: 40px;
+
+            .detail {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    &__premium {
+        margin-bottom: 62px;
+        text-align: center;
+
+        .title {
+            text-align: center;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: white;
+
+            h4 {
+                color: $yellow;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        @include media($max: md) {
+            img {
+                width: 56.56px;
+                height: 49.16px;
+            }
+
+            .title {
+                font-size: 16px;
+
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    &__affiliate {
+        margin-bottom: 62px;
+        text-align: center;
+
+        .friends-avatar {
+            width: 136px;
+            height: 136px;
+            margin: auto;
+
+            @include media($max: md) {
+                width: 56.56px;
+                height: 49.16px;
+            }
+        }
+
+        .title {
+            text-align: center;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: white;
+
+            h4 {
+                color: $red;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        @include media($max: md) {
+            img {
+                width: 56.56px;
+                height: 49.16px;
+            }
+
+            .title {
+                font-size: 16px;
+
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .affiliate-btn {
+        margin: auto;
+        width: 281px;
+        height: 72px;
+
+        @include media($max: md) {
+            width: 217px;
+            height: 51px;
+        }
+    }
+}

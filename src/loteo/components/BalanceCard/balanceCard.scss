@@ -1,0 +1,95 @@
+@import "styles/colors";
+
+.balanceCard {
+    position: relative;
+    height: 55px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid $greyBright;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: $greyBright;
+        padding: 7px;
+    }
+
+    .currency {
+        flex-grow: 1;
+        margin-left: 12px;
+
+        .name {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .info {
+            margin-top: 3px;
+            font-size: 12px;
+            font-weight: 400;
+            color: $grey2;
+
+            &.red {
+                color: $red;
+            }
+        }
+    }
+
+    .arrowIcon {
+        height: 12px;
+    }
+
+    .metaText {
+        font-size: 10px;
+        color: $grey1;
+        text-transform: uppercase;
+    }
+
+    &.active {
+        cursor: pointer;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+
+        .icon {
+            background: $red;
+
+            img {
+                filter: brightness(0) invert(1);
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: -1px;
+            top: 0;
+            bottom: -1px;
+            width: 4px;
+            background: $red;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+    }
+
+    &.isLoading {
+        filter: grayscale(1);
+        cursor: default;
+    }
+
+    &.inactive {
+        .currency {
+            .name {
+                color: $grey2;
+            }
+        }
+    }
+}

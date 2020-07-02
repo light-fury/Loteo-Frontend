@@ -1,3 +1,32 @@
-input {
-    // Add your style here
+@import "styles/colors";
+
+.inputComponent {
+    position: relative;
+
+    .input {
+        border: 1px solid $greyBorder;
+        border-radius: 4px;
+        padding: 16px;
+        font-size: 14px;
+        font-weight: bold;
+
+        &::placeholder {
+            color: $grey1;
+            font-weight: normal;
+        }
+    }
+
+    .error {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: $red;
+        font-size: 12px;
+    }
+
+    &.error {
+        input {
+            border-color: $pink;
+        }
+    }
 }

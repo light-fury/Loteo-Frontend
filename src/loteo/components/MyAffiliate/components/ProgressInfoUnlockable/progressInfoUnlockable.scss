@@ -1,0 +1,93 @@
+@import "styles/colors";
+
+.progressInfoUnlockable {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 8px;
+
+    &.unlocked {
+        background: white;
+
+        .progressInfoUnlockable {
+            &__title {
+                &.yellow {
+                    background: radial-gradient(circle, $yellow 45%, $lightOrange 100%);
+                    color: $brown;
+                }
+
+                &.red {
+                    background: $red;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    &.locked {
+        background: transparentize($dark, 0.8);
+        color: $pink;
+
+        .progressInfoUnlockable {
+            &__title {
+                $stripeColor: transparentize(black, 0.9);
+
+                background: linear-gradient(
+                    45deg,
+                    transparent 0%,
+                    transparent 10%,
+                    $stripeColor 10%,
+                    $stripeColor 20%,
+                    transparent 20%,
+                    transparent 30%,
+                    $stripeColor 30%,
+                    $stripeColor 40%,
+                    transparent 40%,
+                    transparent 50%,
+                    $stripeColor 50%,
+                    $stripeColor 60%,
+                    transparent 60%,
+                    transparent 70%,
+                    $stripeColor 70%,
+                    $stripeColor 80%,
+                    transparent 80%,
+                    transparent 90%,
+                    $stripeColor 90%,
+                    $stripeColor 100%
+                );
+                background-size: 30px 20px;
+                color: $pink;
+
+                &__icon {
+                    svg,
+                    img {
+                        height: 14px;
+                    }
+
+                    path {
+                        fill: currentColor;
+                    }
+                }
+            }
+        }
+    }
+
+    &__title {
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 17px;
+    }
+
+    &__text {
+        padding: 8px 12px;
+        font-size: 12px;
+        line-height: 16px;
+
+        span {
+            margin-left: 3px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

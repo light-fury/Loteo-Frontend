@@ -1,0 +1,177 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+@function breakpoint-next($name, $breakpoint-names: map-keys($breakpoints)) {
+    $n: index($breakpoint-names, $name);
+    @return if($n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);
+}
+
+@function breakpoint-max($name) {
+    $next: breakpoint-next($name);
+    @return if($next, map-get($breakpoints, $next), null);
+}
+
+@mixin breakpoint-only($name) {
+    $min: map-get($breakpoints, $name);
+    $max: breakpoint-max($name);
+
+    @if $max != null {
+        @media (min-width: #{$min}px) and (max-width: #{$max - 1}px) {
+            @content;
+        }
+    } @else {
+        @media (min-width: #{map-get($breakpoints, $name)}px) {
+            @content;
+        }
+    }
+}
+
+.loteoGrid {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+
+    &.no-width {
+        max-width: initial;
+        flex-basis: initial;
+    }
+
+    &[class*="col-"]:not(.no-padding) {
+        padding-right: #{$gutter / 4}px;
+        padding-left: #{$gutter / 4}px;
+
+        @include media(md) {
+            padding-right: #{$gutter / 2}px;
+            padding-left: #{$gutter / 2}px;
+        }
+    }
+
+    &.container:not([class*="col-"]) {
+        @include centerMax(1080px);
+
+        &:not(.no-padding) {
+            padding-right: 10px;
+            padding-left: 10px;
+
+            @include media(md) {
+                padding-right: 40px;
+                padding-left: 40px;
+            }
+        }
+    }
+
+    &.wrap {
+        flex-wrap: wrap;
+    }
+
+    &.align-stretch {
+        align-items: stretch;
+    }
+
+    &.align-center {
+        align-items: center;
+    }
+
+    &.align-start {
+        align-items: flex-start;
+    }
+
+    &.align-end {
+        align-items: flex-end;
+    }
+
+    &.align-baseline {
+        align-items: baseline;
+    }
+
+    &.align-initial {
+        align-items: initial;
+    }
+
+    &.align-inherit {
+        align-items: inherit;
+    }
+
+    &.justify-start {
+        justify-content: flex-start;
+    }
+
+    &.justify-end {
+        justify-content: flex-end;
+    }
+
+    &.justify-center {
+        justify-content: center;
+    }
+
+    &.justify-space-between {
+        justify-content: space-between;
+    }
+
+    &.justify-space-around {
+        justify-content: space-around;
+    }
+
+    &.justify-initial {
+        justify-content: initial;
+    }
+
+    &.justify-inherit {
+        justify-content: inherit;
+    }
+
+    &.direction-row {
+        flex-direction: row;
+    }
+
+    &.direction-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    &.direction-column {
+        flex-direction: column;
+    }
+
+    &.direction-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    &.direction-initial {
+        flex-direction: initial;
+    }
+
+    &.direction-inherit {
+        flex-direction: inherit;
+    }
+
+    @each $breakpoint, $size in $breakpoints {
+        @for $i from 1 through $columns {
+            &.col-#{$breakpoint}-#{$i} {
+                @if $size {
+                    @media (min-width: #{$size}px) {
+                        max-width: ((100% / $columns) * $i);
+                        flex-basis: ((100% / $columns) * $i);
+                    }
+                } @else {
+                    max-width: ((100% / $columns) * $i);
+                    flex-basis: ((100% / $columns) * $i);
+                }
+            }
+            &.col-#{$breakpoint}-offset-#{$i} {
+                @if $size {
+                    @media (min-width: #{$size}px) {
+                        margin-left: ((100% / $columns) * $i);
+                    }
+                } @else {
+                    margin-left: ((100% / $columns) * $i);
+                }
+            }
+        }
+
+        &.hidden-#{$breakpoint} {
+            @include breakpoint-only($breakpoint) {
+                display: none;
+            }
+        }
+    }
+}

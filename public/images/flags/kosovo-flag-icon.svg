@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>kosovo-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-910.000000, -707.000000)">
+            <g id="kosovo-flag-icon" transform="translate(910.000000, 707.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#0142A6"></path>
+                <polygon id="Path" fill="#FFFFFF" points="26.128 9.225 24.629 9.225 24 7.859 23.37 9.224 21.872 9.224 22.967 10.356 22.562 12 24 11.184 25.438 12 25.033 10.356"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="33.155 9.225 31.656 9.225 31.027 7.86 30.397 9.225 28.899 9.225 29.994 10.357 29.589 12 31.028 11.184 32.466 12 32.061 10.356"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="40.256 9.225 38.757 9.225 38.128 7.86 37.498 9.225 36 9.225 37.095 10.357 36.689 12 38.128 11.184 39.566 12 39.161 10.356"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="19.101 9.225 17.602 9.225 16.973 7.86 16.343 9.225 14.845 9.225 15.94 10.357 15.534 12 16.972 11.184 18.411 12 18.006 10.356"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="12.256 9.225 10.757 9.225 10.128 7.86 9.498 9.225 8 9.225 9.095 10.357 8.689 12 10.128 11.184 11.566 12 11.161 10.356"></polygon>
+                <circle id="Oval" fill="#F5CB07" cx="24" cy="22" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

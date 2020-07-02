@@ -1,0 +1,107 @@
+@import "styles/mixins";
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+
+    &__info {
+        display: flex;
+        align-items: center;
+        .pictureContainer {
+            @include pictureContainer;
+            
+            position: relative;
+    
+            img {
+                position: absolute;
+                margin-right: 13px;
+            }
+        }
+    
+        .nameActions {
+            border-radius: 4px;
+            z-index: 1;
+    
+            .name {
+                font-size: 14px;
+                font-weight: bold;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 75px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-left: 5px;
+    
+                @include media(lg) {
+                    align-items: center;
+                }
+    
+                .star {
+                    width: 12px;
+                    height: 12px;
+                    margin: 6px 3px 0 0;
+    
+                    @include media(lg) {
+                        margin: 0 3px 0 0;
+                    }
+    
+                    &:first-of-type {
+                        @include media(lg) {
+                            margin-left: 8px;
+                        }
+                    }
+    
+                    &.active {
+                        filter: drop-shadow(0 0 3px $yellow);
+                    }
+    
+                    &.inactive {
+                        opacity: 0.5;
+                        filter: grayscale(1);
+                    }
+                }
+            }
+    
+            .actions {
+                display: block !important;
+                align-items: center;
+                margin-top: 4px;
+    
+                .separator {
+                    width: 100%;
+                    height: 1px;
+                    opacity: 0.2;
+                    background-color: $greyBorder;
+                }
+    
+                .action {
+                    margin: 13px 16px;
+                    color: $dark;
+                    opacity: 0.5;
+                    font-size: 12px;
+                    white-space: nowrap;
+                    cursor: pointer;
+                    transition: 0.5s;
+    
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    &__winPrice {
+        font-size: 12px;
+        color: $yellow;
+        font-weight: bold;
+
+        .price {
+            color: white;
+        }
+    }
+}

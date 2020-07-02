@@ -7,3 +7,10 @@ export interface State {
 export interface StoreState {
     app: State;
 }
+
+export interface Match {
+    isExact: boolean;
+    params: {[key: string]: any};
+    path: string;
+    url: string;
+}

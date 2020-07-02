@@ -1,0 +1,178 @@
+@import "styles/mixins";
+
+.fomo-game {
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 621px;
+    padding-top: 150px;
+    position: relative;
+    overflow: hidden;
+
+    @include media($max: md) {
+        padding-top: 200px;
+    }
+
+    @include media($max: ssm) {
+        padding-top: 150px;
+    }
+
+    @include media($max: sm) {
+        padding-top: 150px;
+        height: 591px;
+        background-position: left -70px top 0;
+    }
+
+    &.game-banner {
+        transition: padding-top 0.2s ease;
+    }
+
+    &::after {
+        content: "";
+        background: url("/images/game/fomo.png") no-repeat;
+        background-size: cover;
+        background-position: left;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+
+        @include media($max: md) {
+            background: linear-gradient(transparentize(#000000, 0.15), transparentize(#000000, 0.35)), url("/images/game/fomo.png") no-repeat;
+            background-size: cover;
+            background-position: left;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    &__content {
+        position: absolute;
+        right: 5%;
+        z-index: 2;
+
+        @include media($max: md) {
+            text-align: center;
+            position: relative;
+            right: 0;
+        }
+
+        &__currencies {
+            width: 100px;
+        }
+
+        .title {
+            h1 {
+                font-size: 72px;
+                -webkit-text-stroke-color: $red;
+                -webkit-text-stroke-width: 2px;
+                text-shadow: 0 0 16px transparentize($red, .6);
+                text-transform: uppercase;
+                color: transparent;
+                
+                @include media($max: md) {
+                    font-size: 50px;
+                    line-height: 50px;
+                }
+
+                @include media($max: sm) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }   
+        }
+
+        .detail {
+            margin-bottom: 20px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 30px;
+
+            @include media($max: md) {
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            @include media($max: sm) {
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 24px;
+            }
+        }
+    }
+
+    &__tab {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+
+        .gameSectionTabs {
+            margin: 0 10%;
+
+            .contextTabs {
+                max-width: none;
+                
+                .contextTab {
+                    opacity: 0.6;
+                    font-size: 16px;
+                    font-weight: 900;
+                    color: white;
+                    position: relative;
+                    padding-bottom: 20px;
+                    margin-left: 0 !important;
+                }
+    
+                .active {
+                    opacity: 1;
+                    font-size: 16px !important;
+                    font-weight: 900;
+                    color: white !important;
+    
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                        bottom: 0;
+                        width: 60px;
+                        height: 4px;
+                        background-color: white;
+                        border-top-left-radius: 8px;
+                        border-top-right-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .moon {
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        bottom: auto;
+        z-index: 2;
+        display: none;
+
+        @include media(md) {
+            display: block;
+            right: -275px;
+            bottom: -236px;
+            top: initial;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            opacity: .3;
+        }
+    }
+}

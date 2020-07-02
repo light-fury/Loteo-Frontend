@@ -1,0 +1,40 @@
+@import "styles/mixins";
+
+.ethDepositDialog {
+    .dialogArea {
+        width: 600px;
+    }
+
+    .dialogContent {
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 16px;
+
+            @include media(md) {
+                margin-bottom: 8px;
+            }
+        }
+
+        .balanceCard {
+            margin-bottom: 24px;
+
+            @include media(md) {
+                margin-bottom: 40px;
+            }
+        }
+
+        .addressComponent {
+            .note {
+                margin: 12px 0;
+                color: $grey1;
+                font-size: 14px;
+
+                a {
+                    color: inherit;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

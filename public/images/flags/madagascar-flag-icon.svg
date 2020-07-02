@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>madagascar-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -632.000000)">
+            <g id="madagascar-flag-icon" transform="translate(718.000000, 632.000000)">
+                <path d="M16,0 L2,0 C0.895,0 0,0.895 0,2 L0,34 C0,35.105 0.895,36 2,36 L16,36 L16,0 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M48,18 L16,18 L16,0 L46,0 C47.105,0 48,0.895 48,2 L48,18 Z" id="Path" fill="#EF4138"></path>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L16,36 L16,18 L48,18 L48,34 Z" id="Path" fill="#0C7E40"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,304 @@
+@import "styles/colors";
+@import "styles/mixins";
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+.whyInvest {
+    .background {
+        height: 100%;
+        background: url("/images/red-bg.png") 0% 0% / cover;
+        padding: 0;
+
+        .content {
+            @include centerMax(1080px);
+
+            position: relative;
+            padding: 24px;
+
+            @include media(md) {
+                padding: 48px 40px;
+            }
+
+            svg {
+                font: 700 19vw "Lato", sans-serif;
+                height: 25vw;
+
+                @include media(md) {
+                    font: 700 130px "Lato", sans-serif;
+                    height: 160px;
+                }
+            }
+
+            text {
+                fill: none;
+                stroke: $yellow;
+                stroke-width: 0.5vw;
+                stroke-linejoin: round;
+                text-shadow: 0 0 2vw $yellow;
+
+                @include media(md) {
+                    text-shadow: 0 0 12px $yellow;
+                    stroke-width: 4px;
+                }
+            }
+
+            .subTitle {
+                margin-left: 24px;
+                color: white;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 35px;
+                margin-bottom: 100px;
+
+                @include media(md) {
+                    font-size: 32px;
+                    line-height: 48px;
+                }
+            }
+        }
+
+        .rectangle {
+            background: linear-gradient(to bottom, transparentize(black, 1) 0%, black 40px);
+            padding: 70px 50px 30px;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            text-align: center;
+            color: $yellow;
+            opacity: 0.95;
+            text-shadow: 0 4px 4px transparentize($yellow, 0.85);
+
+            span {
+                background: transparentize(white, 0.85);
+                border-radius: 18px;
+                padding: 0 20px;
+                margin: 0 10px;
+                height: 36px;
+
+                .textInput {
+                    background: transparent;
+                    height: 36px;
+                    border: none;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: $yellow;
+                    padding: 0 !important;
+                    margin: 0 !important;
+
+                    &::placeholder {
+                        color: $yellow;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+            .topDivider {
+                height: 1px;
+                right: 50px;
+                left: 50px;
+                position: absolute;
+                margin: -30px 0;
+                background: transparentize(white, 0.95);
+            }
+
+            .bottomDivider {
+                height: 1px;
+                right: 50px;
+                left: 50px;
+                position: absolute;
+                margin: 29px 0;
+                background: transparentize(white, 0.95);
+            }
+        }
+
+        .elements {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+
+            img {
+                width: 100%;
+                height: calc(100% - 70px);
+                object-fit: scale-down;
+                object-position: right;
+
+                @include media(lg) {
+                    width: 60%;
+                    height: calc(100% - 70px);
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    .bottomPanel {
+        height: 100%;
+        background: url("/images/why-invest-bottom.png") 0% 0% / cover;
+        padding: 50px;
+
+        .sliderContainer {
+            width: 90%;
+
+            @include media(lg) {
+                width: 50%;
+            }
+
+            .mark {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 48px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+            }
+        }
+
+        .fixedRevenue {
+            background: transparentize(white, 0.85);
+            border-radius: 35px;
+            padding: 0 35px;
+            margin: 70px 0 45px;
+            height: 70px;
+            font-weight: 700;
+            font-size: 62px;
+            line-height: 70px;
+            text-align: center;
+            color: $yellow;
+            text-shadow: 0 4px 4px transparentize($yellow, 0.85);
+
+            @include media(md) {
+                border-radius: 50px;
+                padding: 0 50px;
+                margin: 70px 0 45px;
+                height: 100px;
+                font-weight: 900;
+                font-size: 92px;
+                line-height: 100px;
+            }
+        }
+
+        .calculator {
+            width: 90%;
+            margin-bottom: 20px;
+            flex-direction: column;
+            align-items: center;
+
+            @include media(md) {
+                width: 85%;
+                flex-direction: row;
+            }
+
+            @include media(lg) {
+                width: 60%;
+                flex-direction: row;
+            }
+
+            svg {
+                font: 700 4.9vw "Lato", sans-serif;
+                height: 10vw;
+
+                @include media(md) {
+                    font: 700 30px "Lato", sans-serif;
+                    height: 70px;
+                }
+            }
+
+            text {
+                text-anchor: middle;
+                transform: translate(50%, 0);
+                fill: none;
+                stroke: $yellow;
+                stroke-width: 1.5px;
+                stroke-linejoin: round;
+                text-shadow: 0 0 10px $yellow;
+
+                @include media(md) {
+                    text-anchor: start;
+                    transform: translate(12px, 0);
+                }
+            }
+
+            &.marginBt40 {
+                margin-bottom: 40px;
+            }
+
+            .priceContainer {
+                background: transparent;
+                border: 6px solid $yellow;
+                box-shadow: inset 0 0 16px $yellow, 0 0 16px $yellow;
+                border-radius: 8px;
+                width: 80%;
+                height: 70px;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 58px;
+                text-align: center;
+                color: $yellow;
+                margin-left: 0;
+
+                @include media(md) {
+                    margin: 0;
+                    width: 40%;
+                }
+
+                .textInput {
+                    border: none;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 58px;
+                    text-align: center;
+                    height: 58px;
+                    box-sizing: border-box !important;
+                    color: $yellow;
+                    background: transparent;
+                    padding: 0 !important;
+                    margin: 0 !important;
+
+                    &::placeholder {
+                        color: $yellow;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        .contactButton {
+            background-image: url("/images/contact-us-button.svg");
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: contain;
+            flex-basis: auto;
+            width: 240px;
+            height: 84px;
+            padding-bottom: 17px;
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 700;
+            margin-bottom: 40px;
+
+            @include media(md) {
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+    }
+}

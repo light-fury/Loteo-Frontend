@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>senegal-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-236.000000, -336.000000)">
+            <g id="senegal-flag-icon" transform="translate(236.000000, 336.000000)">
+                <rect id="Rectangle" fill="#EBCA19" x="16" y="0" width="16" height="36"></rect>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L32,36 L32,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#DD2027"></path>
+                <path d="M16,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L16,0 L16,36 Z" id="Path" fill="#0D8643"></path>
+                <polygon id="Path" fill="#0D8643" points="30.305 15.723 25.864 15.723 24 11.684 22.137 15.723 17.696 15.723 20.94 19.082 19.741 23.947 24.001 21.527 28.261 23.947 27.062 19.082"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

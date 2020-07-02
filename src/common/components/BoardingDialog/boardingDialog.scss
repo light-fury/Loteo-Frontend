@@ -1,0 +1,119 @@
+@import "styles/mixins";
+
+.boardingDialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    overflow: hidden;
+
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.8;
+        background: darken($brown, 10);
+        animation: fadeIn 0.2s;
+    }
+
+    &__section {
+        margin: 0 10px;
+        max-width: 476px;
+        background-color: white;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        z-index: 1;
+        position: relative;
+
+        &__close {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+
+            i {
+                color: white;
+                font-size: 18px;
+            }
+        }
+
+        &__bg {
+            max-width: 476px;
+            width: 100%;
+            height: 238px;
+            background: url("/images/boarding.png");
+            background-size: cover;
+            background-position: center;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        &__content {
+            &--title {
+                margin: 16px 31px 5px 31px;
+                font-size: 21px;
+                font-weight: bold;
+                color: $red;
+                line-height: 44px;
+            }
+
+            &--text {
+                margin: 0 45px 19px 31px;
+                font-size: 12px;
+                line-height: 22px;
+                color: $grey1;
+            }
+
+            &--button {
+                margin: 0 31px 20px 31px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                
+                .longerAvailable {
+                    display: flex;
+                    align-items: center;
+
+                    &__close-icon {
+                        position: relative;
+                        width: 17px;
+                        height: 17px;
+                        color: $red;
+                        background-color: $grey3;
+                        margin-right: 5px;
+
+                        i {
+                            &::before {
+                                position: absolute;
+                                left: 50%;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                    }
+
+                    &__text {
+                        font-size: 10px;
+                        line-height: 22px;
+                        color: $grey1;
+
+                        &__check {
+                            display: flex;
+                            align-items: center;
+
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

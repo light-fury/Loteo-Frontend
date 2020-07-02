@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>french-guiana-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -908.000000)">
+            <g id="french-guiana-flag-icon" transform="translate(718.000000, 908.000000)">
+                <path d="M0,2 L0,34 C0,35.105 0.895,36 2,36 L46,36 C46.584,36 47.104,35.746 47.47,35.347 L0.53,0.653 C0.204,1.009 0,1.479 0,2 Z" id="Path" fill="#FDDF00"></path>
+                <path d="M48,2 C48,0.895 47.105,0 46,0 L2,0 C1.416,0 0.896,0.254 0.53,0.653 L47.47,35.347 C47.796,34.991 48,34.521 48,34 L48,2 Z" id="Path" fill="#008A2A"></path>
+                <polygon id="Path" fill="#DD0A07" points="30.184 15.95 25.828 15.95 24 11.984 22.17 15.951 17.817 15.951 20.998 19.242 19.82 24.017 24 21.643 28.18 24.016 27.002 19.241"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

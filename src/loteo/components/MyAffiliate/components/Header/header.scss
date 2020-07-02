@@ -1,0 +1,14 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.myAffiliateHeader {
+    margin-top: 90px;
+
+    &:first-of-type {
+        margin-top: 42px;
+
+        @include media(md) {
+            margin-top: 90px;
+        }
+    }
+}

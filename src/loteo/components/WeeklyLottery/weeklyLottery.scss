@@ -1,0 +1,18 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.weeklyLottery {
+    &__inner {
+        @include centerMax(1680px);
+
+        padding: 16px;
+
+        @include media(md) {
+            padding: 16px 40px 20px;
+        }
+    }
+
+    .background {
+        min-height: 100vh;
+    }
+}

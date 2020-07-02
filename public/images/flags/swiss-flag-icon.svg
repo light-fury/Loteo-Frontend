@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>swiss-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-718.000000, -197.000000)">
+            <g id="swiss-flag-icon" transform="translate(718.000000, 197.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#DA1E05"></path>
+                <path d="M35,22 L13,22 C12.448,22 12,21.552 12,21 L12,15 C12,14.448 12.448,14 13,14 L35,14 C35.552,14 36,14.448 36,15 L36,21 C36,21.552 35.552,22 35,22 Z" id="Path" fill="#FFFFFF"></path>
+                <path d="M27,30 L21,30 C20.448,30 20,29.552 20,29 L20,7 C20,6.448 20.448,6 21,6 L27,6 C27.552,6 28,6.448 28,7 L28,29 C28,29.552 27.552,30 27,30 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>panama-ca-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-910.000000, -400.000000)">
+            <g id="panama-ca-flag-icon" transform="translate(910.000000, 400.000000)">
+                <path d="M24,18 L0,18 L0,2 C0,0.895 0.895,0 2,0 L24,0 L24,18 Z" id="Path" fill="#E6E6E6"></path>
+                <polygon id="Path" fill="#025193" points="16.184 7.613 13.237 7.613 12 4.93 10.762 7.614 7.816 7.614 9.968 9.841 9.171 13.071 12 11.465 14.828 13.07 14.031 9.84"></polygon>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L24,36 L24,18 L48,18 L48,34 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M0,34 C0,35.105 0.895,36 2,36 L24,36 L24,18 L0,18 L0,34 Z" id="Path" fill="#025193"></path>
+                <polygon id="Path" fill="#D21033" points="40.184 25.613 37.237 25.613 36 22.93 34.762 25.614 31.817 25.614 33.969 27.841 33.172 31.072 36 29.465 38.828 31.071 38.031 27.84"></polygon>
+                <path d="M24,18 L48,18 L48,2 C48,0.895 47.105,0 46,0 L24,0 L24,18 Z" id="Path" fill="#D21033"></path>
+            </g>
+        </g>
+    </g>
+</svg>

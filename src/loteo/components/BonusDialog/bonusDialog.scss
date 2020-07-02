@@ -1,0 +1,67 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.bonusDialog {
+    .dialogArea {
+        max-width: 648px;
+        padding: 0;
+        position: relative;
+
+        .dialogContent {
+            @include glowEffect;
+
+            padding: 50px 50px 90px;
+            background: url("/images/lottery-drawing-background.jpg") center no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .quitButton {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .title {
+        margin: 3px 0;
+        font-weight: 900;
+        text-shadow: 0 0 8px transparentize($yellow, 0.5);
+
+        &.white {
+            color: white;
+            font-size: 20px;
+        }
+
+        &.yellow {
+            color: $yellow;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+    }
+
+    .buttonWrapper {
+        margin-top: 28px;
+        position: relative;
+        display: inline-block;
+
+        &::after {
+            @include pulsing();
+
+            content: " ";
+            border: 1px solid transparentize(white, 0.9);
+            border-radius: 32px;
+            box-shadow: 0 0 5px 0 transparentize(white, 0.9);
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            right: -8px;
+            bottom: -8px;
+            pointer-events: none;
+        }
+
+        .button {
+            @include pulsing;
+            @include shining;
+        }
+    }
+}

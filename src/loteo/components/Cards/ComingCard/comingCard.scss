@@ -1,0 +1,81 @@
+@import "styles/mixins";
+
+.comingCard {
+    position: relative;
+    max-width: 323px;
+    width: 281px;
+    height: 400px;
+    margin: 10px;
+    border: 6px solid #FECF0F;
+    box-sizing: border-box;
+    box-shadow: 0 0 16px;
+    border-radius: 8px;
+    text-align: center;
+    background-size: cover;
+
+    @include media($max: md) {
+        width: 323px;
+        margin: 0;
+        border-width: 0;
+    }
+
+    &__information {
+        color: white;
+        position: absolute;
+        bottom: 0;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+
+        i.fa {
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid white;
+            padding: 0.3em 0.6em;
+        }
+    }
+    
+    &--title {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, 0);
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        white-space: pre-wrap;
+
+        .content {
+            float: left;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        &.lottery {
+            top: 45%;
+            text-shadow: 0 0 8px #FECF0F;
+            color: $yellow;
+        }
+
+        &.loteo {
+            top: 10%;
+            text-shadow: 0 0 12px #FFFFFF;
+            color: white;
+        }
+    }
+
+    &--button {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 70%;
+        height: 51px;
+        margin: 16px auto 10px auto;
+        font-size: 14px !important;
+    }
+}

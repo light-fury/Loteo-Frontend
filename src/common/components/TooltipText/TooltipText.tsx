@@ -12,7 +12,7 @@ type Props = {
 
 const TooltipText = ({className, children, tooltip}: Props) => {
     const [overflowing, setOverflowing, unsetOverflowing] = useBooleanState();
-    const elementRef = useRef(null);
+    const elementRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const element = elementRef.current;
@@ -22,7 +22,7 @@ const TooltipText = ({className, children, tooltip}: Props) => {
         } else {
             unsetOverflowing();
         }
-    }, [children]);
+    }, [children, setOverflowing, unsetOverflowing]);
 
     return (
         <div className="tooltipText">

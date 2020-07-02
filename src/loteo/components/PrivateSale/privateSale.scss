@@ -1,0 +1,64 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.privateSale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba($dark, 0.3);
+    box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.15);
+    width: 440px;
+
+    @include media(md) {
+        flex-direction: row;
+    }
+
+    .title {
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+
+        @include media(md) {
+            text-align: left;
+        }
+    }
+
+    .counter {
+        margin-top: 8px;
+
+        .number {
+            padding: 4px;
+            width: 40px;
+
+            .values {
+                width: 22px;
+                height: 18px;
+
+                .value {
+                    top: -2px;
+                    font-size: 16px;
+                }
+            }
+
+            .text {
+                font-size: 8px;
+            }
+        }
+    }
+
+    .contactUsButton {
+        width: 130px;
+        margin-top: 24px;
+        font-size: 12px;
+        font-weight: 900;
+        box-shadow: 0 5px 16px 0 rgba(218, 40, 20, 0.5);
+
+        @include media(md) {
+            margin-top: 0;
+        }
+    }
+}

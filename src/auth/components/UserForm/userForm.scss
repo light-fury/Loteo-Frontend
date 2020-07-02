@@ -1,0 +1,85 @@
+@import "styles/colors";
+
+.userForm {
+    .labelValue {
+        .label {
+            margin-top: 40px;
+            color: $grey2;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .value {
+            font-size: 16px;
+        }
+
+        .input {
+            border-left: none;
+            border-top: none;
+            border-right: none;
+            width: 100%;
+            padding: 8px 0 16px;
+            font-weight: normal;
+            font-size: 16px;
+            outline: none;
+        }
+    }
+
+    .avatarSection {
+        display: flex;
+        align-items: center;
+
+        .avatar {
+            border-radius: 50%;
+            max-width: 85px;
+            max-height: 85px;
+        }
+
+        .labelValue {
+            margin-left: 24px;
+
+            .label {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .mfaSection {
+        display: flex;
+        align-items: center;
+        margin-top: 72px;
+
+        img {
+            height: 40px;
+        }
+
+        .label {
+            flex-grow: 1;
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 16px;
+        }
+    }
+
+    .ethAddressSection {
+        margin-top: 72px;
+
+        .label {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .addressComponent {
+            margin-top: 16px;
+        }
+    }
+
+    .saveButton {
+        margin-top: 100px;
+        width: 240px;
+        height: 56px;
+        font-size: 16px;
+    }
+}

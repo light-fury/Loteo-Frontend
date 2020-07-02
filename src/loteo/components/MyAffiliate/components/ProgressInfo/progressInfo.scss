@@ -1,0 +1,150 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.progressInfo {
+    margin-bottom: 60px;
+    position: relative;
+    flex-wrap: wrap;
+
+    @include media(md) {
+        flex-wrap: nowrap;
+    }
+
+    &__spaceProgram {
+        padding: 8px;
+
+        &__item {
+            margin: 0 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: $yellow;
+
+            &.active {
+                color: $dark;
+            }
+
+            &.inactive:not(.locked) {
+                opacity: 0.5;
+                filter: grayscale(1);
+            }
+
+            &.locked {
+                border-color: transparentize($pink, 0.8);
+                color: $pink;
+            }
+
+            &__title {
+                margin-bottom: 6px;
+                font-size: 12px;
+                font-weight: 900;
+                text-align: center;
+
+                span {
+                    margin-left: 2px;
+                    font-size: 10px;
+                }
+            }
+
+            img {
+                max-width: 10px;
+                max-height: 10px;
+                margin: 0 1px;
+            }
+        }
+    }
+
+    &__VIPStatus {
+        padding: 8px 8px 3px;
+
+        &__item {
+            max-width: 58px;
+            margin: 0 3px 5px;
+            padding: 4px;
+            border-radius: 4px;
+            border-width: 1px;
+            border-style: solid;
+            font-size: 8px;
+            font-weight: 700;
+            text-align: center;
+
+            &.active {
+                background: currentColor;
+                box-shadow: 0 0 16px 0 transparentize(black, 0.95), 0 0 5px 0 currentColor;
+
+                span {
+                    color: white;
+                }
+            }
+
+            &.inactive:not(.locked) {
+                opacity: 0.5;
+                color: $grey2;
+                border-color: $greyBorder;
+
+                span {
+                    color: black;
+                }
+            }
+
+            &.locked {
+                border-color: transparentize($pink, 0.8);
+
+                span {
+                    color: $pink;
+                }
+            }
+        }
+    }
+
+    &__divider {
+        @include media(md) {
+            flex: none;
+        }
+
+        div {
+            padding: 30px 10px;
+            color: transparentize($dark, 0.6);
+            font-weight: 900;
+            line-height: 19px;
+            text-align: center;
+        }
+    }
+
+    &__content {
+        @include media(md) {
+            padding: 0 12px;
+
+            .loteoGrid.col-xs-12 {
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+        }
+    }
+
+    #{&}Icon {
+        max-width: 40px;
+        max-height: 40px;
+        display: flex;
+        align-items: center;
+
+        svg,
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        &.red g {
+            fill: $red;
+        }
+
+        &.pink g {
+            fill: $pink;
+        }
+
+        &.yellow g {
+            fill: $yellow;
+        }
+    }
+}

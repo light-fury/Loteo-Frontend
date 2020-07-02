@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>tunisia-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1007.000000, -125.000000)">
+            <g id="tunisia-flag-icon" transform="translate(1007.000000, 125.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,34 Z" id="Path" fill="#E31E25"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="24" cy="18" r="12"></circle>
+                <path d="M27.199,24.4 C23.666,24.4 20.799,21.534 20.799,18 C20.799,14.466 23.666,11.6 27.199,11.6 C27.892,11.6 28.545,11.739 29.17,11.942 C27.771,10.748 25.98,10 24,10 C19.58,10 16,13.582 16,18 C16,22.418 19.58,26 24,26 C25.98,26 27.771,25.252 29.17,24.059 C28.545,24.262 27.893,24.4 27.199,24.4 Z" id="Path" fill="#E31E25"></path>
+                <polygon id="Path" fill="#E31E25" points="29.258 16.706 28.029 14.041 26.799 16.706 24 16.706 26.047 18.823 25.264 22 28.03 20.429 30.795 22 30.012 18.823 32.059 16.706"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

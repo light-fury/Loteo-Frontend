@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>slovakia-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-814.000000, -275.000000)">
+            <g id="slovakia-flag-icon" transform="translate(814.000000, 275.000000)">
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,24 L48,24 L48,34 Z" id="Path" fill="#DD2026"></path>
+                <rect id="Rectangle" fill="#0038A7" x="0" y="12" width="48" height="12"></rect>
+                <path d="M48,12 L0,12 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,12 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M18,8 L6,8 L6,18.93 C6,19.599 6.334,20.223 6.891,20.594 L12,24 L17.109,20.594 C17.666,20.223 18,19.598 18,18.93 L18,8 Z" id="Path" fill="#EE1E2E"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="8" y="10" width="8" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="10" y="14" width="4" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="10" y="18" width="4" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

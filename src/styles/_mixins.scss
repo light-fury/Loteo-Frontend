@@ -1,0 +1,295 @@
+@import "styles/variables";
+@import "styles/colors";
+
+@mixin centerMax($maxWidth: 1200px) {
+    max-width: $maxWidth;
+    margin: 0 auto;
+}
+
+@mixin pulsing($delay: 0s) {
+    animation: pulsing-anim 5s linear infinite;
+    animation-delay: $delay;
+
+    @keyframes pulsing-anim {
+        0% {
+            transform: scale(1);
+        }
+
+        15% {
+            transform: scale(1.05);
+        }
+
+        18% {
+            transform: scale(1.05);
+        }
+
+        32% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+}
+
+@mixin shining($delay: 0s, $width: 300px) {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -70px;
+        height: 98px;
+        width: 20px;
+        background: rgba(255, 255, 255, 0.4);
+        transform: skewX(20deg) translateX(0);
+        animation: shining-anim-#{$width} 5s linear infinite;
+        animation-delay: $delay;
+    }
+
+    @keyframes shining-anim-#{$width} {
+        0% {
+            transform: skewX(20deg) translateX(0);
+        }
+
+        15% {
+            transform: skewX(20deg) translateX($width);
+        }
+
+        18% {
+            transform: skewX(20deg) translateX($width);
+        }
+
+        32% {
+            transform: skewX(20deg) translateX(0);
+        }
+
+        100% {
+            transform: skewX(20deg) translateX(0);
+        }
+    }
+}
+
+@mixin radialBackground {
+    background: radial-gradient(ellipse at 50% -50%, $red 0%, $dark 90%) center no-repeat;
+}
+
+@mixin pictureContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(white, 0.1);
+    border: 1px solid rgba(white, 0.2);
+    height: 50px;
+    width: 50px;
+
+    .picture {
+        max-width: 42px;
+        max-height: 42px;
+        border-radius: 50%;
+    }
+}
+
+@mixin glowEffect {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        box-sizing: border-box;
+        border-radius: 8px;
+        top: -4px;
+        left: -4px;
+        bottom: -4px;
+        right: -4px;
+        border: 6px solid $yellow;
+        box-shadow: inset 0 0 1px 0 $orange, 0 0 16px 0 $yellow;
+        transform: scaleY(-1);
+        pointer-events: none;
+    }
+}
+
+@mixin hexBullet($color: null) {
+    &::before {
+        content: "";
+        position: absolute;
+        top: -35%;
+        left: -35%;
+        bottom: -35%;
+        right: -35%;
+        z-index: -2;
+        background: radial-gradient(circle, #ffde00 0%, rgba(#ff5f00, 0) 60%);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        @if ($color) {
+            background: $color;
+        } @else {
+            background: radial-gradient(circle, #ffde00 0%, #ffde00 40%, #ff5f00 100%);
+        }
+
+        clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        z-index: -1;
+    }
+}
+
+@mixin buttonOutline($borderRadius) {
+    position: relative;
+    $offset: -12px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: $offset;
+        right: $offset;
+        bottom: $offset;
+        top: $offset;
+        border: 1px solid white;
+        opacity: 0.1;
+        border-radius: $borderRadius;
+        box-shadow: 0 0 5px 0 white;
+    }
+}
+
+@mixin topArrow($leftPosition) {
+    &::after {
+        bottom: 100%;
+        left: $leftPosition;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border: 8px solid transparent;
+        border-bottom-color: #ffffff;
+    }
+}
+
+@mixin caretDown($display: inline-block) {
+    &::after {
+        content: " ";
+        width: 8px;
+        height: 8px;
+        border-bottom: 2px solid white;
+        border-left: 2px solid white;
+        transform: rotate(-45deg);
+        display: $display;
+    }
+}
+
+@mixin trimText() {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin checkMark($background: $pink, $right: 0) {
+    &::before {
+        content: " ";
+        width: 16px;
+        height: 16px;
+        background: $background;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        right: #{$right}px;
+        top: 50%;
+    }
+
+    &::after {
+        content: " ";
+        width: 10px;
+        height: 6px;
+        border-bottom: 2px solid white;
+        border-left: 2px solid white;
+        transform: rotate(-45deg);
+        position: absolute;
+        top: calc(50% - 4px);
+        right: #{$right + 3}px;
+    }
+}
+
+@mixin pulsingButton() {
+    position: relative;
+
+    button {
+        width: 100%;
+        font-size: 24px;
+        position: relative;
+
+        @include shining(0s, 400px);
+        @include pulsing();
+    }
+
+    &::after {
+        content: " ";
+        border-radius: 44px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px 0 white;
+        opacity: 0.1;
+        position: absolute;
+        top: -12px;
+        left: -12px;
+        right: -12px;
+        bottom: -12px;
+        pointer-events: none;
+
+        @include pulsing();
+    }
+}
+
+@mixin media($breakpoint: null, $min: null, $max: null) {
+    @if ($min) {
+        @media (min-width: $min) {
+            @content;
+        }
+    } @else if ($max) {
+        @if map-has-key($breakpoints, $max) {
+            @media (max-width: #{map-get($breakpoints, $max) - 1}px) {
+                @content;
+            }
+        }
+    } @else {
+        @if map-has-key($breakpoints, $breakpoint) {
+            @media (min-width: #{map-get($breakpoints, $breakpoint)}px) {
+                @content;
+            }
+        }
+    }
+}
+
+@mixin noScrollbar() {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@mixin flexboxScrollfix($xsWidth: 24px, $mdWidth: 40px) {
+    &::after {
+        content: " ";
+        height: 1px;
+        padding-right: $xsWidth;
+
+        @include media(md) {
+            padding-right: $mdWidth;
+        }
+
+        @include media(lg) {
+            content: none;
+        }
+    }
+}

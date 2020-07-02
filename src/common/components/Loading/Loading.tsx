@@ -1,18 +1,15 @@
 import React from "react";
 
+import {Grid} from "ui/components";
+
 import "./loading.scss";
 
-type Props = {
-    message?: string | null;
-}
-
-const Loading = ({message}: Props) => (
-    <div className="loading">
-        <div className="progressMessage">
-            <div className="spinner"/>
-            {message && <div className="message">{message}</div>}
-        </div>
-    </div>
+const Loading = () => (
+    <Grid align="center" justify="center" className="loading">
+        <video autoPlay muted loop playsInline>
+            <source src="videos/loading.mp4" type="video/mp4" />
+        </video>
+    </Grid>
 );
 
 export default Loading;

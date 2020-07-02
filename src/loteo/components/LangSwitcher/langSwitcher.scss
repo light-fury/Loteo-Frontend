@@ -1,0 +1,73 @@
+@import "styles/colors";
+
+.langSwitcher {
+    background: transparentize(white, 0.92);
+    border-radius: 16px;
+    padding: 0 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    width: 70px;
+    cursor: pointer;
+
+    &--expanded {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    &:hover {
+        background: white;
+
+        .items {
+            background: white;
+        }
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .visibleLang {
+            color: $pink;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .arrow {
+            width: 0;
+            height: 0;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 4px solid $pink;
+            margin-left: 5px;
+
+            &--open {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .items {
+        z-index: 1;
+        position: absolute;
+        background: transparentize(white, 0.92);
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        padding: 0 12px;
+        left: 0;
+        right: 0;
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 12px;
+            margin: 3px 0 9px 0;
+            color: $pink;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}

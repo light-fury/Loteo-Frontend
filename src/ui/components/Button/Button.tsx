@@ -1,14 +1,30 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
 
 import {useBooleanState} from "hooks";
 
 import "./button.scss";
 
 export enum ButtonStyle {
+    None = "",
     Default = "default",
+    White = "white",
+    TransparentWhite = "transparentWhite",
+    Borderless = "borderless",
+    BorderlessShadowBox = "borderlessShadowBox",
     WhiteOutline = "whiteOutline",
+    Gold = "gold",
     RedOutline = "redOutline",
-    Grey = "grey"
+    Grey = "grey",
+    RedCondensed = "redCondensed",
+    GoldCondensed = "goldCondensed",
+    GoldBright = "goldBright",
+    Yellow = "yellow",
+    YellowCondensed = "yellowCondensed",
+    Pink = "pink",
+    PinkCondensed = "pinkCondensed",
+    Facebook = "facebook",
+    Twitter = "twitter"
 }
 
 type Props = {
@@ -17,11 +33,24 @@ type Props = {
     style?: ButtonStyle;
     iconURL?: string;
     hoverIconURL?: string;
-    onClick?: () => void;
+    rightIconURL?: string;
+    onClick?();
     [key: string]: any;
 };
 
-const Button = ({text, className = "", style = ButtonStyle.Default, iconURL, hoverIconURL, onClick, ...other}: Props) => {
+const Button = ({
+    text,
+    className = "",
+    style = ButtonStyle.Default,
+    iconURL,
+    hoverIconURL,
+    onClick,
+    rightIconURL,
+    ...other
+}: Props) => {
+    const {t} = useTranslation();
+    const TRANSLATE = "button";
+
     const [hovered, setHovered, unsetHovered] = useBooleanState();
 
     return (
@@ -32,9 +61,12 @@ const Button = ({text, className = "", style = ButtonStyle.Default, iconURL, hov
             onMouseLeave={unsetHovered}
             {...other}
         >
+            {iconURL && (!hovered || !hoverIconURL) && (
+                <img className="icon" src={iconURL} alt={t(`${TRANSLATE}.alts.0.alt`)} />
+            )}
             {text}
-            {iconURL && (!hovered || !hoverIconURL) && <img className="icon" src={iconURL} alt="button icon"/>}
-            {hoverIconURL && hovered && <img className="icon" src={hoverIconURL} alt="button icon"/>}
+            {rightIconURL && <img className="icon rightIcon" src={rightIconURL} alt={t(`${TRANSLATE}.alts.0.alt`)} />}
+            {hoverIconURL && hovered && <img className="icon" src={hoverIconURL} alt={t(`${TRANSLATE}.alts.0.alt`)} />}
         </button>
     );
 };

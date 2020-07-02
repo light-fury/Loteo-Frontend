@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>comoros-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1007.000000, -1044.000000)">
+            <g id="comoros-flag-icon" transform="translate(1007.000000, 1044.000000)">
+                <path d="M48,8 L10,8 L2,0 L46,0 C47.105,0 48,0.895 48,2 L48,8 Z" id="Path" fill="#FFC615"></path>
+                <path d="M48,28 L10,28 L2,36 L46,36 C47.105,36 48,35.105 48,34 L48,28 Z" id="Path" fill="#4A73A9"></path>
+                <polygon id="Path" fill="#E6E6E6" points="10 8 48 8 48 18 20 18"></polygon>
+                <polygon id="Path" fill="#D52027" points="10 28 48 28 48 18 20 18"></polygon>
+                <path d="M2,0 C0.895,0 0,0.895 0,2 L0,18 L0,34 C0,35.105 0.895,36 2,36 L20,18 L2,0 Z" id="Path" fill="#339241"></path>
+                <path d="M6,18 C6,15.391 7.674,13.193 10,12.367 C9.371,12.145 8.705,12 8,12 C4.686,12 2,14.686 2,18 C2,21.314 4.686,24 8,24 C8.705,24 9.371,23.855 10,23.633 C7.674,22.807 6,20.609 6,18 Z" id="Path" fill="#FFFFFF"></path>
+                <polygon id="Path" fill="#FFFFFF" points="13.043 17.557 12.207 17.557 11.928 16.86 11.649 17.557 10.813 17.557 11.37 18.254 11.091 19.092 11.929 18.672 12.767 19.092 12.488 18.254"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="13.043 13.291 12.207 13.291 11.928 12.594 11.649 13.291 10.813 13.291 11.37 13.988 11.091 14.826 11.929 14.406 12.767 14.826 12.488 13.988"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="13.043 21.871 12.207 21.871 11.928 21.174 11.649 21.871 10.813 21.871 11.37 22.57 11.091 23.406 11.929 22.988 12.767 23.406 12.488 22.57"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

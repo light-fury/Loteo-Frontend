@@ -1,0 +1,161 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.mofControls {
+    padding: 30px 40px;
+    background: transparentize($dark, 0.6);
+    border-radius: 8px 0 0 8px;
+
+    @include media($max: md) {
+        padding: 0 16px 40px;
+        border-radius: 0 0 8px 8px;
+        order: 2;
+    }
+
+    &__betAmount {
+        padding: 4px;
+        background: transparentize($greyBright, 0.9);
+        border-radius: 4px;
+
+        &__input {
+            margin-right: 8px;
+            padding-right: 8px;
+            background: transparentize($dark, 0.4);
+            border-radius: 4px;
+            color: transparentize(white, 0.6);
+            font-size: 16px;
+            font-weight: 700;
+            flex-grow: 1;
+
+            &.hasValue {
+                color: white;
+            }
+
+            input {
+                width: 85px;
+                padding: 10px 4px 10px 10px;
+                background: transparent;
+                border: none;
+                color: inherit;
+                font-size: 16px;
+                font-weight: 700;
+
+                &::-webkit-inner-spin-button,
+                &::-webkit-outer-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+        button {
+            margin: 0 5px;
+            padding: 10px 5px;
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+            cursor: pointer;
+
+            &:focus {
+                outline: none;
+                border: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    &__selects {
+        width: calc(100% + 8px);
+        margin: 0 -4px;
+
+        @include media(md) {
+            width: 100%;
+            margin: 0;
+        }
+
+        &__item {
+            width: 50%;
+            padding: 0 4px;
+
+            @include media(md) {
+                width: 100%;
+                padding: 0;
+            }
+
+            .select {
+                width: 100%;
+            }
+        }
+    }
+
+    &__startButton {
+        @include pulsingButton();
+
+        margin: 44px 12px 12px;
+
+        @include media(md) {
+            margin: 60px 12px 12px;
+        }
+    }
+
+    &__rules {
+        padding: 32px 0 0;
+        display: flex;
+        justify-content: center;
+
+        @include media(md) {
+            padding: 40px 0 10px;
+        }
+
+        &__dialog span {
+            padding-left: 24px;
+            color: $grey1;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            position: relative;
+            display: block;
+
+            &::before {
+                content: " ";
+                width: 6px;
+                height: 6px;
+                background: currentColor;
+                border-radius: 50%;
+                position: absolute;
+                top: 11px;
+                left: 0;
+            }
+        }
+    }
+
+    h1 {
+        margin-bottom: 5px;
+        color: $yellow;
+        line-height: 68px;
+        text-shadow: 0 0 8px transparentize($yellow, 0.5);
+
+        @include media($max: md) {
+            display: none;
+        }
+    }
+
+    span {
+        margin-top: 8px;
+        color: $pink;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 32px;
+        display: block;
+
+        @include media(md) {
+            margin-top: 20px;
+        }
+    }
+}

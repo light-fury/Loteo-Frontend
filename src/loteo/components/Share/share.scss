@@ -1,0 +1,263 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.share {
+    &__header {
+        &__inner {
+            @include centerMax(1080px);
+
+            padding-top: 30px;
+            position: relative;
+
+            @include media(md) {
+                padding-top: 68px;
+            }
+
+            &__affiliateLink {
+                margin-top: 56px;
+                margin-bottom: 56px;
+                display: inline-block;
+
+                @include media(md) {
+                    margin-top: 40px;
+                    margin-bottom: 72px;
+                }
+
+                .title {
+                    color: white;
+                    font-size: 20px;
+                }
+
+                .text {
+                    color: $pink;
+                    font-size: 14px;
+                    margin-top: 6px;
+                }
+
+                .copyField {
+                    margin-top: 16px;
+
+                    .valueField {
+                        border: none;
+                    }
+                }
+            }
+
+            .subTitle {
+                margin-top: 20px;
+                margin-bottom: 60px;
+                color: white;
+                font-size: 20px;
+                line-height: 32px;
+                max-width: 620px;
+
+                @include media(md) {
+                    margin-bottom: 120px;
+                }
+            }
+
+            h1 {
+                color: $yellow;
+                line-height: 48px;
+                text-shadow: 0 0 6px $yellow;
+
+                @include media(md) {
+                    line-height: 72px;
+                }
+            }
+        }
+
+        .background {
+            padding: 0;
+        }
+    }
+
+    &__affiliatePrograms {
+        padding: 40px 20px 100px;
+
+        @include media(md) {
+            padding: 120px 40px 200px;
+        }
+
+        &__headerIcon {
+            margin-bottom: 40px;
+        }
+
+        & &__cta {
+            width: 100%;
+            margin-top: 40px;
+
+            @include media(md) {
+                margin-top: 100px;
+            }
+
+            h3 {
+                margin-bottom: 40px;
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }
+
+        &__divider {
+            margin: 80px 0;
+            color: $grey2;
+            font-weight: 900;
+
+            @include media(md) {
+                margin: 120px 0;
+            }
+
+            &::before,
+            &::after {
+                content: " ";
+                width: 200px;
+                height: 1px;
+                margin: 0 10px;
+                background: $greyBorder;
+                display: block;
+            }
+        }
+
+        .button {
+            font-size: 16px;
+        }
+    }
+
+    &__playerBenefits {
+        padding: 40px 20px 100px;
+
+        @include media(md) {
+            padding: 120px 40px 200px;
+        }
+
+        &__item {
+            margin-bottom: 20px;
+
+            @include media(md) {
+                margin-bottom: 100px;
+            }
+
+            &__title {
+                margin-bottom: 16px;
+                color: $dark;
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 24px;
+                text-align: center;
+
+                &.red span {
+                    color: $red;
+                }
+
+                &.yellow span {
+                    color: $yellow;
+                }
+            }
+
+            &__bonuses {
+                width: 100%;
+
+                &__item {
+                    margin: 5px 0;
+
+                    &__description {
+                        margin-top: 8px;
+                        color: $grey1;
+                        line-height: 24px;
+                        text-align: center;
+                    }
+                }
+
+                .bonusLabel {
+                    margin-top: 16px;
+                }
+            }
+        }
+
+        &__coinback {
+            padding: 200px 20px;
+            background: radial-gradient(1000px 650px at top, $red 0%, $dark 100%);
+            position: relative;
+
+            &__cutout {
+                width: calc(100% + 4px);
+                transform: scaleY(-1);
+                position: absolute;
+                left: -2px;
+                top: -2px;
+            }
+
+            &__inner {
+                &__title {
+                    margin: 40px 0 24px;
+                    color: $yellow;
+                    font-size: 40px;
+                    font-weight: 900;
+                    line-height: 40px;
+                    text-align: center;
+                    text-shadow: 0 0 4px $yellow;
+                }
+
+                &__text {
+                    margin-bottom: 48px;
+                    color: white;
+                    line-height: 32px;
+                    text-align: center;
+                }
+
+                .bonusLabel {
+                    margin-top: 0;
+
+                    span {
+                        box-shadow: 0 0 16px 0 $yellow;
+                    }
+                }
+
+                img {
+                    max-width: 120px;
+                }
+            }
+        }
+
+        h3 {
+            margin-bottom: 20px;
+
+            @include media(md) {
+                margin-bottom: 70px;
+            }
+        }
+    }
+
+    h3 {
+        color: $dark;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+
+        @include media(md) {
+            font-size: 40px;
+            line-height: 56px;
+        }
+
+        &.yellow span {
+            color: $yellow;
+        }
+
+        &.red span {
+            color: $red;
+        }
+    }
+
+    h4 {
+        margin-top: 12px;
+        margin-bottom: 0;
+        color: $grey1;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+
+        strong {
+            font-weight: 900;
+        }
+    }
+}

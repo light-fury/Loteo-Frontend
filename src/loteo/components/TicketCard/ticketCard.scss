@@ -1,0 +1,98 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.ticketCard {
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+
+    .imagePanel {
+        flex-shrink: 0;
+
+        img {
+            max-width: 95px;
+        }
+    }
+
+    .detailsPanel {
+        flex-grow: 1;
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        margin-left: 4px;
+
+        .title {
+            font-size: 24px;
+            font-weight: 900;
+
+            .counter {
+                padding: 4px 12px;
+                border-radius: 4px;
+                background-color: $yellow;
+                box-shadow: 0 0 6px 0 transparentize($yellow, 0.5);
+                color: $dark;
+                font-size: 12px;
+                font-weight: 900;
+                text-align: center;
+            }
+        }
+
+        .text {
+            margin-top: 12px;
+            font-size: 12px;
+            color: $grey1;
+            line-height: 20px;
+
+            br {
+                @include media($max: md) {
+                    display: none;
+                }
+            }
+
+            span {
+                color: $yellow;
+                font-weight: 900;
+            }
+        }
+
+        .buyPanel {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 16px;
+
+            .label {
+                font-size: 14px;
+                font-weight: 900;
+            }
+
+            .countControls {
+                display: flex;
+                align-items: center;
+                border: 1px solid $greyBright;
+                border-radius: 17.5px;
+                padding: 0 4px;
+
+                img {
+                    padding: 6px;
+                    width: 24px;
+                    height: 24px;
+                    cursor: pointer;
+                }
+
+                .count {
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    font-size: 24px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

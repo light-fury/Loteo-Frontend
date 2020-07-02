@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="74px" viewBox="0 0 80 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55 (78076) - https://sketchapp.com -->
+    <title>6181E660-6013-4F42-A00F-54E2E0C18786</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-0.796941004%" y1="0%" x2="97.4292572%" y2="122.116528%" id="linearGradient-1">
+            <stop stop-color="#6DD0E7" offset="0%"></stop>
+            <stop stop-color="#003393" offset="100%"></stop>
+        </linearGradient>
+        <path d="M5.69720598,10.6493356 L34.9478697,-3.37534781 C35.7708795,-3.76995262 36.7290578,-3.767012 37.5496302,-3.3673631 L66.3193171,10.6445329 C67.3475475,11.1453189 68,12.1888083 68,13.3325059 L68,50.6674941 C68,51.8111917 67.3475475,52.8546811 66.3193171,53.3554671 L37.5496302,67.3673631 C36.7290578,67.767012 35.7708795,67.7699526 34.9478697,67.3753478 L5.69720598,53.3506644 C4.65994871,52.8533354 4,51.8050278 4,50.6547066 L4,13.3452934 C4,12.1949722 4.65994871,11.1466646 5.69720598,10.6493356 Z" id="path-2"></path>
+        <filter x="-11.7%" y="-10.0%" width="123.4%" height="119.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.611764706   0 0 0 0 0.815686275   0 0 0 0 0.937254902  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M34.4885229,19.9343582 L35.2814728,19 L26.6125882,19 L18,29.0570113 L26.7409935,29.0570113 L34.4885229,19.9343582 Z M28.8161743,29.0580174 L45.1886275,29.0580174 L37.0032288,19.4166211 L31.3600218,26.0615145 L28.8161743,29.0580174 Z M18.1048105,30.6510545 L34.3818083,47.9975523 L26.5977691,30.6510545 L18.1048105,30.6510545 Z M45.6814684,30.649713 L44.2630501,30.649713 L38.299037,30.6510545 L28.3230022,30.6510545 L36.9511547,49.8775038 L37.0067887,50 L45.2277865,31.6650646 L45.6814684,30.649713 Z M39.64278,47.972986 L55.8939477,30.6517253 L47.4081089,30.6517253 L39.64278,47.972986 Z M56,29.0570113 L47.3845142,19 L38.721756,19 L47.261573,29.0570113 L56,29.0570113 Z" id="path-4"></path>
+        <filter x="-15.8%" y="-19.4%" width="131.6%" height="138.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="*Hard-Launch-Version" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Invite-friends-(NEW)---affiliate" transform="translate(-612.000000, -2329.000000)">
+            <g id="Group-3" transform="translate(240.000000, 2090.000000)">
+                <g id="bronze-copy-3" transform="translate(372.000000, 236.000000)">
+                    <g id="Group" transform="translate(4.000000, 8.000000)">
+                        <g id="Mask" transform="translate(36.000000, 32.000000) rotate(90.000000) translate(-36.000000, -32.000000) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Fill-1" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

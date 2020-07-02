@@ -6,14 +6,13 @@ import "./disabledOverlay.scss";
 
 type Props = {
     active: boolean;
-    message?: string | null;
-}
+};
 
-const DisabledOverlay = ({active, message}: Props) => {
+const DisabledOverlay = ({active}: Props) => {
     return (
         <div className={"disabledOverlay" + (active ? " active" : "")}>
-            {active && <div className="overlay"/>}
-            {active && <Loading message={message}/>}
+            {active && <div className="overlay" />}
+            {active && <Loading />}
         </div>
     );
 };

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>kenya-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-139.000000, -778.000000)">
+            <g id="kenya-flag-icon" transform="translate(139.000000, 778.000000)">
+                <path d="M48,12 L0,12 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,12 Z" id="Path" fill="#3C3C3C"></path>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,22 L48,22 L48,34 Z" id="Path" fill="#0E6731"></path>
+                <rect id="Rectangle" fill="#BD1D27" x="0" y="12" width="48" height="12"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="12" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="22" width="48" height="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(19.100621, 26.358140) rotate(-29.761937) translate(-19.100621, -26.358140) " x="16.1006053" y="25.3581345" width="6.00003171" height="2.00001057"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(28.899375, 26.358893) rotate(-60.238063) translate(-28.899375, -26.358893) " x="27.89937" y="23.358877" width="2.00001057" height="6.00003171"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(19.100457, 9.642011) rotate(-60.238063) translate(-19.100457, -9.642011) " x="18.1004513" y="6.64199485" width="2.00001057" height="6.00003171"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(28.899407, 9.642025) rotate(-29.761937) translate(-28.899407, -9.642025) " x="25.8993912" y="8.64201942" width="6.00003171" height="2.00001057"></rect>
+                <polygon id="Path" fill="#3C3C3C" points="28 10 24 8 20 10 20 26 24 28 28 26"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

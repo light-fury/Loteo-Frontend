@@ -1,0 +1,148 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.myAffiliate {
+    &__banner {
+        @include centerMax(1680px);
+
+        padding: 24px 24px 32px;
+        position: relative;
+        flex-wrap: wrap;
+
+        @include media(md) {
+            padding: 55px 40px;
+            flex-wrap: nowrap;
+        }
+
+        &__upline {
+            padding: 8px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 32px 0 transparentize(black, 0.9);
+            color: $red;
+            font-size: 12px;
+            font-weight: 900;
+            white-space: nowrap;
+
+            @include media(md) {
+                margin-top: 0;
+                margin-left: auto;
+                padding: 12px 16px;
+                font-size: 14px;
+            }
+
+            span {
+                margin-right: 4px;
+                color: $grey1;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+
+                @include media(md) {
+                    margin-right: 8px;
+                }
+            }
+        }
+
+        > .separator {
+            width: 2px;
+            height: 24px;
+            margin: 0 50px;
+            background: transparentize(white, 0.8);
+            border-radius: 1px;
+            display: none;
+
+            @include media(md) {
+                display: block;
+            }
+        }
+
+        h1 {
+            width: 100%;
+            margin-top: 32px;
+            font-size: 32px;
+            line-height: 42px;
+            text-align: center;
+            order: 3;
+
+            @include media(md) {
+                margin-top: 0;
+                font-size: 40px;
+                line-height: 60px;
+                text-align: left;
+                order: initial;
+            }
+        }
+    }
+
+    &__loading {
+        padding: 120px 40px;
+
+        @include media(sm) {
+            padding: 280px 40px;
+        }
+
+        .loadingText {
+            color: transparentize(black, 0.8);
+            font-size: 24px;
+            font-weight: 900;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+
+    &__statistics {
+        padding-top: 30px;
+        padding-bottom: 72px;
+
+        @include media(md) {
+            padding-bottom: 260px;
+        }
+
+        &__passDialog {
+            text-align: center;
+
+            &__icon {
+                width: 90px;
+                margin-bottom: 80px;
+                filter: drop-shadow(0 0 6px white);
+            }
+
+            &__title {
+                color: $brown;
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 32px;
+
+                strong {
+                    color: $yellow;
+                    text-shadow: 0 0 6px transparentize($yellow, 0.5);
+                    text-transform: uppercase;
+                    display: block;
+                }
+            }
+
+            &__text {
+                margin: 20px 0 60px;
+                color: $grey1;
+                line-height: 24px;
+            }
+
+            .dialogArea {
+                max-width: 400px;
+                background: url("/images/myAffiliate/passDialog/bg.png"), white;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: contain;
+
+                .button:first-of-type {
+                    margin-bottom: 26px;
+                }
+            }
+        }
+    }
+
+    .background {
+        padding-bottom: 0;
+    }
+}

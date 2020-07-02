@@ -1,0 +1,704 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.weeklyLottery__ticketSelector {
+    position: relative;
+    padding: 12px 24px;
+    background: transparentize($orange, 0.9);
+    border-radius: 12px;
+    border: 6px solid $yellow;
+    box-shadow: inset 0 0 1px 0 $orange, 0 0 16px 0 $yellow;
+
+    @include media(md) {
+        padding: 24px 48px;
+    }
+
+    hr {
+        margin: 32px 0 !important;
+    }
+
+    &.showStickySummary {
+        margin-bottom: 250px;
+
+        @include media(md) {
+            margin-bottom: 100px;
+        }
+    }
+
+    &.bottomDiv {
+        float: left;
+        clear: both;
+    }
+
+    &__title {
+        &__text {
+            flex-direction: column;
+            align-items: flex-start;
+
+            @include media(lg) {
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        .quitButton .text {
+            @include media($max: md) {
+                display: none;
+            }
+        }
+
+        h1 {
+            margin-right: 16px;
+            color: $yellow;
+            font-size: 24px;
+            line-height: 32px;
+
+            @include media(md) {
+                font-size: 48px;
+                line-height: 58px;
+            }
+        }
+    }
+
+    .chance {
+        border-radius: 4px;
+        background-color: $red;
+        padding: 4px 12px;
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 17px;
+        letter-spacing: 0.4px;
+        opacity: 0.6;
+        color: white;
+    }
+    
+    &__main {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        flex-direction: column;
+
+        @include media(md) {
+            flex-direction: row;
+        }
+
+        &__availableLoteu {
+            padding: 16px;
+            min-width: 220px;
+
+            .borderedButton {
+                background: none;
+                box-shadow: none;
+                border: 2px solid $yellow;
+                box-sizing: border-box;
+            }
+
+            &__title {
+                margin-bottom: 24px;
+                justify-content: center !important;
+                flex-basis: auto;
+
+                @include media(md) {
+                    justify-content: flex-start;
+                }
+
+                &__icon {
+                    margin-right: 20px;
+                    flex-basis: auto;
+                    background-image: radial-gradient(circle at 23px 32px, transparentize($lightOrange, 0.5) 1% , transparentize(white, 1) 70% );
+
+                    &__container {
+                        width: 46px;
+                        height: 46px;
+                        img,
+                        svg {
+                            min-width: 100%;
+                            min-height: 100%;
+                        }
+
+                        path {
+                            fill: $lightOrange;
+                        }
+                    }
+                }
+
+                .rightSide {
+                    flex-basis: auto;
+
+                    @include media(md) {
+                        flex-basis: 100%;
+                    }
+                }
+
+                img {
+                    max-width: 46px;
+                    margin-right: 20px;
+                }
+
+                span {
+                    margin-bottom: 2px;
+                    color: transparentize(white, 0.4);
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                }
+
+                strong {
+                    color: white;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+            }
+
+            &__conversion {
+                margin-top: 16px;
+                color: transparentize(white, 0.4);
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                text-align: center;
+            }
+
+            .button {
+                cursor: default;
+            }
+        }
+
+        &__controls {
+            margin: 20px 0 20px 0;
+            padding: 24px;
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+
+            @include media(md) {
+                margin: 0 0 0 16px;
+            }
+
+            &.loteoGrid {
+                @include media(lg) {
+                    flex-wrap: nowrap;
+                }
+            }
+
+            .pr0 {
+                padding-right: 0;
+            }
+
+            &__playArea {
+                position: relative;
+                margin-top: 24px;
+                border-top: 1px solid transparentize(white, 0.8);
+                border-bottom: 1px solid transparentize(white, 0.8);
+                overflow: hidden;
+                padding: 48px 0 60px;
+
+                @include media(md) {
+                    flex-direction: row;
+                }
+
+                &__loteuSection {
+                    align-items: flex-start;
+                    flex-basis: 50%;
+                    flex-direction: column;
+
+                    @include media(md) {
+                        flex-direction: row;
+                    }
+
+                    &__contentPanel {
+                        padding-right: 40px;
+
+                        &.ml40 {
+                            @include media(sm) {
+                                margin-left: 40px;
+                            }
+                        }
+
+                        &__rightContainer {
+                            height: 100%;
+                            background: radial-gradient(ellipse at top, $yellow 0%, $lightOrange 100%);
+                            box-shadow: 0 0 16px transparentize($yellow, 0.4);
+                            border-radius: 4px;
+                            padding: 30px;
+                            align-items: center !important;
+                            margin-top: 10px;
+                            flex-direction: column;
+                            text-align: center;
+
+                            @include media(md) {
+                                text-align: left;
+                                margin-top: 0;
+                                flex-direction: row;
+                                align-items: center;
+                            }
+
+                            &.borderlessContainer {
+                                background: none;
+                                box-shadow: none;
+                                border-radius: 0;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                padding: 0;
+
+                                @include media(md) {
+                                    text-align: left;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding: 30px;
+                                }
+                            }
+
+                            .roundedButton {
+                                background: radial-gradient(40.00px at 50% 0%, $yellow 0%, $lightOrange 100%);
+                                opacity: 0.9;
+                                box-shadow: 0 2px 9px transparentize($yellow, 0.4);
+                                width: 40px;
+                                height: 40px;
+                                justify-content: center;
+                                align-items: center;
+                                flex-basis: auto;
+                                border-radius: 20px;
+                                cursor: pointer;
+
+                                &.disabled {
+                                    background: $grey2;
+                                    opacity: 0.9;
+                                    cursor: default;
+                                }
+
+                                @include media(md) {
+                                    background: radial-gradient(56.00px at 50% 0%, $yellow 0%, $lightOrange 100%);
+                                    width: 56px;
+                                    height: 56px;
+                                    border-radius: 28px;
+                                }
+                            }
+
+                            .roundedLoteoButton {
+                                mix-blend-mode: normal;
+                                opacity: 0.9;
+                                box-shadow: 0 1px 4px transparentize($yellow, 0.4);
+                                width: 34px;
+                                height: 34px;
+                                border-radius: 17px;
+                                flex-basis: auto;
+                                justify-content: center;
+                                align-items: center;
+                                cursor: pointer;
+
+                                &.disabled {
+                                    box-shadow: 0 1px 4px $grey2;
+                                    opacity: 0.9;
+                                    cursor: default;
+                                }
+                            }
+
+                            .loteoVerticalContainer {
+                                flex-basis: auto;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                padding-bottom: 23px;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: transparentize(white, 0.4);
+
+                                .loteoReminder {
+                                    position: absolute;
+                                    margin-top: 90px;
+                                    margin-left: 0;
+                                    width: 300px;
+                                    height: 90px;
+                                    box-shadow: 0 16px 24px transparentize(black, 0.4);
+                                    border-radius: 4px;
+                                    background: transparent;
+                                    flex-direction: row;
+                                    overflow: hidden;
+
+                                    @include media(md) {
+                                        margin-left: -131px;
+                                        width: 340px;
+                                    }
+
+                                    .loteoReminderTextContainer {
+                                        flex: 1;
+                                        margin-top: 10px;
+                                        border-radius: 4px 0 0 4px;
+                                        background: white;
+                                        padding: 16px;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                        color: $red;
+                                    }
+
+                                    .loteoReminderBg {
+                                        width: 80px;
+                                        height: 90px;
+
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+
+                                .loteoTextInputContainer {
+                                    background: transparentize($greyBright, 0.8);
+                                    mix-blend-mode: normal;
+                                    border-radius: 4.8px;
+                                    padding: 7px 22px 8px 22px;
+                                    margin: 6px 22px 0 22px;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    .loteoTextInput {
+                                        background: transparent;
+                                        min-width: 50px;
+                                        text-align: center;
+                                        color: white;
+                                        font-weight: 900;
+                                        font-size: 24px;
+                                        line-height: 29px;
+                                        flex-grow: 1;
+                                        border: none;
+
+                                        &::placeholder {
+                                            color: white;
+                                        }
+
+                                        &:focus {
+                                            outline: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .text {
+                                color: white;
+                                font-weight: 900;
+                                font-size: 20px;
+                                line-height: 28px;
+                                width: 100%;
+                            }
+
+                            .count {
+                                margin-left: 32px;
+                                margin-right: 32px;
+                                font-size: 20px;
+                                line-height: 64px;
+                                font-weight: 500;
+                                text-align: center;
+
+                                strong {
+                                    font-size: 25px;
+                                }
+                                
+                                @include media(md) {
+                                    font-size: 30px;
+
+                                    strong {
+                                        font-size: 40px;
+                                    }
+                                }
+                            }
+
+                            .scrollDownContainer {
+                                margin-left: 10px;
+                                margin-right: 10px;
+                                flex-direction: column;
+                                align-items: center;
+                                max-width: 90px;
+                                margin-top: 15px;
+
+                                @include media(md) {
+                                    margin-top: 0;
+                                }
+
+                                .text {
+                                    color: white;
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    text-align: center;
+                                    margin-bottom: 10px;
+                                }
+
+                                .svgIcon {
+                                    margin-top: 12px;
+                                    height: 40px;
+                                    img,
+                                    svg {
+                                        min-width: 100%;
+                                        min-height: 100%;
+                                    }
+
+                                    path {
+                                        fill: white;
+                                    }
+                                }
+                            }
+                        }
+
+                        &__borderRight {
+                            background: transparentize($color: white, $amount: 0.8);
+                            width: 2px;
+                            height: 100%;
+                        }
+                        
+                        &__title {
+                            color: white;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 32px;
+
+                            &__disabled {
+                                color: transparentize($color: white, $amount: 0.4);
+                            }
+                        }
+
+                        &__text {
+                            margin-top: 8px;
+                            color: transparentize($color: $pink, $amount: 0.4);
+                            font-size: 14px;
+                            line-height: 22px;
+                            font-weight: normal;
+                        }
+
+                        &__rightText {
+                            color: transparentize($color: $red, $amount: 0);
+                            font-weight: 900;
+                            font-size: 20px;
+                            line-height: 28px;
+                            margin-right: 17.5%;
+                        }
+                        
+                        &__chanceInfo {
+                            align-items: center !important;
+                            margin-top: 8px;
+
+                            &__text {
+                                font-size: 14px;
+                                color: transparentize($color: $pink, $amount: 0.4);
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        > * {
+            background: transparentize($color: $dark, $amount: 0.4);
+            border-radius: 4px;
+        }
+    }
+
+    &__prizesCounter {
+        margin-top: 15px;
+        margin-top: 32px;
+        flex-direction: column;
+
+        @include media(md) {
+            margin-top: 32px;
+            align-items: center !important;
+            flex-direction: row;
+        }
+
+        &__prizes {
+            flex-basis: auto;
+            align-items: center;
+            flex-direction: row;
+
+            &__separator {
+                height: 32px;
+                width: 2px;
+                border-radius: 1px;
+                background-color: white;
+                opacity: 0.2;
+                margin: 0 32px;
+
+                @include media($max: sm) {
+                    display: none;
+                }
+            }
+
+            &__prize {
+                color: white;
+
+                &__value {
+                    font-size: 14px;
+                    font-weight: 300;
+
+                    @include media(sm) {
+                        font-size: 20px;
+                        font-weight: 900;
+                    }
+
+                    &.big {
+                        font-size: 40px;
+                        font-weight: 900;
+                        letter-spacing: 2px;
+                    }
+                }
+
+                &__currency {
+                    margin-left: 6px;
+                    font-size: 14px;
+                    font-weight: 300;
+
+                    @include media(sm) {
+                        font-size: 16px;
+                    }
+
+                    &.big {
+                        margin-left: 12px;
+                        font-size: 24px;
+                    }
+                }
+
+                &:last-of-type {
+                    margin-left: 32px;
+                }
+            }
+        }
+
+        &__startCounter {
+            margin-top: 10px;
+            flex-basis: auto;
+            flex-direction: column;
+            align-items: flex-start !important;
+            
+            @include media(md) {
+                margin-top: 30px;
+                flex-direction: row;
+                align-items: center !important;
+                justify-content: center;
+
+                .counter {
+                    margin-top: 0 !important;
+                    margin-left: 16px;
+                }
+            }
+
+            .counter {
+                margin-top: 10px;
+            }
+        
+            &__label {
+                font-size: 12px;
+                color: $pink;
+            }
+        }
+    }
+
+    &__bottomPanel {
+        margin-top: 40px;
+        transition: all 0.2s;
+        flex-direction: column;
+        align-items: center !important;
+
+        @include media(md) {
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        &.bottomMarginShow {
+            margin-bottom: 40px;
+        }
+
+        .showRulesButton {
+            height: 64px;
+            font-size: 12px;
+            font-weight: 900;
+            padding: 0 20px;
+            margin-bottom: 30px;
+
+            @include media(md) {
+                height: 64px;
+                font-size: 16px;
+                font-weight: 900;
+                padding: 0 32px;
+                margin-bottom: 0;
+            }
+        }
+
+        .buttons {
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+
+            @include media(md) {
+                margin-bottom: 0;
+            }
+
+            .processButtonWrapper {
+                position: relative;
+
+                @include media(md) {
+                    margin-left: 40px;
+                }
+
+                &.green {
+                    width: 260px;
+                    height: 64px;
+                }
+
+                .processButton {
+                    position: relative;
+                    font-size: 20px;
+                    font-weight: 900;
+                    width: 270px;
+                    height: 64px;
+
+                    @include shining(0s, 400px);
+                    @include pulsing();
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: -12px;
+                    left: -12px;
+                    width: 293px;
+                    height: 87px;
+                    border: 1px solid white;
+                    opacity: 0.1;
+                    border-radius: 44px;
+                    box-shadow: 0 0 5px 0 white;
+                    pointer-events: none;
+
+                    @include pulsing();
+                }
+            }
+        }
+    }
+}
+
+.successTicketDialog {
+    width: 100%;
+
+    .dialogScrollContainer {
+        .dialogArea {
+            width: 480px;
+            height: 640px;
+
+            .dialogContent {
+                .messagePanel {
+                    .cancelButton {
+                        box-shadow: 0 4px 8px $greyBorder;
+                        color: $dark;
+                    }
+                }
+            }
+        }
+    }
+}

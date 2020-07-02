@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>brunei-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-1200.000000, -125.000000)">
+            <g id="brunei-flag-icon" transform="translate(1200.000000, 125.000000)">
+                <polygon id="Path" fill="#000000" points="0 12 36 36 43.211 36 0 7.193"></polygon>
+                <path d="M46,0 L4.789,0 L48,28.807 L48,2 C48,0.895 47.105,0 46,0 Z" id="Path" fill="#F6DE38"></path>
+                <path d="M2,36 L36,36 L0,12 L0,34 C0,35.105 0.895,36 2,36 Z" id="Path" fill="#F6DE38"></path>
+                <path d="M43.211,36 L46,36 C47.105,36 48,35.105 48,34 L48,28.807 L4.789,0 L2,0 C0.895,0 0,0.895 0,2 L0,7.193 L43.211,36 Z" id="Path" fill="#E6E6E6"></path>
+                <path d="M26,23.715 L26,14 L32,14 L30,12 L26,12 L26,10 L24,8 L22,10 L22,12 L18,12 L16,14 L22,14 L22,23.715 C18.883,22.9 16.514,20.268 16.102,17 C16.059,17.332 16,17.658 16,18 C16,22.418 19.582,26 24,26 C28.418,26 32,22.418 32,18 C32,17.658 31.941,17.332 31.898,17 C31.486,20.268 29.117,22.9 26,23.715 Z" id="Path" fill="#FF0000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

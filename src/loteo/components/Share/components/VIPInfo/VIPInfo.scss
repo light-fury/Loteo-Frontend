@@ -1,0 +1,32 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.VIPInfo {
+    margin-top: 45px;
+
+    &__item {
+        margin: 10px 0;
+
+        @include media(md) {
+            margin: 20px 0;
+        }
+
+        &__info {
+            strong {
+                color: $dark;
+                font-weight: 900;
+                line-height: 24px;
+            }
+
+            div {
+                color: $grey1;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+        img {
+            margin-right: 16px;
+        }
+    }
+}

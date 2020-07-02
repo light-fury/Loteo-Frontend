@@ -1,0 +1,33 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.airdrop {
+    overflow: hidden;
+
+    .background {
+        padding-bottom: 0;
+        background-size: 100% 600px;
+    }
+
+    .content {
+        @include centerMax(1080px);
+
+        position: relative;
+        padding: 24px;
+
+        @include media(md) {
+            padding: 100px 40px;
+        }
+
+        &.main {
+            padding-top: 64px;
+            padding-bottom: 96px;
+            position: relative;
+
+            @include media(md) {
+                padding-top: 150px;
+                padding-bottom: 250px;
+            }
+        }
+    }
+}

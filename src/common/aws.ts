@@ -18,32 +18,35 @@ const initAWS = () => {
     initialized = true;
 };
 
-export const subscribeToNews = (email: string) => {
+export const sendMessage = (name: string, email: string, message: string, investment: string) => {
     initAWS();
 
     return new Promise((resolve, reject) => {
-        const lambda = new window.AWS.Lambda({
-            region: process.env.AWS_REGION,
-            apiVersion: "2015-03-31"
-        });
+        const ses = new window.AWS.SES({apiVersion: "2010-12-01"});
+        const contactMail = process.env.CONTACT_EMAIL;
 
-        lambda.invoke({
-            FunctionName: process.env.AWS_LAMBDA_SUBSCRIBE,
-            InvocationType: "RequestResponse",
-            LogType: "None",
-            Payload: JSON.stringify({
-                email
-            })
-        }, (error, data) => {
-            if (error) {
-                prompt(error);
-            } else {
-                const result = JSON.parse(data.Payload);
-                if (result.success) {
-                    resolve();
-                } else {
-                    reject(result.statusCode);
+        ses.sendEmail({
+            Source: contactMail,
+            Destination: {
+                ToAddresses: [contactMail]
+            },
+            Message: {
+                Body: {
+                    Html: {
+                        Data: `You have been contacted by <b>${name}</b> (${email}) with the following message: <p><i>${message}</i></p> He/she is thinking about investing ${investment}.`
+                    }
+                },
+                Subject: {
+                    Data: "New message from Loteo Site"
                 }
+            }
+        }, (err, data) => {
+            if (err) {
+                // eslint-disable-next-line no-console
+                console.error(err, err.stack);
+                reject(err);
+            } else {
+                resolve(data);
             }
         });
     });

@@ -1,0 +1,58 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.mofShare {
+    .dialogArea {
+        .dialogHeader {
+            margin-bottom: 20px;
+
+            .titleSubTitle .title {
+                color: $dark;
+            }
+        }
+
+        width: 400px;
+    }
+
+    .text1 {
+        color: $grey1;
+    }
+
+    .text2 {
+        font-weight: 900;
+        color: $red;
+    }
+
+    .shareButtonGroup {
+        padding: 8px 16px;
+        margin: 16px -16px;
+        background: $greyBright;
+
+        @include media(md) {
+            padding: 16px 40px;
+            margin: 32px -40px;
+        }
+
+        .shareButton {
+            width: 100%;
+            font-size: 16px;
+            font-weight: normal;
+            height: 56px;
+            justify-content: flex-start;
+            margin: 12px 0;
+        }
+    }
+
+    .extraButtonGroup {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .extraButton {
+            width: 50%;
+            height: 48px;
+        }
+    }
+}

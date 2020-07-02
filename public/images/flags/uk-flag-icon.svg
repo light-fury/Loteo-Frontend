@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>uk-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-525.000000, -125.000000)">
+            <g id="uk-flag-icon" transform="translate(525.000000, 125.000000)">
+                <path d="M46,0 L2,0 C0.896,0 0,0.896 0,2 L0,34 C0,35.104 0.896,36 2,36 L46,36 C47.104,36 48,35.104 48,34 L48,2 C48,0.896 47.104,0 46,0 Z" id="Path" fill="#002781"></path>
+                <path d="M48,2 C48,0.896 47.104,0 46,0 L40.839,0 L28,9.876 L28,0 L20,0 L20,9.876 L7.161,0 L2,0 C0.896,0 0,0.896 0,2 L0,4.586 L12.239,14 L0,14 L0,22 L12.239,22 L0,31.415 L0,34 C0,35.104 0.896,36 2,36 L7.161,36 L20,26.124 L20,36 L28,36 L28,26.124 L40.839,36 L46,36 C47.104,36 48,35.104 48,34 L48,31.415 L35.761,22 L48,22 L48,14 L35.761,14 L48,4.586 L48,2 Z" id="Path" fill="#E6E6E6"></path>
+                <polygon id="Path" fill="#D10D24" points="48 16 26 16 26 0 22 0 22 16 0 16 0 20 22 20 22 36 26 36 26 20 48 20"></polygon>
+                <path d="M47.001,0.307 L29.2,14 L32.48,14 L48,2.062 L48,2 C48,1.268 47.587,0.656 47.001,0.307 Z" id="Path" fill="#D10D24"></path>
+                <path d="M32.48,22 L29.2,22 L47.001,35.693 C47.587,35.344 48,34.732 48,34 L48,33.938 L32.48,22 Z" id="Path" fill="#D10D24"></path>
+                <path d="M15.52,22 L0,33.938 L0,34 C0,34.732 0.413,35.344 0.999,35.693 L18.8,22 L15.52,22 Z" id="Path" fill="#D10D24"></path>
+                <path d="M15.52,14 L18.8,14 L0.999,0.307 C0.413,0.656 0,1.268 0,2 L0,2.062 L15.52,14 Z" id="Path" fill="#D10D24"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+@import "styles/colors";
+
+.slider {
+    width: 100%;
+    padding: 16px 12px;
+
+    .visibleNumbers {
+        position: relative;
+        height: 24px;
+        margin-bottom: 8px;
+
+        .number {
+            position: absolute;
+            bottom: 10px;
+            font-size: 16px;
+            font-weight: 900;
+            text-align: center;
+            transform: translateX(-50%);
+            user-select: none;
+        }
+    }
+
+    .slide {
+        position: relative;
+        height: 3px;
+        width: 100%;
+        background: linear-gradient(270deg, $red 0%, rgba(239, 81, 45, 0.38) 100%);
+
+        .bullet {
+            position: absolute;
+            top: 2px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: $red;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+
+            .value {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-top: 4px;
+                font-size: 14px;
+                font-weight: bold;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}

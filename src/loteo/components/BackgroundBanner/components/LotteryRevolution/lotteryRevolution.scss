@@ -1,0 +1,261 @@
+@import "styles/mixins";
+
+.lotteryRevolution {
+    position: relative;
+    width: 100%;
+    height: 776px;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 1308px) {
+        padding-top: 200px;
+    }
+
+    @include media($max: md) {
+        padding-top: 200px;
+    }
+
+    @include media($max: sm) {
+        padding-top: 150px;
+        height: 591px;
+    }
+
+    
+
+    &::after {
+        content: "";
+        background: url("/images/dashboard/revolution.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+
+        @include media($max: md) {
+            background: url("/images/dashboard/revolution-mobile.png") no-repeat;
+            background-size: cover;
+            background-position: center;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    &__section {
+        margin: 0 auto 50px;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        @include media($max: md) {
+            flex-direction: column;
+            width: 80%;
+        }
+        
+        @include media($max: lg) {
+            flex-direction: column;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            @include media($max: md) {
+                justify-content: center;
+            }
+
+            .titles {
+                h1 {
+                    text-align: center;
+                    font-size: 72px;
+                    line-height: 48px;
+                    -webkit-text-stroke-color: $yellow;
+                    -webkit-text-stroke-width: 2px;
+                    text-shadow: 0 0 4px transparentize($yellow, .9);
+                    color: transparent;
+                    text-transform: uppercase;
+                    white-space: pre;
+
+                    @include media($max: md) {
+                        font-size: 50px;
+                        line-height: 60px;
+                    }
+
+                    @include media($max: ssm) {
+                        font-size: 40px;
+                        line-height: 50px;
+                    }
+
+                    @include media(sm) {
+                        margin-top: 0;
+                        font-size: 40px;
+                        text-align: center;
+                        line-height: 60px;
+                    }
+
+                    @include media(ssm) {
+                        margin-top: 0;
+                        font-size: 50px;
+                        text-align: center;
+                        line-height: 70px;
+                        text-shadow: 0 0 17px transparentize($yellow, .5);
+                    }
+
+                    @include media(md) {
+                        margin-top: 0;
+                        font-size: 72px;
+                        text-align: left;
+                        line-height: 80px;
+                        text-shadow: 0 0 17px transparentize($yellow, .5);
+                    }
+                }
+    
+                h6 {
+                    margin-bottom: 40px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: white;
+    
+                    @include media(md) {
+                        margin-bottom: 42px;
+                        font-size: 24px;
+                        text-align: left;
+                    }
+                }
+            }
+
+            &__video__desktop {
+                display: none;
+                
+                @include media(md) {
+                    display: block;
+                }
+
+                .infoVideo {
+                    margin-top: -40px;
+
+                    @media only screen and (max-width: 1309px) {
+                        margin: 40px auto 60px auto;
+                    }
+
+                    @include media($max: md) {
+                        margin: 40px auto 60px auto;
+                    }
+
+                    .shine {
+                        width: 400px;
+                        margin-left: -25px;
+                        margin-bottom: 100px;
+    
+                        @include media(md) {
+                            width: 600px;
+                            margin-left: -140px;
+                        }
+                    }
+    
+                    @include media($max: sm) {
+                        margin: 0 auto 60px auto;
+                        width: 100%;
+                        height: 30px;
+    
+                        .shine {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .titleSection {
+            width: 100%;
+            padding: 0 40px;
+            position: relative;
+            align-items: center;
+
+            @include media(md) {
+                order: -1;
+                align-items: flex-start;
+            }
+        }
+
+        .privateSaleSection {
+            @include centerMax;
+
+            padding-left: 0;
+            margin-top: 16px;
+            position: relative;
+            display: flex;
+
+            @include media(md) {
+                padding-left: 56px;
+            }
+        }
+
+        .scrollInfo {
+            margin-top: 132px;
+            display: none;
+
+            @include media(md) {
+                display: flex;
+            }
+        }
+    }
+
+    &__bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        .action {
+            margin: auto;
+            width: 70%;
+            
+            &__video__mobile {
+                display: block;
+                
+                @include media(md) {
+                    display: none;
+                }
+
+                .infoVideo {
+                    margin-bottom: 45px;
+
+                    @include media($max: md) {
+                        margin: 0 auto 60px auto;
+                    }
+
+                    .shine {
+                        width: 400px;
+                        margin-left: -25px;
+                        margin-bottom: 100px;
+    
+                        @include media(md) {
+                            width: 600px;
+                            margin-left: -140px;
+                        }
+                    }
+    
+                    @include media($max: sm) {
+                        margin: 0 auto 60px auto;
+                        width: 100%;
+                        height: 30px;
+    
+                        .shine {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

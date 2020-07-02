@@ -1,0 +1,2796 @@
+{
+    "global": {
+        "learnMore": "Conozca más",
+        "contactUs": "Contáctenos",
+        "moreInfo": "Mostrarme información adicional",
+        "buy": "COMPRAR",
+        "comingSoon": "próximamente",
+        "locked": "bloqueado",
+        "unlock": "desbloquear",
+        "showMore": "Mostrar más",
+        "showLess": "Mostrar menos",
+        "loteu": "Loteu",
+        "btc": "Btc",
+        "eth": "Eth",
+        "errors": {
+            "notEnoughETH": {
+                "title": "Carece de fondos suficientes para participar en el juego",
+                "text": {
+                    "part1": "No tiene suficiente saldo en su cartera. Para participar en la lotería, <strong> debe contar como mínimo con 0.017 ETH de saldo <\/strong> . Por favor haga algún depósito. <br \/> <br \/>",
+                    "part2": "<strong>Nota:<\/strong>  Participar en la lotería requiere ejecutar una transacción en la red de blockchain Ethereum. Cada transacción en dicho blockchain implica un cargo, en nuestro caso 0.017 ETH. De este modo nos asegurarnos de que cada participación sea transparente y visible directamente en la red Ethereum. Nos esforzamos enormemente, para que esta comisión se reduzca al mínimo."
+                },
+                "okText": "Ok",
+                "textApollo11": {
+                    "part1": "Carece de saldo suficiente en su cartera. Para participar en la lotería, <strong>usted necesita contar al menos con 0.051 ETH de saldo<\/strong>. Por favor, realice un depósito.<br \/><br \/>",
+                    "part2": "<strong> Nota: <\/strong> La participación en la lotería exige una transacción en el blockchain de la red Ethereum. Cada transacción en dicho blockchain requiere el abono de una tarifa, en nuestro caso 0.051 ETH. Esto se debe a nuestro deseo de garantizar que cada participación sea transparente, así como visible directamente en la red Ethereum. Estamos trabajando muy duro para que dicha comisión sea lo menor posible."
+                }
+            }
+        },
+        "euro": "€"
+    },
+    "header": {
+        "navigation": {
+            "dashboard": "Panel de Control",
+            "howItWorks": "Cómo funciona",
+            "games": "Juegos",
+            "charity": "Beneficencia",
+            "myAffiliate": "Mis afiliados",
+            "affiliate": "Afiliado",
+            "info": "Informacion",
+            "blog": "Blog",
+            "howToPlay": "Cómo jugar",
+            "loginRegister": "Iniciar sesión \/ Registrarse",
+            "inviteFriends": "Invitar a amigos",
+            "alts": [
+                {
+                    "alt": "logo"
+                },
+                {
+                    "alt": "menú"
+                }
+            ],
+            "leaderboard": "Tabla de clasificación",
+            "whyInvest": "POR QUÉ INVERTIR",
+            "promotion": "Promoción",
+            "home": "Inicio"
+        }
+    },
+    "infoVideo": {
+        "loteo": "Loteo ",
+        "watchVideo": "Ver el Video",
+        "alts": [
+            {
+                "alt": "brillar"
+            },
+            {
+                "alt": "textos"
+            },
+            {
+                "alt": "jugar"
+            },
+            {
+                "alt": "cerrar"
+            }
+        ]
+    },
+    "home": {
+        "alts": [
+            {
+                "alt": "loteopass"
+            },
+            {
+                "alt": "loteomaxx"
+            },
+            {
+                "alt": "juegosloteo"
+            },
+            {
+                "alt": "luna"
+            }
+        ],
+        "products": {
+            "0": {
+                "title": "Loteo Pass",
+                "text": "Duplique sus posibilidades y conviértase en <span>SOCIO PREMIUM <\/span>",
+                "amountLeftText": [
+                    "Boletos para 1 año:",
+                    "izquierda"
+                ],
+                "cta": "COMPRAR AHORA"
+            },
+            "1": {
+                "title": "Loteo Maxx",
+                "text": "¡Obtenga paquetes de 10, 20, 50 o 100 boletos con bonos especiales!",
+                "cta": "COMPRAR AHORA"
+            },
+            "2": {
+                "title": "Juegos de loteo",
+                "text": "Juegue a múltiples juegos de LOTEO para ganar al instante!",
+                "cta": "JUGARA LOS JUEGOS"
+            },
+            "prefix": "Vacío",
+            "loteopass": "Vacío",
+            "loteomaxx": "Vacío",
+            "loteogames": "Vacío",
+            "cta": "Vacío"
+        },
+        "welcomeToLOTEO": "Bienvenido a LOTEO - Lotería Transparente en Blockchain",
+        "lotteryNeedsARevolution": "La lotería necesita<br \/>una revolución",
+        "missionToTheMoon": "Misión a la Luna",
+        "digitalEraLottery": "La lotería de la era<br\/>digital",
+        "advantages": {
+            "title": "Ventajas",
+            "chancesToWin": {
+                "title": "Probabilidad de ganar",
+                "text": "La probabilidad de ganar es mucho mayor que en las loterías tradicionales, gracias a nuestro mecanismo."
+            },
+            "trustworthy": {
+                "title": "Fiable",
+                "text": "Al regirse por contratos inteligentes en vez de estarlo por gobiernos o particulares, el proceso de sorteo se vuelve automatizado y fiable."
+            },
+            "transparency": {
+                "title": "Transparencia",
+                "text": "Gracias a la tecnología blockchain y al uso de criptomonedas para participar en la lotería, LOTEO es 100% transparente y cualquier transacción, así como la distribución de premios, pueden visualizarse en cualquier momento, a diferencia de las loterías tradicionales, donde usted desconoce el número de participantes, la cuantía del premio, ni siquiera si es legal o ha sido manipulada, ya que existe una autoridad central."
+            },
+            "winnerEveryDrawing": {
+                "title": "Un ganador en cada sorteo",
+                "text": "A diferencia de las loterías tradicionales, donde debe adivinar la combinación correcta de números y aparece un ganador una vez al año."
+            },
+            "biggestSliceForTheWinner": {
+                "title": "La mayor cuota para el ganador",
+                "text": "LOTEO asume la imperiosa necesidad de brindar la mejor experiencia de usuario, para que nuestro cliente, especialmente aquellos no familiarizados con criptomonedas, por lo cual integraremos pagos con tarjeta de crédito, así como pagos con mensajes desde dispositivo móvil."
+            },
+            "speed": {
+                "title": "Velocidad",
+                "text": "Gracias al uso de la tecnología blockchain y las criptomonedas, Loteo es incomparablemente más rápido que las loterías tradicionales."
+            }
+        },
+        "everyGameHasAWinner": "Cada juego tiene un ganador",
+        "prizeSplit": "Reparto del premio",
+        "platformFee": {
+            "title": "Comisión de la plataforma",
+            "description": "Todos los fondos se distribuyen entre jugadores y poseedores de tokens"
+        }
+    },
+    "privateSale": {
+        "privateSaleEndsIn": "La venta privada termina en"
+    },
+    "weeklyLottery": {
+        "mockedBonus": {
+            "title": "LoteoPass",
+            "desc": "- Conviértase en socio premium y obtenga un BONO especial de BONUS para Junio"
+        },
+        "eur": "EUR",
+        "btc": "BTC",
+        "eth": "ETH",
+        "playNowBtn": "JUGAR AHORA",
+        "alts": [
+            {
+                "alt": "elementos de fondo"
+            },
+            {
+                "alt": "oportunidad"
+            }
+        ],
+        "title": "Lotería semanal de Loteo",
+        "learnMore": "Información adicional sobre este juego",
+        "gameStartsIn": "El juego comienza en",
+        "chanceToWin": "Su oportunidad de ganar es actualmente",
+        "lastWinner": "Último ganador",
+        "nextDraw": "El próximo sorteo será este domingo",
+        "playNow": {
+            "0": {
+                "title": "Usted carece de boletos",
+                "text": "En primer lugar, Usted ha de comprar boletos de lotería, para posteriormente poder participar en la lotería semanal de Loteo.",
+                "okText": "Comprar boletos",
+                "cancelText": "Cancelar"
+            },
+            "1": {
+                "title": "Carece de fondos suficientes para participar en el juego",
+                "text": {
+                    "part1": "Carece de saldo suficiente en su cartera. Para participar en la lotería, <strong>usted necesita contar al menos con 0.051 ETH de saldo<\/strong>. Por favor, realice un depósito.<br \/><br \/>",
+                    "part2": "<strong> Nota: <\/strong> La participación en la lotería exige una transacción en el blockchain de la red Ethereum. Cada transacción en dicho blockchain requiere el abono de una comisión, en nuestro caso de 0.051 ETH. Esto se debe a nuestro deseo de garantizar que cada participación sea transparente, además de visible directamente en la red Ethereum. Estamos trabajando muy duro para que dicha comisión sea lo menor posible."
+                },
+                "okText": "Ok"
+            },
+            "2": {
+                "title": "El sorteo actual ya está cerrado",
+                "text": "Sólo es posible acceder al juego con una antelación de 30 minutos antes de que comience el sorteo de la lotería. Esta ronda ya está cerrada. Usted puede participar en el sorteo de la próxima semana en cuanto haya finalizado el actual.",
+                "okText": "Ok"
+            },
+            "title": "Vacío",
+            "text": "Vacío",
+            "okText": "Vacío",
+            "cancelText": "Vacío"
+        }
+    },
+    "lotteryInfo": {
+        "loteopass": {
+            "title": "LoteoPass",
+            "text": "¡Duplique sus posibilidades!",
+            "countInfo": "Boletos para 1 año:"
+        },
+        "loteomaxx": {
+            "title": "LoteoMaxx",
+            "text": "¡Obtenga paquetes de 10, 20, 50 o 100 boletos con bonos especiales!"
+        },
+        "dailyLottery": {
+            "title": "Lotería Diaria",
+            "text": "Participe en la lotería cada día!<br \/>Simplemente por 2 €."
+        },
+        "rektRooms": {
+            "title": "Habitaciones Rekt",
+            "text": "Elija su sala y gane!<br \/>Sus posibilidades son fijas"
+        },
+        "MOF": {
+            "texts": [
+                "luna",
+                "de la",
+                "fortuna",
+                "próximamente",
+                "JUGAR",
+                "JUGAR"
+            ],
+            "alts": [
+                "MOF"
+            ]
+        },
+        "headers": [
+            "Juegos de loteria",
+            "Juegos de loteo"
+        ],
+        "monthlyLottery": {
+            "title": "Loteria mensual"
+        },
+        "gameComingSoon": "Próximamente",
+        "weeklyLottery": {
+            "title": "LOTERÍA SEMANAL DE LOTEO"
+        },
+        "apollo11": {
+            "title": "LOTERÍA DEL APOLLO 11"
+        },
+        "fomo": {
+            "title": "FOMO"
+        },
+        "loteoTournament": {
+            "title": "TORNEO DE LOTEO"
+        },
+        "mockedBonus": {
+            "title": "BONO DE JULIO PARA LOTEOPASS",
+            "desc": " - Entrada gratuita a la lotería Apollo11"
+        }
+    },
+    "roadmap": {
+        "years": [
+            {
+                "year": "2019"
+            },
+            {
+                "year": "2020"
+            },
+            {
+                "year": "2021"
+            },
+            {
+                "year": "2022"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "elementos de fondo"
+            }
+        ],
+        "title": "Hoja de ruta",
+        "subTitle": "PLATAFORMA LOTEO",
+        "item": [
+            {
+                "date": "1T",
+                "p1": "Aspectos legales y financiación del proyecto",
+                "p2": "Fase de pruebas de la lotería semanal"
+            },
+            {
+                "date": "1 de Abril",
+                "p1": "MVP con lanzamiento de lotería semanal",
+                "p2": "Lanzamiento de la web oficial de Loteo"
+            },
+            {
+                "date": "T2",
+                "p1": "Prueba del MVP"
+            },
+            {
+                "date": "1 de Mayo",
+                "p1": "Lanzamiento básico"
+            },
+            {
+                "date": "1 de Junio",
+                "p1": "Lanzamiento integral",
+                "p2": "Lanzamiento de la campaña promocional",
+                "p3": "Disponibilidad del pago en BTC"
+            },
+            {
+                "date": "T3",
+                "p1": "Lanzamiento de la lotería diaria",
+                "p2": "Implementación de posibilidades de pago con tarjeta",
+                "p3": "Habilitación de los pagos mediante mensajes con móviles locales"
+            },
+            {
+                "date": "4T",
+                "p1": "Lanzamiento del tercer juego de Loteo",
+                "p2": "Difundiendo los pagos a través de mensajes desde móviles",
+                "p3": "Campaña promocional de lanzamiento"
+            },
+            {
+                "date": "1T",
+                "p1": "Aplicación Loteo para iOS y Android",
+                "p2": "Anuncio especial"
+            },
+            {
+                "date": "T3",
+                "p1": "Integración de API externa, desbloqueo de tokens LOTES",
+                "p2": "2ª ronda de financiación y desarrollo de juegos de LOTEO"
+            },
+            {
+                "date": "4T",
+                "p1": "Listado del token LOTES en Exchange"
+            },
+            {
+                "p1": "LOTEO Bets - Sistema de apuestas P2P "
+            },
+            {
+                "p1": "Los boletos de LOTEO estarán disponibles a través de terceros."
+            },
+            {
+                "p1": "Lanzamiento de la plataforma LOTEO B2B"
+            }
+        ]
+    },
+    "affiliate": {
+        "title": "Conviértase en socio afiliado",
+        "subTitle": "Obtenga una recompensa de al menos un 40% de los ingresos de la plataforma, <br\/>gracias a nuestro programa espacial"
+    },
+    "acceptedCurrencies": {
+        "acceptedCurrencies": "Formas de pago aceptadas",
+        "ethereum": "Ethereum",
+        "alts": [
+            {
+                "alt": "ethereum"
+            }
+        ]
+    },
+    "footer": {
+        "address": "Abraham de Veerstraat 9<br\/>P.O. Box 3421, Curaçao",
+        "email": {
+            "questions": "¿Tiene alguna pregunta?",
+            "text": "Envíenos un e-mail"
+        },
+        "subscribe": {
+            "title": "Suscribirse",
+            "text": "Únase a nuestra lista de correo y reciba las últimas noticias y actualizaciones directamente en el buzón de su email. ¡Nada de spam!"
+        },
+        "affiliate": {
+            "text": "Programa de afiliados de Loteo",
+            "btn": "Conviértase en afiliado"
+        },
+        "copyrightTerms": {
+            "text": "Copyright © 2019 Loteo",
+            "link": {
+                "terms": "Términos y condiciones",
+                "cookie": "Política de cookies",
+                "disclaimer": "Descargo de responsabilidad"
+            }
+        },
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "certificado"
+            }
+        ],
+        "feedback": {
+            "title": "Envíenos sus comentarios",
+            "text": "¡Su opinión importa! Envíenos cualquier sugerencia acerca de cómo podemos mejorar LOTEO.",
+            "btn": "Enviar comentarios"
+        }
+    },
+    "cookieNotification": {
+        "cookie": "Este sitio web utiliza cookies para garantizar que usted tenga la mejor experiencia. Al continuar usando este sitio, usted esta conforme con nuestra",
+        "href": "Política de cookies",
+        "btn": "Ok, acepto cookies"
+    },
+    "subscribeForm": {
+        "status": {
+            "subscribing": "Suscribiéndose ...",
+            "success": "Suscrito con éxito",
+            "error": "Subscripción no disponible",
+            "default": "Suscribirse"
+        },
+        "title": "Introduzca su email",
+        "placeholder": "Teclee su email"
+    },
+    "howItWorks": {
+        "helmet": "Cómo funciona | LOTEO - Loteria Transparente en Blockchain",
+        "title": "Cómo funciona",
+        "tabs": [
+            {
+                "name": "La solución de Loteo"
+            },
+            {
+                "name": "Cómo funciona"
+            },
+            {
+                "name": "Ventajas para el usuario"
+            },
+            {
+                "name": "Ventajas para el inversor"
+            }
+        ],
+        "loteoSolutionSection": {
+            "t1": "La solución de Loteo",
+            "p1": "LOTEO es una plataforma de lotería totalmente automatizada que utiliza el blockchain y los contratos inteligentes para crear una lotería completamente transparente y fiable, donde sus posibilidades son incomparablemente más altas respecto a las loterías convencionales. Existen varios problemas inherentes a las loterías de estilo \"clásico\", los cuales hemos solventado con LOTEO.",
+            "t2": "Confianza",
+            "p2": "Al regirse por contratos inteligentes en vez de estarlo por gobiernos o particulares, el proceso de sorteo se vuelve automatizado y fiable.",
+            "t3": "Transparencia",
+            "p3": "Todas las transacciones y los premios son visibles en el blockchain en cualquier momento.",
+            "t4": "Probabilidad de ganar",
+            "p4": "A diferencia de las loterías convencionales donde se apuesta contra una cantidad desconocida de números participantes en el sorteo, en LOTEO sólo se apuesta contra otros boletos comprados, una cantidad que es varias miles de veces inferior a la cantidad de combinaciones ganadoras potenciales en una loteria tradicional.",
+            "p5": "Gracias al blockchain, el sistema es transparente y se puede hacer un seguimiento de todas las transacciones. Usted tiene la oportunidad de ganar cada vez que se produce el sorteo de la lotería, ya que solo apuesta contra determinada cantidad de participantes.",
+            "p6": "Existen muchos problemas con las actuales plataformas de juegos de azar digitales basadas en blockchain. A menudo son demasiado complejas, adecuadas sólo para los entusiastas de las criptomonedas, y ofrecen un diseño poco sofisticado, el cual dista de ser atractivo o fácil de usar."
+        },
+        "infoSection": {
+            "t1": "¿Cómo funciona la lotería?",
+            "p1": "Los usuarios pueden participar en la lotería comprando boletos unitarios para la lotería semanal de LOTEO utilizandola criptomoneda Ethereum o a través de un tercero, comerciante. Cada dirección de cartera Ethereum que ha comprado un boleto, queda regsitrada como participante en la lotería semanal de LOTEO. En el futuro, LOTEO añadirá una lotería diaria regida por las mismas reglas.",
+            "p2": "La lotería LOTEO será ejecutada a través de un contrato inteligente que utilizará un generador de números aleatorios (RNG). El bombo para el sorteo consiste únicamente en boletos de lotería (basados en las direcciones Ethereum de las participaciones) en vez de realizar el sorteo de un número aleatorio, de modo que, de cada sorteo debe obtenerse obligatoriamente un ganador.",
+            "p3": "Tras seleccionar al ganador de la lotería, un contrato inteligente enviará automáticamente el premio a la(s) respectiva(s) dirección(es) de Ethereum. El premio se dividirá según se indica a continuación:",
+            "p4": "A fin de obtener la máxima cantidad de usuarios, LOTEO tiene previsto ofrecer opciones de pago adicionales aparte de Ethereum, como otras criptomonedas o mediante terceros comerciantes que acepten moneda fiat como dólares estadounidenses o euros. Sin embargo, seguirán necesitando una cartera de Ethereum, ya que la lotería se sortea a partir de un bombo que contiene las direcciones Ethereum de la totalidad de los usuarios participantes en la actualidad.",
+            "p5": "Obtener tokens extra de LOTEU aumenta las posibilidades de un usuario de ganar, aunque no sube la cuantía de la lotería. Los tokens de LOTEU no pueden comprarse, sino que los usuarios deben obtenerlos por medio de airdrops, campañas de recompensas, concursos y otros esfuerzos promocionando a LOTEO."
+        },
+        "userAdvantagesSection": {
+            "t1": "Ventajas para los usuarios",
+            "t2": "Probabilidad de ganar",
+            "p1": "La probabilidad de ganar es mucho mayor que en las loterías tradicionales, gracias a nuestro mecanismo.",
+            "t3": "El ganador de cada sorteo",
+            "p2": "A diferencia de las loterías tradicionales, donde debe adivinar la combinación correcta de números y aparece un ganador una vez al año, en LOTEO existe un ganador por sorteo.",
+            "t4": "Mayor cuota para el ganador",
+            "p3": "75% , ningún otro competidor tiene el mismo %",
+            "t5": "Confianza",
+            "p4": "Al estar regido por contratos inteligentes y no por gobiernos o particulares, el proceso del sorteo se vuelve automatizado y fiable.",
+            "t6": "Transparencia",
+            "p5": "Gracias a la tecnología blockchain y al uso de criptomonedas para participar en la lotería, LOTEO es 100% transparente y cualquier transacción, así como la distribución de premios, pueden visualizarse en cualquier momento, a diferencia de las loterías tradicionales, donde usted {\"no\"} desconoce el número de participantes, la cuantía del premio, ni siquiera si es legal o ha sido manipulada, ya que existe una autoridad central.",
+            "t7": "Varios métodos de pago",
+            "p6": "LOTEO asume la imperiosa necesidad de brindar la mejor experiencia de usuario, para que nuestro cliente, especialmente aquellos no familiarizados con criptomonedas, {\"por lo cual\"} integraremos pagos con tarjeta de crédito, así como pago con mensajes desde dispositivo móvil.",
+            "t8": "Velocidad",
+            "p7": "Gracias a la tecnología blockchain y al uso de criptomonedas, Loteo es indiscutiblemente más rápido que las loterías tradicionales.",
+            "t9": "Más posibilidades de ganar",
+            "p8": "La probabilidad de ganar es mucho mayor que en las loterías tradicionales.",
+            "chanceExample": {
+                "one": "1",
+                "formula": "número de boletos en la lotería",
+                "details": "* Si el premio es de 100.000, entonces el ratio es 1:10 000"
+            },
+            "comparisons": {
+                "title": "Loterías convencionales",
+                "table": {
+                    "million": "Millón",
+                    "r1": "Super Ena Lotto (Italia)",
+                    "r2": "Power Ball (EE. UU.)",
+                    "r3": "Mega Millones (reino unido)",
+                    "r4": "Euro Millones (US)",
+                    "r5": "Euro Jackpot",
+                    "r6": "Lotería de Reino Unido",
+                    "r7": "Lotería Española",
+                    "r8": "Lotería sueca",
+                    "r9": "Loto Max (CAN)"
+                }
+            }
+        },
+        "investorAdvantagesSection": {
+            "t1": "Ventajas para los inversores",
+            "p1": "No existe ninguna otra lotería, o plataforma de apuestas online, que implemente una estructura de tokens similar a la de LOTEO. Los tokens valor aportan valor a los inversores y les recompensa con un valor del 20% de cada premio repartido. Como LOTEO se preocupa por el medio ambiente en general y su entorno, existe un programa de Beneficencia, mediante el cual se aporta un porcentaje de cada premio repartido por la plataforma LOTEO.",
+            "l1": "Una oportunidad única de comprar tokens valor LOTES y formar parte de LOTEO, recibiendo ETH cada vez que que se realiza el sorteo.",
+            "l2": "Un 20% del total del premio se redistribuye entre los titulares de LOTES, segúnla cantidad de LOTES que tenga cada usuario.",
+            "l3": "Derechos de gestión de cara a la toma de decisiones (selección de organizaciones benéficas, cambios cruciales del modelo de negocio)",
+            "l4": "Cuando la lotería se vuelve sostenible y con éxito, su valor crece, al igual que el valor del token LOTES."
+        }
+    },
+    "gameDetails": {
+        "helmet": "LOTEO - Lotería Transparente en Blockchain",
+        "title": "Lotería semanal de Loteo",
+        "text": "La lotería semanal LOTEO procede mediante un contrato inteligente en Ethereum que usará un auténtico generador de números aleatorios (RNG). El bombo del sorteo incluye únicamente boletos de lotería (basados en las direcciones Ethereum de las participaciones) en vez de sortear números al azar, de forma que cada sorteo debe tener obligatoriamente un ganador. Tras haber sido seleccionado el ganador de la lotería, un contrato inteligente enviará automáticamente el premio a la(s) respectiva(s) dirección(es) de Ethereum.",
+        "time": {
+            "day": "Cada Domingo",
+            "time": "12:00 hora CET",
+            "info": "Se recomienda utilizar el boleto al menos 30 minutos antes de iniciarse el sorteo de la lotería, de lo contrario no podemos garantizar la participación en la ronda semanal en curso."
+        },
+        "tabs": [
+            {
+                "name": "Reglas"
+            },
+            {
+                "name": "Probabilidad de ganar"
+            },
+            {
+                "name": "Premios"
+            },
+            {
+                "name": "Boletos"
+            }
+        ],
+        "rules": {
+            "t1": "Reglas",
+            "p1": "Los usuarios participan en la lotería comprando boletos individuales para la lotería semanal de LOTEO utilizando la criptomoneda Ethereum, o a travéz de un comerciante intermediario. Cada dirección de la cartera Ethereum que ha comprado una participación, queda registrada como participante en la lotería semanal de LOTEO.",
+            "p2": "El sorteo de la lotería LOTEO se ejecuta mediante un contrato inteligente que utilizará un generador de números aleatorios (RNG).",
+            "p3": "El fondo del sorteo consiste exclusivamente en boletos de lotería (según las direcciones Ethereum de las participaciones) en vez de un sorteo de números al azar, de modo que cada sorteo debe tener obligatoriamente un ganador."
+        },
+        "chance": {
+            "t1": "Probabilidad",
+            "p1": "Gracias a nuestro mecanismo, las posibilidades de ganar son mucho más altas que en las loterías convencionales."
+        },
+        "prize": {
+            "t1": "Premio"
+        },
+        "tickets": {
+            "title1": "Boleto de una única participación ",
+            "title2": "LoteoPass",
+            "title3": "LoteoMaxx",
+            "price1": "10",
+            "price2": "520",
+            "price3": "100",
+            "eth": "ETH",
+            "loteoMaxxCards": [
+                {
+                    "text": "LoteoMaxx 10 + 250 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 20 + 1000 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 50 + 3750 LOTEU"
+                },
+                {
+                    "text": "Loteo Maxx 100 + 10 000 LOTEU"
+                }
+            ],
+            "entries": "Participaciones para la lotería",
+            "t1": "Boletos",
+            "ticket": {
+                "showDetails": "Mostrar información detallada",
+                "buyTicketsAndPlay": "¡Comprar boletos y jugar!",
+                "from": "Desde",
+                "buyNow": "COMPRAR AHORA",
+                "card": [
+                    {
+                        "title": "Boleto de una única participación ",
+                        "p1": "Los usuarios pueden participar en la lotería, comprando un único boleto para la lotería semanal de LOTEO utilizando criptomoneda (Ethereum), o mediante un tercero. Cada dirección de cartera Ethereum que haya comprado un boleto, quedará registrada como participante en la lotería semanal de LOTEO. En una fecha posterior, LOTEO incluirá una lotería diaria adicional, sometida a las mismas reglas.",
+                        "p2": "El fondo del sorteo consiste exclusivamente en boletos de lotería (según las direcciones Ethereum de las participaciones) en vez de un sorteo de números al azar, de modo que cada sorteo debe tener obligatoriamente un ganador."
+                    },
+                    {
+                        "title": "LoteoPass",
+                        "p1": "Usted tiene la opción de comprar una participación de un año de duración en la lotería, prescindiendo de la necesidad de partipaciones de forma reiterada. Los primeros 1000 compradores de LOTEOPASS, recibirán un bono. Esta será una oferta limitada que tendrá lugar nuevamente dentro de 1 año, cuando expire el primer lote de LOTEOPASSes.",
+                        "p2": "El bono consiste en duplicar sus posibilidades en cada sorteo de la lotería. Ello es posible usando LOTEU. Al comprar el LOTEOPASS, el comprador recibe una cantidad de LOTEU acreditada en su cuenta, la cual abarca 52 semanas de participación en la lotería."
+                    },
+                    {
+                        "title": "LoteoMaxx",
+                        "p1": "Usted puede comprar mayor cantidad de boletos para la lotería - 10, 20, 50,100 con participaciones en bonos de lotería, en calidad de tokens de utilidad. Puede usar dichas participaciones en cualquier momento e independientemente de su cantidad.",
+                        "renderLoteoMaxxCard": {
+                            "entries": "participaciones en la lotería"
+                        }
+                    }
+                ],
+                "alts": [
+                    {
+                        "alt": "icono"
+                    },
+                    {
+                        "alt": "cerrar"
+                    }
+                ]
+            }
+        },
+        "currencyTag": {
+            "accepted": "Criptomoneda aceptada",
+            "maxBet": "Apuesta máx.",
+            "minBET": "Apuesta mín.",
+            "specialPower": "Poder especial",
+            "edge": "Ventaja de la casa"
+        }
+    },
+    "charity": {
+        "helmet": "Beneficencia | LOTEO - Lotería Transparente en Blockchain",
+        "title": "La revolución<br\/> de las donaciones",
+        "text": "Cada vez que algún usuario gane, un 1% del premio se destina a una organización benéfica.",
+        "donateHelp": "Donar y Ayudar",
+        "t1": "Beneficencia de Loteo",
+        "p1": "LOTEO aspira a convertirse en una plataforma rentable para sus contribuyentes, al tiempo que brinda una generosa lotería para sus usuarios. Las personas que crearon LOTEO creen que el deber de cualquier negocio rentable, es devolver parte de su beneficio a organizaciones benéficas, sin ánimo de lucro, así como a otras organizaciones dedicadas a hacer del mundo un lugar mejor.",
+        "p2": "La innovación y la tecnología pueden mejorar la vida de la mayoría de nosotros, pero es importante no olvidarnos de quienes quedan rezagados y necesiten un empujón.",
+        "t2": "Puede donar aquí",
+        "alts": [
+            {
+                "alt": "cubierta externa"
+            }
+        ]
+    },
+    "address": {
+        "copied": "Copiado",
+        "copy": "Copiar",
+        "pleaseNote": "Por favor, tenga en cuenta",
+        "generatingQrCode": "Generando código QR ...",
+        "alts": [
+            {
+                "alt": "código QR"
+            }
+        ]
+    },
+    "share": {
+        "tabs": [
+            {
+                "name": "Programas de afiliados"
+            },
+            {
+                "name": "Beneficios para el jugador"
+            }
+        ],
+        "helmet": "Afiliado | LOTEO - Lotería Transparente en Blockchain",
+        "title": "Obtenga una recompensa de al menos un<br \/>40 % de los ingresos de la plataforma",
+        "text": "Únase al programa de afiliados de LOTEO y conviértase en socio afiliado o Premium. Puede elegir el que prefiera.",
+        "affiliateLink": {
+            "title": "Este es su enlace exclusivo de afiliado ",
+            "text": "¡Copie este enlace, compártalo con sus amigos y juege gratis!"
+        },
+        "affiliatePrograms": {
+            "alts": [
+                {
+                    "alt": "Socio Premium"
+                },
+                {
+                    "alt": "Socio afiliado"
+                }
+            ],
+            "title1": "¿Le gustaría ser un inversor sin necesidad de invertir? Conviértase en <span>Socio Premium<\/span>",
+            "title2": "Compre un <span>Loteo Pass<\/span> y conviértase en Socio PREMIUM de LOTEO",
+            "title3": "¡Invite a amigos, conviértase en <span>socio afiliado<\/span> y juege gratis!",
+            "title4": "Compre un <span>boleto<\/span> o <span>Loteo Maxx<\/span> y conviértase en socio afiliado de LOTEO",
+            "subtitle1": "<strong>Para convertirse en socio de Loteo Premium es necesario registrarse y comprar un LoteoPass.<\/strong>",
+            "subtitle2": "En consecuencia, el equipo de LOTEO ha asignado un 6% de los tokens valor de los miembros del equipo y ha creado fondos del 1%, 2% y 3% a distribuir entre los socios con mejores afiliados de acuerdo con las reglas establecidas a continuación.<br \/><br \/><strong>Todos los socios que vendan boletos serán recompensados con el siguiente porcentaje de comisión proveniente del fondo:<\/strong>",
+            "subtitle3": "<strong>Para convertirse en socio afiliado de Loteo, debe registrarse y comprar un boleto de pago único o un LoteoMaxx.<\/strong>",
+            "bonuses": [
+                {
+                    "label": "BONO 1",
+                    "text": "Linea Premium",
+                    "description": "Los bonos corresponden a los usuarios de primera línea bajo el nombre del socio afiliado."
+                },
+                {
+                    "label": "BONO 2",
+                    "text": "Programa del Espacio de Afiliados - Obtenga beneficios de la plataforma Loteo"
+                },
+                {
+                    "label": "BONO 3",
+                    "text": "Programa del Estado VIP"
+                },
+                {
+                    "label": "BONO 1",
+                    "text": "Línea de afiliados",
+                    "description": "Los bonos corresponden a los usuarios de primera línea bajo el nombre del socio afiliado."
+                }
+            ],
+            "premiumBonusCards": [
+                {
+                    "title": "Boleto de Loteo",
+                    "price": "10 €",
+                    "text": "Como socio afiliado recibirá un <strong>4% del valor de cada boleto comprado en ETH + 50 LOTEU como bono de activación.<\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "price": "100 - 1000 €",
+                    "text": "Como socio afiliado recibirá un <strong>4% del valor de cada boleto comprado en ETH + 100 - 1 000 LOTEU como bono de activación.<\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "price": "520 €",
+                    "text": "Como socio afiliado recibirá un <strong>4% del valor de cada boleto comprado en ETH + 1000 LOTEU como bono de activación.<\/strong>"
+                }
+            ],
+            "affiliateBonusCards": [
+                {
+                    "title": "Boleto de Loteo",
+                    "text": "Como socio afiliado recibirá un <strong>4% del valor de cada boleto comprado en ETH + 50 LOTEU como bono de activación.<\/strong>"
+                },
+                {
+                    "title": "Loteo Maxx",
+                    "text": "Como socio afiliado recibirá un <strong>4% del valor de cada boleto comprado en ETH + 100 - 1 000 LOTEU como bono de activación.<\/strong>"
+                },
+                {
+                    "title": "Loteo Pass",
+                    "text": "Como socio afiliado usted recibirá un <strong>4% del valor de cada boleto comprado en ETH + 500 LOTEU.<\/strong>"
+                }
+            ],
+            "bonusCardsDisclaimer": "*El bono Loteomaxx sólo puede reclamarse anualmente una vez por usuario <br\/>para cada uno de los paquetes. El bono Loteopass siempre será válido.",
+            "spaceProgram": [
+                {
+                    "text": "Todos los socios con <strong>30 boletos o más<\/strong> solicitados bajo ellos en la estructura árbol, serán recompensados con beneficios de la lotería, gracias a tokens valor del fondo del 1%."
+                },
+                {
+                    "text": "Todos los socios con <strong>100 boletos o más<\/strong> solicitados bajo ellos en la estructura árbol, serán recompensados con beneficios de la lotería, gracias a tokens valor del fondo del 2%."
+                },
+                {
+                    "text": "Todos los socios con <strong>200 boletos o más<\/strong> solicitados bajo ellos en la estructura árbol, serán recompensados con beneficios de la lotería, gracias a tokens valor del fondo del 3%."
+                }
+            ],
+            "VIPInfo": {
+                "tiers": {
+                    "bronze": {
+                        "title": "Bronce",
+                        "text": "Obtenga 500 LOTEU, por 50 Boletos usados en la 1ª línea"
+                    },
+                    "silver": {
+                        "title": "Plata",
+                        "text": "Obtenga 1000 LOTEU, por 100 Boletos usados en la 1ª línea"
+                    },
+                    "gold": {
+                        "title": "Oro",
+                        "text": "Obtenga 2000 LOTEU, por 200 Boletos usados en la 1ª línea"
+                    },
+                    "platinum": {
+                        "title": "Platino",
+                        "text": "Obtenga 5000 LOTEU, por 500 Boletos usados en la 1ª línea"
+                    },
+                    "diamond": {
+                        "title": "Diamante",
+                        "text": "Obtenga 10 000 LOTEU, por 1000 Boletos usados en la 1ª línea"
+                    },
+                    "moonStone": {
+                        "title": "Piedra Lunar",
+                        "text": "Obtenga 50 000 LOTEU + 200 000 LOTES, por 5000 Boletos usados en la 1ª línea"
+                    }
+                }
+            },
+            "CTA": "COMPRAR AHORA",
+            "divider": "O",
+            "profitCalculator": {
+                "friends": "Amigos",
+                "tickets": "Boletos",
+                "friend": "Amigo",
+                "ticket": "Boleto",
+                "title": "¿Cuánto voy a ganar en base a mi esfuerzo?",
+                "text1": "Cantidad de amigos a los que invitará",
+                "text2": "Cantidad media estimada de boletos para el sorteo comprados por cada usuario",
+                "label1": "Sus ganancias potenciales",
+                "label2": "cada vez que compren un boleto",
+                "eur": "EUR",
+                "alts": [
+                    {
+                        "alt": "Choque esos cinco"
+                    },
+                    {
+                        "alt": "menos"
+                    },
+                    {
+                        "alt": "más"
+                    },
+                    {
+                        "alt": "boletos"
+                    }
+                ]
+            }
+        },
+        "playerBenefits": {
+            "title": "Obtenga múltiples <span>bonos por cada producto LOTEO.<\/span> Elija el que prefiera.",
+            "imageTitlePrefix": "Loteo ",
+            "bonuses": [
+                {
+                    "image": {
+                        "title": "Boleto <strong>Loteo<\/strong>",
+                        "price": "10 €"
+                    },
+                    "title": "Boleto Loteo <span>BONUS de Bienvenida <\/span>",
+                    "bonuses": [
+                        {
+                            "label": "+ 100 LOTEU",
+                            "text": "por el primer boleto"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong> Maxx <\/strong>",
+                        "price": "100 - 1000 €"
+                    },
+                    "title": "<span>BONOS<\/span> Loteo Maxx",
+                    "bonuses": [
+                        {
+                            "label": "+ 250 LOTEU",
+                            "text": "por el paquete de 10 boletos"
+                        },
+                        {
+                            "label": "+ 1000 LOTEU",
+                            "text": "por el paquete de 20 boletos"
+                        },
+                        {
+                            "label": "+ 3750 LOTEU",
+                            "text": "por el paquete de 50 boletos"
+                        },
+                        {
+                            "label": "+ 10 000 LOTEU",
+                            "text": "por el paquete de 100 boletos"
+                        }
+                    ]
+                },
+                {
+                    "image": {
+                        "title": "Loteo <strong> Pass <\/strong>",
+                        "price": "520 €"
+                    },
+                    "title": "<span>BONOS<\/span> de Loteo Pass",
+                    "bonuses": [
+                        {
+                            "label": "2 POR 1",
+                            "text": "Obtenga 2 boletos por el precio de uno en cada sorteo"
+                        },
+                        {
+                            "label": "+ 520 LOTEU",
+                            "text": "Por cada LoteoPass recibirá instantáneamente 520 LOTEU en su cartera"
+                        },
+                        {
+                            "label": "PROGRAMA ESPACIAL",
+                            "text": "Obtenga acceso y conviértase en inversor sin necesidad de invertir"
+                        },
+                        {
+                            "label": "ESTADO VIP",
+                            "text": "Obtenga acceso y bonos LOTEO según estadísticas de afiliados."
+                        }
+                    ]
+                }
+            ],
+            "coinback": {
+                "title": "Programa Coinback",
+                "text": "El uso de cada boleto de lotería semanal será recompensado mediante el programa LOTEO Coinback. Por cada boleto usado en la lotería, el jugador será recompensado con 10 LOTEU. El Coinback se acreditará cada 10 boletos usados.",
+                "example": "EJEMPLO: Use 10 Boletos - Obtenga 100 LOTEU"
+            }
+        }
+    },
+    "info": {
+        "helmet": "Informaión | LOTEO - Lotería Transparente en Blockchain",
+        "title": "Todo lo que necesita saber",
+        "tabs": [
+            {
+                "name": "Tokens de Loteo"
+            },
+            {
+                "name": "Equipo"
+            },
+            {
+                "name": "PREGUNTAS FRECUENTES"
+            },
+            {
+                "name": "Descargas"
+            }
+        ],
+        "loteoTokens": {
+            "t1": "Tokens de Loteo",
+            "p1": "Nos hemos decidido por una estructura de token exclusiva, la cual aporta muchas ventajas tanto a inversores como al resto de miembros de la comunidad. A continuación se muestran todos los detalles para que pueda Usted familiarizarse con ambos tokens de Loteo.",
+            "t2": "Token valor (LOTES)",
+            "p2": "LOTES es un token valor destinado a ser vendido sólo en la ronda de financiación privada (la STO). No habrá venta pública, de modo que para conocer los requisitos de inversión, por favor, rellene el formulario en la página web. El 100% del beneficio de la plataforma se distribuirá entre los titulares de LOTES, según la cantidad de tokens que tengan en su cartera. Dichos tokens deben encontrarse en la cartera de Playloteo. Los titulares de 2 000 000 LOTES o más, tendrán el derecho a participar en la gestión.",
+            "p3": "Los LOTES permanecerán bloqueados durante 15 meses y durante este tiempo será imposible comprarlos o venderlos en ninguna parte. Tras pasar los primeros 15 meses, habrá una ronda adicional de financiación durante la cual LOTEO venderá al menos un 30% de todos los tokens de acuerdo a los requisitos legales y reglamentarios. Todos los detalles serán revelados antes de producirse dicho evento. Tras la venta de los tokens, estos serán listados en los mercados donde podrán ser negociados. ",
+            "p4": "Tras 15 meses, un máximo del 20% de todos los tokens valor serán propiedad de la lotería, siendo descentralizado el 80% remanente, evitando así la manipulación de la lotería. El token tiene además función gestora, de modo que cualquier cambio significativo debe lograrse por consenso y cualquier titular de tokens podrá aportar una sugerencia o votar.",
+            "t3": "Token de utilidad (LOTEU)",
+            "p5": "LOTEU es un token de utilidad usado con fines de marketing. Cuando usted compra un participación adicional en la lotería con 100 LOTEU, duplica sus posibilidades de ganar la lotería. No aumenta el premio, aunque si lo hace su cantidad de boletos en el bombo. Habrá un evento de quema trimestral, el cual será público, donde se quemará unl 20% de todos los tokens usados y recibidos.",
+            "p6": "El evento de quema continuará hasta que el suministro total de LOTEU sea igual al suministro total de LOTES - 100 000 000, o hasta qie se comience a aceptar LOTEU como método de pago para la compra de boletos de lotería. Habrá muchos airdrops de este token, directamente para la comunidad, o bien por medio de los socios de marketing de LOTEO, así como muchas competiciones diferentes, donde se entreguen LOTEU como recompensa.",
+            "p7": "Los tokens LOTEU también se distribuirán a través de campañas de recompensas según establece el plan de marketing de LOTEO y los anuncios oficiales en los canales de comunicación. Existe un futuro plan para el staking de LOTEO a largo plazo para fines de plataforma B2B que se especificará antes de comenzar la segunda ronda de financiación del proyecto. El precio de 1 LOTEU no está especificado con precisión al carecer de un proceso de venta, siendo por tanto el mercado el que establezca su precio, aunque en un principio su valor actual sería de 0,1 € \/ 1 LOTEU.",
+            "alts": [
+                {
+                    "alt": "lotes"
+                }
+            ]
+        },
+        "team": {
+            "alts": [
+                {
+                    "alt": "Es Usted"
+                },
+                {
+                    "alt": "telegram"
+                }
+            ],
+            "t0": "Equipo",
+            "p0": "La parte más fuerte y valiosa de cada proyecto está en sus miembros.  Nuestro equipo se expande constantemente, principalmente en Bratislava, Eslovaquia, con miembros en Serbia, Rusia, Chile, India.... ¿Y tal vez con Usted? No dude en contactar con nosotros, ya que existen vacantes de trabajo.",
+            "t1": "La historia subyaciente",
+            "p1": "Había una vez un juego, en el que diez empleados solían invertir 100 euros de sus salarios mensualmente y se sorteaba a un ganador. El ganador se lo llevaba todo, un premio de 1000 euros. Durante el mes siguiente ese último ganador volvió a poner la cantidad habitual, al igual que el resto de los participantes, aunque no pudo participar en el sorteo y por tanto ganar. Para ese primer ganador, la suma del premio suponía una especie de préstamo sin comisiones, mientras que para los futuros ganadores sus inversiones mensuales eran simplemente ahorros para el futuro. Como simples empleados, dificilmente habríamos podido conseguir o ahorrar esa cantidad de dinero en circunstancias normales.",
+            "p2": "Desde que nos picó la curiosidad hace ya algunos años, hemos contado con un gran elemento que nos impulsa: el desarrollar un proyecto en el que la gente pueda confiar, con el que disfrutar y del que beneficiarse. Con el tiempo, la brillante idea de un ganador en cada sorteo, junto con un entorno fácil de usar, se ha convertido en nuestra filosofía principal.",
+            "p3": "¡Bienvenido a Loteo!",
+            "members": [
+                {
+                    "name": "Rastislav Bakala",
+                    "pos": "Director Ejecutivo, Co-Fundador",
+                    "desc": "Rastislav es dueño de 3 compañías exitosas creadas completamente partiendo de cero. Comenzó su carrera en el sector financiero, donde ocupó el cargo de gestor regional y luego comenzó a trabajar como gestor minorista en un banco. Tras un comienzo exitoso, comenzó a trabajar en el sector corporativo y aquí comenzó a pensar en palabras mayores. Más tarde, Rastislav fundó su propia empresa de tecnología blockchain y desarrolló su negocio internacional de venta y gestión de metales preciosos. Pero eso fue sólo el principio. Con sólo 28 años, entre sus ambiciones destaca el ayudar al mundo a través de tecnologías como el blockchain. Aspira a un mundo transparente y justo. Loteo aporta lo mejor de ambos mundos, combinando la transparencia tecnológica del blockchain con el deseo humano de ganar dinero. Su lema es que si ayudas a otras personas a enriquecerse, te estarás ayudando a ti mismo!"
+                },
+                {
+                    "name": "Juraj Illes",
+                    "pos": "Director de Marketing, Co-Fundador",
+                    "desc": "Juraj cuenta con muchos años de experiencia en negocios y marketing. Durante sus estudios en la Facultad de Administración de la Universidad Comenius de Bratislava, fue jefe de marketing en una empresa familiar dedicada a electrónica de alto nivel. Posteriormente, trabajó como especialista en marketing online en una empresa internacional asociada con PYMES de Google. Como empresario, ha llevado a su empresa de distribución al campo de la cosmética y la farmacia. Tras la venta de su empresa, comenzó a dedicar su experiencia adquirida como empresario autónomo con un enfoque de estrategias de marketing. Durante este período aceptó el cargo como Director de Marketing en una empresa dedicada a los bienes de consumo de rotación rápida. Su último rol se relacionaba con la gestión del departamento online de una de las principales compañías de seguros de salud eslovacas, pero en ese momento ya se había interesado en el mundo de las criptomonedas, pasando a gestionar con éxito las oportunidades de negocio en esta área, entre las cuales está también el proyecto Loteo."
+                },
+                {
+                    "name": "Rene Darmos",
+                    "pos": "Director de Desarrollo de Negocio, Co-Fundador",
+                    "desc": "Obtuvo un título universitario en Relaciones Internacionales y Diplomacia Económica, al que posteriormente añadió otro en Economía y Gestión de Negocios Internacionales. Es empresario, inversor en criptomonedas, embajador, asesor y, ocasionalmente, organizador de eventos de blockchain. Como empresario, fundó y construyó dos empresas que fueron vendidas con éxito, y actualmente lidera otra. También está involucrado en la organización de reuniones y participación en varios proyectos. Lleva un tiempo relativamente corto (casi tres años) en el mundo de las criptomonedas, pero sin embargo ha logrado resultados significativos en esta área y erigiéndose como embajador de Mainframe. René ha conocido a muchas personas influyentes e importantes del sector blockchain y, gracias a su experiencia previa como gestor de marca para Red Bull y Unilever, combinada con sus habilidades empresariales y su pensamiento orientado al cliente, es un miembro importante del equipo de Loteo, responsable del desarrollo del negocio a nivel general."
+                },
+                {
+                    "name": "Jan Lalka",
+                    "pos": "Director Financiero, Co-Fundador",
+                    "desc": "Esperanza, fe en el éxito y experiencia de vida. Estas son las cosas que Jan ha aportado a este proyecto empresarial. El concepto nunca ha sido tan obvio como en la actualidad. Comenzó su carrera como empresario a los 23 años en 1997, desarrollando gradualmente sus habilidades empresariales. En 2003, regresó al negocio financiero global y entró en una industria donde fue capaz del desarrollo de cuatro marcas en 16 años, asumiendo de forma gradual cargos que iban desde las ventas, al de jefe de toda una división a través de la gestión empresarial. Aunque trabajar para grandes marcas le ha dado a Jan una excelente experiencia, no hay nada más gratificante que el establecimiento y desarrollo de su propia marca. Esta es la razón de su compromiso con el proyecto. La energía, cuando se canaliza en la dirección correcta, permite navegar con una visión a largo plazo y afianzarse en la creencia en el éxito, garantizando un resultado satisfactorio en el negocio."
+                },
+                {
+                    "name": "Nina Bakalova",
+                    "pos": "Gestora de RRPP",
+                    "desc": "Nina obtuvo su título universitario en la Universidad de Economía de Bratislava. Simultáneamente trabajaba en su carrera de modelo, escribiendo artículos en varios medios de comunicación y adquiriendo una valiosa experiencia en la creación de contenidos y estrategias de RRPP. Su trabajo más reciente fue como principal asesora del Ministro de Defensa en el Consejo Nacional de la República Eslovaca."
+                },
+                {
+                    "name": "Max Zakomoldin",
+                    "pos": "Asesor de ventas",
+                    "desc": "Inversor y trader de criptomonedas, analista, recaudador de fondos, representante del mercado financiero, reportando al Banco Central, conferenciante público. Especializado en criptoeconomía, creación de modelos de tokens e impulso del crecimiento natural del precio de los tokens, basado en el desarrollo del negocio. Max ha impartido docenas de cursos educativos online y offline, permitiendo a muchas personas, el descubrir la oportunidad de obtener un ingreso decente a través de Internet."
+                },
+                {
+                    "name": "Julius Buchel",
+                    "pos": "Gestor de la comunidad",
+                    "desc": "Creador de contenidos y propietario de una asesora de redes sociales, entusiasta del blockchain enfocado en la educación relacionada con criptomonedas, experto trabajando en red, con más de diez años de experiencia en finanzas corporativas en calidad de CFO en varios campos de producción, estudió economía y derecho en la universidad."
+                },
+                {
+                    "name": "Robert Auxt",
+                    "pos": "Asesora legal y de listado en mercado",
+                    "desc": "Robert es el co-fundador de ETERBASE. Trabajó en la junta directiva del Banco Europeo de Inversiones, el Mecanismo Europeo de Estabilidad y varias otras organizaciones con saldos multimillonarios en dólares. Estudió en la Escuela de Economía de Londres, University College London y en la University of Cambridge Judge Business School."
+                },
+                {
+                    "name": "Peter Kris",
+                    "pos": "CTO",
+                    "desc": "Peter es el fundador de un estudio de desarrollo de blockchain y de la asosora Block Unison, liderando ingenieros hacia una ejecución sólida. Peter cuenta con una década de experiencia en TI, incluyendo administración, telefonía móvil, y hasta el desarrollo de backend. Un entusiasta conocedor de la industria del blockchain desde la era Bitcoin de 2013, orador ocasional sobre varios temas y colaborador con la comunidad local de Ethereum en Progressbar."
+                },
+                {
+                    "name": "David Kokavec",
+                    "pos": "Asesor",
+                    "desc": "Después de graduarse en derecho, el fundador del proyecto Kryptotrejder transformó su afición e interés por las criptomonedas en un negocio exitoso destinado a educar a la gente en este campo. Ha estado proporcionando asesoría financiera integral tanto para particulares como para empresas.  Le gusta ayudar a la gente y comprobar los resultados, pero lo que más le gusta de su trabajo es su progreso personal y aprendizaje a lo largo de la vida. Aparte de eso, se ocupa de la gestión del mayor portal de rap eslovaco y de una revista de moda. Cuando no se le ocurren nuevas ideas y estrategias de negocios, dedica su tiempo a la familia, los viajes y el deporte. En Loteo ocupa el cargo de asesor."
+                },
+                {
+                    "name": "Nenad Ristic",
+                    "pos": "Asesor de la comunidad",
+                    "desc": "Nenad ha sido arrastrado a las aguas criptográficas en 2014, un serbio que sabe moverse entre esquemas pump&dump con una sonrisa en la cara. Un verdadero creyente del blockchain y todas las ventajas que aporta a sus usuarios. Nenad tiene más de 4 años de experiencia en gestión comunitaria, creando conciencia de marca y ayudando a los proyectos a escuchar la voz de su comunidad. También es miembro del Consejo Asesor de varios proyectos en esta vanguardista industria. Un tipo optimista y entusiasta que nunca dará la espalda a la comunidad cuando surja la oportunidad de enseñar, ayudando a acercar el Blockchain a las masas."
+                },
+                {
+                    "name": "Sapta Munggaran",
+                    "pos": "Asesor de la comunidad",
+                    "desc": "Entró en Bitcoin a principios de 2013, Sapta es el principal hombre de la comunidad de Indonesia. Ha ayudado y asesorado a varias startups de Blockchain para crear conciencia de marca, incrementar su base de usuarios, además de gestionar los canales de su comunidad. También es moderador voluntario desde 2014 en el mayor foro de Bitcoin. Le gusta educar a la gente sobre criptomonedas."
+                },
+                {
+                    "name": "Anthony Sánchez",
+                    "pos": "Asesor de la comunidad",
+                    "desc": "Comenzó su viaje por las criptomonedas encargándose del soporte técnico para una compañía de cajeros automáticos de bitcoin, un venezolano con bastante suerte, cerebro y un sueño. Trabajando en la industria de la atención al usuario durante más de 7 años, siempre actualizado ante cualquier desafío que se le presente. Su experiencia se centra en la gestión de crisis y la reducción de la escala de los problemas, tanto en grupos específicos de proyectos o de forma general. Bitcoin es su pasión, si alguna vez necesita saber algo acerca de criptomonedas en términos llanos, se le puede preguntar. Tiene más de dos años de experiencia como gestor de la comunidad para distintos proyectos."
+                },
+                {
+                    "name": "Husain Zabir",
+                    "pos": "Asesor de listado",
+                    "desc": "Negociante e inversor en criptomonedas, analista ondas de Elliott e investigador con 4 años de experiencia"
+                }
+            ],
+            "youMember": {
+                "title": "Nuestra comMOONidad es nuestra fuerza",
+                "text": "Únase al grupo de telegram en"
+            }
+        },
+        "downloads": {
+            "t1": "Documentos para descargar",
+            "p1": "Todos los documentos importantes sobre el proyecto, certificaciones u otros temas importantes en un solo lugar, para una orientación más fácil. ¿Aun le falta algo? Escríbanos un email y trataremos de satisfacer sus requerimientos.",
+            "documents": [
+                {
+                    "name": "Whitepaper"
+                },
+                {
+                    "name": "Loteo en Caja"
+                },
+                {
+                    "name": "Documento de afiliado"
+                },
+                {
+                    "name": "Certificación del RNG"
+                }
+            ],
+            "alts": [
+                {
+                    "alt": "idioma"
+                },
+                {
+                    "alt": "descargar"
+                }
+            ],
+            "english": "Inglés",
+            "russian": "Ruso",
+            "slovak": "Eslovaco",
+            "spanish": "Español",
+            "englishPdf": "PDF en inglés"
+        },
+        "faq": {
+            "t1": "Preguntas frecuentes",
+            "p1": "Todas las preguntas frecuentes en un mismo lugar. En caso de que todavía tenga dudas, asegúrese de unirse a nuestro canal de telegram donde conseguirá una respuesta inmediata.",
+            "t2": "JUEGO",
+            "t3": "LEGAL",
+            "t4": "CRIPTO",
+            "questions": {
+                "game": [
+                    {
+                        "q": "¿Cuál es el precio de los boletos de LOTEO?",
+                        "a": "El precio de los boletos de la lotería semanal es de 10 EUR. Se está preparando una lotería diaria en la que el precio de un boleto simple será de 2 euros."
+                    },
+                    {
+                        "q": "¿Cuáles son las probabilidades de ganar?",
+                        "a": "Se puede calcular como la relación entre el número de mis boletos y la cantidad total en el fondo."
+                    },
+                    {
+                        "q": "¿Cómo puedo comprar boletos online?",
+                        "a": "Debe abrir una cuenta de usuario gratuita en nuestra web para acceder a nuestro panel de control donde podrá ver la opción de comprar un boleto."
+                    },
+                    {
+                        "q": "¿Cuándo se realizan los sorteos de la lotería?",
+                        "a": "Los sorteos del juego principal -el semanal- se celebran una vez por semana, cada domingo a las 12.00 horas (hora de Europa Central). La hora de los sorteos de las loterías adicionales se anunciará puntualmente antes de su lanzamiento."
+                    },
+                    {
+                        "q": "¿Cómo comprobar si he ganado?",
+                        "a": "Existen varias maneras de comprobar si ha ganado. 1. verifique su balance de ETH en el panel de control; 2. verifique el visitante moon en el panel de control; 3. visite el canal LOTEO"
+                    },
+                    {
+                        "q": "¿Existe garantía sobre el fondo de premios?",
+                        "a": "El volumen del fondo de premios no puede garantizarse ya que depende exclusivamente del número de boletos involucrados en el respectivo juego."
+                    },
+                    {
+                        "q": "¿Qué es LOTEOPASS y cuáles son sus ventajas?",
+                        "a": "LOTEOPASS es un medio para adquirir una participación anual en cada sorteo semanal a partir del día de la compra. El propietario de un LOTEOPASS se incluye en cada sorteo automáticamente y con independencia de fechas y horas. El paquete de 52 tickets incluye un bono de 5.200 tokens LOTEU que se utilizan automáticamente para duplicar sus posibilidades de ganar."
+                    },
+                    {
+                        "q": "Qué es LOTEOMAXX y cuáles son sus ventajas",
+                        "a": "LOTEOMAXX es un paquete deboletos en varias cantidades - 10, 20, 50 o 100unidades (boletos). El precio del paquete LOTEOMAXX incluye los tokens LOTEU usados para aumentar sus posibilidades de ganar. El propietario puede utilizar los boletos con tokens de acuerdo a sus preferencias en cualquier momento y en cualquier cantidad, aumentando sus posibilidades de ganar."
+                    },
+                    {
+                        "q": "Los beneficios del programa de afiliados",
+                        "a": "Un socio afiliado es premiado por las actividades de cualquier nuevo usuario registrado en la plataforma a través del enlace del socio afiliado. El socio afiliado recibirá una recompensa de 50 tokens LOTEU por cada cuenta activa de un nuevo usuario. Los socios tienen el derecho de ser recompensados con cada venta de paquetes de LOTEOPASS o LOTEOMAXX al por mayor, además de recibir el 4% del valor de cada boleto comprado por un nuevo usuario registrado en la primera línea bajo el nombre de socio afiliado."
+                    },
+                    {
+                        "q": "¿Qué significa \"una cuenta activa\"?",
+                        "a": "Una nueva cuenta de usuario se activa con la compra y el uso de cualquier producto LOTEO."
+                    },
+                    {
+                        "q": "¿Qué es el Programa Espacial?",
+                        "a": "EL programa espacial está dirigido a los mejores socios afiliados. El bono será distribuido de acuerdo a los resultados de la actividad de los socios. Para este programa, LOTEO ha creado grupos de 1%, 2% y 3% de todos los tokens LOTES de la empresa. Los socios afiliados que vendan boletos serán recompensados con el porcentaje de comisión apropiado. Los tokens LOTES generan ingresos pasivos para todos los participantes en cada uno de los tres grupos de comisiones por igual. El programa está limitado en el tiempo con una posible ampliación. Para más información diríjase a la sección de Afiliado."
+                    },
+                    {
+                        "q": "¿Cuáles son las formas de pago?",
+                        "a": "El día del lanzamiento de la plataforma LOTEO, la única forma de pagar los boletos, es con ETH. En un futuro próximo se dispondrá de una amplia gama de opciones de pago, empezando por BTC, posteriormente EUR utilizando tarjetas de crédito, transferencia bancaria,  mensaje vía tfno. móvil (SMS) u otros, como ADV cash, PayPal, etc."
+                    },
+                    {
+                        "q": "¿Por qué el autentificador de Google?",
+                        "a": "El autenticador de Google es una función de seguridad para evitar el inicio de sesión en su cuenta sin autorización."
+                    },
+                    {
+                        "q": "¿Es posible transferir boletos?",
+                        "a": "Nuestra plataforma permite la transferencia de los boletos comprados entre los participantes registrados."
+                    },
+                    {
+                        "q": "¿En qué consiste la  doble oportunidad y cómo obtenerla?",
+                        "a": "Usted puede duplicar sus posibilidades de ganar la lotería sin aumentar el precio del boleto. Esto es posible al usar 100 boletos de LOTEU para conseguir participaciones adicionales en la lotería, o bien mediante la compra de un pase anual LOTEOPASS. Su número de boleto se duplica en el fondo y por lo tanto también se duplican sus probabilidades de ganar."
+                    }
+                ],
+                "legal": [
+                    {
+                        "q": "¿Dónde se encuentra la sede de LOTEO?",
+                        "a": "LOTEO ha establecido una compañía matriz en Curaçao para obtener una licencia global de juegos de azar online mediante una subsidiaria en Chipre."
+                    },
+                    {
+                        "q": "¿Debo pagar impuestos?",
+                        "a": "Cada país tiene sus propias normas fiscales. En caso de ganar, el abono de cualquier impuesto en su país de residencia es responsabilidad suya."
+                    },
+                    {
+                        "q": "¿El sorteo es 100% aleatorio?",
+                        "a": "Efectivamente. Gracias al TRNG -Generador de Números Aleatorios- de alta eficiencia, el número generado es 100% aleatorio. Puede ver el certificado del TRNG en la sección de descargas."
+                    },
+                    {
+                        "q": "¿Está LOTEO asociado con alguna organización benéfica?",
+                        "a": "El 1% del total del premio se entregará a una organización benéfica."
+                    },
+                    {
+                        "q": "Países cuyos residentes tienen prohibido jugar en nuestra plataforma",
+                        "a": "Residentes de los siguientes países: i) Los Estados Unidos de América y sus territorios; ii) Los Países Bajos (incluyendo Curaçao y otros países, así como territorios, que formen parte del Reino de los Países Bajos); iii) La República Democrática Popular de Corea ; y cualquier otro país que pueda prohibir la oferta de juegos de azar online a sus residentes o a cualquier persona dentro de tal país. Los juegos de azar por Internet pueden ser ilegales en la jurisdicción donde Usted resida, como por ejemplo en Australia, Aruba, Bonaire, Curaçao, Chipre, Francia, Países Bajos, Saba, Statia, San Martín, EE.UU., o en cualquier otra jurisdicción que el Gobierno Central de Curaçao (aniguamente denominadas como Antillas Neerlandesas) considere ilegal."
+                    }
+                ],
+                "crypto": [
+                    {
+                        "q": "¿Qué tokens ofrece LOTEO?",
+                        "a": "LOTEO emite dos tipos de tokens: LOTES y LOTEU. Los LOTES de tokens valor que ofrecen a sus titulares la oportunidad de beneficiarse de los ingresos de la plataforma. LOTEU es un token de utilidad con la capacidad de duplicar su número de boletos en el fondo de premios y por tanto doblar sus posibilidades de ganar la lotería, sin embargo, también es posible usarlo para participar en los juegos instantáneos de la plataforma LOTEO."
+                    },
+                    {
+                        "q": "¿Por qué están bloqueados los tokens LOTES?",
+                        "a": "Los tokens LOTES son bloqueados durante 15 meses después de su compra, y hasta finalizar el plazo, es imposible su transferencia. Mientras tanto, tendrá lugar la fase de pruebas y el lanzamiento de la plataforma LOTEO. Después de que pasen los 15 meses, los tokens serán desbloqueados y estarán listos para ser usados o vendidos."
+                    },
+                    {
+                        "q": "¿Cómo beneficiarse de la lotería?",
+                        "a": "Comprando y manteniendo los tokens LOTES podrá beneficiarse de la plataforma LOTEO. El 20% de los ingresos totales de la plataforma se distribuye entre los titulares de tokens LOTES. Esta cantidad es distribuida instantáneamente por contratos inteligentes entre dichos titulares de tokens LOTES, según su cantidad."
+                    },
+                    {
+                        "q": "¿Cómo puedo recibir los tokens LOTES y LOTEU?",
+                        "a": "Los tokens LOTES se venderán exclusivamente en rondas de financiación privadas. En la primera ronda, que tendrá lugar desde el 1 de marzo de 2019 al 30 de abril de 2019, se pondrán a disposición del público 50 millones de tokens a un precio de 0,05 EUR por token. En la segunda ronda, que tendrá lugar desde el  1 de agosto de 2020 hasta el 9 de septiembre de 2020 o hasta agotarse, se venderán 30 millones de tokens LOTES por 0,10 EUR por token. Los tokens LOTEU pueden ser adquiridos en airdrops, programa de afiliados, en competiciones comunitarias, así como en el mercado."
+                    },
+                    {
+                        "q": "¿Puedo jugar a través de Metamask?",
+                        "a": "Cada propietario de cartera ETH o metamask puede participar en el juego sin necesidad de registrarse en nuestra plataforma."
+                    },
+                    {
+                        "q": "¿Dónde puedo ver los contratos inteligentes?",
+                        "a": "Los contratos inteligentes pueden verificarse tanto en GitHub como en Etherscan."
+                    }
+                ]
+            }
+        }
+    },
+    "airdrop": {
+        "title": "3ª Ronda del Airdrop de Loteo",
+        "helmet": "LOTEO - Lotería Transparente en Blockchain",
+        "href": "3ª Ronda del Airdrop de Loteo"
+    },
+    "airdropThankYou": {
+        "helmet": "LOTEO - Lotería Transparente en Blockchain",
+        "title": "Gracias",
+        "content": {
+            "title": "¡Hola visitante de moon!",
+            "p": "¡Felicidades por su participación con éxito en nuestro Tutorial de Airdrop y por ayudarnos a crecer!<br \/>Recibirá sus LOTEU directamente en la plataforma en cuanto concluya el airdrop.<br \/>Asegúrese de seguir nuestras Redes Sociales y unirse a nuestro grupo de Telegram para disponer de toda la información relevante antes que nadie. <br \/>Puede multiplicar sus LOTEU jugando a nuestro primer juego instantáneo Moon Of Fortune. Y por cierto, ahí podrá ganar además  un boleto para la lotería semanal.<br \/><br \/>Que tenga un buen día y gracias por unirse a la misión to the moon de Loteo."
+        }
+    },
+    "balanceCard": {
+        "balance": "Saldo",
+        "comingSoon": "Próximamente",
+        "loading": "Cargando...",
+        "alts": [
+            {
+                "alt": "icono de tarjeta"
+            },
+            {
+                "alt": "abrir"
+            }
+        ]
+    },
+    "contactUs": {
+        "messageSent": "Mensaje enviado",
+        "thankYou": "¡Gracias por su mensaje! Nos pondremos en contacto con Usted a la mayor brevedad.",
+        "okText": "OK",
+        "sending": "ENVIANDO...",
+        "send": "ENVIAR",
+        "yourName": "Su nombre",
+        "email": "Email",
+        "message": "Mensaje",
+        "investing": "Estoy pensando en invertir",
+        "andMore": "y más",
+        "investments": [
+            {
+                "value": "1 000 - 5000"
+            },
+            {
+                "value": "5 000 - 10 000"
+            },
+            {
+                "value": "10 000 - 100 000"
+            },
+            {
+                "value": "100 000"
+            }
+        ]
+    },
+    "inviteFriendsSection": {
+        "t1": "Conviértase en socio afiliado",
+        "t2": "¡Invite a sus amigos y juegue gratis!",
+        "p": [
+            "Obtener recompensa ",
+            "al menos un 40% de los ingresos de la plataforma ",
+            "gracias a nuestro programa espacial."
+        ],
+        "learnMore": "Información adicional"
+    },
+    "drawDialog": {
+        "eth": "ETH",
+        "title": "Tan cerca de ser el<br\/>próximo visitante de Moon",
+        "loading": "Sorteo de la lotería en curso",
+        "backToDashboard": "Regresar al panel de control",
+        "btnText": "Mostrar resultados"
+    },
+    "drawVideo": {
+        "eth": "ETH",
+        "video": "Su navegador no soporta la etiqueta de vídeo.",
+        "backToDashboard": "Volver al panel de control",
+        "unmute": "Dejar de silenciar",
+        "mute": "Silenciar",
+        "skip": "Omitir",
+        "alts": [
+            {
+                "alt": "reproducir"
+            },
+            {
+                "alt": "dejar de silenciar"
+            },
+            {
+                "alt": "silenciar"
+            },
+            {
+                "alt": "omitir"
+            }
+        ]
+    },
+    "etherscanLink": {
+        "check": "Verificar en Etherscan",
+        "alts": [
+            {
+                "alt": "etherscan"
+            }
+        ]
+    },
+    "moonVisitors": {
+        "title": "Visitantes de Moon",
+        "alts": [
+            {
+                "alt": "moon"
+            },
+            {
+                "alt": "elementos de fondo"
+            }
+        ],
+        "gameTitle": "JUEGOS DE LOTERIA"
+    },
+    "paymentDialog": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "alts": [
+            {
+                "alt": "bala"
+            },
+            {
+                "alt": "atrás"
+            },
+            {
+                "alt": "ethereum"
+            },
+            {
+                "alt": "abrir"
+            },
+            {
+                "alt": "bitcoin"
+            }
+        ],
+        "back": "Regresar a opciones",
+        "messagePanel": {
+            "title": "Pago efectuado con éxito",
+            "text": "¡Pago realizado con éxito! Ahora usted ya puede usar sus boletos para participar en la lotería.",
+            "okText": "Ir a Panel de Control",
+            "cancelText": "Usaré mi boleto en otra ocasión",
+            "closeText": "Cerrar",
+            "loteuText": "Ahora puede jugar a juegos personalizados como Apolo 11, Moon of Fortune y otros, desarrollados en exclusiva para LOTEU. El resto de juegos habilita una función especial al usar LOTEU.",
+            "playText": "Jugar"
+        },
+        "dialog": [
+            {
+                "title": "Opciones de pago",
+                "subTitle": "Elija su método de pago preferido",
+                "info": "Deposite el pago de <strong>{{pago}}<\/strong> en la siguiente dirección"
+            },
+            {
+                "title": "Opciones de pago",
+                "subTitle": "Elija su método de pago preferido",
+                "paymentOptions": {
+                    "summary": {
+                        "title": "Resumen",
+                        "label": "Total",
+                        "price": [
+                            {
+                                "row": "Lotería semanal"
+                            },
+                            {
+                                "row": "Loteo Pass"
+                            },
+                            {
+                                "row": "Loteo Maxx 10"
+                            },
+                            {
+                                "row": "Loteo Maxx 20"
+                            },
+                            {
+                                "row": "Loteo Maxx 50"
+                            },
+                            {
+                                "row": "Loteo Maxx 100"
+                            },
+                            {
+                                "row": "Loteu"
+                            }
+                        ]
+                    },
+                    "payMethods": {
+                        "t1": "Deducir del saldo",
+                        "name1": "Mi Cartera de Ethereum",
+                        "card1": "Mi cartera de Bitcoin",
+                        "t2": "Generar un nuevo pago",
+                        "card2": "Criptomonedas",
+                        "card3": "Tarjeta de crédito",
+                        "card4": "Transferencia bancaria",
+                        "card5": "SMS",
+                        "card6": "World Wide Pay"
+                    },
+                    "otherPayment": {
+                        "title": "Elija criptomoneda",
+                        "name1": "Ethereum",
+                        "info1": "Generar detalles para el pago",
+                        "name2": "Bitcoin",
+                        "info2": "PRÓXIMAMENTE"
+                    },
+                    "confirmation": {
+                        "text1": [
+                            {
+                                "span": "Usted"
+                            },
+                            {
+                                "span": "carece de fondos suficientes"
+                            },
+                            {
+                                "span": "en su Cartera de ETH para pagar dicha transacción."
+                            }
+                        ],
+                        "info": "Elija un método de pago diferente o deposite fondos en su cartera.",
+                        "text2": [
+                            {
+                                "span": "Usted"
+                            },
+                            {
+                                "span": "se cobrará"
+                            },
+                            {
+                                "span": "desde la cartera Ethereum de Loteo"
+                            }
+                        ],
+                        "btn1": "Procesando el pago...",
+                        "btn2": "Confirmar el pago"
+                    }
+                }
+            }
+        ],
+        "title": "Resumen y pago",
+        "tabs": [
+            {
+                "alt": "Resumen"
+            },
+            {
+                "alt": "Método de pago"
+            }
+        ],
+        "goToPaymentMethod": "Dirigirse a las formas de pago",
+        "copied": "Copiado",
+        "copy": "Copiar",
+        "qrCodeValid": "El código QR es válido durante",
+        "total": "TOTAL",
+        "payWithEth": "Pagar con Ethereum",
+        "errorDialog": [
+            {
+                "text": "No puede comprar menos de 100 Loteu"
+            },
+            {
+                "text": "No puede comprar menos de 10 EUR"
+            }
+        ]
+    },
+    "prizes": {
+        "percentage": [
+            {
+                "value": "75"
+            },
+            {
+                "value": "20"
+            },
+            {
+                "value": "4"
+            },
+            {
+                "value": "1"
+            }
+        ],
+        "alts": [
+            {
+                "alt": "reparto de premio"
+            }
+        ],
+        "target": [
+            {
+                "name": "Ganador de la lotería"
+            },
+            {
+                "name": "Propietario de Lotes",
+                "detail": "El 20% de cada premio sorteado será redistribuido entre los propietarios de LOTES, en proporción a la cantidad de LOTES que cada usuario posea."
+            },
+            {
+                "name": "Adjudicado al socio afiliado que invitó al usuario"
+            },
+            {
+                "name": "Organismo benéfico elegido por la comunidad de LOTEO"
+            }
+        ]
+    },
+    "ticketCard": {
+        "label": "Cantidad de boletos",
+        "alts": [
+            {
+                "alt": "icono"
+            },
+            {
+                "alt": "eliminar"
+            },
+            {
+                "alt": "añadir"
+            }
+        ]
+    },
+    "ticketSelector": {
+        "eur": "EUR",
+        "btc": "BTC",
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "cerrar"
+            },
+            {
+                "alt": "boletos"
+            },
+            {
+                "alt": "menos"
+            },
+            {
+                "alt": "más"
+            },
+            {
+                "alt": "oportunidad"
+            },
+            {
+                "alt": "éxito"
+            },
+            {
+                "alt": "pulgar hacia arriba"
+            },
+            {
+                "alt": "desplazarse hacia abajo"
+            }
+        ],
+        "header": {
+            "title": "Lotería semanal de Loteo",
+            "text": "Salir del juego",
+            "learnMore": "Información adicional sobre este juego"
+        },
+        "prizesCounter": {
+            "label": "El juego comienza en"
+        },
+        "playArea": {
+            "title": "Elija la cantidad de boletos con los que jugar",
+            "text": "Su oportunidad de ganar es actualmente",
+            "label": "Boletos"
+        },
+        "loteuSection": {
+            "title": "Duplique sus boletos con LOTEU y aumente sus posibilidades de ganar.",
+            "text": "Al comprar una participación adicional en la lotería con 100 LOTEU, duplica sus posibilidades de ganar.",
+            "label": "Usar Loteu",
+            "availableLoteu": "Tokens LOTEU disponible",
+            "availableTicket": "Boletos disponibles",
+            "ticketLabel": "boletos",
+            "buyMoreLoteu": "COMPRAR MÁS TOKENS LOTEU",
+            "buyMoreTicket": "COMPRAR MÁS BOLETOS",
+            "loteuToDoubleChance": "100 LOTEU = Doble oportunidad de ganar",
+            "chooseTicket": "Elija la cantidad de boletos para participar:",
+            "yourChanceIs": "Su probabilidad de ganar es",
+            "comingPlatform": "Pronto podrá comprar tokens LOTEU directamente desde la plataforma Loteo.",
+            "needBuyTickets": "Necesita comprar boletos para participar en la lotería",
+            "scrollInfo": "Desplácese hacia abajo si desea comprar participaciones",
+            "loteuRate": "100 LOTEU = {{rate}} EUR",
+            "loteuReminder": "¡No olvide usar LOTEU <br\/>para aumentar sus posibilidades de ganar!"
+        },
+        "processInfo": {
+            "message": "Boletos enviados con éxito",
+            "chanceInfo": "Su oportunidad de ganar en el momento de entrar en el juego era ",
+            "text1": "¡Excelente! ¡Gracias a <strong> LOTEU <\/strong> ha duplicado sus oportunidades de ganar!",
+            "text2": "¡La próxima vez use <strong>LOTEU<\/strong> para duplicar sus posibilidades de ganar!"
+        },
+        "bottomPanel": {
+            "title": "Resumen de boletos",
+            "info": "Boletos + Loteu",
+            "tickets": {
+                "single": "boleto",
+                "more": "boletos"
+            },
+            "btn0": "MOSTRAR REGLAS",
+            "btn1": "IR AL PANEL DE CONTROL",
+            "btn2": {
+                "process": "PROCESANDO...",
+                "play": "JUGAR DE NUEVO",
+                "enter": "PARTICIPAR EN LA LOTERÍA"
+            },
+            "btn3": "Cerrar"
+        },
+        "ticketShop": {
+            "title": "Comprar boletos o paquetes especiales"
+        },
+        "errorDialog": {
+            "title": "El sorteo actual ya no está disponible.",
+            "text": "Sólo es posible entrar en el juego al menos 30 minutos antes del comienzo del sorteo de la lotería. Esta ronda ya no está disponible. Usted puede participar en el juego del día siguiente tras finalizar el sorteo actual.",
+            "okText": "Ok"
+        },
+        "successDialog": {
+            "close": "Cerrar",
+            "increaseChance": "Aumentar mis posibilidades de ganar",
+            "title": "¡Éxito!",
+            "text": "Usted participa en el juego"
+        }
+    },
+    "ticketShop": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "buyNowBtn": "Comprar ahora",
+        "alts": [
+            {
+                "alt": "cesta de la compra"
+            }
+        ],
+        "label": "Tiempo para el sorteo de lotería semanal",
+        "bonus": {
+            "title": "BONO DE BIENVENIDA",
+            "text": "COMPRE EL 1er BOLETO, OBTENGA 100 LOTEU"
+        },
+        "tickets": [
+            {
+                "title": "Boleto",
+                "text": "Un pase para la lotería semanal"
+            },
+            {
+                "title": "Loteo Pass",
+                "text": "Obtenga una <strong>pase de un año para la lotería<\/strong>, sin necesidad pases adicionales y conviértase en <span>SOCIO PREMIUM <\/span>."
+            },
+            {
+                "title": "Loteo Maxx 10",
+                "text": "Obtenga <strong>10 boletos de lotería + 250 LOTEU<\/strong><br \/>Podrá usar dichos boletos en cualquier momento y cantidad."
+            },
+            {
+                "title": "Loteo Maxx 20",
+                "text": "Obtenga <strong>20 boletos de lotería + 1000 LOTEU<\/strong><br \/>Podrá usar dichos boletos en cualquier momento y cantidad."
+            },
+            {
+                "title": "Loteo Maxx 50",
+                "text": "Obtenga <strong>50 boletos de lotería + 3750 LOTEU<\/strong><br \/>Podrá usar dichos boletos en cualquier momento y cantidad."
+            },
+            {
+                "title": "Loteo Maxx 100",
+                "text": "Obtenga <strong>100 boletos de lotería + 10 000 LOTEU<\/strong><br \/>Podrá usar dichos boletos en cualquier momento y cantidad."
+            }
+        ],
+        "summaryPanel": {
+            "label": "Resumen",
+            "total": "Total"
+        }
+    },
+    "userInfoComponent": {
+        "loading": "Cargando...",
+        "logout": "Cerrar sesión",
+        "profile": "Mi perfil",
+        "soon": "Próximamente",
+        "alts": [
+            {
+                "alt": "perfil de usuario"
+            }
+        ],
+        "affiliateStatus": {
+            "PREMIUM": "Socio Premium",
+            "AFFILIATE": "Socio afiliado"
+        }
+    },
+    "loteoPassPopup": {
+        "title1": "LOTEOPASS",
+        "validity": "Válido hasta",
+        "valueText": "boletos restantes",
+        "title2": "Mis LoteoPasses",
+        "alts": [
+            {
+                "alt": "cerrar"
+            }
+        ]
+    },
+    "coinbackPopup": {
+        "title": "¡Se ha reclamado el bono de Coinback!",
+        "text": "ha sido acreditado.",
+        "alts": [
+            {
+                "alt": "cerrar"
+            },
+            {
+                "alt": "cartera"
+            }
+        ]
+    },
+    "walletPanel": {
+        "eth": "ETH",
+        "btc": "BTC",
+        "loteu": "Loteu",
+        "lotes": "Lotes",
+        "alts": [
+            {
+                "alt": "cerrar"
+            },
+            {
+                "alt": "luna"
+            },
+            {
+                "alt": "boletos"
+            },
+            {
+                "alt": "información"
+            }
+        ],
+        "setTransactionSuccessMessage": "has sido transferido con éxito desde su cartera de Ethereum.<br\/> Usted puede realizar el seguimiento del progreso de la transacción en",
+        "pendingTransactions": {
+            "text": "Su cartera tiene una transacción en curso...",
+            "link": "Puede seguir el progreso de la transacción en"
+        },
+        "walletDetails": {
+            "title1": "Mis boletos",
+            "title2": "Mi criptomoneda",
+            "btn": "Cartera abierta",
+            "label": "Lotería semanal",
+            "apollo11Label": "Lotería Apolo 11",
+            "myTicket": "MIS BOLETOS"
+        },
+        "walletHeader": {
+            "title": "Mi cartera"
+        },
+        "nextMoonVisitorInfo": {
+            "title": "¿Quiere ser el próximo visitante de la luna?",
+            "subTitle": "Comprar boleto para el próximo sorteo",
+            "btn1": "No, Gracias",
+            "btn2": "Comprar Boleto"
+        },
+        "currenciesInfo": {
+            "currenciesSection1": {
+                "title1": "Mis boletos",
+                "loading": "Cargando...",
+                "title2": "Lotería semanal",
+                "label1": "Boletos disponibles",
+                "text": "Boletos de LoteoPass",
+                "label2": "Boletos en juego",
+                "label3": "Boletos utilizados en Coinback",
+                "text3": "Boletos",
+                "label4": "Recompensa Coinback",
+                "title3": "Lotería Apolo 11"
+            },
+            "currenciesSection2": {
+                "title": "Mi criptomoneda"
+            }
+        },
+        "dialog": [
+            {
+                "title1": "Depósito de ETH",
+                "title2": "Su saldo",
+                "title3": "Dirección de depósito de ETH",
+                "name": "Mi Cartera Ethereum",
+                "note": "Tras realizar un depósito, puede hacer un seguimiento de su progreso en",
+                "title": "Depósito de ETH"
+            },
+            {
+                "title1": "Retirada de ETH",
+                "title2": "Su saldo",
+                "title3": "Dirección de Retirada de ETH",
+                "name": "Mi Cartera Ethereum",
+                "error": "El formato debe ser válido.",
+                "placeholder1": "Ingrese la dirección de retirada de fondos donde transferir ETH",
+                "placeholder2": "Importe en ETH",
+                "note": "<strong>Nota<\/strong> <br\/>Tras realizar una retirada de fondos, puede hacer un seguimiento de su progreso en ",
+                "btn1": "Procesando...",
+                "btn2": "Enviar",
+                "title": "Retirada de ETH"
+            },
+            {
+                "title": "Transacción exitosa",
+                "okText": "Ir a Panel de Control"
+            },
+            {
+                "title1": "Depósito de Loteu",
+                "title2": "Su saldo",
+                "title3": "Dirección de Depósito Loteu",
+                "name": "Mi Cartera Loteu ",
+                "note": "Tras realizar un depósito, puede hacer un seguimiento de su progreso en",
+                "title": "Depósito de Loteu"
+            },
+            {
+                "title1": "Retirada de Loteu",
+                "title2": "Su saldo",
+                "title3": "Dirección de Retirada de Loteu",
+                "name": "Mi Cartera Loteu ",
+                "error": "El formato debe ser válido",
+                "placeholder1": "Introduzca la dirección de retirada para transferir Loteu",
+                "placeholder2": "Cantidad de Loteu",
+                "note": "<strong> Nota <\/strong> <br\/> Tras realizar una retirada de fondos, puede hacer un seguimiento de su progreso en el",
+                "btn1": "Procesando...",
+                "btn2": "Enviar",
+                "title": "Retirada de Loteu"
+            },
+            {
+                "title": "Carece de fondos suficientes para retirar LOTEU",
+                "text": {
+                    "part1": "No tiene suficiente saldo en su cartera. Para poder retirar fondos, <strong> debe contar al menos con 0.0132 ETH en su saldo para afrontar el cargo por transacción <\/strong> . <br \/> <br \/>",
+                    "part2": "<strong>Aclaración: <\/strong> La retirada exige el abono de una tarifa de transacción de gas en la red Ethereum."
+                },
+                "okText": "Ok"
+            },
+            {
+                "title": "Carece de fondos suficientes para retirar LOTEU",
+                "text": {
+                    "part1": "No tiene suficiente saldo en su cartera. Para poder retirar fondos, <strong> debe contar al menos con 0.0132 ETH en su saldo para afrontar el cargo por transacción <\/strong> . <br \/> <br \/>",
+                    "part2": "<strong>Aclaración: <\/strong> La retirada exige el abono de una tarifa de transacción de gas en la red Ethereum."
+                },
+                "okText": "Ok"
+            },
+            {
+                "title": "Depósito de BTC",
+                "name": "Mi cartera Bitcoin",
+                "note": "Tras realizar un depósito, puede hacer un seguimiento de su progreso en"
+            },
+            {
+                "title": "Retirada de BTC",
+                "name": "Mi cartera Bitcoin",
+                "error": "El formato debe ser válido.",
+                "placeholder1": "Introduzca la dirección de retirada donde transferir BTC",
+                "placeholder2": "Cantidad de BTC",
+                "note": "<strong> Aviso <\/strong> <br\/> Tras ordenar la retirada de fondos, puede seguir su progreso en"
+            },
+            {
+                "title": "Carece de fondos suficientes para la retirarada de BTC",
+                "text": {
+                    "part1": "No tiene suficiente saldo en la cartera. Para poder retirar dinero, <strong>necesita tener como mínimo 0.000137 BTC de saldo para cubrir la comisión por transacción<\/strong>.<br \/><br \/>",
+                    "part2": "<strong> Nota: <\/strong> La retirada de fondos exige el abono de una comisión por transacción en la red de Bitcoin."
+                },
+                "okText": "Ok"
+            }
+        ],
+        "max": "MÁXIMO",
+        "withdraw": {
+            "balanceTitle": "Su saldo",
+            "addressTitle": "Dirección de Retirada",
+            "max": "MÁXIMO",
+            "processingButton": "Procesando...",
+            "submitButton": "Enviar"
+        },
+        "deposit": {
+            "balanceTitle": "Su saldo",
+            "addressTitle": "Dirección de Depósito"
+        },
+        "ticketReminder": {
+            "title": "¡No olvide usar su billete!",
+            "text": "Si desea participar en el próximo sorteo de lotería semanal, debe usar su boleto.",
+            "close": "Cerrar",
+            "useTicket": "Usar el boleto"
+        }
+    },
+    "authOverlay": {
+        "alts": [
+            {
+                "alt": "logo"
+            }
+        ],
+        "text": "Comprobando autenticación"
+    },
+    "userForm": {
+        "loading": "Cargando...",
+        "alts": [
+            {
+                "alt": "avatar"
+            },
+            {
+                "alt": "autenticación multifactor"
+            }
+        ],
+        "form": [
+            {
+                "label": "Avatar",
+                "btn": "Subir nuevo avatar"
+            },
+            {
+                "label": "Nombre de usuario"
+            },
+            {
+                "label": "Email"
+            },
+            {
+                "label": "País"
+            },
+            {
+                "label": "Telegram",
+                "input": "Introduzca aquí su nombre de usuario en Telegram"
+            },
+            {
+                "label": "Habilitar la autenticación de 2 factores"
+            },
+            {
+                "label": "Dirección de ETH",
+                "loading": "Cargando..."
+            },
+            {
+                "saving": "Guardando...",
+                "saved": "Cambios guardados",
+                "save": "Guardar cambios"
+            }
+        ]
+    },
+    "messagePanel": {
+        "alts": [
+            {
+                "alt": "información"
+            }
+        ],
+        "okText": "OK",
+        "cancelText": "Cancelar"
+    },
+    "userProfile": {
+        "alts": [
+            {
+                "alt": "perfil de usuario"
+            }
+        ],
+        "logout": "Cerrar sesión",
+        "tabs": [
+            {
+                "name": "Cuenta"
+            }
+        ]
+    },
+    "background": {
+        "alts": [
+            {
+                "alt": "luna"
+            },
+            {
+                "alt": "resplandor"
+            },
+            {
+                "alt": "final"
+            }
+        ]
+    },
+    "backgroundTexture": {
+        "alts": [
+            {
+                "alt": "elementos de fondo"
+            }
+        ]
+    },
+    "question": {
+        "alts": [
+            {
+                "alt": "expandir reducir"
+            }
+        ]
+    },
+    "homeTopBackground": {
+        "alts": [
+            {
+                "alt": "luna"
+            },
+            {
+                "alt": "final"
+            }
+        ]
+    },
+    "lastWinners": {
+        "eth": "ETH",
+        "alts": [
+            {
+                "alt": "trofeo"
+            }
+        ],
+        "loteu": "LOTEU",
+        "DAILY": "Lotería Diaria",
+        "WEEKLY": "Lotería Semanal",
+        "APOLLO_11": "Apolo 11",
+        "SPECIAL_APOLLO_11": "Especial Apolo 11",
+        "watchDraw": "Ver el sorteo",
+        "DAILYMOBILE": "Diario",
+        "WEEKLYMOBILE": "Semanal",
+        "APOLLO_11MOBILE": "Lotería diaría Apolo 11",
+        "SPECIAL_APOLLO_11MOBILE": "Especial Apolo 11"
+    },
+    "networks": {
+        "alts": [
+            {
+                "alt": "telegram"
+            },
+            {
+                "alt": "twitter"
+            },
+            {
+                "alt": "instagram"
+            },
+            {
+                "alt": "linkedin"
+            },
+            {
+                "alt": "facebook"
+            },
+            {
+                "alt": "reddit"
+            },
+            {
+                "alt": "github"
+            },
+            {
+                "alt": "Youtube"
+            },
+            {
+                "alt": "bitcointalk"
+            }
+        ]
+    },
+    "newsBanner": {
+        "alts": [
+            {
+                "alt": "bala"
+            }
+        ],
+        "mockedNews": [
+            {
+                "text": "EL PROGRAMA TRIPLE ÚNICO DE AFILIADOS DE LOTEO - JUGAR Y GANAR "
+            },
+            {
+                "text": "Loteopass - Conviértase en socio premium y obtenga un BONO especial de BONUS para Junio"
+            },
+            {
+                "text": "LOTEO ESTÁ ANUNCIANDO SU POTENTE LANZAMIENTO "
+            },
+            {
+                "text": "LOS PLANES DE LOTEO EN YOUTUBE  - ACADEMIA Y TV DE LOTEO"
+            }
+        ],
+        "loteoNews": "noticias de loteo",
+        "loading": "Cargando..."
+    },
+    "partner": {
+        "alts": [
+            {
+                "alt": "logo"
+            }
+        ]
+    },
+    "scrollInfo": {
+        "alts": [
+            {
+                "alt": "desplazarse hacia abajo"
+            }
+        ]
+    },
+    "ticketSummaryCard": {
+        "alts": [
+            {
+                "alt": "tarjeta de resumen"
+            },
+            {
+                "alt": "información"
+            }
+        ]
+    },
+    "button": {
+        "alts": [
+            {
+                "alt": "ícono de botón"
+            }
+        ]
+    },
+    "dialog": {
+        "alts": [
+            {
+                "alt": "cerrar"
+            }
+        ]
+    },
+    "bonusDialog": {
+        "title1": "¡Gane LOTEU!",
+        "title2": "Complete nuestro tutorial sobre el airdrop",
+        "title3": "y encuentre el código secreto al final",
+        "btn1": "Empezar"
+    },
+    "messageContextProvider": {
+        "close": "Cerrar"
+    },
+    "copyField": {
+        "copied": "Copiado",
+        "copy": "Copiar"
+    },
+    "countInfo": {
+        "valueLeft": "izquierda"
+    },
+    "dashboard": {
+        "scrollInfo": "Desplácese hacia abajo para comprar un boleto para la Luna",
+        "buyTickets": "Comprar boletos",
+        "unknown": "Sr. desconocido",
+        "errors": [
+            {
+                "title": "Usted carece de boletos",
+                "text": "En primer lugar, Usted necesita comprar boletos de lotería, para poder participar en la lotería semanal de Loteo.",
+                "okText": "Comprar boletos",
+                "cancelText": "Cancelar"
+            },
+            {
+                "title": "No hay fondos suficientes para participar en el juego",
+                "text": {
+                    "part1": "Carece de saldo suficiente en su cartera. Para participar en la lotería, <strong>usted necesita tener al menos 0.017 ETH en su saldo. Por favor, haga un depósito.<br \/><br \/>",
+                    "part2": "<strong>Aclaración:<\/strong> La participación en la lotería requiere una transacción en el blockchain de la red Ethereum. Cada transacción en el mismo exige un cargo, en nuestro caso 0.017 ETH. Esto se debe a que queremos garantizar que cada participación sea transparente y visible directamente en la red Ethereum. Estamos esforzándonos para que esta tarifa sea lo más menor posible."
+                },
+                "okText": "Ok"
+            }
+        ],
+        "leaderboard": {
+            "leaderboard": "Tabla de clasificación",
+            "gameTitle": "JUEGOS DE LOTEO",
+            "game": "JUEGO",
+            "users": "USUARIOS \/ SEMANA",
+            "tickets": "BOLETOS \/ SEMANA",
+            "totalAmount": "CANTIDAD TOTAL \/ SEMANA",
+            "weeklyLottery": {
+                "title": "LOTERÍA SEMANAL",
+                "currency": "ETH",
+                "winText": "GANAR",
+                "users": "BOLETOS \/ SEMANA"
+            },
+            "apollo11Lottery": {
+                "title": "LOTERÍA  APOLLO 11",
+                "currency": "LOTEU",
+                "winText": "GANAR",
+                "users": "BOLETOS \/ SEMANA"
+            },
+            "moonOfFortune": {
+                "title": "MOON OF FORTUNE",
+                "currency": "LOTEU",
+                "winText": "VOLUMEN",
+                "users": "USUARIOS \/ SEMANA"
+            },
+            "winnerOfTheWeek": "Ganador de la semana",
+            "loteu": "LOTEU"
+        }
+    },
+    "gamesInfo": {
+        "title": "Detalles del juego | LOTEO - Lotería Transparente en Blockchain"
+    },
+    "headerTabs": [
+        {
+            "name": "Lotería Semanal"
+        },
+        {
+            "name": "Lotería Diaria"
+        },
+        {
+            "name": "Luna de la Fortuna"
+        },
+        {
+            "name": "Habitaciones Rekt"
+        },
+        {
+            "name": "Eventos especiales"
+        },
+        {
+            "name": "Torneo Loteo"
+        },
+        {
+            "name": "Lotería Apolo 11"
+        },
+        {
+            "name": "Fomo"
+        },
+        {
+            "name": "Jacks or Better"
+        },
+        {
+            "name": "Dados"
+        }
+    ],
+    "unavailable": {
+        "roadmap": "*De acuerdo con la hoja de ruta",
+        "comingSoon": "próximamente"
+    },
+    "gameWallet": {
+        "title": "LOTEU",
+        "sections": [
+            {
+                "title": "¡la transacción ha tenido éxito!",
+                "text": "Ahora ya puede establecer la cantidad a APOSTAR y girar la Luna de la Fortuna.",
+                "buttonText": "Juguemos"
+            },
+            {
+                "text": "Retirada de fondos"
+            },
+            {
+                "text": "Depositar"
+            },
+            {
+                "title": "¡Depositar LOTEU y jugar!",
+                "text": "Para poder jugar, debe depositar LOTEU desde su cartera Loteo.",
+                "buttonText": "Ok, entendido."
+            },
+            {
+                "title": "Retirada de LOTEU",
+                "balanceCardCurrency": "Juego",
+                "inputLabel": "Cantidad a retirar",
+                "buttonText": "Retirar todos los fondos"
+            },
+            {
+                "title": "Depósitar LOTEU",
+                "balanceCardCurrency": "LOTEU",
+                "inputLabel": "Cantidad a depositar",
+                "buttonText": "Depositar"
+            }
+        ],
+        "pendingTransactions": {
+            "text": "Su cartera tiene una transacción en curso...",
+            "link": "Puede seguir el progreso de la transacción en"
+        },
+        "errors": [
+            {
+                "title": "Carece de fondos suficientes para participar en el juego",
+                "text": "No tiene suficiente saldo en su cartera. Para poder jugar a Moon of Fortune, <strong>necesita como mínimo 0.017 ETH de saldo.<\/strong> Por favor, haga un depósito.",
+                "confirm": "Ok"
+            }
+        ],
+        "myBalance": "Mi Saldo"
+    },
+    "moonOfFortuneControls": {
+        "segOpt": [
+            {
+                "v": "10"
+            },
+            {
+                "v": "20"
+            },
+            {
+                "v": "30"
+            },
+            {
+                "v": "40"
+            },
+            {
+                "v": "50"
+            }
+        ],
+        "btnHalf": "½",
+        "btnTwo": "2x",
+        "title": "Luna<br \/>de la Fortuna",
+        "betAmount": "Cuantía de la Apuesta",
+        "loteu": "LOTEU",
+        "max": "MÁX",
+        "risk": {
+            "title": "Riesgo",
+            "options": [
+                {
+                    "value": "Alto"
+                },
+                {
+                    "value": "Medio"
+                },
+                {
+                    "value": "Bajo"
+                }
+            ]
+        },
+        "segments": "Segmentos",
+        "bet": "APUESTA",
+        "showRules": "Mostrar las Reglas",
+        "rules": [
+            "La configuración del modo según riesgo y multiplicador, determinan los diferentes pagos potenciales",
+            "Sin manipulación de la rueda",
+            "Ventaja de la casa establecida en el 1%",
+            "GANANCIA máxima de 1 000 000 LOTEU  en una misma APUESTA"
+        ]
+    },
+    "myAffiliate": {
+        "alts": [
+            {
+                "text": "Socio Premium"
+            }
+        ],
+        "helmet": "LOTEO - Lotería Transparente en Blockchain",
+        "title": "Depende de lo que Usted elija",
+        "titleSpan": "Mi línea ascendente:",
+        "subtitle1": "Mis estadísticas de afiliados",
+        "subtitle2": "Mis socios afiliados",
+        "subtitle3": "Estadísticas del programa espacial",
+        "subtitle4": "Estado VIP",
+        "loading": "CARGANDO",
+        "tabs": [
+            {
+                "name": "Estadísticas"
+            },
+            {
+                "name": "Mis socios afiliados"
+            }
+        ],
+        "progressInfo": {
+            "alts": [
+                {
+                    "alt": "Socio Premium"
+                },
+                {
+                    "alt": "Socio afiliado"
+                },
+                {
+                    "alt": "Bloqueado"
+                },
+                {
+                    "alt": "Desbloqueado"
+                }
+            ],
+            "unlockedHeader": "Usted es",
+            "premiumPartner": {
+                "title": "SOCIO PREMIUM",
+                "subtitle": "Conviértase en socio Premium y obténga acceso a múltiples bonos."
+            },
+            "affiliatePartner": {
+                "title": "SOCIO AFILIADO",
+                "subtitle": "Conviértase en socio afiliado, desbloquee la línea de afiliados y reciba un bono especial."
+            },
+            "buyPass": "Comprar el Loteopass para el DESBLOQUEO DEL BONUS",
+            "buyTicket": "Comprar un boleto de lotería para el DESBLOQUEO DEL BONUS",
+            "unlocked": "desbloqueado",
+            "unlockables": {
+                "premiumPartner": {
+                    "premiumLine": {
+                        "title": "Línea Premium",
+                        "lockedText": "Debloqueados todos los bonos de la línea de afiliados.",
+                        "unlockedText": "Debloqueados todos los bonos de la línea Premium."
+                    },
+                    "doubleChance": {
+                        "title": "2x Oportunidad",
+                        "lockedText": "Desbloquear el doble de oportunidades para cada sorteo de la lotería.",
+                        "unlockedText": "Desbloqueado el doble de oportunidades para cada sorteo de lotería."
+                    },
+                    "spaceProgram": {
+                        "title": "Programa espacial"
+                    },
+                    "VIPStatus": {
+                        "title": "Estado VIP"
+                    }
+                },
+                "affiliatePartner": {
+                    "affiliateLine": {
+                        "title": "Línea de afiliados",
+                        "lockedText": "Desbloquear todos los bonos de la línea de afiliados.",
+                        "unlockedText": "Debloqueados todos los bonos de la línea de afiliados."
+                    }
+                },
+                "learnMore": "Información adicional"
+            }
+        },
+        "partnersTable": {
+            "headers": [
+                "alias",
+                "país",
+                "socios",
+                "Programa espacial",
+                "Usados esta semana",
+                "total de boletos",
+                "total de Eth",
+                "estado"
+            ],
+            "empty": "Aun no tiene ningún socio afiliado.",
+            "copyText": "¡Copie su enlace especial de afiliado, compártalo con sus amigos y juegue gratis!",
+            "copied": "Copiado",
+            "copy": "Copiar",
+            "status": {
+                "NONE": "NINGUNO",
+                "AFFILIATE": "AFILIADO",
+                "PREMIUM": "PREMIUM"
+            }
+        },
+        "statisticsTable": {
+            "headers": [
+                {
+                    "name": "Mi estado"
+                },
+                {
+                    "name": "Total de usuarios"
+                },
+                {
+                    "name": "Usuarios activos"
+                },
+                {
+                    "name": "Jugado esta semana (Usuarios)"
+                },
+                {
+                    "name": "Usados esta semana usado (boletos)"
+                },
+                {
+                    "name": "Total de boletos"
+                }
+            ],
+            "bodyNoData": "No existendatos disponibles",
+            "soldTickets": "Boletos vendidos",
+            "notPremium": {
+                "title": "BLOQUEADO",
+                "text": "Para desbloquearlo y participar en el programa espacial necesita ser un <strong>SOCIO AFILIADO PREMIUM<\/strong>"
+            },
+            "foot": {
+                "title": "Beneficio",
+                "eth": "ETH",
+                "loteu": "LOTEU",
+                "nextPayout": "Próximo pago en ETH"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "1ª Línea"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Programa espacial",
+                        "span1": "AGOTADO",
+                        "span2": "Niveles del programa espacial"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "Líneas descendentes",
+                        "span": "USUARIOS"
+                    }
+                }
+            ]
+        },
+        "spaceProgramStatisticsTable": {
+            "header": "Nivel del programa espacial",
+            "foot": {
+                "lastMonth": "Pago del mes pasado",
+                "totally": "Totalmente pagado a nuestro socio espacial",
+                "eth": "ETH"
+            },
+            "body": [
+                {
+                    "tr": {
+                        "td": "Usuarios"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "ETH"
+                    }
+                },
+                {
+                    "tr": {
+                        "td": "ETH por usuario"
+                    }
+                }
+            ]
+        },
+        "VIPInfo": {
+            "toGet": "para obtener"
+        },
+        "passDialog": {
+            "title": "Compre un LoteoPass y conviértase en Socio <strong>Premium<\/strong> ",
+            "text": "Como socio PREMIUM tendrá acceso a múltiples bonos especiales tales como el programa espacial, la programa VIP, el doble de probabilidad de ganar y línea de afiliación premium.",
+            "ok": "COMPRAR AHORA",
+            "cancel": "No estoy interesado"
+        }
+    },
+    "currencyCardFull": {
+        "loading": "Cargando...",
+        "withdraw": "Retirada de fondos",
+        "deposit": "Depositar",
+        "nextPayout": "Próximo pago",
+        "totalPayout": "Pago total"
+    },
+    "joyride": {
+        "locale": {
+            "back": "Atrás",
+            "close": "Cerrar",
+            "last": "Finalizar",
+            "next": "Siguiente",
+            "skip": "Omitir"
+        },
+        "video": {
+            "video": "Su navegador no soporta la etiqueta de vídeo.",
+            "backToDashboard": "Volver al panel de control",
+            "claimLOTEU": "Reclame sus tokens LOTEU",
+            "yourCode": "Su código: ",
+            "unmute": "dejar de silenciar",
+            "mute": "silenciar",
+            "alts": [
+                {
+                    "alt": "jugar"
+                },
+                {
+                    "alt": "dejar de silenciar"
+                },
+                {
+                    "alt": "silenciar"
+                }
+            ]
+        },
+        "dashboard": {
+            "text1": "Seguro que quiere crear un gran avatar o personalizar su perfil.... Aparecerá tras presionar este botón del perfil.",
+            "text2": "Este es el panel de la cartera. Su saldo se muestra aquí, junto al importe de los boletos comprados.",
+            "text3": "Si este lugar muestra cero, debe recargar el saldo de su cartera si desea participar en la lotería.",
+            "text4": [
+                "Vea su saldo actual de LOTEU, un token de utilidad que duplica sus posibilidades de ganar en el sorteo. Cuenta con información adicional ",
+                "en este enlace",
+                ". El token LOTEU puede obtenerse como recompensa o comprado próximamente en criptomercados. Descubra cómo obtener LOTEU fácilmente ",
+                "en este enlace"
+            ],
+            "text5": [
+                "Inmediatamente tras invertir en LOTEO, debería figurar la cantidad correspondiente aquí. ¿Cuáles son las ventajas de convertirse en inversor, aparte de optar al 20% del montante de cada premio sorteado? Haga clic ",
+                "aquí",
+                "y descubra más."
+            ],
+            "text6": "Al igual que en el comercio online, elija los productos que mejor se adapten a sus necesidades y en la parte inferior podrá ver información resumida. Al pulsar el botón de compra se le pedirá que elija la forma de pago.",
+            "text7": "Participe en la lotería haciendo clic en este botón. Asegúrese de contar con suficientes fondos para poder participar en la lotería... Siempre se le pedirá confirmación para cualquier decisión.",
+            "text8": "Al pulsar aquí puede introducir su cartera y llevar a cabo las operaciones deseadas.",
+            "text9": "Esta es la interfaz abierta de la cartera. En el lado izquierdo, bajo \"boletos que han entrado en la lotería\", podrá verificar si ha participado con éxito en la lotería tras comprar los mismos. ¡Siempre se aconseja comprobarlo!",
+            "text10": "Al hacer clic en el botón, encontrará su dirección, código QR y el resto de información necesaria.",
+            "text11": [
+                "Toda la información sobre la lotería semanal en curso, en un único lugar. Aunque la plataforma funciona con Ethereum, el importe del premio figura en euros, y el tipo de cambio se actualiza cada 5 minutos. El premio se muestra también en BTC y ETH. Para comprobar el contrato, haga clic en ",
+                "Verificar en Etherscan",
+                " para determinar su probabilidad de ganar actual, compruebe datos sobre el último ganador, así como fecha y hora del próximo sorteo."
+            ],
+            "text12": [
+                "Al igual que cualquier otro tipo de pase, ¡ofrecemos un pase anual con un bono de doble oportunidad de ganar durante todo el año! Podrá encontrar información adicional en ",
+                "artículo",
+                ". Si desea convertirse en SOCIO PREMIUM, esto es obligatorio."
+            ],
+            "text13": [
+                "Si prefiere jugar con grandes cantidades, esta es su mejor opción. Efectivamente ofrecemos un bonus adicional, si usted compra gran cantidad de boletos.... Puede usarlo cuando prefiera. Compruébelo",
+                "aquí"
+            ],
+            "text14": [
+                "Esta es su oportunidad de ganar el bote sin comprar boleto alguno. Próximamente empezará este impresionante juego donde podrá usar sus tokens LOTEU recibidos como airdrop. Puede multiplicar su cantidad de tokens o ganar boletos para la lotería semanal. ¿No sería estupendo tener la oportunidad de ganar una lotería sin haber gastado un solo céntimo? Próximamente publicaremos información adicional sobre Moon of Fortune en nuestro blog. Compruebélo.",
+                "uno de nuestros últimos artículos",
+                " para obtener información adicional."
+            ],
+            "text15": [
+                "Tanto si tiene una red, o bien solo algunos amigos, que podrían estar interesados en la plataforma Loteo, esta es su oportunidad de ganar dinero. Ayúdenos a crecer y le recompensaremos por ello. Encontrará toda la información sobre el programa de afiliados más espléndido del universo en ",
+                "este artículo"
+            ],
+            "text16": "Puede encontrar los últimos resultados del sorteo aquí... Usted puede incluso comprobarlo en etherscan, lo cual supone una de las muchas ventajas respecto a las loterías tradicionales.",
+            "text17": "Creemos que usted se divertirá un montón en nuestra plataforma. Somos generosos recompensando a aquellos que nos ayudan a crecer. Difunda su enlace de afiliado y gane tokens LOTEU. Gracias por seguir nuestro tutorial, brindarnos su opinión y en caso de duda, pregunte a nuestros administradores en el grupo de telegram.¡ Disfrute del video y recuerde al ganador!"
+        }
+    },
+    "loading": "cargando",
+    "counter": {
+        "d": "D",
+        "h": "H",
+        "m": "M",
+        "s": "S"
+    },
+    "quitButton": {
+        "alt": "cerrar"
+    },
+    "gameWalletDialog": {
+        "title": "Saldo disponible",
+        "balance": {
+            "my": "Mi",
+            "wallet": "Cartera",
+            "loteu": "LOTEU"
+        }
+    },
+    "MESSAGE_WALLET_HAS_PENDING_TRANSACTION": {
+        "title": "Transacción pendiente",
+        "text": "Su cartera tiene una transacción en curso. Debe esperar hasta que la transacción haya finalizado."
+    },
+    "newsInitialState": {
+        "news": "Cargando noticias ..."
+    },
+    "shareMoF": {
+        "title": "Antes de irse...",
+        "text1": "Comparta Moon of Fortune con sus amigos y",
+        "text2": "Obtenga +100 LOTEU en su cartera.",
+        "facebook": "Compartir en Facebook",
+        "twitter": "Compartir en Twitter",
+        "cancel": "Cancelar",
+        "quit": "Salir del juego",
+        "quote": "Juege al juego Moon of Fortune y gane tokens de Loteu. ¡Es divertido!",
+        "hashtags": {
+            "facebook": "#juegealoteo",
+            "twitter": "loteo, loteu, lotería, criptomoneda, lotería en blockchain, juegos de azar, juege a loteo"
+        }
+    },
+    "board": {
+        "leaderboard": "Tabla de clasificación",
+        "myBets": "Mis apuestas",
+        "position": "POSICIÓN",
+        "player": "JUGADOR",
+        "usedLoteu": "LOTEU UTILIZADO",
+        "loteu": "Loteu",
+        "bet": "APUESTA",
+        "time": "HORA",
+        "payout": "PAGO",
+        "profit": "BENEFICIO",
+        "weekly": "Semanal",
+        "monthly": "Mensual",
+        "allTime": "Total",
+        "gameTitle": "JUEGOS DE LOTEO"
+    },
+    "apollo11Dialog": {
+        "title": "DEPOSITE <br \/> 50 000 LOTEU",
+        "subtitle": "... <strong> antes del vuelo (16 de julio) <\/strong> y <strong> manténgalo en stake hasta <br \/> el 20 de julio <\/strong> momento en que el Apolo 11 aterriza en la Luna",
+        "cta": "Depósito",
+        "text": "¡Celebre el 50 aniversario de la misión en la luna <br \/>  del Apollo 11!"
+    },
+    "apollo11Lottery": {
+        "title": "Lotería Especial Apolo 11",
+        "learnMore": "Aprenda más",
+        "gameStartsIn": "Próximo sorteo en",
+        "loteu": "LOTEU",
+        "drawingSchedule": "Programación del sorteo\n",
+        "youreIn": "Estás participando en el juego",
+        "playNow": "JUGAR AHORA",
+        "nextDraw": "Próximo sorteo para mañana",
+        "lastWinner": "Último ganador",
+        "alts": [
+            {
+                "text": "ganador"
+            }
+        ]
+    },
+    "leaderboard": {
+        "player": "JUGADOR",
+        "loteoRooms": "SALAS DE LOTEO",
+        "mof": "MOON OF FORTUNE",
+        "affiliate": "AFILIADOS DE PRIMER NIVEL",
+        "usedLoteu": "Loteu utilizado",
+        "spentEth": "ETH utilizado",
+        "loteuVolumne": "Volumen de Loteu",
+        "users": "Usuarios",
+        "loteu": "Loteu",
+        "usedTickets": "Boletos Usados",
+        "leaderboard": "Tabla de clasificación",
+        "gameTitle": "JUEGOS DE LOTEO",
+        "game": "JUEGO",
+        "totalAmount": "CANTIDAD TOTAL \/ SEMANA",
+        "weeklyLottery": {
+            "title": "LOTERÍA SEMANAL",
+            "winCurrency": "ETH",
+            "winText": "GANAR"
+        },
+        "apollo11Lottery": {
+            "title": "LOTERÍA  APOLLO 11",
+            "winCurrency": "LOTEU",
+            "winText": "GANAR"
+        },
+        "moonOfFortune": {
+            "title": "Moon Of Fortune",
+            "winCurrency": "LOTEU",
+            "winText": "VOLUMEN"
+        },
+        "winnerOfTheWeek": "Ganador de la semana"
+    },
+    "apolloDailyLottery": {
+        "title": "Lotería diaria Apolo",
+        "learnMore": "Información adicional sobre este juego",
+        "quit": "Salir del juego",
+        "nextDrawIn": "Próximo sorteo:",
+        "availableLoteu": "Tokens LOTEU disponible",
+        "buyMoreLoteu": "Comprar más LOTEU",
+        "controlsTitle": "Elija la cantidad de tokens LOTEU a usar.<br \/>100 LOTEU = 1 boleto de lotería",
+        "yourChanceIs": "Su probabilidad de ganar es",
+        "enter": "Participar en la lotería",
+        "alts": [
+            {
+                "text": "doble oportunidad"
+            }
+        ],
+        "playNow": [
+            {
+                "title": "Usted carece de boletos",
+                "text": "En primer lugar, Usted ha de comprar boletos de lotería, para posteriormente poder participar en la lotería semanal de Loteo.",
+                "okText": "Comprar boletos",
+                "cancelText": "Cancelar"
+            },
+            {
+                "title": "Carece de fondos suficientes para participar en el juego",
+                "text": {
+                    "part1": "Carece de saldo suficiente en su cartera. Para participar en la lotería, <strong>usted necesita contar al menos con 0.051 ETH de saldo<\/strong>. Por favor, realice un depósito.<br \/><br \/>",
+                    "part2": "<strong> Nota: <\/strong> La participación en la lotería exige una transacción en el blockchain de la red Ethereum. Cada transacción en dicho blockchain requiere el abono de una comisión, en nuestro caso de 0.051 ETH. Esto se debe a nuestro deseo de garantizar que cada participación sea transparente, además de visible directamente en la red Ethereum. Estamos trabajando muy duro para que dicha comisión sea lo menor posible."
+                },
+                "okText": "Ok"
+            },
+            {
+                "title": "El sorteo actual ya está cerrado",
+                "text": "Sólo es posible participar en el juego, si quedan menos de 30 minutos para que comience el sorteo de la lotería. Esta ronda ya está cerrada. Usted puede participar en el juego al día siguiente de finalizar el sorteo actual.",
+                "okText": "Ok"
+            },
+            {
+                "close": "Cerrar",
+                "increaseChance": "Aumentar mis posibilidades de ganar",
+                "title": "¡Éxito!",
+                "text": "Usted participa en el juego"
+            }
+        ],
+        "process": "PROCESANDO..."
+    },
+    "transactionInProgress": {
+        "title": "Transacción en curso",
+        "text": "Por favor, espere hasta que la transacción se haya completado. Puede llegar a tardar <strong>hasta 1 minuto.<\/strong>",
+        "alts": [
+            {
+                "text": "Cargando...."
+            }
+        ]
+    },
+    "backgroundBanners": {
+        "alts": [
+            {
+                "alt": "Apollo"
+            }
+        ],
+        "apollo": {
+            "title": "héroe <br \/>  del Apollo 11",
+            "promotionDetail": "Conviértase en Héroe de la Lotería de Apolo 11<br\/>y obtenga un LoteoPass gratuito",
+            "gamesSection": {
+                "title": " lotería diaria <br\/> APOLLO 11",
+                "text": "Entrar en la lotería usando 100 LOTEU<br\/>La lotería selecciona uno de los participantes mediante contrato inteligente y RNG<br\/>Probabilidad justa, transparente, generosa<br\/>Entrada gratuita para los titulares de LoteoPass"
+            }
+        },
+        "deposit": {
+            "title": "héroe <br\/> del Apollo 11"
+        },
+        "depositBonus": {
+            "title": "BONUS <br\/> DE PRIMER DEPÓSITO",
+            "promotionDetail": "¡Haga su primer depósito de 1ETH y recibirá un BONO de 3000 tokens LOTEU!<br\/>Los primeros 300 LOTEU se acreditan 23 horas tras el primer depósito y luego 300 más cada<br\/>24 horas durante 10 días hasta obtener un total de 3000 LOTEU. ¡Use sus LOTEU para<br\/>duplicar sus posibilidades en la Lotería Semanal o juegue a cualquiera de nuestros increíbles juegos Moon<br\/>of Fortune o loteria de Apollo 11!"
+        },
+        "ticketBonus": {
+            "title": "BONUS <br\/> DE PRIMER BOLETO",
+            "promotionDetail": "Al comprar su primera participación en la lotería semanal, recibirá un BONO de 100 tokens LOTEU<br\/>para duplicar sus posibilidades de ganar en la lotería. No se incrementa el premio, aunque<br\/>duplica el número de boletos en la sorteo. ¡Buena suerte!"
+        },
+        "loteoPass": {
+            "title": "LOTEOPASS",
+            "promotionDetail": "BONO DE DOBLE DE POSIBILIDADES - LOTEOPASS \"1000\"<br\/>Los primeros 1000 compradores de LOTEOPASS, recibirán un bono. Esta será una oferta limitada<br\/>que tendrá lugar de nuevo dentro de 1 año, tras haber expirado el primer lote de LOTEOPASSes.<br\/>Aquellos participantes que compraron los primeros 1000 pases, tendrían la posibilidad de comprarlos<br\/>también en el segundo lote con preferencia respecto al resto de usuarios."
+        },
+        "weekly": {
+            "title": "LOTERÍA <br\/> SEMANAL",
+            "promotionDetail": "Conviértase en Héroe de la Lotería de Apolo 11<br\/>y obténga un LoteoPass gratis",
+            "gamesSection": {
+                "title": "LOTERÍA <br\/> SEMANAL",
+                "text": "Participe en la lotería comprando un boleto con un valor de 10€ Duplique sus posibilidades usando 100 LOTEU<br\/>La lotería selecciona los boletos a través de un contrato inteligente y el RNG<br\/>Probabilidad justa, transparente, generosa"
+            }
+        },
+        "mof": {
+            "title": "Moon <br \/>of Fortune",
+            "promotionDetail": "Conviértete en Héroe de la Lotería Apolo 11<br\/>y obtén un LoteoPass gratis",
+            "gamesSection": {
+                "title": "Moon <br \/>of Fortune",
+                "text": "Elija el nivel de riesgo deseado <br\/>Elija la cantidad de segmentos<br\/>Ambos factores determinan el multiplicador de sus ganancias<br\/>Gire la rueda con el botón BET<br\/> el RNG crea un resultado, imposibilitando su manipulación"
+            }
+        },
+        "rekt": {
+            "title": "SALAS DE FRACASADOS",
+            "gamesSection": {
+                "title": "SALAS DE FRACASADOS"
+            }
+        },
+        "daily": {
+            "title": "LOTERÍA DIARIA",
+            "gamesSection": {
+                "title": "LOTERÍA DIARIA"
+            }
+        },
+        "dice": {
+            "title": "Dados",
+            "gamesSection": {
+                "title": "Dados"
+            }
+        },
+        "fomo": {
+            "title": "Fomo",
+            "gamesSection": {
+                "title": "Fomo"
+            }
+        },
+        "jacks": {
+            "title": "JACKS OR BETTER",
+            "gamesSection": {
+                "title": "JACKS OR BETTER"
+            }
+        },
+        "getLoteu": {
+            "title": "Cómo obtener <br\/> Loteu",
+            "detail": "Doble sus posibilidades<br\/> Compre tokens LOTEO y juege"
+        },
+        "affiliateProgram": {
+            "title": "PROGRAMA  <br\/> DE AFILIADOS",
+            "detail": "Recompensas de al menos el  40%<br\/>Conviértase en socio Premium<br\/>  Conviértase en inversor sin necesidad de invertir"
+        }
+    },
+    "whyInvest": {
+        "helmet": "Por qué invertir | LOTEO - Lotería Transparente en Blockchain",
+        "title": "Por qué invertir",
+        "t1": "$946 Billones",
+        "p1": "Tamaño del mercado mundial de juegos de azar en 2021",
+        "p2": "cada <span>{{percentaje}}<\/span> aporta <span>{{ingresos}}<\/span> ingresos a Loteo y a los inversores, lo cual implica",
+        "p3": "Rendimiento pasivo derivado del ROI + valor adicional de los tokens",
+        "p4": "CUÁNTO INVERTIR",
+        "p5": "INGRESO PASIVO MENSUAL",
+        "p6": "INGRESO PASIVO ANUAL",
+        "alts": [
+            {
+                "alt": "Derecho a invertir"
+            },
+            {
+                "alt": "Porcentaje de ingresos"
+            }
+        ],
+        "p21": "cada"
+    },
+    "loteuTokens": {
+        "leftTokens": {
+            "doubleChance": {
+                "name": "Doble oportunidad en los juegos de lotería",
+                "description": "Usando 100 LOTEU además del<br\/>boleto comprado, duplicará sus posibilidades en la lotería."
+            },
+            "mof": {
+                "name": "Entrada a la Moon of Fortune",
+                "description": "Puede multiplicar sus tokens, divertirse y<br\/>posiblemente ganar una participación para la lotería jugando a<br\/>nuestro juego Moon of Fortune"
+            },
+            "specialGame": {
+                "name": "Juegos especiales sólo para LOTEU",
+                "description": "Juegos personalizados como Apolo 11, Moon of Fortune y otros<br\/>desarrollados exclusivamente para LOTEU. El resto cuenta con características especiales<br\/>al usar LOTEU."
+            },
+            "quarter": {
+                "name": "Quema trimestral",
+                "description": "La quema de tokens continuará hasta que el suministro total sea de 100M.\nUn 20% de todos los LOTEU<br\/>usados en la plataforma serán quemados cada 3er mes<br\/>y anunciado públicamente."
+            },
+            "payment": {
+                "name": "Opción integral de pago",
+                "description": "La integración de LOTEU también como opción integral de pago para<br\/>juegos de lotería, comenzará después de la distribución de tokens, listados en mercados<br\/>y estabilización del precio."
+            },
+            "staking": {
+                "name": "Staking para B2B",
+                "description": "Para crear su propia lotería o juego en blockchain de forma simple, utilizando la arquitectura, la licencia y el know how de la plataforma, se requiere el stake de tokens LOTEU."
+            }
+        },
+        "rightTokens": {
+            "quarter": {
+                "name": "Quema trimestral",
+                "description": "La quema de tokens continuará hasta que el suministro total sea de 100M.\nUn 20% de todos los LOTEU<br\/>usados en la plataforma serán quemados cada 3er mes<br\/>y anunciado públicamente."
+            },
+            "payment": {
+                "name": "Opción integral de pago",
+                "description": "La integración de LOTEU también como opción integral de pago para<br\/>juegos de lotería, comenzará después de la distribución de tokens, listados en mercados<br\/>y estabilización del precio."
+            },
+            "staking": {
+                "name": "Staking para B2B",
+                "description": "Para crear su propia lotería o juego en blockchain de forma simple, utilizando la arquitectura, la licencia y el know how de la plataforma, se requiere el stake de tokens LOTEU."
+            }
+        },
+        "mobileLeftTokens": {
+            "doubleChance": {
+                "name": "Doble oportunidad en los juegos de lotería",
+                "description": "Usando 100 LOTEU además de los comprados\npuede duplicar sus posibilidades en la lotería."
+            },
+            "mof": {
+                "name": "Participación en Moon Of Fortune",
+                "description": "Jugando a  nuestro juego Moon of Fortune, puede multiplicar sus tokens, divertirse y  posiblemente ganar una participación para la lotería."
+            },
+            "specialGame": {
+                "name": "Juegos especiales sólo para LOTEU",
+                "description": "Juegos personalizados como Apolo 11, Moon of Fortune\ny otros, desarrollados en exclusiva para LOTEU. El resto de juegos  habilita una función especial al usar LOTEU."
+            },
+            "quarter": {
+                "name": "Quema trimestral",
+                "description": "La quema de tokens continuará hasta que el suministro total sea de 100M.\nUn 20% de todos los LOTEU usados en la plataforma serán\nquemados cada tres meses y anunciado al público."
+            },
+            "payment": {
+                "name": "Opciones integrales de pago",
+                "description": "La integración de LOTEU como una opción integral de pago\ntambién para los juegos de lotería, comenzará tras la distribución de tokens, listado en exchanges y estabilización del precio."
+            },
+            "staking": {
+                "name": "Staking para B2B",
+                "description": "Para la creación fluida de su propia lotería o juego en\nblockchain, respaldada en la arquitectura, licencia y know how de la plataforma, se requiere dejar LOTEO en stake."
+            }
+        }
+    },
+    "page404": {
+        "title": "Parece que Usted se ha perdido en el espacio."
+    }
+}

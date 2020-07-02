@@ -1,0 +1,19 @@
+@import "styles/colors";
+
+.scrollInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text {
+        font-size: 14px;
+        color: $pink;
+        max-width: 160px;
+        text-align: center;
+    }
+
+    img {
+        margin-top: 12px;
+        height: 40px;
+    }
+}

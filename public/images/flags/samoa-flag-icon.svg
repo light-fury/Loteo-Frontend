@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>samoa-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-621.000000, -336.000000)">
+            <g id="samoa-flag-icon" transform="translate(621.000000, 336.000000)">
+                <path d="M20,16 L0,16 L0,2 C0,0.895 0.895,0 2,0 L20,0 L20,16 Z" id="Path" fill="#040385"></path>
+                <path d="M46,0 L20,0 L20,16 L0,16 L0,34 C0,35.105 0.895,36 2,36 L46,36 C47.105,36 48,35.105 48,34 L48,18 L48,2 C48,0.895 47.105,0 46,0 Z" id="Path" fill="#FC0204"></path>
+                <polygon id="Path" fill="#FFFFFF" points="17.66 4.189 15.388 4.189 14.433 2.117 13.48 4.189 11.207 4.189 12.867 5.9 12.254 8.394 14.434 7.156 16.616 8.394 16 5.9"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="8 5.537 6.316 5.537 5.607 4 4.898 5.537 3.215 5.537 4.446 6.806 3.991 8.656 5.608 7.738 7.225 8.656 6.77 6.806"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="16 11.027 14.342 11.027 13.645 9.513 12.948 11.027 11.29 11.027 12.501 12.273 12.056 14.093 13.646 13.191 15.238 14.093 14.787 12.273"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="10 11.723 8.771 11.723 8.255 10.602 7.736 11.723 6.508 11.723 7.408 12.651 7.072 14 8.256 13.33 9.436 14 9.104 12.65"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

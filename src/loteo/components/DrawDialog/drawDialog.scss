@@ -1,0 +1,203 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.hideDialog {
+    display: none;
+}
+
+.drawDialog {
+    &.hasWinner {
+        .dialogArea .dialogContent {
+            padding: 24px 24px 50px;
+
+            @include media(md) {
+                padding: 50px 64px 50px;
+            }
+        }
+    }
+
+    .close-button {
+        display: block;
+        position: fixed;
+        right: 4px;
+        top: 4px;
+        width: 64px;
+        height: 64px;
+        padding: 16px;
+        transition: transform 0.25s ease-in-out;
+
+        &:hover {
+            transform: rotate(180deg);
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 32px;
+            height: 0;
+            border-top: 3px solid #ffffff;
+            transform: rotate(45deg);
+            transform-origin: center;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 32px;
+            height: 0;
+            border-top: 3px solid #ffffff;
+            transform: rotate(-45deg);
+            transform-origin: center;
+        }
+    }
+
+    .dialogArea {
+        max-width: 100%;
+        padding: 0;
+
+        @include media(md) {
+            max-width: 640px;
+        }
+
+        .dialogContent {
+            @include glowEffect;
+
+            padding: 24px 24px 300px;
+            background: url("/images/lottery-drawing-background.jpg") center / cover no-repeat;
+
+            @include media(md) {
+                padding: 50px 64px 220px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 40px;
+        color: $yellow;
+        text-shadow: 0 0 8px 0 rgba($yellow, 0.8);
+
+        br {
+            display: none;
+
+            @include media(md) {
+                display: block;
+            }
+        }
+    }
+
+    .showResultsButton {
+        padding: 0;
+        margin-top: 24px;
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .inProgress {
+        color: white;
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+    .countdownTime {
+        align-items: center;
+        margin-top: 20px;
+        padding: 6px 12px;
+        background-color: rgba($greyBright, 0.1);
+        color: white;
+        font-size: 28px;
+        font-weight: 900;
+        border-radius: 4px;
+        max-width: 180px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .winning {
+        max-width: 250px;
+        text-align: center;
+        margin-top: 40px;
+
+        .winner {
+            background: radial-gradient(circle, #ffea00 0%, $yellow 39.08%, #fe9a0f 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 28px;
+            font-weight: 900;
+            text-shadow: 0 0 10px 0 rgba(254, 207, 15, 0.8);
+            animation: showWinning2 8s;
+        }
+
+        .prize {
+            color: white;
+            font-size: 28px;
+            font-weight: 300;
+            margin-top: 24px;
+            animation: showWinning2 8s;
+
+            b {
+                font-size: 36px;
+                font-weight: 900;
+                margin-right: 12px;
+            }
+        }
+
+        .goToDashboardButton {
+            opacity: 0;
+            height: 64px;
+            width: 200px;
+            margin-top: 40px;
+            font-size: 16px;
+            font-weight: 900;
+            transition: opacity 0.5s;
+            animation: showBackToDashboard 8s;
+
+            &.visible {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@keyframes showWinning2 {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes showBackToDashboard {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

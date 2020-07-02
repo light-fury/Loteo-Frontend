@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>venezuela-flag-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-332.000000, -40.000000)">
+            <g id="venezuela-flag-icon" transform="translate(332.000000, 40.000000)">
+                <path d="M48,12 L0,12 L0,2 C0,0.895 0.895,0 2,0 L46,0 C47.105,0 48,0.895 48,2 L48,12 Z" id="Path" fill="#FDCB08"></path>
+                <rect id="Rectangle" fill="#00287A" x="0" y="12" width="48" height="12"></rect>
+                <path d="M48,34 C48,35.105 47.105,36 46,36 L2,36 C0.895,36 0,35.105 0,34 L0,24 L48,24 L48,34 Z" id="Path" fill="#D0142C"></path>
+                <polygon id="Path" fill="#FFFFFF" points="26.129 17.295 24.629 17.295 24 15.93 23.371 17.295 21.871 17.295 22.967 18.427 22.563 20.071 24 19.254 25.438 20.07 25.034 18.426"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="18.258 19.365 16.758 19.365 16.129 18 15.5 19.365 14 19.365 15.096 20.497 14.692 22.141 16.13 21.325 17.567 22.141 17.163 20.497"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="34.258 19.365 32.758 19.365 32.129 18 31.5 19.365 30 19.365 31.096 20.497 30.692 22.141 32.13 21.325 33.567 22.141 33.163 20.497"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

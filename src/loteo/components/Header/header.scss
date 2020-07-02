@@ -1,94 +1,201 @@
 @import "styles/colors";
+@import "styles/mixins";
 
-.header {
-    .logo {
-        cursor: pointer;
-    }
+#header {
+    .topSection {
+        @include centerMax(1680px);
 
-    .actions {
-        display: flex;
-        align-items: center;
+        padding: 16px;
 
-        .linkButton {
-            margin-left: 2vw;
+        @include media(lg) {
+            padding: 20px 40px;
         }
 
-        .button {
-            margin-left: 4vw;
+        .logo {
+            cursor: pointer;
+            height: 40px;
         }
 
-        .downloadButtonSmall {
-            display: none;
-        }
-    }
-
-    .showMenuButton,
-    .closeButton {
-        margin-left: 24px;
-        cursor: pointer;
-    }
-
-    .modal {
-        .dialog {
-            width: 600px;
-        }
-    }
-
-    .downloadLink {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 22px 0;
-        border-bottom: 1px solid $greyBright;
-
-        .name {
-            font-size: 16px;
-        }
-
-        .documentLinks {
-            margin-top: 12px;
-            display: flex;
+        .appPromotion {
+            margin: 0 10px 0 32px;
+            position: relative;
+            width: 113px;
+            height: 32px;
+            font-size: 12px;
+            font-weight: 900;
+            background: transparentize(#FFFFFF, 0.85);
+            color: $yellow;
+            border-radius: 100px;
+            text-align: center;
+            vertical-align: middle;
             align-items: center;
+            padding-top: 8px;
+            cursor: pointer;
+        }
 
-            .documentLink {
-                flex-shrink: 0;
+        .webPromotion {
+            margin: 0 20px 0 10px;
+            position: relative;
+            width: 113px;
+            height: 32px;
+            font-size: 12px;
+            font-weight: 900;
+            background: transparentize(#FFFFFF, 0.85);
+            color: $yellow;
+            border-radius: 100px;
+            text-align: center;
+            vertical-align: middle;
+            align-items: center;
+            padding-top: 8px;
+            cursor: pointer;
+        }
+
+        .webPromotion::after {
+            content: "";
+            width: 2px;
+            height: 24px;
+            position: absolute;
+            transform: translate(0,-50%);
+            top: 50%;
+            right: -10px;
+            border: 2px solid white;
+            opacity: 0.2;
+            border-radius: 2px;
+        }
+
+        .actions {
+            display: none;
+
+            @include media(lg) {
                 display: flex;
-                align-items: center;
-                text-decoration: none;
+            }
 
-                .languageIcon {
-                    width: 16px;
-                    height: 16px;
+            .linkButton {
+                margin-left: 31px;
+                text-align: center;
+
+                &.hidden-desktop {
+                    display: block;
+
+                    @include media(lg) {
+                        display: none;
+                    }
                 }
 
-                .language {
-                    margin-left: 6px;
-                    margin-right: 4px;
-                    line-height: 16px;
-                    color: $grey1;
-                    font-size: 12px;
+                &.appLinkButton {
+                    margin-left: 24px !important;
                 }
+            }
 
-                .downloadIcon {
-                    fill: red;
-                }
+            .button {
+                margin-left: 12px;
 
-                &:not(:first-of-type) {
-                    margin-left: 24px;
+                &:first-of-type {
+                    margin-left: 10px;
                 }
             }
         }
-    }
 
-    @media screen and (max-width: 800px) {
-        .actions {
-            .downloadButtonFull {
+        .mobileActions {
+            display: flex;
+
+            @include media(lg) {
                 display: none;
             }
 
-            .downloadButtonSmall {
-                display: flex;
+            .button {
+                margin: 3px 6px;
+                padding: 8px 12px;
+                font-size: 10px;
+
+                &:first-of-type {
+                    @include media(lg) {
+                        display: block;
+                    }
+                }
             }
+
+            img {
+                height: 22px;
+                min-width: 38px;
+                margin-left: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    > .separator {
+        @include centerMax(1680px);
+
+        height: 1px;
+        width: 80%;
+        background: linear-gradient(
+            270deg,
+            rgba(255, 255, 255, 0) 0%,
+            #ffffff 10%,
+            #ffffff 90%,
+            rgba(255, 255, 255, 0) 100%
+        );
+        opacity: 0.2;
+
+        &.hiddenOnMobile {
+            display: none;
+
+            @include media(md) {
+                display: block;
+            }
+        }
+    }
+
+    .walletPanel {
+        @include centerMax(1680px);
+
+        width: 100%;
+        padding: 16px;
+
+        @include media(lg) {
+            padding: 20px 40px;
+        }
+    }
+
+    .stickyWalletPanel {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background: white;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+        transition: all 1s ease-in-out;
+
+        &.visible {
+            top: 0;
+        }
+    }
+
+    .menu {
+        height: 0;
+        padding: 0 32px;
+        margin-top: 0;
+        transition: height 0.2s, margin-top 0.2s;
+        overflow: hidden;
+        display: block;
+
+        @include media(lg) {
+            display: none;
+        }
+
+        .linkButton {
+            margin-top: 16px;
+
+            img {
+                min-width: 24px;
+            }
+        }
+
+        &.visible {
+            margin-top: -12px;
+            height: 236px;
         }
     }
 }
