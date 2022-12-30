@@ -84,7 +84,7 @@
         "json-server": "^0.14.2",
         "jsx-loader": "^0.13.2",
         "mini-css-extract-plugin": "^0.5.0",
-        "mocha": "^6.1.4",
+        "mocha": "^10.2.0",
         "node-sass": "^4.11.0",
         "optimize-css-assets-webpack-plugin": "^5.0.1",
         "postcss-loader": "^3.0.0",
